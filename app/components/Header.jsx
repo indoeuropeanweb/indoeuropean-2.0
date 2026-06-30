@@ -20,24 +20,25 @@ const Header = () => {
   return (
     <header className="">
     <div className='mx-auto max-w-6xl px-4 sm:px-6 lg:px-8'>
-       <div className="flex justify-center items-center gap-10 py-4">
-       <div className='hidden lg:block'>
-         <div className="grid grid-cols-2">
-            <ul className="flex items-center gap-5">
-                <li><FaMobileAlt className="size-4 inline-block"/>&nbsp;<Link className="text-sm md:text-md" href="tel:+919650133355">+91 9650133355</Link></li>
-                <li><MdOutlinePayments className="size-4 inline-block"/>&nbsp;<Link className="text-sm md:text-md" href="https://payment.indoeuropean.in/payment-link.aspx">Pay Online</Link></li>
+       <div className="md:grid grid-cols-4 flex justify-between items-center gap-5 py-4">
+        <div className="col-span-1 flex">
+          <div className="me-auto">
+            <ul className="lg:flex items-center gap-5 hidden">
+                <li><FaMobileAlt className="size-3 inline-block"/>&nbsp;<Link className="text-xs md:text-sm" href="tel:+919650133355">+91 9650133355</Link></li>
+                <li><MdOutlinePayments className="size-3 inline-block"/>&nbsp;<Link className="text-xs md:text-sm" href="https://payment.indoeuropean.in/payment-link.aspx">Pay Online</Link></li>
             </ul>
-            <div className="flex items-center border border-primary/50 rounded-lg p-2">
+            <Link className="mt-5 min-w-20 md:min-w-30" href={'/'}><Image className="min-w-20 md:min-w-30 lg:w-55" height={45} width={200} src={"/images/logos/IE-Logo.png"} alt="Indo European Study Abroad Consultancy"/></Link>
+        </div>
+        </div>
+        <div className='col-span-2 flex justify-center items-center flex-col'>
+            <div className="flex items-center border border-primary/50 rounded-lg p-2 w-full mb-0">
                 <CiSearch className="size-6 inline-block"/>&nbsp;<input className="w-full outline-0 rounded-md text-sm" placeholder="Search Courses, Universities and Country"/>
             </div>
-        </div>
-        <div className='flex justify-center items-center gap-10 mt-2'>
-             <Link className="" href={'/'}><Image className="" height={60} width={160} src={"/images/logos/IE-Logo.png"} alt="Indo European Study Abroad Consultancy"/></Link>
-             <ul className="flex justify-center items-center gap-5">
-              <li className=""><Link className="" href={'/about'}>About Us</Link></li>
+             <ul className="lg:flex justify-center items-center gap-5 hidden lg:mt-5">
+              <li className=""><Link className="text-md lg:text-base" href={'/about'}>About Us</Link></li>
               <li className="relative group">
-                <span className="cursor-pointer">Destinations&nbsp;<MdKeyboardArrowDown className="size-4 inline-block group-hover:rotate-180 transition-all duration-300 ease-in-out"/></span>
-                <ul className="absolute p-5 grid grid-cols-1 md:grid-cols-2 space-x-4 space-y-4 top-12 left-0 rounded-md bg-white w-120 shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out">
+                <span className="cursor-pointer text-md lg:text-base">Destinations&nbsp;<MdKeyboardArrowDown className="size-4 inline-block group-hover:rotate-180 transition-all duration-300 ease-in-out"/></span>
+                <ul className="absolute z-2 p-5 grid grid-cols-1 md:grid-cols-2 space-x-4 space-y-4 top-12 left-0 rounded-md bg-white w-120 shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out">
                     <li className=""><Link className="flex items-center hover:bg-primary/5 border-s-2 border-white hover:border-primary transition-colors duration-300 ease-in-out rounded-md px-2 py-2 text-base lg:text-base" href="/destinations/study-in-latvia"><Image className="rounded-full w-5 h-5" src={'/images/flags/latvia.jpg'} width={5} height={5} alt="study in latvia"/>&nbsp;Study in Latvia</Link></li>
                     <li className=""><Link className="flex items-center hover:bg-primary/5 border-s-2 border-white hover:border-primary transition-colors duration-300 ease-in-out rounded-md px-2 py-2 text-base lg:text-base" href="/destinations/study-in-latvia"><Image className="rounded-full w-5 h-5" src={'/images/flags/lithuania.jpg'} width={5} height={5} alt="study in latvia"/>&nbsp;Study in Lithuania</Link></li>
                     <li className=""><Link className="flex items-center hover:bg-primary/5 border-s-2 border-white hover:border-primary transition-colors duration-300 ease-in-out rounded-md px-2 py-2 text-base lg:text-base" href="/destinations/study-in-latvia"><Image className="rounded-full w-5 h-5" src={'/images/flags/germany.jpg'} width={5} height={5} alt="study in latvia"/>&nbsp;Study in Germany</Link></li>
@@ -47,8 +48,8 @@ const Header = () => {
                 </ul>
               </li>
               <li className="relative group">
-                <span className="cursor-pointer">Services&nbsp;<MdKeyboardArrowDown className="size-4 inline-block group-hover:rotate-180 transition-all duration-300 ease-in-out"/></span>
-                <ul className="absolute p-5 grid grid-cols-1 md:grid-cols-2 space-x-4 space-y-4 top-12 left-0 rounded-md bg-white w-120 shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out">
+                <span className="cursor-pointer text-md lg:text-base">Services&nbsp;<MdKeyboardArrowDown className="size-4 inline-block group-hover:rotate-180 transition-all duration-300 ease-in-out"/></span>
+                <ul className="absolute z-2 p-5 grid grid-cols-1 md:grid-cols-2 space-x-4 space-y-4 top-12 left-0 rounded-md bg-white w-120 shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out">
                     <li className="hover:bg-primary/5 border-s-2 border-white hover:border-primary p-2 transition-colors duration-300 ease-in-out rounded-md"><Link className="" href="/services/admission">Admission<span className="text-xs block">Expert guidance for hassle-free university admissions.</span></Link></li>
                     <li className="hover:bg-primary/5 border-s-2 border-white hover:border-primary p-2 transition-colors duration-300 ease-in-out rounded-md"><Link className="" href="/services/visa">Visa<span className="text-xs block">Expert visa guidance for a smooth approval process.</span></Link></li>
                     <li className="hover:bg-primary/5 border-s-2 border-white hover:border-primary p-2 transition-colors duration-300 ease-in-out rounded-md"><Link className="" href="/services/accommodation">Accommodation<span className="text-xs block">Step-by-step guidance from application to admission.</span></Link></li>
@@ -56,29 +57,22 @@ const Header = () => {
                 </ul>
               </li>
               <li className="relative group">
-                <span className="cursor-pointer">Blogs&nbsp;<MdKeyboardArrowDown className="size-4 inline-block group-hover:rotate-180 transition-all duration-300 ease-in-out"/></span>
-                <ul className="absolute p-5 grid grid-cols-1 md:grid-cols-2 space-x-4 space-y-4 top-12 left-0 rounded-md bg-white w-120 shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out">
+                <span className="cursor-pointer text-md lg:text-base">Blogs&nbsp;<MdKeyboardArrowDown className="size-4 inline-block group-hover:rotate-180 transition-all duration-300 ease-in-out"/></span>
+                <ul className="absolute z-2 p-5 grid grid-cols-1 md:grid-cols-2 space-x-4 space-y-4 top-12 left-0 rounded-md bg-white w-120 shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out">
                     <li className=""><Link className="flex items-center hover:bg-primary/5 border-s-2 border-white hover:border-primary transition-colors duration-300 ease-in-out rounded-md px-2 py-2" href="/blogs">Latest Blogs</Link></li>
                     <li className=""><Link className="flex items-center hover:bg-primary/5 border-s-2 border-white hover:border-primary transition-colors duration-300 ease-in-out rounded-md px-2 py-2" href="/blogs">Visa Guides</Link></li>
                     <li className=""><Link className="flex items-center hover:bg-primary/5 border-s-2 border-white hover:border-primary transition-colors duration-300 ease-in-out rounded-md px-2 py-2" href="/blogs">Student Life</Link></li>
                 </ul>
               </li>
-              <li className=""><Link className="" href={'/contact'}>Contact Us</Link></li>
+              <li className=""><Link className="text-md lg:text-base" href={'/contact'}>Contact Us</Link></li>
              </ul>
-          </div>
-       </div>
-       <div className="grid grid-cols-2 lg:hidden">
-         <Link className="" href={'/'}><Image className="" height={60} width={160} src={"/images/logos/IE-Logo.png"} alt="Indo European Study Abroad Consultancy"/></Link>
-         <div className="flex items-center border border-primary/50 rounded-lg p-2">
-            <CiSearch className="size-6 inline-block"/>&nbsp;<input className="w-full outline-0 rounded-md text-sm" placeholder="Search Courses, Universities and Country"/>
-         </div>
-       </div>
-       <div className="">
-          <Link className="hidden lg:block" href={'https://zoom.us/j/91022278457#success'} target="_blank"><Image width={100} height={60} className="" src={'/images/logos/zoom.png'} alt="join via zoom icon"/></Link>
-          <div className="block lg:hidden">
-             <RiMenu3Fill onClick={() => setIsOpen(!isOpen)} className="size-10" />
-          </div>
-       </div>
+        </div>
+        <div className="col-span-1 flex">
+            <Link className="hidden lg:block ms-auto" href={'https://zoom.us/j/91022278457#success'} target="_blank"><Image width={100} height={60} className="" src={'/images/logos/zoom.png'} alt="join via zoom icon"/></Link>
+            <div className="block lg:hidden ms-auto">
+              <RiMenu3Fill onClick={() => setIsOpen(!isOpen)} className="size-8" />
+            </div>
+        </div>
        </div>
     </div>
 <div
