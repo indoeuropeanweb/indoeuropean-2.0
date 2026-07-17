@@ -1,59 +1,95 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import { FaInstagram, FaTwitter, FaFacebook, FaYoutube, FaLinkedin } from 'react-icons/fa6'
 
 const Footer = () => {
   const year = new Date().getFullYear();
 
   return (
-    <footer className='bg-primary'>
+    <footer className=''>
      <div className='max-w-6xl mx-auto'>
-       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-10 px-5'>
-           <div className='col-span-1 px-4'>
-              <Image className="" height={55} width={140} src="/images/logos/logo-dark.webp" alt="Indo European Study Abroad Consultants"/>
-               <p className='mt-5 text-justify text-white'>Indo European is a trusted study abroad consultancy based in Delhi, helping students achieve their international education goals with expert guidance on admissions, visas, and university selection.</p>
-              <Image className='mt-4' width={120} height={160} src={'/images/logos/icef-agency.png'} alt="ICEF AGENCY" />
-           </div>
-           <div className='col-span-1 px-4'>
-              <h4 className='text-md lg:text-base font-semibold uppercase text-white'>Company</h4>
-              <ul className='mt-3 space-y-3'>
-                <li className=''><Link className='text-md md:text-base hover:underline cursor-pointer text-white' href={'/about'}>About Us</Link></li>
-                <li className=''><Link className='text-md md:text-base hover:underline cursor-pointer text-white' href={'/careers'}>Careers</Link></li>
-                <li className=''><Link className='text-md md:text-base hover:underline cursor-pointer text-white' href={'/blogs'}>Blogs</Link></li>
-                <li className=''><Link className='text-md md:text-base hover:underline cursor-pointer text-white' href={'/events'}>Events</Link></li>
-                <li className=''><Link className='text-md md:text-base hover:underline cursor-pointer text-white' href={'/contact'}>Contact Us</Link></li>
-                <li className=''><Link className='text-md md:text-base hover:underline cursor-pointer text-white' href={'/services'}>Services</Link></li>
-                <li className=''><Link className='text-md md:text-base hover:underline cursor-pointer text-white' href={'/terms-and-conditions'}>Terms &amp; Conditions</Link></li>
+        {/* <div className='flex justify-between flex-col sm:flex-row space-y-5 items-center px-5 border-b-2 border-[#ccc] mt-5 rounded-md'>
+              <Image className="rounded-sm" height={60} width={180} src="/images/logos/logo-dark.webp" alt="Indo European Study Abroad Consultants"/>
+              <ul className="flex justify-center items-center gap-5 mb-8 md:mb-0">
+               <li><Link className="" href={''}><FaInstagram className="text-primary size-5 inline-block" /></Link></li>
+               <li><Link className="" href={''}><FaTwitter className="text-primary size-5 inline-block" /></Link></li>
+               <li><Link className="" href={''}><FaFacebook className="text-primary size-5 inline-block" /></Link></li>
+               <li><Link className="" href={''}><FaYoutube className="text-primary size-5 inline-block" /></Link></li>
+               <li><Link className="" href={''}><FaLinkedin className="text-primary size-5 inline-block" /></Link></li>
+             </ul>
+           </div> */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 py-15 px-5 border-t-2 border-zinc-300">
+          <div className="lg:col-span-3">
+            <h2 className="font-Jakarta text-xl lg:text-2xl font-semibold text-primary">
+              About Us
+            </h2>
+            <p className="font-monrope text-sm lg:text-base text-primary mt-3">
+Indo European has been helping students achieve their international education goals for over 20 years with trusted guidance, top university admissions, visa assistance and personalized support every step of the way.
+            </p>
+          </div>
+
+          <div className="lg:col-span-9 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div>
+              <h4 className="relative text-sm lg:text-base font-bold uppercase text-primary after:absolute after:left-0 after:-bottom-1.5 after:h-1 after:w-20 after:rounded-full after:bg-linear-to-r after:from-secondary after:to-primary after:content-['']">
+                Useful Links
+              </h4>
+              <ul className="mt-4 space-y-3">
+                <li><Link href="/" className="font-semibold text-sm lg:text-base text-primary hover:underline">Home</Link></li>
+                <li><Link href="/services" className="font-semibold text-sm lg:text-base text-primary hover:underline">Our Services</Link></li>
+                <li><Link href="/collaborate" className="font-semibold text-sm lg:text-base text-primary hover:underline">Collaborate</Link></li>
+                <li><Link href="/coaching" className="font-semibold text-sm lg:text-base text-primary hover:underline">Coaching</Link></li>
+                <li><Link href="/about" className="font-semibold text-sm lg:text-base text-primary hover:underline">About Us</Link></li>
+                <li><Link href="/contact" className="font-semibold text-sm lg:text-base text-primary hover:underline">Contact Us</Link></li>
+                <li><Link href="/terms-and-conditions" className="font-semibold text-sm lg:text-base text-primary hover:underline">Terms & Conditions</Link></li>
               </ul>
-           </div>
-           <div className='col-span-1 px-4'>
-              <h4 className='text-md lg:text-base font-semibold uppercase text-white'>Services for Students</h4>
-              <ul className='mt-3 space-y-3'>
-                  <li className=''><Link className='text-md md:text-base hover:underline cursror-pointer text-white' href={'/counselling'}>Counselling</Link></li>
-                  <li className=''><Link className='text-md md:text-base hover:underline cursror-pointer text-white' href={'/test-preparation'}>Test Preparation</Link></li>
-                  <li className=''><Link className='text-md md:text-base hover:underline cursror-pointer text-white' href={'/scholarships'}>Scholarships</Link></li>
-                  <li className=''><Link className='text-md md:text-base hover:underline cursror-pointer text-white' href={'/accommodation'}>Accommodation</Link></li>
-                  <li className=''><Link className='text-md md:text-base hover:underline cursror-pointer text-white' href={'/student-loan-advice'}>Student Loan Advice</Link></li>
-                  <li className=''><Link className='text-md md:text-base hover:underline cursror-pointer text-white' href={'/courses'}>Course Selection</Link></li>
+            </div>
+            <div>
+              <h4 className="relative text-sm lg:text-base font-bold uppercase text-primary after:absolute after:left-0 after:-bottom-1.5 after:h-1 after:w-20 after:rounded-full after:bg-linear-to-r after:from-secondary after:to-primary after:content-['']">
+                Destinations
+              </h4>
+              <ul className="mt-4 space-y-3">
+                <li><Link href="/study-in-europe" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in Europe</Link></li>
+                <li><Link href="/study-in-australia" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in Australia</Link></li>
+                <li><Link href="/study-in-canada" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in Canada</Link></li>
+                <li><Link href="/study-in-new-zealand" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in New Zealand</Link></li>
+                <li><Link href="/study-in-uk" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in UK</Link></li>
+                <li><Link href="/study-in-usa" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in USA</Link></li>
               </ul>
-           </div>
-           <div className='col-span-1 px-4'>
-              <h4 className='text-md lg:text-base font-semibold uppercase text-white'>STUDY DESTINATIONS</h4>
-              <ul className='mt-3 space-y-3'>
-                <li className=''><Link className='text-md md:text-base hover:underline cursror-pointer text-white' href={'/destinations/study-in-latvia'}>Study in Latvia</Link></li>
-                <li className=''><Link className='text-md md:text-base hover:underline cursror-pointer text-white' href={'/destinations/study-in-lithuania'}>Study in Lithuania</Link></li>
-                <li className=''><Link className='text-md md:text-base hover:underline cursror-pointer text-white' href={'/destinations/study-in-germany'}>Study in Germany</Link></li>
-                <li className=''><Link className='text-md md:text-base hover:underline cursror-pointer text-white' href={'/destinations/study-in-uk'}>Study in UK</Link></li>
-                <li className=''><Link className='text-md md:text-base hover:underline cursror-pointer text-white' href={'/destinations/study-in-new-zealand'}>Study in New Zealand</Link></li>
-                <li className=''><Link className='text-md md:text-base hover:underline cursror-pointer text-white' href={'/destinations/study-in-australia'}>Study in Australia</Link></li>
-                <li className=''><Link className='text-md md:text-base hover:underline cursror-pointer text-white' href={'/destinations/study-in-usa'}>Study in USA</Link></li>
+            </div>
+            <div>
+              <h4 className="relative text-sm lg:text-base font-bold uppercase text-primary after:absolute after:left-0 after:-bottom-1.5 after:h-1 after:w-20 after:rounded-full after:bg-linear-to-r after:from-secondary after:to-primary after:content-['']">
+                Partnership
+              </h4>
+              <ul className="mt-4 space-y-3">
+                <li><Link href="/associate-agents" className="font-semibold text-sm lg:text-base text-primary hover:underline">Associate Agents</Link></li>
+                <li><Link href="/partner-franchise" className="font-semibold text-sm lg:text-base text-primary hover:underline">Partner Franchise</Link></li>
+                <li><Link href="/indian-universities" className="font-semibold text-sm lg:text-base text-primary hover:underline">Indian Universities</Link></li>
+                <li><Link href="/coaching-centres" className="font-semibold text-sm lg:text-base text-primary hover:underline">Coaching Centres</Link></li>
+                <li><Link href="/other-businesses" className="font-semibold text-sm lg:text-base text-primary hover:underline">Other Businesses</Link></li>
+                <li><Link href="/overseas-institutes" className="font-semibold text-sm lg:text-base text-primary hover:underline">Overseas Institutes</Link></li>
               </ul>
-           </div>
-       </div>
-       <div className='text-center py-4 border-t border-white'>
+            </div>
+            <div>
+              <h4 className="relative text-sm lg:text-base font-bold uppercase text-primary after:absolute after:left-0 after:-bottom-1.5 after:h-1 after:w-20 after:rounded-full after:bg-linear-to-r after:from-secondary after:to-primary after:content-['']">
+                Quick Links
+              </h4>
+              <ul className="mt-4 space-y-3">
+                <li><Link href="https://crm.indoeuropean.in" target="_blank" className="font-semibold text-sm lg:text-base text-primary hover:underline">CRM Login</Link></li>
+                <li><Link href="/courses-finder" className="font-semibold text-sm lg:text-base text-primary hover:underline">Course Finder</Link></li>
+                <li><Link href="/ielts-coaching" className="font-semibold text-sm lg:text-base text-primary hover:underline">IELTS Classes</Link></li>
+                <li><Link href="/coaching" className="font-semibold text-sm lg:text-base text-primary hover:underline">Coaching</Link></li>
+                <li><Link href="/pay-online" className="font-semibold text-sm lg:text-base text-primary hover:underline">Pay Online</Link></li>
+                <li><Link href="/contact" className="font-semibold text-sm lg:text-base text-primary hover:underline">Free Counselling</Link></li>
+                <li><Link href="/blogs" className="font-semibold text-sm lg:text-base text-primary hover:underline">Blogs</Link></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+     </div>
+       <div className='text-center py-4 border-t border-white bg-primary'>
          <p className='text-white text-sm lg:text-md'>Copyright {year} <Link className='text-secondary' href={'/'}>Indo European Study Abroad Consultant</Link>. All Rights Reserved</p>
        </div>
-     </div>
     </footer>
   )
 }

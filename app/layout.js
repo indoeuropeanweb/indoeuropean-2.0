@@ -1,10 +1,10 @@
-import { Outfit, Manrope } from "next/font/google";
+import { Outfit, Manrope, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
-const outfitSans = Outfit({
-  variable: "--font-outfit-sans",
+const PlusJakartaSans = Plus_Jakarta_Sans({
+  variable: "--font-Plus-Jakarta-sans",
   subsets: ["latin"],
 });
 
@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${outfitSans.variable} ${manropeMono.variable} h-full`}
+      className={`${PlusJakartaSans.variable} ${manropeMono.variable} h-full`}
     >
       <body className="min-h-full flex flex-col">
         <Header />

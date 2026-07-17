@@ -35,7 +35,7 @@ export default function SwiperSlider({heroSlides}) {
               >
                 <div className="max-w-6xl mx-auto flex h-full">
                   <div
-                    className={`max-w-100 md:max-w-120 lg:max-w-150 my-auto mx-10 transition-all duration-900 delay-500 ease-out ${
+                    className={`max-w-100 md:max-w-110 lg:max-w-140 my-auto mx-10 transition-all duration-900 delay-500 ease-out ${
                       isActive
                         ? "translate-x-0 opacity-100"
                         : "-translate-x-16 opacity-0"

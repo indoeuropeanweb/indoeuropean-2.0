@@ -2,15 +2,15 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: hsl(0, 0%, 9%);
   --primary: #150958;
-  --secondary: #F58220;
+  --secondary: #f58220;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-outfit: var(--font-outfit-sans);
+  --font-Jakarta: var(--font-Plus-Jakarta-sans);
   --font-manrope: var(--font-manrope-mono);
   --color-primary: var(--primary);
   --color-secondary: var(--secondary);
@@ -24,10 +24,10 @@
   }
 }
 
-body {
+/* body {
   background: var(--background);
   color: var(--foreground);
-}
+} */
 
 .swiper-pagination-bullet {
   width: 14px !important;
@@ -44,4 +44,94 @@ body {
   opacity: 1;
   border-radius: 25px !important;
   border: 1px solid #ccc !important;
+}
+
+@keyframes countrySlide {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-country {
+  animation: countrySlide .6s cubic-bezier(.22,1,.36,1);
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade {
+  animation: fade .8s ease;
+}
+
+@keyframes form {
+  from {
+    opacity: 0;
+    transform: translateX(60px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-form {
+  animation: form .8s ease;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 25s linear infinite;
+}
+
+.marquee:hover {
+  animation-play-state: paused;
+}
+
+.zoom-icon{
+  animation: scaleUp 1.25s linear infinite;
+}
+
+@keyframes scaleUp {
+0% {
+    transform: scale(1);
+}
+14% {
+    transform: scale(1.075);
+}
+28% {
+    transform: scale(1);
+}
+
+42% {
+    transform: scale(1.075);
+}
+70% {
+    transform: scale(1);
+}
 }
