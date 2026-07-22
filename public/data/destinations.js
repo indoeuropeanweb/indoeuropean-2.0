@@ -8,15 +8,26 @@ import {
   FaCalculator,
   FaHotel,
   FaBuilding,
-    FaCalendarDays,
+  FaCalendarDays,
   FaGraduationCap,
   FaSchool,
+  FaChartLine,
+  FaTruck,
+  FaScaleBalanced,
+  FaPhotoFilm,
+  FaTruckFast,
+  FaLeaf,
+  FaDna,
+  FaServer,
+  FaHouseMedical,
+  FaSeedling
 } from "react-icons/fa6";
 
 
 export const destinations = [
     {
     id: 1,
+    heading: "Study in Australia",
     title: "Study in Australia",
     slug: "study-in-australia",
     metaTitle:
@@ -397,13 +408,1645 @@ export const destinations = [
                 "SOP & documentation support",
                 "Pre-departure counselling"
             ],
-            imgUrl: "/images/destinations/australia/australia-1.webp",
+            imgUrl: "/images/destinations/australia/australia-2.webp",
             alt: "Why Choose Indo European?"
         },
         {
             type: "p",
             content: "Our goal is to make your journey to Australia simple, transparent, and stress-free."
         }
+    ]
+    },
+    {
+    id: 2,
+    heading: "Study in Canada",
+    title: "Turn Your Education into a Global Career",
+    slug: "study-in-canada",
+    metaTitle:
+        "Study in Canada | Indo European Study Abroad Consultancy",
+    metaDescription:
+        "Study in Canada is a Study abroad destination for students in india, with many benefits explore all here",
+    image:
+        "/images/destinations/australia/canada.webp",
+    cover: "/images/destinations/canada/cover/canada.webp",
+    keywords: [
+        "study in Canada",
+        "study abroad Canada",
+        "Canadian universities",
+        "Canada for international students",
+        "study in Canada 2026",
+        "affordable education in Canada",
+        "English taught programs Canada",
+        "best countries to study in Canada",
+        "Canada scholarships",
+        "student life in Canada",
+        "higher education Canada",
+        "Canadian education",
+        "career opportunities in Canada",
+        "study abroad consultants",
+        "international students Canada"
+    ],
+    category: "country",
+    sections: [
+    {
+        type: "p",
+        content:
+        "Canada has become one of the world's most trusted destinations for higher education, offering students the opportunity to earn globally recognised qualifications while preparing for successful international careers. Known for its academic excellence, welcoming communities, and strong employment opportunities, Canada provides an environment where students can learn, grow, and achieve their ambitions."
+    },
+    {
+        type: "p",
+        content: [
+        {
+            type: "text",
+            text: "Choosing to "
+        },
+        {
+            type: "link",
+            text: "Study in Canada",
+            href: "/destinations/study-in-canada"
+        },
+        {
+            type: "text",
+            text: " means investing in an education system that values innovation, research, and practical experience. Whether you plan to study business, engineering, healthcare, or emerging technologies, Canadian institutions equip you with the knowledge and skills needed to succeed in today's competitive world."
+        }
+        ]
+    },
+    {
+        type: "p",
+        content: [
+        {
+            type: "text",
+            text: "At "
+        },
+        {
+            type: "link",
+            text: "Indo European",
+            href: "/"
+        },
+        {
+            type: "text",
+            text: ", we guide students through every stage of the admission journey—from selecting the right university to securing a study permit—making the entire process simple and stress-free."
+        }
+        ]
+    },
+    {
+        type: "h2",
+        content: "Why is Canada One of the Favourite Destinations for Indian Students?"
+    },
+    {
+        type: "p",
+        content:
+        "Canada isn't just known for its universities—it's known for the opportunities students receive after graduation. The country offers an excellent balance of quality education, affordability, career growth, and an inclusive lifestyle."
+    },
+    {
+        type: "p",
+        content: "Students choose Canada because it offers:"
+    },
+    {
+        type: "list",
+        items: [
+        "Internationally recognised degrees",
+        "Affordable education compared to many leading destinations",
+        "Modern learning and research facilities",
+        "Safe and multicultural cities",
+        "Part-time work opportunities during studies",
+        "Excellent post-graduation career prospects",
+        "High quality of life",
+        "A welcoming environment for international students"
+        ],
+        imgUrl: "/images/destinations/canada/canada-1.webp",
+        alt: "Why Study in Canada?"
+    },
+    {
+        type: "p",
+        content:
+        "This combination makes Canada an ideal destination for students looking to build a successful future abroad."
+    },
+    {
+        type: "h2",
+        content: "Choose a Course That Matches Your Career Goals"
+    },
+    {
+        type: "p",
+        content:
+        "Canadian universities and colleges offer programs designed to meet the needs of today's rapidly changing industries. Students can select from a wide range of academic and professional courses based on their interests and career aspirations."
+    },
+    {
+        type: "p",
+        content: "Popular study areas include:"
+    },
+    {
+        type: "course-list",
+        items: [
+        {
+            id: 1,
+            type: "course",
+            icon: FaBriefcase,
+            text: "Business & Management"
+        },
+        {
+            id: 2,
+            type: "course",
+            icon: FaLaptopCode,
+            text: "Computer Science"
+        },
+        {
+            id: 3,
+            type: "course",
+            icon: FaBrain,
+            text: "Artificial Intelligence"
+        },
+        {
+            id: 4,
+            type: "course",
+            icon: FaGear,
+            text: "Engineering"
+        },
+        {
+            id: 5,
+            type: "course",
+            icon: FaUserNurse,
+            text: "Healthcare & Nursing"
+        },
+        {
+            id: 6,
+            type: "course",
+            icon: FaCalculator,
+            text: "Finance & Accounting"
+        },
+        {
+            id: 7,
+            type: "course",
+            icon: FaShieldHalved,
+            text: "Cyber Security"
+        },
+        {
+            id: 8,
+            type: "course",
+            icon: FaHotel,
+            text: "Hospitality Management"
+        },
+        {
+            id: 9,
+            type: "course",
+            icon: FaChartLine,
+            text: "Data Analytics"
+        },
+        {
+            id: 10,
+            type: "course",
+            icon: FaTruck,
+            text: "Supply Chain & Logistics"
+        }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Many programs include internships, co-op placements, and practical projects, giving students valuable industry exposure before graduation."
+    },
+    {
+        type: "h2",
+        content: "Learn from Canada's Top Universities"
+    },
+    {
+        type: "p",
+        content:
+        "Canada is home to several globally respected universities that consistently rank among the best in the world for education and research."
+    },
+    {
+        type: "p",
+        content: "Some popular institutions include:"
+    },
+    {
+        type: "university-list",
+        items: [
+        {
+            id: 1,
+            src: "/images/destinations/canada/universities/McMaster-Univ.png",
+            alt: "McMaster University",
+            title: "McMaster University"
+        },
+        {
+            id: 2,
+            src: "/images/destinations/canada/universities/Univ-Canada-West.png",
+            alt: "University of Canada West",
+            title: "University of Canada West"
+        },
+        {
+            id: 3,
+            src: "/images/destinations/canada/universities/Univ-of-Alberta.png",
+            alt: "University of Alberta",
+            title: "University of Alberta"
+        },
+        {
+            id: 4,
+            src: "/images/destinations/canada/universities/Univ-of-British-Columbia.png",
+            alt: "University of British Columbia",
+            title: "University of British Columbia"
+        },
+        {
+            id: 5,
+            src: "/images/destinations/canada/universities/Univ-of-Calgary.png",
+            alt: "University of Calgary",
+            title: "University of Calgary"
+        },
+        {
+            id: 6,
+            src: "/images/destinations/canada/universities/Univ-of-McGill.png",
+            alt: "University of McGill",
+            title: "University of McGill"
+        },
+        {
+            id: 7,
+            src: "/images/destinations/canada/universities/Univ-of-Montreal.png",
+            alt: "University of Montreal",
+            title: "University of Montreal"
+        },
+        {
+            id: 8,
+            src: "/images/destinations/canada/universities/Univ-of-Toronto.png",
+            alt: "University of Toronto",
+            title: "University of Toronto"
+        },
+        {
+            id: 9,
+            src: "/images/destinations/canada/universities/Univ-of-Waterloo.png",
+            alt: "University of Waterloo",
+            title: "University of Waterloo"
+        },
+        {
+            id: 10,
+            src: "/images/destinations/canada/universities/Univ-of-Western-Ontario.png",
+            alt: "University of Western Ontario",
+            title: "University of Western Ontario"
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "These universities provide modern campuses, experienced faculty, advanced research facilities, and strong connections with leading industries."
+    },
+    {
+        type: "h2",
+        content: "Planning Your Education Budget"
+    },
+    {
+        type: "p",
+        content:
+        "One of the reasons students prefer Canada is its excellent value for money. Compared to many other popular study destinations, Canada offers high-quality education at relatively affordable tuition fees."
+    },
+    {
+        type: "p",
+        content: [
+        {
+            type: "text",
+            text: "Average tuition fees generally range between "
+        },
+        {
+            type: "bold",
+            text: "CAD 15,000 and CAD 35,000 per year"
+        },
+        {
+            type: "text",
+            text: ", depending on the course and institution. Students should also budget for accommodation, food, transportation, and other personal expenses."
+        }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Our counsellors help students understand the complete cost of studying in Canada and choose universities that fit both their academic goals and financial plans."
+    },
+    {
+        type: "h2",
+        content: "Flexible Intakes Throughout the Year"
+    },
+    {
+        type: "p",
+        content:
+        "Canadian institutions offer multiple admission cycles, making it easier for students to plan their higher education."
+    },
+    {
+        type: "intake-list",
+        items: [
+        {
+            id: 1,
+            title: "September Intake",
+            description: "The largest intake with the widest selection of programs.",
+            icon: FaCalendarDays
+        },
+        {
+            id: 2,
+            title: "January Intake",
+            description: "Ideal for students who miss the primary admission cycle.",
+            icon: FaGraduationCap
+        },
+        {
+            id: 3,
+            title: "May Intake",
+            description: "Available for selected universities and programs.",
+            icon: FaSchool
+        }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Applying early gives students more options for admissions, scholarships, and visa processing."
+    },
+    {
+        type: "h2",
+        content: "Your Canada Study Permit Journey"
+    },
+    {
+        type: "p",
+        content:
+        "Before beginning your studies, international students must obtain a Canadian Study Permit. The process involves preparing academic documents, financial proof, English language test scores, and other required paperwork."
+    },
+    {
+        type: "p",
+        content:
+        "With expert guidance from Indo European, students receive complete support throughout the application process, ensuring every document is prepared accurately and submitted on time."
+    },
+    {
+        type: "h2",
+        content: "Why Students Choose Indo European"
+    },
+    {
+        type: "p",
+        content:
+        "Every student's academic journey is unique, which is why our counselling is personalized to your goals and aspirations. We focus on helping students make informed decisions while ensuring a smooth admission experience."
+    },
+    {
+        type: "p",
+        content: "Our support includes:"
+    },
+    {
+        type: "list",
+        items: [
+        "Personalised career counselling",
+        "University and program selection",
+        "Application assistance",
+        "Study permit guidance",
+        "Scholarship advice",
+        "SOP and documentation support",
+        "Education loan assistance",
+        "Pre-departure guidance"
+        ],
+        imgUrl: "/images/destinations/canada/canada-2.webp",
+        alt: "Why Choose Indo European?"
+    },
+    {
+        type: "p",
+        content:
+        "Our experienced team is committed to helping you confidently begin your journey towards studying in Canada."
+    },
+    {
+        type: "h2",
+        content: "Take the First Step Towards Studying in Canada"
+    },
+    {
+        type: "p",
+        content: [
+        {
+            type: "text",
+            text: "A globally recognised qualification, valuable international exposure, and exciting career opportunities are waiting for you in Canada. If you're ready to "
+        },
+        {
+            type: "link",
+            text: "Study in Canada",
+            href: "/destinations/study-in-canada"
+        },
+        {
+            type: "text",
+            text: ", Indo European is here to help you every step of the way."
+        }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Connect with our expert counsellors today and start planning your future with confidence."
+    }
+    ]
+    },
+    {
+    id: 3,
+    heading: "Study in UK",
+    title: "Earn a Globally Respected Degree in Less Time",
+    slug: "study-in-uk",
+    metaTitle:
+        "Study in United Kingdom | Indo European Study Abroad Consultancy",
+    metaDescription:
+        "Study in United Kingdom is a Study abroad destination for students in india, with many benefits explore all here",
+    image:
+        "/images/destinations/uk/uk.webp",
+    cover: "/images/destinations/uk/cover/uk.webp",
+    keywords: [
+        "study in UK",
+        "study abroad UK",
+        "UK universities",
+        "UK for international students",
+        "study in UK 2026",
+        "affordable education in UK",
+        "English taught programs UK",
+        "best countries to study in UK",
+        "UK scholarships",
+        "student life in UK",
+        "higher education UK",
+        "UK education",
+        "career opportunities in UK",
+        "study abroad consultants",
+        "international students UK"
+    ],
+    category: "country",
+    sections: [
+    {
+        type: "p",
+        content:
+        "The United Kingdom has long been recognised as one of the world's most prestigious education destinations. Home to centuries-old universities and innovative teaching methods, the UK continues to attract ambitious students from across the globe. For Indian students, it offers the perfect combination of academic excellence, shorter degree durations, and outstanding international career opportunities."
+    },
+    {
+        type: "p",
+        content: [
+        {
+            type: "text",
+            text: "Choosing to "
+        },
+        {
+            type: "link",
+            text: "Study in the UK",
+            href: "/destinations/study-in-uk"
+        },
+        {
+            type: "text",
+            text: " means learning in an environment that encourages critical thinking, research, and professional development. With qualifications recognised worldwide, graduates from UK universities are highly valued by employers across different industries."
+        }
+        ]
+    },
+    {
+        type: "p",
+        content: [
+        {
+            type: "text",
+            text: "At "
+        },
+        {
+            type: "link",
+            text: "Indo European",
+            href: "/"
+        },
+        {
+            type: "text",
+            text: ", we help students find the right university, course, and study pathway while providing complete support from admission to visa approval."
+        }
+        ]
+    },
+
+    {
+        type: "h2",
+        content: "What Makes the UK an Excellent Study Destination?"
+    },
+    {
+        type: "p",
+        content:
+        "The UK education system is known for its high academic standards and practical learning approach. Students benefit from internationally recognised qualifications while completing their studies in a shorter duration compared to many other countries."
+    },
+    {
+        type: "p",
+        content: "Some of the biggest advantages include:"
+    },
+    {
+        type: "list",
+        items: [
+        "Degrees recognised around the world",
+        "Shorter undergraduate and postgraduate programs",
+        "High academic standards",
+        "Research-led teaching",
+        "Multicultural student community",
+        "Opportunities to work while studying",
+        "Strong graduate employability",
+        "Access to world-class universities"
+        ],
+        imgUrl: "/images/destinations/uk/uk-1.webp",
+        alt: "Why Study in the UK?"
+    },
+    {
+        type: "p",
+        content:
+        "Studying in the UK allows students to gain quality education while saving both time and tuition costs through shorter degree programs."
+    },
+
+    {
+        type: "h2",
+        content: "Find the Right Course for Your Future"
+    },
+    {
+        type: "p",
+        content:
+        "Whether your goal is to work in business, technology, healthcare, or creative industries, UK universities offer thousands of programmes designed to match today's global career demands."
+    },
+    {
+        type: "p",
+        content: "Popular study options include:"
+    },
+    {
+        type: "course-list",
+        items: [
+        {
+            id: 1,
+            type: "course",
+            icon: FaBriefcase,
+            text: "Business & Management"
+        },
+        {
+            id: 2,
+            type: "course",
+            icon: FaLaptopCode,
+            text: "Computer Science"
+        },
+        {
+            id: 3,
+            type: "course",
+            icon: FaBrain,
+            text: "Artificial Intelligence"
+        },
+        {
+            id: 4,
+            type: "course",
+            icon: FaGear,
+            text: "Engineering"
+        },
+        {
+            id: 5,
+            type: "course",
+            icon: FaCalculator,
+            text: "Finance & Accounting"
+        },
+        {
+            id: 6,
+            type: "course",
+            icon: FaScaleBalanced,
+            text: "Law"
+        },
+        {
+            id: 7,
+            type: "course",
+            icon: FaUserNurse,
+            text: "Healthcare & Nursing"
+        },
+        {
+            id: 8,
+            type: "course",
+            icon: FaPhotoFilm,
+            text: "Media & Communication"
+        },
+        {
+            id: 9,
+            type: "course",
+            icon: FaChartLine,
+            text: "Data Science"
+        },
+        {
+            id: 10,
+            type: "course",
+            icon: FaBuilding,
+            text: "Architecture"
+        }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Many courses include practical projects, industry placements, and research opportunities that prepare students for successful careers."
+    },
+    {
+        type: "h2",
+        content: "Universities That Inspire Global Leaders"
+    },
+    {
+        type: "p",
+        content:
+        "The UK is home to some of the world's oldest and most respected universities, known for producing influential leaders, researchers, and innovators."
+    },
+    {
+        type: "p",
+        content: "Popular universities include:"
+    },
+    {
+        type: "university-list",
+        items: [
+        {
+            id: 1,
+            src: "/images/destinations/uk/universities/birmingham.png",
+            alt: "University of Birmingham",
+            title: "University of Birmingham"
+        },
+        {
+            id: 2,
+            src: "/images/destinations/uk/universities/cambridge.png",
+            alt: "University of Cambridge",
+            title: "University of Cambridge"
+        },
+        {
+            id: 3,
+            src: "/images/destinations/uk/universities/imperial.png",
+            alt: "Imperial College London",
+            title: "Imperial College London"
+        },
+        {
+            id: 4,
+            src: "/images/destinations/uk/universities/uoy.png",
+            alt: "University of New York",
+            title: "University of New York (UOL)"
+        },
+        {
+            id: 5,
+            src: "/images/destinations/uk/universities/edinburgh.png",
+            alt: "University of Edinburgh",
+            title: "University of Edinburgh"
+        },
+        {
+            id: 6,
+            src: "/images/destinations/uk/universities/kings.png",
+            alt: "King's College London",
+            title: "King's College London"
+        },
+        {
+            id: 7,
+            src: "/images/destinations/uk/universities/sheffield.png",
+            alt: "University of Sheffield",
+            title: "University of Sheffield"
+        },
+        {
+            id: 8,
+            src: "/images/destinations/uk/universities/bristol.png",
+            alt: "University of Bristol",
+            title: "University of Bristol"
+        }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "These universities offer outstanding teaching quality, advanced research facilities, and strong global industry partnerships."
+    },
+    {
+        type: "h2",
+        content: "Understanding the Cost of Studying"
+    },
+    {
+        type: "p",
+        content: [
+        {
+            type: "text",
+            text: "The cost of "
+        },
+        {
+            type: "link",
+            text: "Study in the UK",
+            href: "/destinations/study-in-uk"
+        },
+        {
+            type: "text",
+            text: " depends on the university, city, and course you choose. Tuition fees generally range from "
+        },
+        {
+            type: "bold",
+            text: "GBP 12,000 to GBP 35,000 per year"
+        },
+        {
+            type: "text",
+            text: ", while specialised programmes such as MBA or Medicine may cost more."
+        }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Students should also budget for accommodation, daily living expenses, transportation, and other personal costs before beginning their studies."
+    },
+
+    {
+        type: "h2",
+        content: "UK Intakes"
+    },
+    {
+        type: "p",
+        content:
+        "Most universities offer multiple admission opportunities during the year."
+    },
+    {
+        type: "intake-list",
+        items: [
+        {
+            id: 1,
+            title: "September Intake",
+            description: "The primary intake with the maximum number of programmes.",
+            icon: FaCalendarDays
+        },
+        {
+            id: 2,
+            title: "January Intake",
+            description: "Offered by many universities for selected courses.",
+            icon: FaGraduationCap
+        },
+        {
+            id: 3,
+            title: "May Intake",
+            description: "Available at a limited number of institutions.",
+            icon: FaSchool
+        }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Applying early allows students to secure their preferred university and complete the visa process smoothly."
+    },
+
+    {
+        type: "h2",
+        content: "UK Student Visa"
+    },
+    {
+        type: "p",
+        content:
+        "International students need to apply for a UK Student Visa after receiving confirmation of admission from their chosen university."
+    },
+    {
+        type: "p",
+        content:
+        "The process generally includes preparing academic documents, financial evidence, English language test scores, and other supporting documents."
+    },
+    {
+        type: "p",
+        content:
+        "At Indo European, we provide complete guidance to ensure your application is accurate, organised, and submitted with confidence."
+    },
+
+    {
+        type: "h2",
+        content: "Why Students Trust Indo European"
+    },
+    {
+        type: "p",
+        content:
+        "Studying abroad is a big decision and selecting the right consultant can make the journey much easier. Our experienced staff team guides students through each stage to make informed decisions."
+    },
+    {
+        type: "p",
+        content: "Our services include:"
+    },
+    {
+        type: "list",
+        items: [
+        "Free career counselling",
+        "University shortlisting",
+        "Admission application assistance",
+        "UK student visa guidance",
+        "Scholarship assistance",
+        "SOP and documentation support",
+        "Education loan guidance",
+        "Pre-departure assistance"
+        ],
+        imgUrl: "/images/destinations/uk/uk-2.webp",
+        alt: "Why Choose Indo European?"
+    },
+    {
+        type: "p",
+        content:
+        "We focus on helping every student find the best-fit university based on their academic profile, career goals, and budget."
+    }
+    ]
+    },
+    {
+    id: 4,
+    heading: "Study in Denmark",
+    title: "Study Masters in Denmark | Top Universities, Courses, Fees & Student Visa Guide",
+    slug: "study-in-denmark",
+    metaTitle:
+        "Study in Denmark | Indo European Study Abroad Consultancy",
+    metaDescription:
+        "Study in Denmark is a Study abroad destination for students in india, with many benefits explore all here",
+    image:
+        "/images/destinations/denmark/denmark.webp",
+    cover: "/images/destinations/denmark/cover/denmark.webp",
+    keywords: [
+        "study in Denmark",
+        "study abroad Denmark",
+        "Denmark universities",
+        "Denmark for international students",
+        "study in Denmark 2026",
+        "affordable education in Denmark",
+        "English taught programs Denmark",
+        "best countries to study in Denmark",
+        "Denmark scholarships",
+        "student life in Denmark",
+        "higher education Denmark",
+        "Denmark education",
+        "career opportunities in Denmark",
+        "study abroad consultants",
+        "international students Denmark"
+    ],
+    category: "country",
+    sections: [
+    {
+        type: "p",
+        content:
+        "Denmark has become one of Europe's most preferred destinations for international students seeking high-quality postgraduate education. Known for its world-class universities, research-focused teaching, and practical learning approach, Denmark offers internationally recognised master's degrees that prepare students for global careers. For Indian students, it provides an excellent combination of academic excellence, affordable living compared to many Western countries, and outstanding career opportunities."
+    },
+    {
+        type: "p",
+        content: "Choosing to "
+    },
+    {
+        type: "p",
+        content: [
+        {
+            type: "text",
+            text: "Study Masters in Denmark "
+        },
+        {
+            type: "link",
+            text: "Study in the UK",
+            href: "/destinations/study-in-denmark"
+        },
+        {
+            type: "text",
+            text: " means learning in an innovative environment that encourages creativity, collaboration, and critical thinking. Danish universities focus on real-world applications, industry partnerships, and research-based education, making graduates highly employable across the world."
+        }
+        ]
+    },
+    {
+        type: "p",
+        content: [
+        {
+         type: "p",
+         text: "At "
+        },    
+        {
+            type: "link",
+            text: "Indo European",
+            href: "/"
+        },
+        {
+            type: "text",
+            text: ", we help students choose the right university, master's programme, and study pathway while providing complete support from admission to Denmark student visa approval."
+        }
+        ]
+    },
+
+    {
+        type: "h2",
+        content: "What Makes Denmark an Excellent Destination for Master's Studies?"
+    },
+    {
+        type: "p",
+        content:
+        "The Danish education system is recognised for its modern teaching methods, innovation-driven curriculum, and strong industry connections. Students receive internationally recognised qualifications while gaining practical experience that prepares them for successful global careers."
+    },
+    {
+        type: "p",
+        content: "Some of the biggest advantages include:"
+    },
+    {
+        type: "list",
+        items: [
+        "Internationally recognised master's degrees",
+        "English-taught programmes",
+        "Research-based learning",
+        "Modern and innovative teaching methods",
+        "Strong industry collaboration",
+        "Safe and student-friendly environment",
+        "Opportunities to work while studying",
+        "Excellent post-study career opportunities",
+        "High quality of life",
+        "Access to the European job market"
+        ],
+        imgUrl: "/images/destinations/denmark/denmark-1.webp",
+        alt: "Why Study in the UK?"
+    },
+    {
+        type: "p",
+        content:
+        "Studying a master&#39;s degree in Denmark allows students to gain world-class education while developing practical skills that employers highly value."
+    },
+
+    {
+        type: "h2",
+        content: "Find the Right Master's Programme for Your Future"
+    },
+    {
+        type: "p",
+        content:
+        "Whether your goal is to build a career in business, technology, engineering, healthcare, or sustainability, Danish universities offer a wide range of master's programmes designed to meet today's international job market."
+    },
+    {
+        type: "p",
+        content: "Popular master's programmes include:"
+    },
+    {
+        type: "course-list",
+        items: [
+            {
+                id: 1,
+                type: "course",
+                icon: FaBriefcase,
+                text: "Business & Management"
+            },
+            {
+                id: 2,
+                type: "course",
+                icon: FaLaptopCode,
+                text: "Computer Science"
+            },
+            {
+                id: 3,
+                type: "course",
+                icon: FaBrain,
+                text: "Artificial Intelligence"
+            },
+            {
+                id: 4,
+                type: "course",
+                icon: FaGear,
+                text: "Engineering"
+            },
+            {
+                id: 5,
+                type: "course",
+                icon: FaCalculator,
+                text: "Finance & Accounting"
+            },
+            {
+                id: 6,
+                type: "course",
+                icon: FaTruckFast,
+                text: "Supply Chain Management"
+            },
+            {
+                id: 7,
+                type: "course",
+                icon: FaLeaf,
+                text: "Renewable Energy"
+            },
+            {
+                id: 8,
+                type: "course",
+                icon: FaDna,
+                text: "Biotechnology"
+            },
+            {
+                id: 9,
+                type: "course",
+                icon: FaServer,
+                text: "Information Technology"
+            },
+            {
+                id: 10,
+                type: "course",
+                icon: FaBuilding,
+                text: "Architecture"
+            },
+            {
+                id: 11,
+                type: "course",
+                icon: FaHouseMedical,
+                text: "Public Health"
+            }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Many programmes include research projects, internships, practical assignments, and industry collaborations that help students build successful international careers."
+    },
+    {
+        type: "h2",
+        content: "Universities That Shape Global Professionals"
+    },
+    {
+        type: "p",
+        content:
+        "Denmark is home to some of Europe&#39;s most respected universities, recognised for academic excellence, innovation, and research."
+    },
+    {
+        type: "p",
+        content: "Popular universities include:"
+    },
+    {
+        type: "university-list",
+        items: [
+        {
+            id: 1,
+            src: "/images/destinations/denmark/universities/aarhus.png",
+            alt: "Aarhus University",
+            title: "Aarhus University"
+        },
+        {
+            id: 2,
+            src: "/images/destinations/denmark/universities/absalon.png",
+            alt: "Absalon",
+            title: "Absalon"
+        },
+        {
+            id: 3,
+            src: "/images/destinations/denmark/universities/cophenhagen.png",
+            alt: "Cophenhagen Business School",
+            title: "Cophenhagen Business School"
+        },
+        {
+            id: 4,
+            src: "/images/destinations/denmark/universities/dtu.png",
+            alt: "Technical University of Denmark",
+            title: "Technical University of Denmark"
+        },
+        {
+            id: 5,
+            src: "/images/destinations/denmark/universities/iba.png",
+            alt: "International Business Academy",
+            title: "International Business Academy"
+        },
+        {
+            id: 6,
+            src: "/images/destinations/denmark/universities/roskilde.png",
+            alt: "Roskilde University",
+            title: "Roskilde University"
+        },
+        {
+            id: 7,
+            src: "/images/destinations/denmark/universities/sdu.png",
+            alt: "University of Southern Denmark",
+            title: "University of Southern Denmark"
+        },
+        {
+            id: 8,
+            src: "/images/destinations/denmark/universities/via.png",
+            alt: "Via University College",
+            title: "Via University College"
+        }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "These institutions offer excellent teaching, cutting-edge research, and strong global alumni networks."
+    },
+
+    {
+        type: "h2",
+        content: "Understanding the Cost of Studying"
+    },
+    {
+        type: "p",
+        content: [
+        {
+            type: "text",
+            text: "The cost of "
+        },
+        {
+            type: "link",
+            text: "Study in Denmark",
+            href: "/destinations/study-in-denmark"
+        },
+        {
+            type: "text",
+            text: " depends on the university and programme you choose. Tuition fees generally range from "
+        },
+        {
+            type: "bold",
+            text: "EUR 8,000 to EUR 18,000 per year,"
+        },
+        {
+            type: "text",
+            text: " while living expenses typically range between "
+        },
+        {
+            type:"bold",
+            text: "EUR 800 and EUR 1,200 per month"
+        },
+        {
+            type: "text",
+            text: " , depending on the city and lifestyle."
+        }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Students should also budget for accommodation, food, transportation, study materials, and personal expenses before beginning their studies."
+    },
+
+    {
+        type: "h2",
+        content: "Denmark Intakes"
+    },
+    {
+        type: "p",
+        content:
+        "Most universities offer multiple admission opportunities during the year."
+    },
+    {
+        type: "intake-list",
+        items: [
+        {
+            id: 1,
+            title: "September Intake",
+            description: "The primary intake with the largest number of master&#39;s programmes and scholarship opportunities.",
+            icon: FaCalendarDays
+        },
+        {
+            id: 2,
+            title: "January Intake",
+            description: "Available at selected universities for specific master&#39;s courses.",
+            icon: FaGraduationCap
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Applying early helps students secure admission, scholarships, and complete the visa process without unnecessary delays."
+    },
+
+    {
+        type: "h2",
+        content: "Denmark Student Visa"
+    },
+    {
+        type: "p",
+        content:
+        "International students must apply for a Denmark Student Residence Permit after receiving an admission offer from their chosen university."
+    },
+    {
+        type: "p",
+        content:
+        "The process generally includes preparing academic documents, financial proof, passport, admission letter, health insurance (where applicable), and other supporting documents."
+    },
+    {
+        type: "p",
+        content:
+        "At Indo European, we provide complete guidance to ensure your Denmark student visa application is accurate, organised, and submitted with confidence."
+    },
+
+    {
+        type: "h2",
+        content: "Why Students Trust Indo European"
+    },
+    {
+        type: "p",
+        content:
+        "Studying abroad is a life-changing decision, and choosing the right consultant makes the journey easier. Our experienced counselling team guides students through every stage, helping them make informed decisions with confidence."
+    },
+    {
+        type: "p",
+        content: "Our Services"
+    },
+    {
+        type: "list",
+        items: [
+        "Free career counselling",
+        "University shortlisting",
+        "Master's programme selection",
+        "Admission application assistance",
+        "Denmark student visa guidance",
+        "Scholarship assistance",
+        "SOP and documentation support",
+        "Education loan guidance",
+        "Pre-departure assistance"
+        ],
+        imgUrl: "/images/destinations/denmark/denmark-2.webp",
+        alt: "Our Services"
+    },
+    {
+        type: "p",
+        content:
+        "We focus on helping every student find the best-fit Danish university based on their academic profile, career goals, and budget."
+    },
+    {
+        type:"h2",
+        content: "Conclusion"
+    },
+    {
+        type: "p",
+        content: "Studying for a Master’s in Denmark is a great opportunity for students to earn a globally recognised degree, while also gaining hands-on skills and international career experience. With world-class universities, innovative teaching methods, English-taught programmes and excellent post-study opportunities, Denmark is still one of the top destinations for higher education in Europe."
+    },
+    {
+        type: "p",
+        content: "If you are planning to Study Masters in Denmark, then selecting the right university and preparing a strong application are the key steps towards success. At Indo European our experienced counsellors provide you with personalized guidance, from university selection and admissions to visa assistance and pre-departure support, empowering you to kick start your study abroad journey with confidence. Let us help you take the next step toward a successful global career."
+    }
+    ]
+    },
+    {
+    id: 5,
+    heading: "Study in New Zealand",
+    title: "Build a Global Career with a World-Class Education in New Zealand",
+    slug: "study-in-new-zealand",
+    metaTitle:
+        "Study in New Zealand | Indo European Study Abroad Consultancy",
+    metaDescription:
+        "Study in New Zealand is a Study abroad destination for students in india, with many benefits explore all here",
+    image:
+        "/images/destinations/new-zealand/new-zealand-1.webp",
+    cover: "/images/destinations/new-zealand/cover/new-zealand.webp",
+    keywords: [
+        "study in New Zealand",
+        "study abroad New Zealand",
+        "New Zealand universities",
+        "New Zealand for international students",
+        "study in New Zealand 2026",
+        "affordable education in New Zealand",
+        "English taught programs New Zealand",
+        "best countries to study in New Zealand",
+        "New Zealand scholarships",
+        "student life in New Zealand",
+        "higher education New Zealand",
+        "New Zealand education",
+        "career opportunities in New Zealand",
+        "study abroad consultants",
+        "international students New Zealand"
+    ],
+    category: "country",
+    sections: [
+    {
+        type: "p",
+        content:
+        "New Zealand has emerged as one of the most sought-after destinations for international students looking for high-quality education, practical learning, and excellent career prospects. Home to globally recognised universities and a student-friendly education system, New Zealand offers the perfect blend of academic excellence, innovation, and an outstanding quality of life. For Indian students, it provides internationally recognised qualifications, affordable education, and strong post-study work opportunities."
+    },
+    {
+        type: "p",
+        content: "Choosing to "
+    },
+    {
+        type: "p",
+        content: [
+        {
+            type: "text",
+            text: "Study in New Zealand "
+        },
+        {
+            type: "link",
+            text: "Study in the UK",
+            href: "/destinations/study-in-new-zealand"
+        },
+        {
+            type: "text",
+            text: " means gaining knowledge through hands-on learning, research, and industry-focused education. With degrees respected by employers worldwide, graduates from New Zealand universities enjoy excellent career opportunities across the globe."
+        }
+        ]
+    },
+    {
+        type: "p",
+        content: [
+        {
+         type: "p",
+         text: "At "
+        },    
+        {
+            type: "link",
+            text: "Indo European",
+            href: "/"
+        },
+        {
+            type: "text",
+            text: ", we help students choose the right university, course, and study pathway while providing complete assistance from admission to New Zealand student visa approval."
+        }
+        ]
+    },
+
+    {
+        type: "h2",
+        content: "What Makes New Zealand an Excellent Study Destination?"
+    },
+    {
+        type: "p",
+        content:
+        "New Zealand's education system is internationally recognised for its academic quality, practical teaching approach, and strong emphasis on innovation. Universities focus on developing critical thinking, problem-solving, and real-world skills that prepare students for global careers."
+    },
+    {
+        type: "p",
+        content: "Some of the biggest advantages include:"
+    },
+    {
+        type: "list",
+        items: [
+        "Globally recognised qualifications",
+        "High-quality education system",
+        "Research and innovation-focused learning",
+        "Affordable tuition fees compared to many English-speaking countries",
+        "Safe and welcoming multicultural environment",
+        "Opportunities to work while studying",
+        "Excellent post-study work opportunities",
+        "Strong graduate employability",
+        "Modern campuses with advanced facilities",
+        "High quality of life"
+        ],
+        imgUrl: "/images/destinations/new-zealand/new-zealand-1.webp",
+        alt: "Why Study in the New Zealand?"
+    },
+    {
+        type: "p",
+        content:
+        "Studying in New Zealand allows students to gain internationally respected qualifications while experiencing one of the safest and most beautiful countries in the world."
+    },
+
+    {
+        type: "h2",
+        content: "Find the Right Course for Your Future"
+    },
+    {
+        type: "p",
+        content:
+        "Whether you want to build a career in business, technology, healthcare, engineering, or hospitality, New Zealand universities offer a wide variety of programmes designed to meet global industry requirements."
+    },
+    {
+        type: "p",
+        content: "Popular study options include:"
+    },
+    {
+        type: "course-list",
+        items: [
+            {
+                id: 1,
+                type: "course",
+                icon: FaBriefcase,
+                text: "Business & Management"
+            },
+            {
+                id: 2,
+                type: "course",
+                icon: FaLaptopCode,
+                text: "Computer Science"
+            },
+            {
+                id: 3,
+                type: "course",
+                icon: FaBrain,
+                text: "Artificial Intelligence"
+            },
+            {
+                id: 4,
+                type: "course",
+                icon: FaGear,
+                text: "Engineering"
+            },
+            {
+                id: 5,
+                type: "course",
+                icon: FaChartLine,
+                text: "Data Science"
+            },
+            {
+                id: 6,
+                type: "course",
+                icon: FaHouseMedical,
+                text: "Healthcare & Nursing"
+            },
+            {
+                id: 7,
+                type: "course",
+                icon: FaHotel,
+                text: "Hospitality & Tourism"
+            },
+            {
+                id: 8,
+                type: "course",
+                icon: FaSeedling,
+                text: "Agriculture"
+            },
+            {
+                id: 9,
+                type: "course",
+                icon: FaCalculator,
+                text: "Finance & Accounting"
+            },
+            {
+                id: 10,
+                type: "course",
+                icon: FaLeaf,
+                text: "Environmental Science"
+            },
+            {
+                id: 11,
+                type: "course",
+                icon: FaGraduationCap,
+                text: "Education"
+            }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Many courses include internships, practical training, research projects, and industry placements, helping students gain valuable professional experience before graduation."
+    },
+    {
+        type: "h2",
+        content: "Universities That Shape Future Global Professionals"
+    },
+    {
+        type: "p",
+        content:
+        "Denmark is home to some of Europe&#39;s most respected universities, recognised for academic excellence, innovation, and research."
+    },
+    {
+        type: "p",
+        content: "Popular universities include:"
+    },
+    {
+        type: "university-list",
+        items: [
+        {
+            id: 1,
+            src: "/images/destinations/new-zealand/universities/auckland.png",
+            alt: "University of Auckland",
+            title: "University of Auckland"
+        },
+        {
+            id: 2,
+            src: "/images/destinations/new-zealand/universities/aut.png",
+            alt: "AUT University",
+            title: "AUT University"
+        },
+        {
+            id: 3,
+            src: "/images/destinations/new-zealand/universities/canterbury.png",
+            alt: "University of Canterbury",
+            title: "University of Canterbury"
+        },
+        {
+            id: 4,
+            src: "/images/destinations/new-zealand/universities/lincoln.png",
+            alt: "University of Lincoln",
+            title: "University of Lincoln"
+        },
+        {
+            id: 5,
+            src: "/images/destinations/new-zealand/universities/massey.png",
+            alt: "Massey University",
+            title: "Massey University"
+        },
+        {
+            id: 6,
+            src: "/images/destinations/new-zealand/universities/otagp.png",
+            alt: "University of Otago",
+            title: "University of Otago"
+        },
+        {
+            id: 7,
+            src: "/images/destinations/new-zealand/universities/unitec.png",
+            alt: "Unitec University of Technology",
+            title: "Unitec University of Technology"
+        },
+        {
+            id: 8,
+            src: "/images/destinations/new-zealand/universities/waikato.png",
+            alt: "University of Waikato",
+            title: "University of Waikato"
+        },
+        {
+            id: 9,
+            src: "/images/destinations/new-zealand/universities/wellington.png",
+            alt: "University of Wellington",
+            title: "University of Wellington"
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "These institutions offer excellent teaching, cutting-edge research, and strong global alumni networks."
+    },
+
+    {
+        type: "h2",
+        content: "Understanding the Cost of Studying"
+    },
+    {
+        type: "p",
+        content: [
+        {
+            type: "text",
+            text: "The cost of "
+        },
+        {
+            type: "link",
+            text: "Study in New Zealand",
+            href: "/destinations/study-in-new-zealand"
+        },
+        {
+            type: "text",
+            text: " depends on the university, course, and city you choose. Tuition fees generally range from "
+        },
+        {
+            type: "bold",
+            text: "NZD 22,000 to NZD 45,000 per year,"
+        },
+        {
+            type: "text",
+            text: " while specialised programmes such as Medicine and MBA may have higher tuition fees. "
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Students should also budget for accommodation, food, transportation, health insurance, and other personal expenses before beginning their studies."
+    },
+
+    {
+        type: "h2",
+        content: "New Zealand Intakes"
+    },
+    {
+        type: "p",
+        content:
+        "Most universities offer multiple admission opportunities throughout the year."
+    },
+    {
+        type: "intake-list",
+        items: [
+        {
+            id: 1,
+            title: "February Intake",
+            description: "The primary intake with the largest number of courses and university seats.",
+            icon: FaCalendarDays
+        },
+        {
+            id: 2,
+            title: "July Intake",
+            description: "Offered by most universities for selected undergraduate and postgraduate programmes.",
+            icon: FaGraduationCap
+        },
+        {
+            id: 3, 
+            title: "November Intake",
+            description: "Available at a limited number of institutions and programmes.",
+            icon: FaSchool
+        }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Applying early increases your chances of securing admission, scholarships, and completing the visa process on time."
+    },
+
+    {
+        type: "h2",
+        content: "New Zealand Student Visa"
+    },
+    {
+        type: "p",
+        content:
+        "International students must apply for a New Zealand Student Visa after receiving an Offer of Place from their chosen university."
+    },
+    {
+        type: "p",
+        content:
+        "The application process generally includes preparing academic documents, proof of funds, English language test scores, passport, health and character documents, and other supporting paperwork."
+    },
+    {
+        type: "p",
+        content:
+        "At Indo European, we provide complete guidance to ensure your application is accurate, organised, and submitted with confidence."
+    },
+
+    {
+        type: "h2",
+        content: "Why Students Choose Indo European"
+    },
+    {
+        type: "p",
+        content:
+        "Studying abroad is a life-changing decision, and choosing the right consultant makes the entire process simpler and stress-free. Our experienced counselors guide students at every stage, helping them make informed academic and career decisions."
+    },
+    {
+        type: "p",
+        content: "Our Services"
+    },
+    {
+        type: "list",
+        items: [
+        "Free career counselling",
+        "University shortlisting",
+        "Admission application assistance",
+        "New Zealand student visa guidance",
+        "Scholarship assistance",
+        "SOP and documentation support",
+        "Education loan guidance",
+        "Pre-departure assistance"
+        ],
+        imgUrl: "/images/destinations/new-zealand/new-zealand-2.webp",
+        alt: "Our Services"
+    },
+    {
+        type: "p",
+        content:
+        "We focus on helping every student find the best-fit university based on their academic profile, career aspirations, and budget, ensuring a smooth and successful journey to Study in New Zealand."
+    },
     ]
     },
 ]

@@ -234,35 +234,6 @@ export default async function BlogPage({ params }) {
         );
         }
 
-
-if (section.type === "university-list") {
-  return (
-    <div key={index} className="mt-8">
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-        {section.items.map((item) => (
-          <div
-            key={item.id}
-            className="group bg-white rounded-2xl border border-gray-200 p-6 flex flex-col items-center justify-center shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
-          >
-            <div className="relative w-32 h-20">
-              <Image
-                src={item.src}
-                alt={item.alt}
-                fill
-                className="object-contain"
-              />
-            </div>
-
-            <h3 className="mt-4 text-center font-Jakarta font-semibold text-primary text-sm md:text-base">
-              {item.title}
-            </h3>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-}
-
       if (section.type === "list") {
         return (
           <ul

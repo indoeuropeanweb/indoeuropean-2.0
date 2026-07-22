@@ -7,7 +7,8 @@ import { FiExternalLink } from "react-icons/fi";
 import Reviews from "./components/Reviews";
 import Heading from "./components/Heading";
 import CourseCard from "./components/CourseCard";
-import { services, flags, universitiesLogos, blogs } from "@/public/data/homedata";
+import { services, flags, universitiesLogos } from "@/public/data/homedata";
+import { blogs } from "@/public/data/blogs";
 
 
 export default function Home() {
@@ -132,11 +133,11 @@ export default function Home() {
       </h3>
 
       <p className="mt-4 flex-1 font-manrope leading-7 text-gray-600">
-        {blogs[0].description}
+        {blogs[0].description.slice(0, 310)}{"..."}
       </p>
 
       <Link
-        href={blogs[0].slug}
+        href={`/blogs/${blogs[0].slug}`}
         className="mt-4 inline-flex w-fit items-center rounded-md bg-primary px-5 py-3 text-white transition hover:bg-primary/90"
       >
         Read More
@@ -145,7 +146,7 @@ export default function Home() {
     </div>
   </div>
   <div className="flex h-full flex-col gap-6">
-    {blogs.slice(1).map((blog) => (
+    {blogs.slice(1, 3).map((blog) => (
       <div
         key={blog.id}
         className="flex flex-1 overflow-hidden rounded-xl bg-white shadow-md"
@@ -169,12 +170,12 @@ export default function Home() {
             </h4>
 
             <p className="mt-3 text-sm leading-6 text-gray-600 line-clamp-3">
-              {blog.description}
+              {blog.description.slice(0, 150)}{"..."}
             </p>
           </div>
 
           <Link
-            href={blog.slug}
+            href={`/blogs/${blog.slug}`}
             className="mt-4 inline-flex items-center font-semibold text-primary transition hover:text-secondary"
           >
             Read More
