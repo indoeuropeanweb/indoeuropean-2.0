@@ -20,7 +20,10 @@ import {
   FaDna,
   FaServer,
   FaHouseMedical,
-  FaSeedling
+  FaSeedling,
+  FaBullhorn,
+  FaCompassDrafting,
+  FaPills
 } from "react-icons/fa6";
 
 
@@ -1890,7 +1893,7 @@ export const destinations = [
         },
         {
             id: 6,
-            src: "/images/destinations/new-zealand/universities/otagp.png",
+            src: "/images/destinations/new-zealand/universities/otago.png",
             alt: "University of Otago",
             title: "University of Otago"
         },
@@ -2046,6 +2049,1248 @@ export const destinations = [
         type: "p",
         content:
         "We focus on helping every student find the best-fit university based on their academic profile, career aspirations, and budget, ensuring a smooth and successful journey to Study in New Zealand."
+    },
+    ]
+    },
+    {
+    id: 6,
+    heading: "Study in Singapore",
+    title: "Study in Singapore – Where Global Education Meets Limitless Opportunities",
+    slug: "study-in-singapore",
+    metaTitle:
+        "Study in Singapore | Indo European Study Abroad Consultancy",
+    metaDescription:
+        "Study in Singapore is a Study abroad destination for students in india, with many benefits explore all here",
+    image:
+        "/images/destinations/singapore/singapore-1.webp",
+    cover: "/images/destinations/singapore/cover/singapore.webp",
+    keywords: [
+        "study in Singapore",
+        "study abroad Singapore",
+        "Singapore universities",
+        "Singapore for international students",
+        "study in Singapore 2026",
+        "affordable education in Singapore",
+        "English taught programs Singapore",
+        "best countries to study in Singapore",
+        "Singapore scholarships",
+        "student life in Singapore",
+        "higher education Singapore",
+        "Singapore education",
+        "career opportunities in Singapore",
+        "study abroad consultants",
+        "international students Singapore"
+    ],
+    category: "country",
+    sections: [
+    {
+        type: "p",
+        content:
+        "Singapore has become one of the world's most preferred destinations for international students seeking quality education, global exposure, and outstanding career opportunities. Known for its internationally ranked universities, modern infrastructure, and strong economy, Singapore offers the perfect balance of academic excellence and industry-focused learning. For Indian students, it provides globally recognised qualifications, a safe multicultural environment, and access to one of Asia's fastest-growing business hubs."
+    },
+    {
+        type: "p",
+        content: "Choosing to "
+    },
+    {
+        type: "p",
+        content: [
+        {
+            type: "text",
+            text: "Study in Singapore "
+        },
+        {
+            type: "link",
+            text: "Study in Singapore",
+            href: "/destinations/study-in-singapore"
+        },
+        {
+            type: "text",
+            text: " means learning in an education system that emphasises innovation, research, and practical knowledge. With degrees recognised worldwide, graduates from Singaporean universities are highly valued by employers across industries, opening doors to successful international careers."
+        }
+        ]
+    },
+    {
+        type: "p",
+        content: [
+        {
+         type: "p",
+         text: "At "
+        },    
+        {
+            type: "link",
+            text: "Indo European",
+            href: "/"
+        },
+        {
+            type: "text",
+            text: ", we help students choose the right university, course, and study pathway while providing complete support from admission to Singapore student visa approval."
+        }
+        ]
+    },
+
+    {
+        type: "h2",
+        content: "What Makes Singapore an Excellent Study Destination?"
+    },
+    {
+        type: "p",
+        content:
+        "Singapore's education system is recognised globally for its academic excellence, research-driven teaching, and strong industry connections. Universities focus on developing practical skills, critical thinking, and leadership abilities, ensuring students are prepared for today's competitive job market."
+    },
+    {
+        type: "p",
+        content: "Some of the biggest advantages include:"
+    },
+    {
+        type: "list",
+        items: [
+        "Globally recognised degrees",
+        "High academic standards",
+        "English-taught programmes",
+        "Research-led education",
+        "Industry-focused curriculum",
+        "Safe and multicultural environment",
+        "Opportunities to work while studying",
+        "Strong graduate employability",
+        "Modern campuses and advanced facilities",
+        "Gateway to global career opportunities in Asia"
+        ],
+        imgUrl: "/images/destinations/singapore/singapore-1.webp",
+        alt: "What Makes Singapore an Excellent Study Destination?"
+    },
+    {
+        type: "p",
+        content:
+        "Studying in Singapore allows students to receive a world-class education while building valuable international experience in one of the world's leading financial and technology hubs."
+    },
+
+    {
+        type: "h2",
+        content: "Find the Right Course for Your Future"
+    },
+    {
+        type: "p",
+        content:
+        "Whether you want to build a career in business, technology, engineering, healthcare, or hospitality, Singapore offers a wide range of programmes designed to meet global industry demands."
+    },
+    {
+        type: "p",
+        content: "Popular study options include:"
+    },
+    {
+        type: "course-list",
+        items: [
+            {
+                id: 1,
+                type: "course",
+                icon: FaBriefcase,
+                text: "Business & Management"
+            },
+            {
+                id: 2,
+                type: "course",
+                icon: FaLaptopCode,
+                text: "Computer Science"
+            },
+            {
+                id: 3,
+                type: "course",
+                icon: FaBrain,
+                text: "Artificial Intelligence"
+            },
+            {
+                id: 4,
+                type: "course",
+                icon: FaGear,
+                text: "Engineering"
+            },
+            {
+                id: 5,
+                type: "course",
+                icon: FaChartLine,
+                text: "Data Science"
+            },
+            {
+                id: 6,
+                type: "course",
+                icon: FaHouseMedical,
+                text: "Healthcare & Nursing"
+            },
+            {
+                id: 7,
+                type: "course",
+                icon: FaHotel,
+                text: "Hospitality & Tourism"
+            },
+            {
+                id: 8,
+                type: "course",
+                icon: FaSeedling,
+                text: "Agriculture"
+            },
+            {
+                id: 9,
+                type: "course",
+                icon: FaCalculator,
+                text: "Finance & Accounting"
+            },
+            {
+                id: 10,
+                type: "course",
+                icon: FaLeaf,
+                text: "Environmental Science"
+            },
+            {
+                id: 11,
+                type: "course",
+                icon: FaGraduationCap,
+                text: "Education"
+            }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Many courses include internships, industry projects, and practical learning experiences that help students develop the skills employers value."
+    },
+    {
+        type: "h2",
+        content: "Universities That Inspire Future Leaders"
+    },
+    {
+        type: "p",
+        content:
+        "Singapore is home to world-renowned universities that consistently rank among the best globally for education, research, and innovation."
+    },
+    {
+        type: "p",
+        content: "Popular universities include:"
+    },
+    {
+        type: "university-list",
+        items: [
+        {
+            id: 1,
+            src: "/images/destinations/singapore/universities/curtin.png",
+            alt: "Curtin University",
+            title: "Curtin University"
+        },
+        {
+            id: 2,
+            src: "/images/destinations/singapore/universities/eaim.png",
+            alt: "East Asia Insititue of Management",
+            title: "East Asia Insititue of Management"
+        },
+        {
+            id: 3,
+            src: "/images/destinations/singapore/universities/jcu.png",
+            alt: "James Cook University",
+            title: "James Cook University"
+        },
+        {
+            id: 4,
+            src: "/images/destinations/singapore/universities/kaplan.png",
+            alt: "Kaplan University",
+            title: "Kaplan University"
+        },
+        {
+            id: 5,
+            src: "/images/destinations/singapore/universities/nanyang.png",
+            alt: "Nanyang Technoligical University",
+            title: "Nanyang Technoligical University"
+        },
+        {
+            id: 6,
+            src: "/images/destinations/singapore/universities/nus.png",
+            alt: "National University of Singapore",
+            title: "National University of Singapore"
+        },
+        {
+            id: 7,
+            src: "/images/destinations/singapore/universities/smu.png",
+            alt: "Singapore Management University",
+            title: "Singapore Management University"
+        },
+        {
+            id: 8,
+            src: "/images/destinations/singapore/universities/suss.png",
+            alt: "Singapore University of Social Science",
+            title: "Singapore University of Social Science"
+        },
+        {
+            id: 9,
+            src: "/images/destinations/singapore/universities/uas.png",
+            alt: "University of the Arts Singapore",
+            title: "University of the Arts Singapore"
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "These institutions offer excellent teaching, modern research facilities, strong industry partnerships, and globally recognised qualifications."
+    },
+
+    {
+        type: "h2",
+        content: "Understanding the Cost of Studying"
+    },
+    {
+        type: "p",
+        content: [
+        {
+            type: "text",
+            text: "The cost of "
+        },
+        {
+            type: "link",
+            text: "Study in Singapore",
+            href: "/destinations/study-in-singapore"
+        },
+        {
+            type: "text",
+            text: " depends on the university, programme, and level of study you choose. Tuition fees generally range from "
+        },
+        {
+            type: "bold",
+            text: "SGD 15,000 to SGD 40,000 per year,"
+        },
+        {
+            type: "text",
+            text: " while specialised programmes such as MBA or Medicine may have higher tuition fees. "
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Students should also budget for accommodation, food, transportation, health insurance, and other personal expenses before beginning their studies."
+    },
+
+    {
+        type: "h2",
+        content: "Singapore Intakes"
+    },
+    {
+        type: "p",
+        content:
+        "Most universities and institutions offer multiple admission opportunities throughout the year."
+    },
+    {
+        type: "intake-list",
+        items: [
+        {
+            id: 1,
+            title: "August Intake",
+            description: "The primary intake with the maximum number of courses and programmes.",
+            icon: FaCalendarDays
+        },
+        {
+            id: 2,
+            title: "January Intake",
+            description: "Available at many universities and private institutions for selected courses.",
+            icon: FaGraduationCap
+        }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Some private institutions may also offer additional intakes depending on the programme."
+    },
+
+    {
+       type: "p",
+       content: "Applying early helps students secure admission, complete documentation, and finish the visa process without delays."
+    },
+
+    {
+        type: "h2",
+        content: "Singapore Student Visa"
+    },
+    {
+        type: "p",
+        content:
+        "International students need to apply for a Singapore Student Pass after receiving confirmation of admission from their chosen educational institution."
+    },
+    {
+        type: "p",
+        content:
+        "The application process generally includes preparing academic documents, passport, admission letter, proof of financial support, and other supporting documents required by the Singapore authorities."
+    },
+    {
+        type: "p",
+        content:
+        "At Indo European, we provide complete guidance to ensure your application is accurate, organised, and submitted with confidence."
+    },
+
+    {
+        type: "h2",
+        content: "Why Students Choose Indo European"
+    },
+    {
+        type: "p",
+        content:
+        "Studying abroad is an important decision, and choosing the right consultant can make the process simple and stress-free. Our experienced counsellors provide personalised guidance throughout your study abroad journey, helping you choose the best university based on your academic profile, career goals, and budget."
+    },
+    {
+        type: "p",
+        content: "Our Services"
+    },
+    {
+        type: "list",
+        items: [
+        "Free career counselling",
+        "University shortlisting",
+        "Admission application assistance",
+        "Singapore student visa guidance",
+        "Scholarship assistance",
+        "SOP and documentation support",
+        "Education loan guidance",
+        "Pre-departure assistance"
+        ],
+        imgUrl: "/images/destinations/singapore/singapore-2.webp",
+        alt: "Our Services"
+    },
+    {
+        type: "p",
+        content:
+        "We are committed to helping every student achieve their dream of studying abroad with expert guidance and end-to-end support."
+    },
+    ]
+    },
+    {
+    id: 7,
+    heading: "Study in USA",
+    title: "Your Journey to Global Excellence Starts with Study in USA",
+    slug: "study-in-usa",
+    metaTitle:
+        "Study in USA | Indo European Study Abroad Consultancy",
+    metaDescription:
+        "Study in USA is a Study abroad destination for students in india, with many benefits explore all here",
+    image:
+        "/images/destinations/usa/usa-1.webp",
+    cover: "/images/destinations/usa/cover/usa.webp",
+    keywords: [
+        "study in USA",
+        "study abroad USA",
+        "USA universities",
+        "USA for international students",
+        "study in USA 2026",
+        "affordable education in USA",
+        "English taught programs USA",
+        "best countries to study in USA",
+        "USA scholarships",
+        "student life in USA",
+        "higher education USA",
+        "USA education",
+        "career opportunities in USA",
+        "study abroad consultants",
+        "international students USA"
+    ],
+    category: "country",
+    sections: [
+    {
+        type: "p",
+        content:
+        "The United States has remained one of the world&#39;s most preferred study destinations, offering unmatched academic excellence, cutting-edge research, and endless career opportunities. Home to globally ranked universities, diverse study programmes, and an innovation-driven education system, the USA empowers students to achieve their academic and professional ambitions. For Indian students, choosing to study in the USA means gaining access to internationally recognised degrees, world-class faculty, and a multicultural learning environment that prepares them for success anywhere in the world."
+    },
+    {
+        type: "p",
+        content: "Pursuing "
+    },
+    {
+        type: "p",
+        content: [
+        {
+            type: "text",
+            text: "Study in USA "
+        },
+        {
+            type: "link",
+            text: "Study in USA",
+            href: "/destinations/study-in-usa"
+        },
+        {
+            type: "text",
+            text: " is more than earning a degree—it&#39;s an opportunity to build practical skills, expand your global network, and experience a dynamic education system that values creativity, leadership, and critical thinking. Whether you&#39;re planning to study engineering, business, healthcare, computer science, or emerging technologies, American universities offer flexible learning pathways designed to match your career goals."
+        },
+        ]
+    },
+    {
+        type: "p",
+        content: [
+        {
+         type: "p",
+         text: "At "
+        },    
+        {
+            type: "link",
+            text: "Indo European",
+            href: "/"
+        },
+        {
+            type: "text",
+            text: ", we help students choose the right university, programme, and study pathway while providing complete support from admission to USA student visa approval, ensuring a smooth and successful study abroad journey."
+        }
+        ]
+    },
+
+    {
+        type: "h2",
+        content: "What Makes the USA an Excellent Study Destination?"
+    },
+    {
+        type: "p",
+        content:
+        "The USA is recognised worldwide for its high academic standards, advanced research facilities, and industry-focused education. Universities encourage innovation, practical learning, and independent thinking, helping students develop the knowledge and skills required to succeed in today's global workforce."
+    },
+    {
+        type: "p",
+        content: "Some of the biggest advantages include:"
+    },
+    {
+        type: "list",
+        items: [
+        "Globally recognised degrees",
+        "Wide range of universities and study programmes",
+        "Flexible education system",
+        "Research and innovation-driven learning",
+        "World-class faculty and facilities",
+        "Multicultural student community",
+        "Opportunities to work while studying",
+        "Excellent internship and networking opportunities",
+        "Strong graduate employability",
+        "Access to global career opportunities",
+        ],
+        imgUrl: "/images/destinations/usa/usa-1.webp",
+        alt: "What Makes the USA an Excellent Study Destination?"
+    },
+    {
+        type: "p",
+        content:
+        "Studying in the USA allows students to receive a quality education while gaining valuable international exposure, practical experience, and skills that are highly valued by employers worldwide."
+    },
+
+    {
+        type: "h2",
+        content: "Find the Right Course for Your Future"
+    },
+    {
+        type: "p",
+        content:
+        "Whether your goal is to become a business leader, software engineer, healthcare professional, scientist, or entrepreneur, American universities offer thousands of programmes tailored to meet the demands of today&#39;s rapidly evolving industries."
+    },
+    {
+        type: "p",
+        content: "Popular study options include:"
+    },
+    {
+        type: "course-list",
+        items: [
+            {
+                id: 1,
+                type: "course",
+                icon: FaBriefcase,
+                text: "Business & Management"
+            },
+            {
+                id: 2,
+                type: "course",
+                icon: FaLaptopCode,
+                text: "Computer Science"
+            },
+            {
+                id: 3,
+                type: "course",
+                icon: FaBrain,
+                text: "Artificial Intelligence"
+            },
+            {
+                id: 4,
+                type: "course",
+                icon: FaChartLine,
+                text: "Data Science"
+            },
+            {
+                id: 5,
+                type: "course",
+                icon: FaGear,
+                text: "Engineering"
+            },
+            {
+                id: 6,
+                type: "course",
+                icon: FaCalculator,
+                text: "Finance & Accounting"
+            },
+            {
+                id: 7,
+                type: "course",
+                icon: FaHouseMedical,
+                text: "Healthcare & Nursing"
+            },
+            {
+                id: 8,
+                type: "course",
+                icon: FaServer,
+                text: "Information Technology"
+            },
+            {
+                id: 9,
+                type: "course",
+                icon: FaShieldHalved,
+                text: "Cyber Security"
+            },
+            {
+                id: 10,
+                type: "course",
+                icon: FaPhotoFilm,
+                text: "Media & Communication"
+            },
+            {
+                id: 11,
+                type: "course",
+                icon: FaCompassDrafting,
+                text: "Architecture"
+            },
+            {
+                id: 12,
+                type: "course",
+                icon: FaScaleBalanced,
+                text: "Law"
+            }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Many programmes include internships, research projects, laboratory work, and industry collaborations that prepare students for successful careers after graduation."
+    },
+    {
+        type: "h2",
+        content: "Universities That Inspire Global Leaders"
+    },
+    {
+        type: "p",
+        content:
+        "The USA is home to many of the world&#39;s highest-ranked universities, recognised for academic excellence, groundbreaking research, and innovation. These institutions have produced Nobel laureates, entrepreneurs, scientists, and global business leaders."
+    },
+    {
+        type: "p",
+        content: "Popular universities include:"
+    },
+    {
+        type: "university-list",
+        items: [
+        {
+            id: 1,
+            src: "/images/destinations/usa/universities/avila.png",
+            alt: "Avila University",
+            title: "Avila University"
+        },
+        {
+            id: 2,
+            src: "/images/destinations/usa/universities/California-L.png",
+            alt: "Californian Luthern University",
+            title: "Californian Luthern University"
+        },
+        {
+            id: 3,
+            src: "/images/destinations/usa/universities/California-S.png",
+            alt: "California State of University",
+            title: "California State of University"
+        },
+        {
+            id: 4,
+            src: "/images/destinations/usa/universities/Kennesaw-State.png",
+            alt: "Kennesaw State University",
+            title: "Kennesaw State University"
+        },
+        {
+            id: 5,
+            src: "/images/destinations/usa/universities/kent-state.png",
+            alt: "Kent State University",
+            title: "Kent State University"
+        },
+        {
+            id: 6,
+            src: "/images/destinations/usa/universities/marquette.png",
+            alt: "Marquette University",
+            title: "Marquette University"
+        },
+        {
+            id: 7,
+            src: "/images/destinations/usa/universities/New-Jersey-Institute.png",
+            alt: "New Jersey Institute",
+            title: "New Jersey Institute"
+        },
+        {
+            id: 8,
+            src: "/images/destinations/usa/universities/Sacred.png",
+            alt: "Sacred Heart University",
+            title: "Sacred Heart University"
+        },
+        {
+            id: 9,
+            src: "/images/destinations/usa/universities/Webster.png",
+            alt: "Webster University",
+            title: "Webster University"
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "These universities provide outstanding academic resources, experienced faculty, modern campuses, and extensive career support to help students achieve their goals."
+    },
+
+    {
+        type: "h2",
+        content: "Understanding the Cost of Studying"
+    },
+    {
+        type: "p",
+        content: [
+        {
+            type: "text",
+            text: "The cost of "
+        },
+        {
+            type: "link",
+            text: "Study in the USA",
+            href: "/destinations/study-in-usa"
+        },
+        {
+            type: "text",
+            text: " varies depending on the university, programme, and location. Tuition fees generally range from "
+        },
+        {
+            type: "bold",
+            text: "USD 15,000 to USD 50,000 per year,"
+        },
+        {
+            type: "text",
+            text: " while specialised programmes such as MBA, Medicine, and Law may have higher tuition fees."
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Students should also plan for accommodation, food, transportation, health insurance, and personal expenses. Careful financial planning and scholarship opportunities can help make studying in the USA more affordable."
+    },
+
+    {
+        type: "h2",
+        content: "USA Intakes"
+    },
+    {
+        type: "p",
+        content:
+        "Most universities in the USA offer multiple admission opportunities throughout the year."
+    },
+    {
+        type: "intake-list",
+        items: [
+        {
+            id: 1,
+            title: "Fall Intake (August/September)",
+            description: "The primary intake with the largest number of courses, scholarships, and university options.",
+            icon: FaCalendarDays
+        },
+        {
+            id: 2,
+            title: "Spring Intake (January)",
+            description: "Available for many undergraduate and postgraduate programmes.",
+            icon: FaGraduationCap
+        },
+        {
+            id: 3, 
+            title: "Summer Intake (May)",
+            description: "Offered by selected universities for specific courses.",
+            icon: FaSchool
+        }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Applying early improves your chances of securing admission, scholarships, and completing the visa process on time."
+    },
+    {
+        type: "h2",
+        content: "USA Student Visa"
+    },
+    {
+        type: "p",
+        content:
+        "International students planning to study in the USA generally require an F-1 Student Visa after receiving admission from a recognised American university."
+    },
+    {
+        type: "p",
+        content:
+        "The application process includes preparing academic documents, financial proof, passport, English language proficiency scores, and other supporting documents, followed by a visa interview."
+    },
+    {
+        type: "p",
+        content:
+        "At Indo European, we provide complete guidance throughout the visa process, helping students prepare accurate documentation and confidently complete every step of their application."
+    },
+
+    {
+        type: "h2",
+        content: "Your USA Education Journey Starts with Indo European"
+    },
+    {
+        type: "p",
+        content:
+        "Studying in the USA is an exciting opportunity, but navigating university admissions, documentation, and the visa process can be challenging without the right support. At Indo European, we make your journey simple by providing expert guidance tailored to your academic background, career aspirations, and financial goals. Our experienced counsellors work closely with you to help you choose the right university and course while ensuring every step of your application is handled with care and accuracy."
+    },
+    {
+        type: "p",
+        content: "Our Services"
+    },
+    {
+        type: "list",
+        items: [
+        "Free career counselling",
+        "University shortlisting",
+        "Admission application assistance",
+        "Singapore student visa guidance",
+        "Scholarship assistance",
+        "SOP and documentation support",
+        "Education loan guidance",
+        "Pre-departure assistance"
+        ],
+        imgUrl: "/images/destinations/usa/usa-2.webp",
+        alt: "Our Services"
+    },
+    {
+        type: "p",
+        content:
+        "From your first counselling session to your departure for the USA, we&#39;re committed to providing personalised support that helps you begin your international education journey with confidence."
+    },
+    ]
+    },
+    {
+    id: 8,
+    heading: "Study in Ireland",
+    title: "Earn a Globally Recognised Degree in Europe's Fastest-Growing Education Hub",
+    slug: "study-in-ireland",
+    metaTitle:
+        "Study in Ireland | Indo European Study Abroad Consultancy",
+    metaDescription:
+        "Study in Ireland is a Study abroad destination for students in india, with many benefits explore all here",
+    image:
+        "/images/destinations/ireland/ireland-1.webp",
+    cover: "/images/destinations/ireland/cover/ireland.webp",
+    keywords: [
+        "study in Ireland",
+        "study abroad Ireland",
+        "Ireland universities",
+        "Ireland for international students",
+        "study in Ireland 2026",
+        "affordable education in Ireland",
+        "English taught programs Ireland",
+        "best countries to study in Ireland",
+        "Ireland scholarships",
+        "student life in Ireland",
+        "higher education Ireland",
+        "Ireland education",
+        "career opportunities in Ireland",
+        "study abroad consultants",
+        "international students Ireland"
+    ],
+    category: "country",
+    sections: [
+    {
+        type: "p",
+        content:
+        "Ireland has become one of Europe's most popular destinations for international students seeking world-class education, cutting-edge research, and exceptional career opportunities. Home to globally ranked universities and the European headquarters of many multinational companies, Ireland offers the perfect combination of academic excellence, innovation, and global employability. For Indian students, it provides internationally recognised qualifications, a welcoming environment, and excellent post-study work opportunities."
+    },
+    {
+        type: "p",
+        content: "Choosing to "
+    },
+    {
+        type: "p",
+        content: [
+        {
+            type: "text",
+            text: "Study in Ireland "
+        },
+        {
+            type: "link",
+            text: "Study in Ireland",
+            href: "/destinations/study-in-ireland"
+        },
+        {
+            type: "text",
+            text: " means learning in an education system that encourages innovation, critical thinking, and practical skills. With degrees recognised worldwide, graduates from Irish universities are highly valued by employers across industries such as technology, healthcare, business, engineering, and finance."
+        },
+        ]
+    },
+    {
+        type: "p",
+        content: [
+        {
+         type: "p",
+         text: "At "
+        },    
+        {
+            type: "link",
+            text: "Indo European",
+            href: "/"
+        },
+        {
+            type: "text",
+            text: ", we help students find the right university, course, and study pathway while providing complete support from admission to Ireland student visa approval."
+        }
+        ]
+    },
+
+    {
+        type: "h2",
+        content: "What Makes Ireland an Excellent Study Destination?"
+    },
+    {
+        type: "p",
+        content:
+        "Ireland's education system is internationally recognised for its academic quality, research excellence, and close collaboration with global industries. Students benefit from a modern learning environment that combines classroom knowledge with practical experience."
+    },
+    {
+        type: "p",
+        content: "Some of the biggest advantages include:"
+    },
+    {
+        type: "list",
+        items: [
+        "Globally recognised degrees",
+        "High-quality education system",
+        "English-speaking learning environment",
+        "Research-driven teaching",
+        "Strong industry connections",
+        "Opportunities to work while studying",
+        "Excellent post-study work opportunitiesopportunities",
+        "Safe, friendly, and multicultural society",
+        "Strong graduate employability",
+        "Access to leading global employers"
+        ],
+        imgUrl: "/images/destinations/ireland/ireland-1.webp",
+        alt: "What Makes the USA an Excellent Study Destination?"
+    },
+    {
+        type: "p",
+        content:
+        "Studying in Ireland allows students to gain internationally recognised qualifications while building the skills needed for successful global careers."
+    },
+
+    {
+        type: "h2",
+        content: "Find the Right Course for Your Future"
+    },
+    {
+        type: "p",
+        content:
+        "Whether your goal is to work in technology, healthcare, business, engineering, or life sciences, Irish universities offer a wide range of programmes designed to meet global industry demands."
+    },
+    {
+        type: "p",
+        content: "Popular study options include:"
+    },
+    {
+        type: "course-list",
+        items: [
+            {
+                id: 1,
+                type: "course",
+                icon: FaBriefcase,
+                text: "Business & Management"
+            },
+            {
+                id: 2,
+                type: "course",
+                icon: FaLaptopCode,
+                text: "Computer Science"
+            },
+            {
+                id: 3,
+                type: "course",
+                icon: FaBrain,
+                text: "Artificial Intelligence"
+            },
+            {
+                id: 4,
+                type: "course",
+                icon: FaChartLine,
+                text: "Data Science"
+            },
+            {
+                id: 5,
+                type: "course",
+                icon: FaShieldHalved,
+                text: "Cyber Security"
+            },
+            {
+                id: 6,
+                type: "course",
+                icon: FaGear,
+                text: "Engineering"
+            },
+            {
+                id: 7,
+                type: "course",
+                icon: FaCalculator,
+                text: "Finance & Accounting"
+            },
+            {
+                id: 8,
+                type: "course",
+                icon: FaHouseMedical,
+                text: "Healthcare & Nursing"
+            },
+            {
+                id: 9,
+                type: "course",
+                icon: FaPills,
+                text: "Pharmaceutical Sciences"
+            },
+            {
+                id: 10,
+                type: "course",
+                icon: FaDna,
+                text: "Biotechnology"
+            },
+            {
+                id: 11,
+                type: "course",
+                icon: FaBullhorn,
+                text: "Digital Marketing"
+            },
+            {
+                id: 12,
+                type: "course",
+                icon: FaScaleBalanced,
+                text: "Law"
+            }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Many programmes include internships, research projects, industry collaborations, and practical learning experiences that prepare students for successful careers."
+    },
+    {
+        type: "h2",
+        content: "Universities That Inspire Innovation and Success"
+    },
+    {
+        type: "p",
+        content:
+        "Ireland is home to internationally respected universities that consistently rank among the best in Europe for teaching, research, and graduate employability."
+    },
+    {
+        type: "p",
+        content: "Popular universities include:"
+    },
+    {
+        type: "university-list",
+        items: [
+        {
+            id: 1,
+            src: "/images/destinations/ireland/universities/tcd.png",
+            alt: "Trinity College Dublin",
+            title: "Trinity College Dublin"
+        },
+        {
+            id: 2,
+            src: "/images/destinations/ireland/universities/u5.png",
+            alt: "University College Cork",
+            title: "University College Cork"
+        },
+        {
+            id: 3,
+            src: "/images/destinations/ireland/universities/u6.png",
+            alt: "University of Galway",
+            title: "University of Galway"
+        },
+        {
+            id: 4,
+            src: "/images/destinations/ireland/universities/u7.png",
+            alt: "University of Limerick",
+            title: "University of Limerick"
+        },
+        {
+            id: 5,
+            src: "/images/destinations/ireland/universities/u8.png",
+            alt: "Maynooth University",
+            title: "Maynooth University"
+        },
+        {
+            id: 6,
+            src: "/images/destinations/ireland/universities/u12.png",
+            alt: "Munster Technological University",
+            title: "Munster Technological University"
+        },
+        {
+            id: 7,
+            src: "/images/destinations/ireland/universities/u13.png",
+            alt: "National College of Ireland",
+            title: "National College of Ireland"
+        },
+        {
+            id: 8,
+            src: "/images/destinations/ireland/universities/u14.png",
+            alt: "Dublin Business School",
+            title: "Dublin Business School"
+        },
+        {
+            id: 9,
+            src: "/images/destinations/ireland/universities/u15.png",
+            alt: "Griffith College",
+            title: "Griffith College"
+        },
+        {
+            id: 10,
+            src: "/images/destinations/ireland/universities/ucc.png",
+            alt: "University College Cork",
+            title: "University College Cork"
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "These institutions offer world-class education, advanced research facilities, experienced faculty, and strong industry partnerships."
+    },
+
+    {
+        type: "h2",
+        content: "Understanding the Cost of Studying"
+    },
+    {
+        type: "p",
+        content: [
+        {
+            type: "text",
+            text: "The cost of "
+        },
+        {
+            type: "link",
+            text: "Study in Ireland",
+            href: "/destinations/study-in-ireland"
+        },
+        {
+            type: "text",
+            text: " depends on the university, programme, and city you choose. Tuition fees generally range from "
+        },
+        {
+            type: "bold",
+            text: "EUR 10,000 to EUR 25,000 per year,"
+        },
+        {
+            type: "text",
+            text: " while specialised programmes such as MBA or Medicine may have higher tuition fees."
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Students should also budget for accommodation, food, transportation, health insurance, and other personal expenses before beginning their studies."
+    },
+
+    {
+        type: "h2",
+        content: "Ireland Intakes"
+    },
+    {
+        type: "p",
+        content:
+        "Most universities offer multiple admission opportunities throughout the year."
+    },
+    {
+        type: "intake-list",
+        items: [
+        {
+            id: 1,
+            title: "September Intake",
+            description: "The primary intake with the largest number of courses and scholarship opportunities.",
+            icon: FaCalendarDays
+        },
+        {
+            id: 2,
+            title: "January Intake",
+            description: "Offered by many universities for selected undergraduate and postgraduate programmes.",
+            icon: FaGraduationCap
+        },
+        // {
+        //     id: 3, 
+        //     title: "Summer Intake (May)",
+        //     description: "Offered by selected universities for specific courses.",
+        //     icon: FaSchool
+        // }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Applying early allows students to secure admission to their preferred university and complete the visa process without delays."
+    },
+    {
+        type: "h2",
+        content: "Ireland Student Visa"
+    },
+    {
+        type: "p",
+        content:
+        "International students need to apply for an Ireland Student Visa after receiving an admission offer from their chosen university."
+    },
+    {
+        type: "p",
+        content:
+        "The application process generally includes preparing academic documents, proof of financial support, passport, English language test scores, health insurance, and other supporting documents."
+    },
+    {
+        type: "p",
+        content:
+        "At Indo European, we provide complete guidance to ensure your application is accurate, organised, and submitted with confidence."
+    },
+
+    {
+        type: "h2",
+        content: "Why Students Choose Indo European"
+    },
+    {
+        type: "p",
+        content:
+        "Studying abroad is a major decision, and choosing the right consultant can make the journey much easier. Our experienced counsellors provide personalised guidance at every stage, helping students make informed academic and career decisions."
+    },
+    {
+        type: "p",
+        content: "Our Services"
+    },
+    {
+        type: "list",
+        items: [
+        "Free career counselling",
+        "University shortlisting",
+        "Admission application assistance",
+        "Ireland student visa guidance",
+        "Scholarship assistance",
+        "SOP and documentation support",
+        "Education loan guidance",
+        "Pre-departure assistance"
+        ],
+        imgUrl: "/images/destinations/ireland/ireland-2.webp",
+        alt: "Our Services"
+    },
+    {
+        type: "p",
+        content:
+        "We focus on helping every student find the best-fit university based on their academic profile, career goals, and budget."
     },
     ]
     },
