@@ -23,7 +23,17 @@ import {
   FaSeedling,
   FaBullhorn,
   FaCompassDrafting,
-  FaPills
+  FaPills,
+  FaDesktop,
+  FaGears,
+  FaSolarPanel,
+  FaGamepad,
+  FaHospital,
+  FaGlobe,
+  FaCarSide,
+  FaBolt,
+  FaTree,
+  FaUserDoctor
 } from "react-icons/fa6";
 
 
@@ -3292,6 +3302,2437 @@ export const destinations = [
         content:
         "We focus on helping every student find the best-fit university based on their academic profile, career goals, and budget."
     },
+    ]
+    },
+    {
+    id: 9,
+    heading: "Study in Finland",
+    title: "Discover a Future-Ready Education in the World's Happiest Country",
+    slug: "study-in-finland",
+    metaTitle:
+        "Study in Finland | Indo European Study Abroad Consultancy",
+    metaDescription:
+        "Study in Finland is a Study abroad destination for students in india, with many benefits explore all here",
+    image:
+        "/images/destinations/finland/finland-1.webp",
+    cover: "/images/destinations/finland/cover/finland.webp",
+    keywords: [
+        "study in Finland",
+        "study abroad Finland",
+        "Finland universities",
+        "Finland for international students",
+        "study in Finland 2026",
+        "affordable education in Finland",
+        "English taught programs Finland",
+        "best countries to study in Finland",
+        "Finland scholarships",
+        "student life in Finland",
+        "higher education Finland",
+        "Ireland education",
+        "career opportunities in Ireland",
+        "study abroad consultants",
+        "international students Finland"
+    ],
+    category: "country",
+    sections: [
+    {
+        type: "p",
+        content:
+        "Finland has earned a global reputation for offering one of the world's most innovative and student-focused education systems. Known for academic excellence, cutting-edge research, and a strong emphasis on creativity and practical learning, Finland has become a preferred destination for students seeking internationally recognised qualifications. For Indian students, studying in Finland offers the perfect blend of quality education, affordable living, a safe environment, and excellent career opportunities."
+    },
+    {
+        type: "p",
+        content: "Choosing to "
+    },
+    {
+        type: "p",
+        content: [
+        {
+            type: "text",
+            text: "Study in Finland "
+        },
+        {
+            type: "link",
+            text: "Study in Ireland",
+            href: "/destinations/study-in-finland"
+        },
+        {
+            type: "text",
+            text: " means gaining more than just a degree. It means becoming part of an education system that encourages independent thinking, problem-solving, and innovation. Finnish universities work closely with industries, allowing students to develop practical skills that are highly valued in the global job market."
+        },
+        ]
+    },
+    {
+        type: "p",
+        content: [
+        {
+         type: "p",
+         text: "At "
+        },    
+        {
+            type: "link",
+            text: "Indo European",
+            href: "/"
+        },
+        {
+            type: "text",
+            text: ", we help students choose the right university, course, and study pathway while providing complete support from admission to Finland student visa approval."
+        }
+        ]
+    },
+
+    {
+        type: "h2",
+        content: "Why Finland is One of Europe's Best Study Destinations"
+    },
+    {
+        type: "p",
+        content:
+        "Finland is recognised worldwide for delivering high-quality education through modern teaching methods and research-driven learning. Universities focus on interactive classrooms, practical projects, and innovation, ensuring students graduate with the knowledge and skills needed for successful international careers."
+    },
+    {
+        type: "p",
+        content: "Some of the biggest advantages include:"
+    },
+    {
+        type: "list",
+        items: [
+        "Globally recognised degrees",
+        "Innovative education system",
+        "English-taught programmes",
+        "Strong focus on research and practical learningons",
+        "Safe and student-friendly environment",
+        "High quality of life",
+        "Opportunities to work while studying",
+        "Excellent post-study work opportunities",
+        "Modern campuses with advanced facilities",
+        "Growing international career prospects"
+        ],
+        imgUrl: "/images/destinations/finland/finland-1.webp",
+        alt: "What Makes the USA an Excellent Study Destination?"
+    },
+    {
+        type: "p",
+        content:
+        "Studying in Finland gives students access to world-class education while experiencing one of the safest and most progressive countries in the world."
+    },
+
+    {
+        type: "h2",
+        content: "Choose a Programme That Matches Your Career Aspirations"
+    },
+    {
+        type: "p",
+        content:
+        "Finnish universities offer a wide variety of programmes designed to prepare students for the future. Whether you're interested in technology, business, healthcare, sustainability, or creative industries, you&#39;ll find courses that combine academic excellence with practical experience."
+    },
+    {
+        type: "p",
+        content: "Popular study options include:"
+    },
+    {
+        type: "course-list",
+        items: [
+            {
+                id: 1,
+                type: "course",
+                icon: FaBriefcase,
+                text: "Business & Management"
+            },
+            {
+                id: 2,
+                type: "course",
+                icon: FaLaptopCode,
+                text: "Computer Science"
+            },
+            {
+                id: 3,
+                type: "course",
+                icon: FaBrain,
+                text: "Artificial Intelligence"
+            },
+            {
+                id: 4,
+                type: "course",
+                icon: FaDesktop,
+                text: "Information Technology"
+            },
+            {
+                id: 5,
+                type: "course",
+                icon: FaChartLine,
+                text: "Data Science"
+            },
+            {
+                id: 6,
+                type: "course",
+                icon: FaGears,
+                text: "Mechanical Engineering"
+            },
+            {
+                id: 7,
+                type: "course",
+                icon: FaSolarPanel,
+                text: "Renewable Energy"
+            },
+            {
+                id: 8,
+                type: "course",
+                icon: FaUserNurse,
+                text: "Healthcare & Nursing"
+            },
+            {
+                id: 9,
+                type: "course",
+                icon: FaGraduationCap,
+                text: "Education"
+            },
+            {
+                id: 10,
+                type: "course",
+                icon: FaLeaf,
+                text: "Environmental Sciences"
+            },
+            {
+                id: 11,
+                type: "course",
+                icon: FaGamepad,
+                text: "Game Development"
+            },
+            {
+                id: 12,
+                type: "course",
+                icon: FaBullhorn,
+                text: "Digital Marketing"
+            }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Many programmes include internships, project-based learning, research opportunities, and collaborations with international companies, helping students graduate with valuable industry experience."
+    },
+    {
+        type: "h2",
+        content: "Learn from Finland's Leading Universities"
+    },
+    {
+        type: "p",
+        content:
+        "Finland is home to internationally respected universities known for academic quality, research excellence, and innovation. These institutions provide modern learning environments, experienced faculty, and strong industry partnerships that prepare students for successful careers."
+    },
+    {
+        type: "p",
+        content: "Popular universities include:"
+    },
+    {
+        type: "university-list",
+        items: [
+        {
+            id: 1,
+            src: "/images/destinations/finland/universities/arcada.png",
+            alt: "Arcada University",
+            title: "Arcada University"
+        },
+        {
+            id: 2,
+            src: "/images/destinations/finland/universities/eastern.png",
+            alt: "University of Eastern Finland",
+            title: "University of Eastern Finland"
+        },
+        {
+            id: 3,
+            src: "/images/destinations/finland/universities/hanken.png",
+            alt: "Hanken School of Economics",
+            title: "Hanken School of Economics"
+        },
+        {
+            id: 4,
+            src: "/images/destinations/finland/universities/helsinki.png",
+            alt: "University of Helsinki",
+            title: "University of Helsinki"
+        },
+        {
+            id: 5,
+            src: "/images/destinations/finland/universities/kamk.png",
+            alt: "KAMK - University of Applied Science",
+            title: "KAMK - University of Applied Science"
+        },
+        {
+            id: 6,
+            src: "/images/destinations/finland/universities/lab.png",
+            alt: "LAB University of Applied Sciences",
+            title: "LAB University of Applied Sciences"
+        },
+        {
+            id: 7,
+            src: "/images/destinations/finland/universities/lapland.png",
+            alt: "University of Lapland",
+            title: "University of Lapland"
+        },
+        {
+            id: 8,
+            src: "/images/destinations/finland/universities/lut.png",
+            alt: "LUT University",
+            title: "LUT University"
+        },
+        {
+            id: 9,
+            src: "/images/destinations/finland/universities/metropolia.png",
+            alt: "Metropolia University of Applied Sciences",
+            title: "Metropolia University of Applied Sciences"
+        },
+        {
+            id: 10,
+            src: "/images/destinations/finland/universities/samk.png",
+            alt: "SAMk",
+            title: "SAMK"
+        },
+        {
+            id: 11,
+            src: "/images/destinations/finland/universities/tempere.png",
+            alt: "Tempere University",
+            title: "Tempre University"
+        },
+        {
+            id: 12,
+            src: "/images/destinations/finland/universities/turku.png",
+            alt: "University of Turku",
+            title: "University of Turku"
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "These universities offer globally recognised qualifications and provide students with the knowledge, practical skills, and international exposure needed to excel in today&#39;s competitive job market."
+    },
+
+    {
+        type: "h2",
+        content: "Tuition Fees & Living Costs: Planning Your Budget in Finland"
+    },
+    {
+        type: "p",
+        content: [
+        {
+            type: "text",
+            text: "The cost of "
+        },
+        {
+            type: "link",
+            text: "Study in Finland",
+            href: "/destinations/study-in-finland"
+        },
+        {
+            type: "text",
+            text: " depends on the university and programme you choose. Tuition fees for non-EU international students generally range between "
+        },
+        {
+            type: "bold",
+            text: "EUR 8,000 and EUR 20,000 per year,"
+        },
+        {
+            type: "text",
+            text: " while specialised programmes such as MBA may have higher tuition fees. Many universities also offer scholarships based on academic performance, helping students reduce their overall education costs."
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "In addition to tuition fees, students should budget for accommodation, food, transportation, health insurance, and personal expenses. On average, monthly living costs range from EUR 700 to EUR 1,100, depending on the city and lifestyle."
+    },
+
+    {
+      type: "p",
+      content: "Although Finland requires careful financial planning, students benefit from an exceptional education system, excellent quality of life, and strong career opportunities, making it a worthwhile investment in their future."
+    },
+
+    {
+        type: "h2",
+        content: "Choose the Right Intake to Begin Your Finland Journey"
+    },
+    {
+        type: "p",
+        content:
+        "Finnish universities offer multiple admission opportunities each year, giving international students the flexibility to choose an intake that best suits their academic plans. As admission deadlines and programme availability vary by university, applying early increases your chances of securing admission, scholarships, and completing the visa process without delays."
+    },
+    {
+        type: "intake-list",
+        items: [
+        {
+            id: 1,
+            title: "Autumn Intake (August/September)",
+            description: "The primary intake with the largest selection of bachelor's and master's programmes. Most international students prefer this intake due to the wider range of courses and scholarship opportunities.",
+            icon: FaCalendarDays
+        },
+        {
+            id: 2,
+            title: "Spring Intake (January)",
+            description: "Available for selected programmes at certain universities, making it a suitable option for students who are unable to apply for the Autumn Intake.",
+            icon: FaGraduationCap
+        },
+        // {
+        //     id: 3, 
+        //     title: "Summer Intake (May)",
+        //     description: "Offered by selected universities for specific courses.",
+        //     icon: FaSchool
+        // }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Starting your application several months in advance allows sufficient time for university admission, accommodation arrangements, financial planning, and residence permit processing."
+    },
+    {
+        type: "h2",
+        content: "Finland Student Visa & Residence Permit"
+    },
+    {
+        type: "p",
+        content:
+        "International students planning to study in Finland are generally required to apply for a Finnish Residence Permit for Studies after receiving an official admission letter from a recognised university."
+    },
+    {
+        type: "p",
+        content:
+        "The application process usually requires:"
+    },
+    {
+        type: "list",
+        items: [
+            "Valid passport",
+            "University admission letter",
+            "Academic transcripts and certificates",
+            "Proof of financial resources",
+            "Valid health insurance",
+            "Passport-size photographs",
+            "Supporting documents required by Finnish authorities"
+        ],
+        imgUrl: "/images/destinations/finland/finland-3.webp",
+        alt: "Finland Student Visa & Residence Permit"
+    },
+    {
+     type: "p",
+     content: "Submitting complete and accurate documentation helps ensure a smoother application process and avoids unnecessary delays."
+    },
+    {
+        type: "p",
+        content: "At Indo European, we provide complete guidance to ensure your application is accurate, organised, and submitted with confidence."
+    },
+    {
+        type: "h2",
+        content: "Your Finland Education Journey Starts with Indo European"
+    },
+    {
+        type: "p",
+        content:
+        "Studying in Finland is an exciting opportunity to experience world-class education, innovative teaching methods, and international career growth. However, choosing the right university, understanding admission requirements, and preparing a strong application can feel overwhelming without expert support."
+    },
+    {
+       type: "p",
+       content: "At Indo European, we believe every student deserves personalised guidance based on their academic background, career aspirations, and financial goals. Our experienced counsellors work closely with you to identify the best universities and programmes while ensuring your admission and visa journey remains smooth, transparent, and stress-free."
+    },
+    {
+        type: "p",
+        content: "Our Services"
+    },
+    {
+        type: "list",
+        items: [
+        "Free career counselling",
+        "University shortlisting",
+        "Admission application assistance",
+        "Finland student visa guidance",
+        "Scholarship assistance",
+        "SOP and documentation support",
+        "Education loan guidance",
+        "Pre-departure assistance"
+        ],
+        imgUrl: "/images/destinations/finland/finland-2.webp",
+        alt: "Our Services"
+    },
+    {
+        type: "p",
+        content:
+        "From your first counselling session to your departure for Finland, our dedicated team remains committed to helping you achieve your study abroad goals with confidence."
+    },
+    {
+        type:"h2",
+        content: "Take the First Step Towards Your Future in Finland"
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "Choosing to "
+            },
+            {
+                type: "link",
+                text: "Study in Finland",
+                href: "/destinations/study-in-finland"
+            },
+            {
+                type: "text",
+                text: " is an investment in quality education, personal growth, and long-term career success. With internationally recognised universities, innovative learning methods, excellent research opportunities, and a safe, student-friendly environment, Finland offers everything needed to build a successful global career."
+            }
+        ]
+    },
+    {
+        type: "p",
+        content: "Whether you dream of studying technology, business, engineering, healthcare, or any other field, Finland provides the knowledge, practical experience, and international exposure required to thrive in today's competitive world."
+    },
+    {
+        type:"p",
+        content: [
+            {
+                type: "text",
+                text: "At "
+            },
+            {
+                type: "link",
+                text: "Indo European",
+                href: "/"
+            },
+            {
+                type: "text",
+                text: ", we're committed to making your study abroad journey simple and successful through expert counselling, university selection, admission support, and complete visa assistance. Let us help you turn your dream of studying in Finland into a rewarding reality."
+            }
+        ]
+    },
+    {
+        type: "p",
+        content: "Connect with Indo European today and take the first step towards a brighter future in Finland."
+    }
+    ]
+    },
+    {
+    id: 10,
+    heading: "Study in Lithuania",
+    title: "Experience Affordable European Education with Global Career Opportunities",
+    slug: "study-in-lithuania",
+    metaTitle:
+        "Study in Lithuania | Indo European Study Abroad Consultancy",
+    metaDescription:
+        "Study in Lithuania is a Study abroad destination for students in india, with many benefits explore all here",
+    image:
+        "/images/destinations/lithuania/lithuania-1.webp",
+    cover: "/images/destinations/lithuania/cover/lithuania.webp",
+    keywords: [
+        "study in Lithuania",
+        "study abroad Lithuania",
+        "Lithuania universities",
+        "Lithuania for international students",
+        "study in Lithuania 2026",
+        "affordable education in Lithuania",
+        "English taught programs Lithuania",
+        "best countries to study in Lithuania",
+        "Lithuania scholarships",
+        "student life in Lithuania",
+        "higher education Lithuania",
+        "Lithuania education",
+        "career opportunities in Lithuania",
+        "study abroad consultants",
+        "international students Lithuania"
+    ],
+    category: "country",
+    sections: [
+    {
+        type: "p",
+        content:
+        "Lithuania has rapidly emerged as one of Europe&#39;s most attractive study destinations for international students seeking quality education at an affordable cost. With globally recognised universities, English-taught programmes, modern learning facilities, and a welcoming multicultural environment, Lithuania offers students the perfect opportunity to earn a European degree while preparing for a successful international career. For Indian students, it combines quality education, reasonable tuition fees, and an excellent standard of living, making it a smart choice for higher studies in Europe."
+    },
+    {
+        type: "p",
+        content: "Choosing to "
+    },
+    {
+        type: "p",
+        content: [
+        {
+            type: "text",
+            text: "Study in Lithuania "
+        },
+        {
+            type: "link",
+            text: "Study in Lithuania",
+            href: "/destinations/study-in-lithuania"
+        },
+        {
+            type: "text",
+            text: " means becoming part of an education system that values innovation, practical learning, and academic excellence. Universities focus on developing industry-relevant skills through research, internships, and project-based learning, ensuring graduates are well-equipped to meet the demands of today&#39;s global job market."
+        },
+        ]
+    },
+    {
+        type: "p",
+        content: [
+        {
+         type: "p",
+         text: "At "
+        },    
+        {
+            type: "link",
+            text: "Indo European",
+            href: "/"
+        },
+        {
+            type: "text",
+            text: ", we help students choose the right university, course, and study pathway while providing complete support from admission to Lithuania student visa approval."
+        }
+        ]
+    },
+
+    {
+        type: "h2",
+        content: "Why Lithuania is Becoming a Popular Destination for International Students"
+    },
+    {
+        type: "p",
+        content:
+        "Lithuania offers students an ideal combination of high-quality education, affordable tuition fees, and internationally recognised qualifications. As a member of the European Union, the country provides access to globally respected degrees while offering a safe, student-friendly environment and excellent career prospects."
+    },
+    {
+        type: "p",
+        content: "Some of the biggest advantages include:"
+    },
+    {
+        type: "list",
+        items: [
+        "Globally recognised European degrees",
+        "Affordable tuition fees",
+        "English-taught bachelor's and master&#39;s programmes",
+        "Modern universities with advanced learning facilities",
+        "Practical and research-based education",
+        "Safe and welcoming student environment",
+        "Opportunities to work while studying",
+        "Affordable cost of living",
+        "Scholarships for eligible international students",
+        "Easy access to travel across Europe"
+        ],
+        imgUrl: "/images/destinations/lithuania/lithuania-1.webp",
+        alt: "Why Lithuania is Becoming a Popular Destination for International Students"
+    },
+    {
+        type: "p",
+        content:
+        "Studying in Lithuania allows students to enjoy a high-quality European education while keeping their overall education expenses significantly lower than many other popular study destinations."
+    },
+
+    {
+        type: "h2",
+        content: "Explore Courses That Match Your Global Career Goals"
+    },
+    {
+        type: "p",
+        content:
+        "Lithuanian universities offer a wide range of internationally recognised programmes designed to prepare students for successful careers across various industries. Whether you're interested in business, engineering, healthcare, technology, or life sciences, you'll find programmes that combine academic knowledge with practical experience."
+    },
+    {
+        type: "p",
+        content: "Popular study options include:"
+    },
+    {
+        type: "course-list",
+        items: [
+            {
+                id: 1,
+                type: "course",
+                icon: FaBriefcase,
+                text: "Business & Management"
+            },
+            {
+                id: 2,
+                type: "course",
+                icon: FaLaptopCode,
+                text: "Computer Science"
+            },
+            {
+                id: 3,
+                type: "course",
+                icon: FaDesktop,
+                text: "Information Technology"
+            },
+            {
+                id: 4,
+                type: "course",
+                icon: FaBrain,
+                text: "Artificial Intelligence"
+            },
+            {
+                id: 5,
+                type: "course",
+                icon: FaChartLine,
+                text: "Data Science"
+            },
+            {
+                id: 6,
+                type: "course",
+                icon: FaGears,
+                text: "Mechanical Engineering"
+            },
+            {
+                id: 7,
+                type: "course",
+                icon: FaBuilding,
+                text: "Civil Engineering"
+            },
+            {
+                id: 8,
+                type: "course",
+                icon: FaUserNurse,
+                text: "Healthcare & Nursing"
+            },
+            {
+                id: 9,
+                type: "course",
+                icon: FaHospital,
+                text: "Public Health"
+            },
+            {
+                id: 10,
+                type: "course",
+                icon: FaCalculator,
+                text: "Finance & Accounting"
+            },
+            {
+                id: 11,
+                type: "course",
+                icon: FaDna,
+                text: "Biotechnology"
+            },
+            {
+                id: 12,
+                type: "course",
+                icon: FaGlobe,
+                text: "International Relations"
+            }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Many programmes include internships, research opportunities, and industry collaborations, helping students graduate with practical skills and valuable international experience."
+    },
+    {
+        type: "h2",
+        content: "Study at Lithuania's Leading Universities"
+    },
+    {
+        type: "p",
+        content:
+        "Lithuania is home to several respected universities that are recognised across Europe for academic excellence, innovation, and research. These institutions provide modern campuses, experienced faculty, and internationally recognised qualifications that prepare students for global careers."
+    },
+    {
+        type: "p",
+        content: "Popular universities include:"
+    },
+    {
+        type: "university-list",
+        items: [
+        {
+            id: 1,
+            src: "/images/destinations/Lithuania/universities/ism.png",
+            alt: "ISM University of Management and Economics",
+            title: "ISM University of Management and Economics"
+        },
+        {
+            id: 2,
+            src: "/images/destinations/lithuania/universities/klaipeda.png",
+            alt: "Klaipeda University",
+            title: "Klaipeda University"
+        },
+        {
+            id: 3,
+            src: "/images/destinations/lithuania/universities/ktu.png",
+            alt: "Kaunas University of Technology",
+            title: "Kaunas University of Technology"
+        },
+        {
+            id: 4,
+            src: "/images/destinations/lithuania/universities/lsmu.png",
+            alt: "ISM Univeristy of Health and Science",
+            title: "ISM Univeristy of Health and Science"
+        },
+        {
+            id: 5,
+            src: "/images/destinations/lithuania/universities/mru.png",
+            alt: "MRU",
+            title: "MRU"
+        },
+        {
+            id: 6,
+            src: "/images/destinations/lithuania/universities/smk.png",
+            alt: "SMK",
+            title: "SMK"
+        },
+        {
+            id: 7,
+            src: "/images/destinations/lithuania/universities/vilnius.png",
+            alt: "Vilnius University",
+            title: "Vilnius University"
+        },
+        {
+            id: 8,
+            src: "/images/destinations/lithuania/universities/vmu.png",
+            alt: "VMU",
+            title: "VMU"
+        },
+        {
+            id: 9,
+            src: "/images/destinations/lithuania/universities/vtu.png",
+            alt: "Vilnius Tech University",
+            title: "Vilnius Tech University"
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "These universities offer high-quality education, practical learning opportunities, and strong international partnerships that help students succeed academically and professionally."
+    },
+
+    {
+        type: "h2",
+        content: "Tuition Fees &amp; Living Costs: A Smart Investment in Your Future"
+    },
+    {
+        type: "p",
+        content: [
+        {
+            type: "text",
+            text: "The cost of "
+        },
+        {
+            type: "link",
+            text: "Study in Lithuania",
+            href: "/destinations/study-in-lithuania"
+        },
+        {
+            type: "text",
+            text: " is its affordability. Tuition fees for international students generally range between "
+        },
+        {
+            type: "bold",
+            text: "EUR 3,000 and EUR 8,000 per year,"
+        },
+        {
+            type: "text",
+            text: " depending on the university and programme. Professional courses such as Medicine and specialised master's programmes may have higher tuition fees."
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Lithuania also offers one of the most affordable living costs in Europe. Students should budget approximately EUR 500 to EUR 900 per month for accommodation, food, transportation, health insurance, and personal expenses. The actual cost may vary depending on the city and individual lifestyle."
+    },
+
+    {
+      type: "p",
+      content: "With affordable education, lower living expenses, and internationally recognised degrees, Lithuania offers excellent value for students looking to receive a quality European education without placing excessive financial pressure on their families."
+    },
+
+    {
+        type: "h2",
+        content: "Find the Right Intake for Your Study Journey"
+    },
+    {
+        type: "p",
+        content:
+        "Lithuanian universities offer multiple admission opportunities throughout the year, giving international students the flexibility to begin their studies at the most suitable time. Since application deadlines vary between universities and programmes, applying early improves your chances of securing admission, scholarships, and completing your visa process on time."
+    },
+    {
+        type: "intake-list",
+        items: [
+        {
+            id: 1,
+            title: "September Intake",
+            description: "The main intake with the largest selection of undergraduate and postgraduate programmes. Most international students choose this intake because it offers maximum course availability and better scholarship opportunities.",
+            icon: FaCalendarDays
+        },
+        {
+            id: 2,
+            title: "February Intake",
+            description: "Available for selected programmes at many universities, providing an excellent option for students who miss the primary admission cycle.",
+            icon: FaGraduationCap
+        },
+        // {
+        //     id: 3, 
+        //     title: "Summer Intake (May)",
+        //     description: "Offered by selected universities for specific courses.",
+        //     icon: FaSchool
+        // }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Starting your application well in advance ensures sufficient time for admission formalities, accommodation arrangements, financial planning, and visa processing."
+    },
+    {
+        type: "h2",
+        content: "Lithuania Student Visa: Your Pathway to European Education"
+    },
+    {
+        type: "p",
+        content:
+        "International students planning to study in Lithuania must apply for a Lithuanian National (D) Student Visa or a temporary residence permit after receiving an admission letter from a recognised university."
+    },
+    {
+        type: "p",
+        content:
+        "The application process generally requires:"
+    },
+    {
+        type: "list",
+        items: [
+            "Valid passport",
+            "University admission letter",
+            "Academic transcripts and certificates",
+            "Proof of financial resources",
+            "Health insurance",
+            "Passport-size photographs",
+            "Completed visa application forms",
+            "Other supporting documents required by the Lithuanian authorities"
+        ],
+        imgUrl: "/images/destinations/lithuania/lithuania-3.webp",
+        alt: "Lithuania Student Visa: Your Pathway to European Education"
+    },
+    {
+     type: "p",
+     content: "Preparing complete and accurate documentation is essential for a smooth visa application process."
+    },
+    {
+        type: "p",
+        content: "At Indo European, we provide step-by-step guidance throughout the visa journey, ensuring every document is properly prepared and your application is submitted with confidence."
+    },
+    {
+        type: "h2",
+        content: "Achieve Your Study Abroad Goals with Indo European"
+    },
+    {
+        type: "p",
+        content:
+        "Planning to study in another country involves several important decisions, from selecting the right university to understanding admission requirements and completing visa formalities. At Indo European, we simplify the entire process by providing personalised guidance tailored to your academic background, career ambitions, and financial preferences."
+    },
+    {
+       type: "p",
+       content: "Our experienced counsellors help you identify the best universities and programmes in Lithuania while supporting you through every stage of the admission process. We believe in transparent counselling, professional assistance, and personalised solutions that help students make informed decisions about their future."
+    },
+    {
+        type: "p",
+        content: "Our Services"
+    },
+    {
+        type: "list",
+        items: [
+        "Free career counselling",
+        "University shortlisting",
+        "Admission application assistance",
+        "Finland student visa guidance",
+        "Scholarship assistance",
+        "SOP and documentation support",
+        "Education loan guidance",
+        "Pre-departure assistance"
+        ],
+        imgUrl: "/images/destinations/lithuania/lithuania-2.webp",
+        alt: "Our Services"
+    },
+    {
+        type: "p",
+        content:
+        "From your first consultation until you begin your studies in Lithuania, our team remains committed to making your study abroad journey smooth, simple, and successful."
+    },
+    {
+        type:"h2",
+        content: "Take the First Step Towards a Bright Future in Lithuania"
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "Choosing to "
+            },
+            {
+                type: "link",
+                text: "Study in Lithuania",
+                href: "/destinations/study-in-lithuania"
+            },
+            {
+                type: "text",
+                text: " internationally recognised degrees and rewarding careers. English- language programmes, modern universities, lower living costs and a safe learning environment still attract students from around the world to study in Lithuania and build successful international careers."
+            }
+        ]
+    },
+    {
+        type: "p",
+        content: "Indo European is an organization of dedicated professionals who are committed to help students achieve their study abroad dreams through professional counselling, university selection, admission support and full visa support. Let us help you take that first step to a successful future in Europe and start your education journey with confidence."
+    }
+    ]
+    },
+    {
+    id: 11,
+    heading: "Study in Germany",
+    title: "Where Innovation, Quality Education, and Global Careers Come Together",
+    slug: "study-in-germany",
+    metaTitle:
+        "Study in Germany | Indo European Study Abroad Consultancy",
+    metaDescription:
+        "Study in Germany is a Study abroad destination for students in india, with many benefits explore all here",
+    image:
+        "/images/destinations/germany/germany-1.webp",
+    cover: "/images/destinations/germany/cover/germany.webp",
+    keywords: [
+        "study in Germany",
+        "study abroad Germany",
+        "Germany universities",
+        "Germany for international students",
+        "study in Germany 2026",
+        "affordable education in Germany",
+        "English taught programs Germany",
+        "best countries to study in Germany",
+        "Germany scholarships",
+        "student life in Germany",
+        "higher education Germany",
+        "Germany education",
+        "career opportunities in Germany",
+        "study abroad consultants",
+        "international students Germany"
+    ],
+    category: "country",
+    sections: [
+    {
+        type: "p",
+        content:
+        "Germany has emerged as one of the world's most preferred destinations for international students seeking high-quality education, affordable tuition, and exceptional career opportunities. Known for its globally recognised universities, advanced research facilities, and strong industrial economy, Germany attracts ambitious students who want to gain practical knowledge and internationally respected qualifications. For Indian students, it offers the ideal combination of academic excellence, affordable education, and excellent post-study career prospects."
+    },
+    {
+        type: "p",
+        content: "Choosing to "
+    },
+    {
+        type: "p",
+        content: [
+        {
+            type: "text",
+            text: "Study in Germany "
+        },
+        {
+            type: "link",
+            text: "Study in Germany",
+            href: "/destinations/study-in-germany"
+        },
+        {
+            type: "text",
+            text: " means becoming part of an education system that values innovation, research, and hands-on learning. Universities focus on developing practical skills alongside theoretical knowledge, preparing graduates to succeed in today&#39;s competitive global job market. With internationally recognised degrees and close collaborations between universities and industries, Germany continues to be one of the best destinations for building a successful international career."
+        },
+        ]
+    },
+    {
+        type: "p",
+        content: [
+        {
+         type: "p",
+         text: "At "
+        },    
+        {
+            type: "link",
+            text: "Indo European",
+            href: "/"
+        },
+        {
+            type: "text",
+            text: ", we help students choose the right university, course, and study pathway while providing complete support from admission to Lithuania student visa approval."
+        }
+        ]
+    },
+
+    {
+        type: "h2",
+        content: "Discover Why Germany is a Smart Choice for Higher Education"
+    },
+    {
+        type: "p",
+        content: "Germany's education system is respected worldwide for its academic excellence, research-driven approach, and industry-focused curriculum. Students benefit from modern teaching methods, practical learning experiences, and opportunities to work on real-world projects throughout their studies. Whether you&#39;re pursuing engineering, business, healthcare, or technology, Germany provides an environment where students can grow academically and professionally."
+    },
+    {
+        type: "p",
+        content: "Some of the biggest advantages include:"
+    },
+    {
+        type: "list",
+        items: [
+        "Globally recognised degrees",
+        "Affordable education at public universities",
+        "High academic standards",
+        "Research-led teaching",
+        "Strong industry partnerships",
+        "English-taught programmes",
+        "Opportunities to work while studying",
+        "Excellent post-study work opportunities",
+        "Safe and multicultural student environment",
+        "Access to Europe's largest economy"
+        ],
+        imgUrl: "/images/destinations/germany/germany-1.webp",
+        alt: "Discover Why Germany is a Smart Choice for Higher Education"
+    },
+    {
+        type: "p",
+        content:
+        "Studying in Germany gives students the opportunity to earn a respected qualification while gaining international exposure and valuable professional experience that employers around the world appreciate."
+    },
+
+    {
+        type: "h2",
+        content: "Explore Courses That Match Your Global Career Goals"
+    },
+    {
+        type: "p",
+        content:
+        "German universities offer thousands of programmes designed to prepare students for the evolving demands of global industries. Whether your goal is to become an engineer, business professional, IT expert, healthcare specialist, or researcher, you&#39;ll find courses that combine academic excellence with practical application."
+    },
+    {
+        type: "p",
+        content: "Popular study options include:"
+    },
+    {
+        type: "course-list",
+        items: [
+            {
+                id: 1,
+                type: "course",
+                icon: FaGears,
+                text: "Mechanical Engineering"
+            },
+            {
+                id: 2,
+                type: "course",
+                icon: FaCarSide,
+                text: "Automotive Engineering"
+            },
+            {
+                id: 3,
+                type: "course",
+                icon: FaLaptopCode,
+                text: "Computer Science"
+            },
+            {
+                id: 4,
+                type: "course",
+                icon: FaBrain,
+                text: "Artificial Intelligence"
+            },
+            {
+                id: 5,
+                type: "course",
+                icon: FaChartLine,
+                text: "Data Science"
+            },
+            {
+                id: 6,
+                type: "course",
+                icon: FaDesktop,
+                text: "Information Technology"
+            },
+            {
+                id: 7,
+                type: "course",
+                icon: FaBriefcase,
+                text: "Business & Management"
+            },
+            {
+                id: 8,
+                type: "course",
+                icon: FaCalculator,
+                text: "Finance & Accounting"
+            },
+            {
+                id: 9,
+                type: "course",
+                icon: FaUserNurse,
+                text: "Healthcare & Nursing"
+            },
+            {
+                id: 10,
+                type: "course",
+                icon: FaDna,
+                text: "Biotechnology"
+            },
+            {
+                id: 11,
+                type: "course",
+                icon: FaSolarPanel,
+                text: "Renewable Energy"
+            },
+            {
+                id: 12,
+                type: "course",
+                icon: FaLeaf,
+                text: "Environmental Engineering"
+            }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Many programmes include internships, laboratory work, research projects, and collaborations with leading companies, allowing students to graduate with both knowledge and practical industry experience."
+    },
+    {
+        type: "h2",
+        content: "Study at Germany's Most Prestigious Universities"
+    },
+    {
+        type: "p",
+        content:
+        "Germany is home to some of Europe's oldest and most respected universities, recognised for academic excellence, innovation, and world-class research. These institutions provide students with outstanding education, experienced faculty, and excellent career support services."
+    },
+    {
+        type: "p",
+        content: "Popular universities include:"
+    },
+    {
+        type: "university-list",
+        items: [
+        {
+            id: 1,
+            src: "/images/destinations/germany/universities/arden.png",
+            alt: "Arden University",
+            title: "Arden University"
+        },
+        {
+            id: 2,
+            src: "/images/destinations/germany/universities/bsbi.png",
+            alt: "Berlin School of Business and Innovation",
+            title: "Berlin School of Business and Innovation"
+        },
+        {
+            id: 3,
+            src: "/images/destinations/germany/universities/eurasia.png",
+            alt: "Eurasia Institute of International Education",
+            title: "Eurasia Institute of International Education"
+        },
+        {
+            id: 4,
+            src: "/images/destinations/germany/universities/gisma.png",
+            alt: "Gisma University of Applied Sciences",
+            title: "Gisma University of Applied Sciences"
+        },
+        {
+            id: 5,
+            src: "/images/destinations/germany/universities/igc.png",
+            alt: "International Graduate Centre",
+            title: "International Graduate Centre"
+        },
+        {
+            id: 6,
+            src: "/images/destinations/germany/universities/ism.png",
+            alt: "International School of Management",
+            title: "International School of Management"
+        },
+        {
+            id: 7,
+            src: "/images/destinations/germany/universities/macromedia.png",
+            alt: "Macromedia University of Applied Sciences",
+            title: "Macromedia University of Applied Sciences"
+        },
+        {
+            id: 8,
+            src: "/images/destinations/germany/universities/mdh.png",
+            alt: "MDH Universi",
+            title: "VMU"
+        },
+        {
+            id: 9,
+            src: "/images/destinations/lithuania/universities/vtu.png",
+            alt: "Vilnius Tech University",
+            title: "Vilnius Tech University"
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "These universities consistently rank among the world's leading institutions and offer internationally recognised degrees that open doors to global career opportunities."
+    },
+
+    {
+        type: "h2",
+        content: "Tuition Fees & Living Costs: Plan Your Budget Wisely"
+    },
+    {
+        type: "p",
+        content: [
+        {
+            type: "text",
+            text: "One of the biggest reasons students choose to "
+        },
+        {
+            type: "link",
+            text: "Study in Germany",
+            href: "/destinations/study-in-germany"
+        },
+        {
+            type: "text",
+            text: " is its affordable education system. Many public universities charge little to no tuition fees for eligible programmes, requiring students to pay only a semester contribution that covers administrative services and, in many cases, public transportation."
+        },
+        ]
+    },
+    {
+       type:"p",
+       content: [
+        {
+            type: "text",
+            text: "Private universities generally charge tuition fees ranging from "
+        },
+        {
+            type: "bold",
+            text: "EUR 5,000 to EUR 20,000 per year,"
+        },
+        {
+            type: "text",
+            text: " depending on the university and programme. Specialised courses such as MBA and executive programmes may have higher tuition fees."
+        }
+       ]
+    },
+    {
+      type:"p",
+      content: "Apart from tuition, students should also plan for accommodation, food, health insurance, transportation, and personal expenses. On average, international students spend between EUR 850 and EUR 1,200 per month on living costs, depending on the city and lifestyle they choose."
+    },
+    {
+      type: "p",
+      content: "Although studying abroad requires careful financial planning, Germany remains one of the most affordable destinations in Europe, offering excellent value through its high-quality education and outstanding career opportunities."
+    },
+    {
+        type: "h2",
+        content: "Choose the Right Intake for Your Academic Journey"
+    },
+    {
+        type: "p",
+        content:
+        "German universities offer two major admission intakes each year, giving students the flexibility to plan their higher education based on their academic goals and preferred course availability. Since admission deadlines vary across universities, applying early is always recommended to maximise your chances of securing admission."
+    },
+    {
+        type: "intake-list",
+        items: [
+        {
+            id: 1,
+            title: "Winter Intake (September/October)",
+            description: "This is the primary intake and offers the widest selection of undergraduate and postgraduate programmes. Most international students prefer this intake due to the greater availability of courses and scholarship opportunities.",
+            icon: FaCalendarDays
+        },
+        {
+            id: 2,
+            title: "Summer Intake (March/April)",
+            description: "Many universities also offer selected programmes during the Summer Intake, making it a suitable option for students who miss the primary admission cycle.",
+            icon: FaGraduationCap
+        },
+        // {
+        //     id: 3, 
+        //     title: "Summer Intake (May)",
+        //     description: "Offered by selected universities for specific courses.",
+        //     icon: FaSchool
+        // }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Starting your application well in advance allows enough time for university admissions, financial planning, accommodation arrangements, and visa processing."
+    },
+    {
+        type: "h2",
+        content: "Germany Student Visa: Your Gateway to Studying Abroad"
+    },
+    {
+        type: "p",
+        content:
+        "International students planning to Study in Germany must apply for a German Student Visa after receiving an admission letter from a recognised university. Preparing accurate documents and submitting a complete application plays an important role in ensuring a smooth visa process."
+    },
+    {
+        type: "p",
+        content:
+        "Students are generally required to submit:"
+    },
+    {
+        type: "list",
+        items: [
+            "Valid passport",
+            "University admission letter",
+            "Academic transcripts and certificates",
+            "Proof of financial resources",
+            "Health insurance",
+            "English or German language proficiency documents (where applicable)",
+            "Visa application forms and supporting documents",
+        ],
+        imgUrl: "/images/destinations/germany/germany-3.webp",
+        alt: "Lithuania Student Visa: Your Pathway to European Education"
+    },
+    {
+     type: "p",
+     content: "Since visa requirements may vary depending on individual circumstances, proper planning and expert guidance can help avoid unnecessary delays."
+    },
+    {
+        type: "p",
+        content: "At Indo European, we assist students throughout the visa application process by helping them organise documentation, verify requirements, and prepare their applications with confidence."
+    },
+    {
+        type: "h2",
+        content: "Your Success Story Begins with Indo European"
+    },
+    {
+        type: "p",
+        content:
+        "Studying in Germany is an exciting opportunity, but making the right decisions at every stage can significantly impact your future. From selecting the most suitable university and course to preparing a strong application and completing the visa process, expert guidance helps make the journey easier and more organised."
+    },
+    {
+       type: "p",
+       content: "At Indo European, we understand that every student has unique academic goals and career aspirations. That's why our experienced counsellors provide personalised guidance based on your profile, helping you choose the right study pathway that aligns with your ambitions and budget. Our commitment is to make your study abroad experience simple, transparent, and stress-free."
+    },
+    {
+        type: "p",
+        content: "Our Services"
+    },
+    {
+        type: "list",
+        items: [
+        "Free career counselling",
+        "University shortlisting",
+        "Admission application assistance",
+        "Germany student visa guidance",
+        "Scholarship assistance",
+        "SOP and documentation support",
+        "Education loan guidance",
+        "Pre-departure assistance"
+        ],
+        imgUrl: "/images/destinations/germany/germany-2.webp",
+        alt: "Our Services"
+    },
+    {
+        type: "p",
+        content:
+        "Whether you're applying to a public university or a private institution, our team is dedicated to supporting you at every stage—from your first counselling session to your departure for Germany."
+    },
+    {
+        type:"h2",
+        content: "Take the First Step Towards Your Future in Germany"
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "Choosing to "
+            },
+            {
+                type: "link",
+                text: "study in Germany",
+                href: "/destinations/study-in-germany"
+            },
+            {
+                type: "text",
+                text: " is more than earning a degree, it's an opportunity to gain world-class education, develop practical skills, and build a successful international career. With affordable tuition, globally recognised universities, strong industry connections, and excellent post-study opportunities, Germany continues to be one of the best destinations for students seeking quality higher education."
+            }
+        ]
+    },
+    {
+        type: "p",
+        content: "At Indo European, we&#39;re committed to helping you achieve your study abroad goals with expert counselling, personalised university selection, complete admission assistance, and reliable visa guidance. If you&#39;re ready to take the next step towards studying in Germany, our team is here to support you throughout every stage of your journey."
+    },
+    {
+        type: "p",
+        content: "Start your Germany education journey with Indo European today and turn your global career aspirations into reality."
+    }
+    ]
+    },
+    {
+    id: 12,
+    heading: "Study in Sweden",
+    title: "Shape Your Future Through Innovation, Research, and Global Learning",
+    slug: "study-in-sweden",
+    metaTitle:
+        "Study in Sweden | Indo European Study Abroad Consultancy",
+    metaDescription:
+        "Study in Sweden is a Study abroad destination for students in india, with many benefits explore all here",
+    image:
+        "/images/destinations/sweden/sweden-1.webp",
+    cover: "/images/destinations/sweden/cover/sweden.webp",
+    keywords: [
+        "study in Sweden",
+        "study abroad Sweden",
+        "Sweden universities",
+        "Sweden for international students",
+        "study in Sweden 2026",
+        "affordable education in Sweden",
+        "English taught programs Sweden",
+        "best countries to study in Sweden",
+        "Sweden scholarships",
+        "student life in Sweden",
+        "higher education Sweden",
+        "Sweden education",
+        "career opportunities in Sweden",
+        "study abroad consultants",
+        "international students Sweden"
+    ],
+    category: "country",
+    sections: [
+    {
+        type: "p",
+        content:
+        "Sweden is one of Europe's most progressive study destinations, recognised worldwide for its innovative education system, world-class universities, and strong focus on research and sustainability. Home to globally respected institutions and internationally renowned companies, Sweden offers students an inspiring learning environment where creativity, critical thinking, and practical skills are encouraged. For Indian students, it provides an excellent opportunity to earn a globally recognised degree while building valuable international experience."
+    },
+    {
+        type: "p",
+        content: [
+        {
+            type: "p",
+            content: "Choosing to "
+        },
+        {
+            type: "text",
+            text: "Study in Sweden "
+        },
+        {
+            type: "link",
+            text: "Study in Sweden",
+            href: "/destinations/study-in-sweden"
+        },
+        {
+            type: "text",
+            text: " means learning in an education system that values collaboration, innovation, and independent thinking. Swedish universities combine academic excellence with industry-focused learning, allowing students to work on real-world projects, research initiatives, and practical assignments throughout their studies. Graduates are well-prepared to succeed in an increasingly competitive global job market."
+        },
+        ]
+    },
+    {
+        type: "p",
+        content: [
+        {
+         type: "p",
+         text: "At "
+        },    
+        {
+            type: "link",
+            text: "Indo European",
+            href: "/"
+        },
+        {
+            type: "text",
+            text: ", we help students find the right university, choose the most suitable course, and receive complete guidance throughout the admission and Sweden student visa process."
+        }
+        ]
+    },
+
+    {
+        type: "h2",
+        content: "Why Choose Sweden for Higher Education?"
+    },
+    {
+        type: "p",
+        content: "Sweden consistently ranks among the world's best countries for education, innovation, and quality of life. Universities are known for modern teaching methods that encourage discussion, teamwork, and problem-solving rather than traditional classroom learning. Students benefit from a multicultural environment, advanced research facilities, and close collaboration with global industries."
+    },
+    {
+        type: "p",
+        content: "Some of the biggest advantages include:"
+    },
+    {
+        type: "list",
+        items: [
+        "Internationally recognised degrees",
+        "Innovative and research-driven education",
+        "English-taught bachelor's and master's programmes",
+        "Strong industry collaboration",
+        "Opportunities to work while studying",
+        "Excellent post-study career prospects",
+        "Safe, inclusive, and multicultural society",
+        "High quality of life",
+        "Sustainable and environmentally conscious lifestyle",
+        "Access to opportunities across Europey"
+        ],
+        imgUrl: "/images/destinations/sweden/sweden-1.webp",
+        alt: "Why Choose Sweden for Higher Education?"
+    },
+    {
+        type: "p",
+        content:
+        "Studying in Sweden allows students to develop practical knowledge, leadership skills, and international exposure while preparing for successful careers in today's global economy."
+    },
+
+    {
+        type: "h2",
+        content: "Explore Programmes That Match Your Global Career Goals"
+    },
+    {
+        type: "p",
+        content:
+        "Swedish universities offer a wide variety of programmes designed to meet the needs of rapidly growing industries. Whether you're passionate about technology, business, engineering, healthcare, or sustainability, you'll find programmes that combine academic learning with practical application."
+    },
+    {
+        type: "p",
+        content: "Popular study options include:"
+    },
+    {
+        type: "course-list",
+        items: [
+            {
+                id: 1,
+                type: "course",
+                icon: FaBriefcase,
+                text: "Business & Management"
+            },
+            {
+                id: 2,
+                type: "course",
+                icon: FaLaptopCode,
+                text: "Computer Science"
+            },
+            {
+                id: 3,
+                type: "course",
+                icon: FaBrain,
+                text: "Artificial Intelligence"
+            },
+            {
+                id: 4,
+                type: "course",
+                icon: FaChartLine,
+                text: "Data Science"
+            },
+            {
+                id: 5,
+                type: "course",
+                icon: FaGears,
+                text: "Mechanical Engineering"
+            },
+            {
+                id: 6,
+                type: "course",
+                icon: FaBolt,
+                text: "Electrical Engineering"
+            },
+            {
+                id: 7,
+                type: "course",
+                icon: FaLeaf,
+                text: "Sustainable Development"
+            },
+            {
+                id: 8,
+                type: "course",
+                icon: FaTree,
+                text: "Environmental Science"
+            },
+            {
+                id: 9,
+                type: "course",
+                icon: FaDna,
+                text: "Biotechnology"
+            },
+            {
+                id: 10,
+                type: "course",
+                icon: FaHospital,
+                text: "Healthcare & Public Health"
+            },
+            {
+                id: 11,
+                type: "course",
+                icon: FaCalculator,
+                text: "Finance & Economics"
+            },
+            {
+                id: 12,
+                type: "course",
+                icon: FaCompassDrafting,
+                text: "Design & Architecture"
+            }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Many programmes include internships, research projects, innovation labs, and collaborations with leading multinational companies, helping students graduate with valuable professional experience."
+    },
+    {
+        type: "h2",
+        content: "Study at Sweden's Leading Universities"
+    },
+    {
+        type: "p",
+        content:
+        "Sweden is home to several internationally ranked universities recognised for academic excellence, cutting-edge research, and strong global partnerships. These institutions provide students with modern campuses, experienced faculty, and an education that prepares them for leadership roles across different industries."
+    },
+    {
+        type: "p",
+        content: "Popular universities include:"
+    },
+    {
+        type: "university-list",
+        items: [
+        {
+            id: 1,
+            src: "/images/destinations/sweden/universities/chalmerse.png",
+            alt: "Chalmerse University of Technology",
+            title: "Chalmerse University of Technology"
+        },
+        {
+            id: 2,
+            src: "/images/destinations/sweden/universities/halmastad.png",
+            alt: "Halmastad University",
+            title: "Halmastad University"
+        },
+        {
+            id: 3,
+            src: "/images/destinations/sweden/universities/karolinska.png",
+            alt: "Karolinska University",
+            title: "Karolinska University"
+        },
+        {
+            id: 4,
+            src: "/images/destinations/sweden/universities/kth.png",
+            alt: "KTH University",
+            title: "KTH University"
+        },
+        {
+            id: 5,
+            src: "/images/destinations/sweden/universities/linkoping.png",
+            alt: "Linkoping University",
+            title: "Linkoping University"
+        },
+        {
+            id: 6,
+            src: "/images/destinations/sweden/universities/linnaeus.png",
+            alt: "Linnaeus University",
+            title: "Linnaeus University"
+        },
+        {
+            id: 7,
+            src: "/images/destinations/sweden/universities/lund.png",
+            alt: "Lund University",
+            title: "Lund University"
+        },
+        {
+            id: 8,
+            src: "/images/destinations/sweden/universities/stockholm.png",
+            alt: "Stockholm University",
+            title: "Stockholm University"
+        },
+        {
+            id: 9,
+            src: "/images/destinations/sweden/universities/umea.png",
+            alt: "UMEA University",
+            title: "UMEA University"
+        },
+        {
+            id: 10,
+            src: "/images/destinations/sweden/universities/uog.png",
+            alt: "University of Gothenburg",
+            title: "University of Gothenburg"
+        },
+        {
+            id: 11,
+            src: "/images/destinations/sweden/universities/uppsala.png",
+            alt: "Uppsala Universitate",
+            title: "Uppsala Universitate"
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "These universities are known for producing graduates who excel in research, innovation, entrepreneurship, and global business, making Sweden an attractive destination for ambitious international students."
+    },
+
+    {
+        type: "h2",
+        content: "Tuition Fees, Living Costs & Scholarships"
+    },
+    {
+        type: "p",
+        content: [
+        {
+            type: "text",
+            text: "The cost of "
+        },
+        {
+            type: "link",
+            text: "Study in Sweden",
+            href: "/destinations/study-in-sweden"
+        },
+        {
+            type: "text",
+            text: " depends on the university and programme you choose. Tuition fees for international students generally range from "
+        },
+        {
+            type: "bold",
+            text: "SEK 80,000 to SEK 295,000 per year,"
+        },
+        {
+            type: "text",
+            text: "with specialised programmes such as MBA, architecture, and certain engineering courses often costing more. Many Swedish universities also offer merit-based scholarships that can significantly reduce tuition fees for eligible international students."
+        }
+        ]
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "Students should also budget for accommodation, food, transportation, health insurance, and personal expenses. On average, monthly living costs range between "
+            },
+            {
+                type: "bold",
+                text: "SEK 8,500 and SEK 12,500"
+            },
+            {
+                type: "text",
+                text: "depending on the city and lifestyle. While Sweden may have higher living expenses than some European countries, students benefit from exceptional education quality, excellent public services, and outstanding career opportunities after graduation."
+            }
+        ]   
+    },
+    {
+       type: "h2",
+       content: "Admission Intakes & Application Timeline"
+    },
+    {
+        type: "p",
+        content:
+        "Swedish universities offer two main admission cycles every year, allowing international students to plan their studies according to their academic goals and preferred programmes. Since application deadlines vary by university, applying early gives you a better chance of securing admission, scholarships, and completing your residence permit process without unnecessary delays."
+    },
+    {
+        type: "intake-list",
+        items: [
+        {
+            id: 1,
+            title: "Autumn Intake (August/September)",
+            description: "This is the primary intake and offers the widest range of bachelor's and master's programmes. Most international students choose this intake due to greater course availability and scholarship opportunities.",
+            icon: FaCalendarDays
+        },
+        {
+            id: 2,
+            title: "Spring Intake (January)",
+            description: "Selected universities offer limited programmes during the Spring Intake, making it an ideal option for students who miss the main admission cycle.",
+            icon: FaGraduationCap
+        },
+        // {
+        //     id: 3, 
+        //     title: "Summer Intake (May)",
+        //     description: "Offered by selected universities for specific courses.",
+        //     icon: FaSchool
+        // }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Starting your application several months in advance allows enough time for university admission, financial planning, accommodation arrangements, and residence permit processing."
+    },
+    {
+        type: "h2",
+        content: "Sweden Student Visa & Residence Permit"
+    },
+    {
+        type: "p",
+        content:
+        "International students planning to study in Sweden are generally required to apply for a Residence Permit for Higher Education after receiving an official admission offer from a recognised Swedish university."
+    },
+    {
+        type: "p",
+        content:
+        "The application process usually requires:"
+    },
+    {
+        type: "list",
+        items: [
+            "Valid passport",
+            "University admission letter",
+            "Academic transcripts and certificates",
+            "Proof of financial support",
+            "Health insurance (where applicable)",
+            "Passport-size photographs",
+            "Residence permit application documents",
+        ],
+        imgUrl: "/images/destinations/sweden/sweden-3.webp",
+        alt: "Lithuania Student Visa: Your Pathway to European Education"
+    },
+    {
+     type: "p",
+     content: "Submitting complete and accurate documents helps ensure a smooth application process and reduces the chances of delays."
+    },
+    {
+        type: "p",
+        content: "At Indo European, we provide complete assistance with documentation, application review, and visa guidance, ensuring students complete every step with confidence."
+    },
+    {
+        type: "h2",
+        content: "Career Opportunities After Graduation"
+    },
+    {
+        type: "p",
+        content:
+        "Sweden is home to globally recognised companies such as Volvo, IKEA, Ericsson, Scania, AstraZeneca, Spotify, H&M, and SKF, creating excellent career opportunities for graduates across multiple industries. The country's innovation-driven economy, strong startup ecosystem, and demand for skilled professionals make it an attractive destination for international students looking to build long-term careers."
+    },
+    {
+       type: "p",
+       content: "Graduates from Swedish universities can explore opportunities in sectors such as:"
+    },
+    {
+        type: "list",
+        items: [
+        "Information Technology",
+        "Artificial Intelligence",
+        "Engineering",
+        "Renewable Energy",
+        "Manufacturing",
+        "Healthcare",
+        "Business & Finance",
+        "Data Analytics",
+        "Biotechnology",
+        "Sustainability & Environmental Sciences"
+        ],
+        imgUrl: "/images/destinations/sweden/sweden-2.webp",
+        alt: "Career Opportunities After Graduation"
+    },
+    {
+        type: "p",
+        content:
+        "The combination of practical education, research experience, and industry exposure helps students develop the skills employers seek in today's competitive global job market."
+    },
+    {
+        type:"h2",
+        content: "Why Choose Indo European for Your Sweden Journey?"
+    },
+    {
+        type: "p",
+        content: "Planning to study abroad involves more than choosing a university—it requires informed decisions, careful documentation, and expert guidance at every stage. At Indo European, we simplify your study abroad journey by providing personalised counselling tailored to your academic profile, career goals, and financial plans."
+    },
+    {
+         type: "p",
+         content: "Our experienced counselors work closely with students to identify the right universities, prepare strong applications, and guide them through admissions and residence permit procedures. From your first consultation until you arrive in Sweden, we're committed to making your journey smooth, transparent, and stress-free."
+    },
+    {
+        type: "list",
+        items: [
+            "Free career counselling",
+            "University shortlisting",
+            "Admission application assistance",
+            "Sweden student visa guidance",
+            "Scholarship assistance",
+            "SOP & documentation support",
+            "Education loan guidance",
+            "Pre-departure assistance"
+        ],
+        imgUrl: "/images/destinations/sweden/sweden-4.webp",
+        alt: "Career Opportunities After Graduation"
+    },
+    {
+        type: "p",
+        content: "Whether you're applying for a bachelor's or master's programme, our team is dedicated to helping you achieve your dream of studying in Sweden with confidence."
+    }
+    ]
+    },
+    {
+    id: 13,
+    heading: "Study in Latvia",
+    title: "Study in Latvia – Affordable European Education for Indian Students",
+    slug: "study-in-latvia",
+    metaTitle:
+        "Study in Latvia | Indo European Study Abroad Consultancy",
+    metaDescription:
+        "Study in Latvia is a Study abroad destination for students in india, with many benefits explore all here",
+    image:
+        "/images/destinations/latvia/latvia-1.webp",
+    cover: "/images/destinations/latvia/cover/latvia.webp",
+    keywords: [
+        "study in Latvia",
+        "study abroad Latvia",
+        "Latvia universities",
+        "Latvia for international students",
+        "study in Latvia 2026",
+        "affordable education in Latvia",
+        "English taught programs Latvia",
+        "best countries to study in Latvia",
+        "Latvia scholarships",
+        "student life in Latvia",
+        "higher education Latvia",
+        "Latvia education",
+        "career opportunities in Latvia",
+        "study abroad consultants",
+        "international students Latvia"
+    ],
+    category: "country",
+    sections: [
+    {
+        type: "p",
+        content:
+        "Latvia has quickly become a preferred destination for international students for affordable quality education. Latvia is a country in Northern Europe with world-class universities, modern learning facilities and an education system that meets European standards. Every year, thousands of students choose to study in Latvia to earn internationally recognised degrees while experiencing a safe, multicultural, and student-friendly environment."
+    },
+    {
+        type: "p",
+        content: "Whether you&#39;re planning to pursue a Bachelor's, Master's, or Doctoral degree, Latvia offers a wide range of English-taught programmes designed to prepare students for successful global careers. With affordable tuition fees, low living expenses, and excellent post-study opportunities, Latvia is becoming a preferred destination for Indian students looking to study in Europe."
+    },
+    {
+        type: "p",
+        content: [
+        {
+         type: "p",
+         text: "At "
+        },    
+        {
+            type: "link",
+            text: "Indo European",
+            href: "/"
+        },
+        {
+            type: "text",
+            text: ", we provide complete guidance throughout your study abroad journey—from choosing the right university and programme to admissions, visa assistance, and pre-departure support."
+        }
+        ]
+    },
+
+    {
+        type: "h2",
+        content: "Why Study in Latvia?"
+    },
+    {
+        type: "p",
+        content: "Latvia is one of the fastest growing education destinations in Europe, offering academic excellence at an affordable price. Universities focus on practical learning, innovation, research, and industry collaboration, helping students gain real-world knowledge alongside classroom education."
+    },
+    {
+        type: "p",
+        content: "Some of the key benefits of studying in Latvia include:"
+    },
+    {
+        type: "list",
+        items: [
+        "Internationally recognised European degrees",
+        "Affordable tuition fees and living expenses",
+        "Wide range of English-taught programmes",
+        "Modern universities with advanced facilities",
+        "Safe and welcoming environment for international students",
+        "Excellent research and innovation opportunities",
+        "Multicultural student community",
+        "Internship and practical training opportunities",
+        "Access to travel and career opportunities across Europe",
+        "Globally accepted qualifications"
+        ],
+        imgUrl: "/images/destinations/latvia/latvia-1.webp",
+        alt: "Why Study in Latvia?"
+    },
+    {
+        type: "p",
+        content:
+        "For students looking for quality education without the high costs associated with many Western European countries, Study in Latvia offers outstanding value."
+    },
+
+    {
+        type: "h2",
+        content: "Explore Programmes That Match Your Career Goals"
+    },
+    {
+        type: "p",
+        content:
+        "Latvian universities offer diverse academic programmes designed to meet the needs of today's global industries. Students can choose from undergraduate, postgraduate, and research programmes across multiple disciplines."
+    },
+    {
+        type: "p",
+        content: "Popular courses include:"
+    },
+    {
+        type: "course-list",
+        items: [
+            {
+                id: 1,
+                type: "course",
+                icon: FaBriefcase,
+                text: "Business & Management"
+            },
+            {
+                id: 2,
+                type: "course",
+                icon: FaLaptopCode,
+                text: "Computer Science"
+            },
+            {
+                id: 3,
+                type: "course",
+                icon: FaDesktop,
+                text: "Information Technology"
+            },
+            {
+                id: 4,
+                type: "course",
+                icon: FaBrain,
+                text: "Artificial Intelligence"
+            },
+            {
+                id: 5,
+                type: "course",
+                icon: FaChartLine,
+                text: "Data Science"
+            },
+            {
+                id: 6,
+                type: "course",
+                icon: FaGear,
+                text: "Engineering"
+            },
+            {
+                id: 7,
+                type: "course",
+                icon: FaUserDoctor,
+                text: "Medicine"
+            },
+            {
+                id: 8,
+                type: "course",
+                icon: FaHospital,
+                text: "Public Health"
+            },
+            {
+                id: 9,
+                type: "course",
+                icon: FaUserNurse,
+                text: "Nursing"
+            },
+            {
+                id: 10,
+                type: "course",
+                icon: FaCalculator,
+                text: "Finance & Accounting"
+            },
+            {
+                id: 11,
+                type: "course",
+                icon: FaTruckFast,
+                text: "Logistics & Supply Chain Management"
+            },
+            {
+                id: 12,
+                type: "course",
+                icon: FaHotel,
+                text: "Tourism & Hospitality"
+            },
+            {
+                id: 13,
+                type: "course",
+                icon: FaScaleBalanced,
+                text: "Law"
+            },
+            {
+                id: 14,
+                type: "course",
+                icon: FaGlobe,
+                text: "International Relations"
+            },
+            {
+                id: 15,
+                type: "course",
+                icon: FaCompassDrafting,
+                text: "Architecture & Design"
+            }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Many programmes include internships, research projects, and practical assignments, enabling students to graduate with valuable industry experience."
+    },
+    {
+        type: "h2",
+        content: "Study at Latvia's Top Universities"
+    },
+    {
+        type: "p",
+        content:
+        "Latvia is home to several internationally recognised universities known for their academic excellence, modern infrastructure, and research-driven education. These institutions collaborate with universities and industries across Europe, giving students access to global learning opportunities."
+    },
+    {
+        type: "p",
+        content: "Some of the leading universities include:"
+    },
+    {
+        type: "university-list",
+        items: [
+        {
+            id: 1,
+            src: "/images/destinations/latvia/universities/banku.png",
+            alt: "Banku University",
+            title: "Banku University"
+        },
+        {
+            id: 2,
+            src: "/images/destinations/latvia/universities/fh.png",
+            alt: "FH Polten",
+            title: "FH Polten"
+        },
+        {
+            id: 3,
+            src: "/images/destinations/latvia/universities/isma.png",
+            alt: "ISMA 1994",
+            title: "ISMA 1994"
+        },
+        {
+            id: 4,
+            src: "/images/destinations/latvia/universities/lapland.png",
+            alt: "University of Lapland",
+            title: "University of Lapland"
+        },
+        {
+            id: 5,
+            src: "/images/destinations/latvia/universities/luther.png",
+            alt: "Luther",
+            title: "Luther"
+        },
+        {
+            id: 6,
+            src: "/images/destinations/latvia/universities/rbs.png",
+            alt: "RIGA Business School",
+            title: "RIGA Business School"
+        },
+        {
+            id: 7,
+            src: "/images/destinations/latvia/universities/riseba.png",
+            alt: "RISEBA University",
+            title: "RISEBA University"
+        },
+        {
+            id: 8,
+            src: "/images/destinations/latvia/universities/rsu.png",
+            alt: "Riga Strandis University",
+            title: "Riga Strandis University"
+        },
+        {
+            id: 9,
+            src: "/images/destinations/latvia/universities/rtu.png",
+            alt: "RIGA Technical University",
+            title: "RIGA Technical University"
+        },
+        {
+            id: 10,
+            src: "/images/destinations/latvia/universities/sse-riga.png",
+            alt: "SSE Riga University",
+            title: "SSE Riga University"
+        },
+        {
+            id: 11,
+            src: "/images/destinations/latvia/universities/university-latvia.png",
+            alt: "University of Latvia",
+            title: "University of Latvia"
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "These universities offer internationally recognised degrees that help graduates build successful careers in Europe and around the world."
+    },
+
+    {
+        type: "h2",
+        content: "Tuition Fees, Living Costs & Scholarships"
+    },
+    {
+        type: "p",
+        content: [
+        {
+            type: "text",
+            text: "One of the biggest advantages of choosing to "
+        },
+        {
+            type: "link",
+            text: "Study in Latvia",
+            href: "/destinations/study-in-latvia"
+        },
+        {
+            type: "text",
+            text: " is affordability. Tuition fees generally range between "
+        },
+        {
+            type: "bold",
+            text: "€2,500 and €8,000 per year,"
+        },
+        {
+            type: "text",
+            text: " depending on the university and programme. Professional courses such as Medicine and specialised healthcare programmes may have higher tuition fees."
+        }
+        ]
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "Students should also budget for accommodation, food, transportation, utilities, and personal expenses. On average, monthly living costs range between "
+            },
+            {
+                type: "bold",
+                text: "€500 and €800,"
+            },
+            {
+                type: "text",
+                text: " making Latvia one of the most affordable countries in Europe for international students."
+            }
+        ]   
+    },
+    {
+       type: 'p',
+       content: "Many Latvian universities also offer scholarships and tuition fee discounts based on academic performance, helping eligible students reduce the overall cost of their education."
+    },
+    {
+       type: "h2",
+       content: "Admission Intakes & Application Timeline"
+    },
+    {
+        type: "p",
+        content:
+        "Latvian universities generally offer two major admission intakes each year."
+    },
+    {
+        type: "intake-list",
+        items: [
+        {
+            id: 1,
+            title: "Autumn Intake (September)",
+            description: "The September intake is the primary admission cycle and offers the widest selection of Bachelor's and Master's programmes. Most international students apply during this intake because of greater course availability.",
+            icon: FaCalendarDays
+        },
+        {
+            id: 2,
+            title: "Spring Intake (February)",
+            description: "Several universities also offer a February intake for selected programmes, providing additional flexibility for students who miss the main admission cycle.",
+            icon: FaGraduationCap
+        },
+        // {
+        //     id: 3, 
+        //     title: "Summer Intake (May)",
+        //     description: "Offered by selected universities for specific courses.",
+        //     icon: FaSchool
+        // }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Applying early gives students sufficient time to complete university admissions, arrange finances, prepare documents, and apply for a student visa without unnecessary delays."
+    },
+    {
+        type: "h2",
+        content: "Latvia Student Visa Process"
+    },
+    {
+        type: "p",
+        content:
+        "International students from non-EU countries must apply for a Latvia Student Visa or residence permit after receiving an admission offer from a recognised university."
+    },
+    {
+        type: "p",
+        content:
+        "The visa application generally requires:"
+    },
+    {
+        type: "list",
+        items: [
+            "Valid passport",
+            "University admission letter",
+            "Academic transcripts and certificates",
+            "Proof of financial support",
+            "Health insurance",
+            "Passport-size photographs",
+            "Visa application documents",
+        ],
+        imgUrl: "/images/destinations/latvia/latvia-3.webp",
+        alt: "Latvia Student Visa Process"
+    },
+    {
+     type: "p",
+     content: "Submitting accurate and complete documentation helps ensure a smooth visa process."
+    },
+    {
+        type: "p",
+        content: "Our experienced counselors guide students through every stage of the Latvia student visa application, making the process simple and stress-free."
+    },
+    {
+        type: "h2",
+        content: "Career Opportunities After Graduation"
+    },
+    {
+        type: "p",
+        content:
+        "Latvia offers excellent career prospects for graduates across multiple industries. Its growing economy, strategic location within Europe, and expanding technology sector create opportunities for skilled professionals."
+    },
+    {
+       type: "p",
+       content: "Graduates can explore careers in:"
+    },
+    {
+        type: "list",
+        items: [
+        "Information Technology",
+        "Software Development",
+        "Engineering",
+        "Healthcare",
+        "Business Management",
+        "Finance",
+        "Logistics",
+        "Marketing",
+        "Tourism & Hospitality",
+        "Data Analytics"
+        ],
+        imgUrl: "/images/destinations/latvia/latvia-2.webp",
+        alt: "Career Opportunities After Graduation"
+    },
+    {
+        type: "p",
+        content:
+        "The practical learning approach adopted by Latvian universities equips students with the knowledge and skills required to succeed in today&#39;s competitive international job market."
+    },
+    {
+        type:"h2",
+        content: "Student Life in Latvia"
+    },
+    {
+        type: "p",
+        content: "Life in Latvia offers the perfect balance between academics and personal growth. Students enjoy a safe environment, efficient public transportation, vibrant cultural festivals, beautiful landscapes, and a welcoming international community."
+    },
+    {
+         type: "p",
+         content: "From exploring the historic streets of Riga to participating in university clubs, sports, and cultural events, international students gain a memorable study abroad experience while developing lifelong friendships and valuable global exposure."
+    },
+    {
+        type: "h2",
+        content: "Why Choose Indo European for Your Latvia Journey?"
+    },
+    {
+        type: "p",
+        content: "Choosing the right study abroad consultant can make your admission journey easier and more successful. At Indo European, we have over 20 years of experience helping students achieve their dream of studying in Europe."
+    },
+    {
+        type: "p",
+        content: "Our expert counselors provide personalised guidance based on your academic background, career aspirations, and budget. From selecting the right university to completing your visa formalities, we support you at every stage."
+    },
+    {
+        type: "list",
+        items: [
+            "Free career counselling",
+            "University and course selection",
+            "Admission application assistance",
+            "SOP and documentation support",
+            "Scholarship guidance",
+            "Education loan assistance",
+            "Latvia student visa guidance",
+            "Accommodation and pre-departure assistance"
+        ],
+        imgUrl: "/images/destinations/latvia/latvia-4.webp",
+        alt: "Services"
+    },
+    {
+        type: "p",
+        content: "Whether you're planning to pursue a Bachelor's or Master's degree, Indo European is committed to making your Study in Latvia journey smooth, transparent, and successful. Let our experienced team help you take the first step toward earning a globally recognised European degree and building a rewarding international career."
+    }
     ]
     },
 ]
