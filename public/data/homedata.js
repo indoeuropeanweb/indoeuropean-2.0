@@ -2,7 +2,8 @@
     import { GrUserExpert } from "react-icons/gr";
     import { FaPeopleArrows, FaLightbulb  } from "react-icons/fa";
     import { GiEuropeanFlag } from "react-icons/gi";
-    
+    import { FaGlobe, FaBookOpen, FaGraduationCap, FaClipboardCheck, FaRobot, FaBolt, FaLaptopFile, FaUserCheck, FaBookAtlas, FaChartLine, FaHouseLaptop, FaEarthAmericas, FaArrowTrendUp, FaUsers, FaUserGraduate, FaBullseye} from "react-icons/fa6";
+
     export const services = [
       {
         "id": 1,
@@ -350,4 +351,169 @@ export const whyChooseUsData = [
       "We help students secure admission to leading European universities with expert guidance on admissions, visas, and post-study career opportunities.",
     icon: GiEuropeanFlag,
   },
+];
+
+
+  export const ielts = [
+      {
+    id: 1,
+    icon: FaGlobe,
+    title: "International Recognition",
+    description:
+      "IELTS is accepted by thousands of universities, colleges, and immigration authorities across the globe. It is one of the most preferred English language tests for students planning to study abroad.",
+  },
+  {
+    id: 2,
+    icon: FaBookOpen,
+    title: "Complete Skill Development",
+    description:
+      "Our coaching focuses on all four language skills—Listening, Reading, Writing, and Speaking—through structured lessons, practice exercises, and personalised feedback.",
+  },
+  {
+    id: 3,
+    icon: FaGraduationCap,
+    title: "Expert Faculty",
+    description:
+      "Learn from experienced trainers who understand the latest IELTS exam pattern and provide practical strategies to improve your performance.",
+  },
+  {
+    id: 4,
+    icon: FaClipboardCheck,
+    title: "Regular Practice Tests",
+    description:
+      "Attend mock exams and practice sessions designed to build confidence, improve time management, and prepare you for the actual test environment.",
+  },
+  ]
+
+  export const pte  = [
+  {
+    id: 1,
+    icon: FaRobot,
+    title: "AI-Based Assessment",
+    description:
+      "PTE Academic uses computer-based testing with AI scoring, offering a fair and accurate evaluation of your English language skills.",
+  },
+  {
+    id: 2,
+    icon: FaBolt,
+    title: "Faster Results",
+    description:
+      "Receive your results quickly, allowing you to proceed with university applications and visa processes without unnecessary delays.",
+  },
+  {
+    id: 3,
+    icon: FaLaptopFile,
+    title: "Practical Learning Approach",
+    description:
+      "Our trainers help you master every section of the exam through guided practice, speaking drills, writing exercises, and mock tests.",
+  },
+  {
+    id: 4,
+    icon: FaUserCheck,
+    title: "Personalised Support",
+    description:
+      "Every student receives individual attention, helping identify strengths and improve weaker areas before the exam.",
+  },
+];
+
+export const toefl = [
+  {
+    id: 1,
+    icon: FaGraduationCap,
+    title: "Designed for Academic Success",
+    description:
+      "TOEFL measures the English skills required for studying in an international academic environment and is accepted by leading universities worldwide.",
+  },
+  {
+    id: 2,
+    icon: FaBookOpen,
+    title: "Skill-Focused Training",
+    description:
+      "Develop confidence in reading academic passages, listening to lectures, writing structured responses, and speaking fluently.",
+  },
+  {
+    id: 3,
+    icon: FaBookAtlas,
+    title: "Updated Study Resources",
+    description:
+      "Access comprehensive learning materials, practice papers, and expert guidance based on the latest TOEFL exam format.",
+  },
+  {
+    id: 4,
+    icon: FaChartLine,
+    title: "Performance Evaluation",
+    description:
+      "Track your progress through regular assessments and receive constructive feedback to improve your overall score.",
+  },
+];
+
+export const duolingo = [
+  {
+    id: 1,
+    icon: FaHouseLaptop,
+    title: "Convenient Online Exam",
+    description:
+      "Prepare for a modern English language test that can be taken from the comfort of your home with flexible scheduling.",
+  },
+  {
+    id: 2,
+    icon: FaEarthAmericas,
+    title: "Growing Global Acceptance",
+    description:
+      "Many universities now accept Duolingo English Test scores for admissions, making it a popular choice for international students.",
+  },
+  {
+    id: 3,
+    icon: FaLightbulb,
+    title: "Smart Preparation",
+    description:
+      "Our coaching combines interactive practice, vocabulary building, grammar improvement, and mock tests to maximise your performance.",
+  },
+  {
+    id: 4,
+    icon: FaArrowTrendUp,
+    title: "Quick Score Improvement",
+    description:
+      "With personalised mentoring and focused preparation, students gain the confidence needed to achieve competitive results.",
+  },
+];
+
+
+export const coachingPoints = [
+  {
+    icon: FaGraduationCap,
+    title: "Experienced Trainers",
+    description:
+      "Learn from qualified instructors with years of experience in English language coaching and study abroad guidance.",
+  },
+  {
+    icon: FaUsers,
+    title: "Interactive Learning",
+    description:
+      "Our classroom sessions encourage active participation, helping students improve communication skills naturally.",
+  },
+  {
+    icon: FaBookOpen,
+    title: "Comprehensive Study Material",
+    description:
+      "Receive updated learning resources, practice papers, and mock tests aligned with the latest exam formats.",
+  },
+  {
+    icon: FaUserGraduate,
+    title: "Individual Attention",
+    description:
+      "We understand that every student learns differently, which is why we provide personalised feedback and one-to-one guidance whenever needed.",
+  },
+  // {
+  //   icon: FaChartLine,
+  //   title: "Flexible Learning Options",
+  //   description:
+  //     "Choose from weekday or weekend batches designed to suit your academic schedule and preparation timeline.",
+  // },
+  // {
+  //   icon: FaBullseye,
+  //   title: "Focused Exam Strategies",
+  //   description:
+  //     "Master effective techniques for time management, question analysis, and score improvement with expert mentoring.",
+  // },
 ];

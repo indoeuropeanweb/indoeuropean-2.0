@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className=''>
      <div className='max-w-6xl mx-auto'>
-        {/* <div className='flex justify-between flex-col sm:flex-row space-y-5 items-center px-5 border-b-2 border-[#ccc] mt-5 rounded-md'>
+        <div className='flex justify-between flex-col sm:flex-row space-y-5 items-center px-5 border-b-2 border-[#ccc] mt-5 rounded-md'>
               <Image className="rounded-sm" height={60} width={180} src="/images/logos/logo-dark.webp" alt="Indo European Study Abroad Consultants"/>
               <ul className="flex justify-center items-center gap-5 mb-8 md:mb-0">
                <li><Link className="" href={''}><FaInstagram className="text-primary size-5 inline-block" /></Link></li>
@@ -18,7 +18,7 @@ const Footer = () => {
                <li><Link className="" href={''}><FaYoutube className="text-primary size-5 inline-block" /></Link></li>
                <li><Link className="" href={''}><FaLinkedin className="text-primary size-5 inline-block" /></Link></li>
              </ul>
-           </div> */}
+           </div>
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 py-15 px-5 border-t-2 border-zinc-300">
           <div className="lg:col-span-3">
             <h2 className="font-Jakarta text-xl lg:text-2xl font-semibold text-primary">
@@ -38,7 +38,7 @@ Indo European has been helping students achieve their international education go
                 <li><Link href="/" className="font-semibold text-sm lg:text-base text-primary hover:underline">Home</Link></li>
                 <li><Link href="/services" className="font-semibold text-sm lg:text-base text-primary hover:underline">Our Services</Link></li>
                 <li><Link href="/collaborate" className="font-semibold text-sm lg:text-base text-primary hover:underline">Collaborate</Link></li>
-                <li><Link href="/coaching" className="font-semibold text-sm lg:text-base text-primary hover:underline">Coaching</Link></li>
+                {/* <li><Link href="/coaching" className="font-semibold text-sm lg:text-base text-primary hover:underline">Coaching</Link></li> */}
                 <li><Link href="/about" className="font-semibold text-sm lg:text-base text-primary hover:underline">About Us</Link></li>
                 <li><Link href="/contact" className="font-semibold text-sm lg:text-base text-primary hover:underline">Contact Us</Link></li>
                 <li><Link href="/terms-and-conditions" className="font-semibold text-sm lg:text-base text-primary hover:underline">Terms & Conditions</Link></li>
@@ -69,7 +69,7 @@ Indo European has been helping students achieve their international education go
                 <li><Link href="/other-businesses" className="font-semibold text-sm lg:text-base text-primary hover:underline">Other Businesses</Link></li>
                 <li><Link href="/overseas-institutes" className="font-semibold text-sm lg:text-base text-primary hover:underline">Overseas Institutes</Link></li>
               </ul>
-            </div>
+            </div> 
             <div>
               <h4 className="relative text-sm lg:text-base font-bold uppercase text-primary after:absolute after:left-0 after:-bottom-1.5 after:h-1 after:w-20 after:rounded-full after:bg-linear-to-r after:from-secondary after:to-primary after:content-['']">
                 Quick Links
@@ -78,7 +78,7 @@ Indo European has been helping students achieve their international education go
                 <li><Link href="https://crm.indoeuropean.in" target="_blank" className="font-semibold text-sm lg:text-base text-primary hover:underline">CRM Login</Link></li>
                 <li><Link href="/courses-finder" className="font-semibold text-sm lg:text-base text-primary hover:underline">Course Finder</Link></li>
                 <li><Link href="/ielts-coaching" className="font-semibold text-sm lg:text-base text-primary hover:underline">IELTS Classes</Link></li>
-                <li><Link href="/coaching" className="font-semibold text-sm lg:text-base text-primary hover:underline">Coaching</Link></li>
+                {/* <li><Link href="/coaching" className="font-semibold text-sm lg:text-base text-primary hover:underline">Coaching</Link></li> */}
                 <li><Link href="/pay-online" className="font-semibold text-sm lg:text-base text-primary hover:underline">Pay Online</Link></li>
                 <li><Link href="/contact" className="font-semibold text-sm lg:text-base text-primary hover:underline">Free Counselling</Link></li>
                 <li><Link href="/blogs" className="font-semibold text-sm lg:text-base text-primary hover:underline">Blogs</Link></li>

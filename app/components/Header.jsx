@@ -47,22 +47,10 @@ const Header = () => {
   },
 ];
 
-// useEffect(() => {
-//   if (query !== ""){
-//     console.log(query);
-//   }
-// }, [query])
-
-//   const filteredCourses = courses.filter((course) =>
-//     course.title.toLowerCase().includes(query.toLowerCase())
-//   );
-
   return (
     <header className="relative z-2">
     <div className="justify-between items-center bg-primary px-5 hidden lg:flex">
         <div className="">
-            {/* <span className="text-white text-sm font-Jakarta">Indo European Study Abroad Consultants</span> */}
-            {/* <Link href="/events" className="bg-linear-to-r from-secondary to-white text-primary py-1 px-2 rounded-md text-sm font-Jakarta"><MdEventAvailable className="inline-block size-4 text-primary"/>&nbsp;&nbsp;Upcoming Events</Link> */}
             <Link
                   href="/events"
                   className="relative cursor-pointer zoom-icon w-full inline-flex items-center justify-center overflow-hidden rounded-sm px-3 py-1 text-sm font-semibold font-Jakarta text-white transition-colors duration-500 before:absolute before:inset-0 before:bg-primary before:origin-right before:scale-x-0 before:transition-transform before:duration-500 before:ease-in-out hover:before:scale-x-100"
@@ -102,9 +90,6 @@ const Header = () => {
               <li className="relative group">
                 <span className="text-md lg:text-base font-semibold relative after:content-[''] after:absolute after:left-0 after:-bottom-1.5 after:h-1 after:w-22 after:rounded-full after:bg-linear-to-r after:from-secondary after:to-primary after:origin-left after:scale-x-0 after:transition-transform after:duration-500 after:ease-in-out hover:after:origin-right hover:after:scale-x-100">Destinations&nbsp;<MdKeyboardArrowDown className="size-4 inline-block group-hover:rotate-180 transition-all duration-300 ease-in-out"/></span>
                 <ul className="absolute z-2 p-5 grid grid-cols-1 md:grid-cols-2 space-x-4 space-y-4 top-12 left-0 rounded-md bg-white w-120 shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out">
-                    {/* <li className="font-Jakarta"><Link className="flex items-center hover:bg-primary/5 border-s-2 border-white hover:border-primary transition-colors duration-300 ease-in-out rounded-md px-2 py-2 text-base lg:text-base" href="/destinations/study-in-latvia"><Image className="rounded-full w-5 h-5" src={'/images/flags/latvia.jpg'} width={5} height={5} alt="study in latvia"/>&nbsp;&nbsp;Study in Latvia</Link></li>
-                    <li className="font-Jakarta"><Link className="flex items-center hover:bg-primary/5 border-s-2 border-white hover:border-primary transition-colors duration-300 ease-in-out rounded-md px-2 py-2 text-base lg:text-base" href="/destinations/study-in-latvia"><Image className="rounded-full w-5 h-5" src={'/images/flags/lithuania.jpg'} width={5} height={5} alt="study in lithuania"/>&nbsp;&nbsp;Study in Lithuania</Link></li>
-                    <li className="font-Jakarta"><Link className="flex items-center hover:bg-primary/5 border-s-2 border-white hover:border-primary transition-colors duration-300 ease-in-out rounded-md px-2 py-2 text-base lg:text-base" href="/destinations/study-in-latvia"><Image className="rounded-full w-5 h-5" src={'/images/flags/germany.jpg'} width={5} height={5} alt="study in germany"/>&nbsp;&nbsp;Study in Germany</Link></li> */}
                     <li className="font-Jakarta"><Link className="flex items-center hover:bg-primary/5 border-s-2 border-white hover:border-primary transition-colors duration-300 ease-in-out rounded-md px-2 py-2 text-sm lg:text-md" href="/destinations/study-in-australia"><Image className="rounded-full w-5 h-5" src={'/images/flags/australia.svg'} width={5} height={5} alt="study in australia"/>&nbsp;&nbsp;Study in Australia</Link></li>
                     <li className="font-Jakarta"><Link className="flex items-center hover:bg-primary/5 border-s-2 border-white hover:border-primary transition-colors duration-300 ease-in-out rounded-md px-2 py-2 text-sm lg:text-md" href="/destinations/study-in-canada"><Image className="rounded-full w-5 h-5" src={'/images/flags/canada.svg'} width={5} height={5} alt="study in canada"/>&nbsp;&nbsp;Study in Canada</Link></li>
                     <li className="font-Jakarta"><Link className="flex items-center hover:bg-primary/5 border-s-2 border-white hover:border-primary transition-colors duration-300 ease-in-out rounded-md px-2 py-2 text-sm lg:text-md" href="/destinations/study-in-new-zealand"><Image className="rounded-full w-5 h-5" src={'/images/flags/new-zealand.svg'} width={5} height={5} alt="study in new zealand"/>&nbsp;&nbsp;Study in New Zealand</Link></li>
@@ -200,9 +185,7 @@ const Header = () => {
         }`}
       >
         <div className="overflow-hidden">
-
           <div className="grid gap-2 mt-3">
-
             <Link href="/destinations/study-in-australia" className="flex items-center p-2">
               <Image
                 src="/images/flags/australia.svg"
@@ -213,7 +196,6 @@ const Header = () => {
               />
               Study in Australia
             </Link>
-
             <Link href="/destinations/study-in-canada" className="flex items-center p-2">
               <Image
                 src="/images/flags/canada.svg"
@@ -224,7 +206,6 @@ const Header = () => {
               />
               Study in Canada
             </Link>
-
             <Link href="/destinations/study-in-new-zealand" className="flex items-center p-2">
               <Image
                 src="/images/flags/new-zealand.svg"
@@ -235,7 +216,6 @@ const Header = () => {
               />
               Study in New Zealand
             </Link>
-
             <Link href="/destinations/study-in-singapore" className="flex items-center p-2">
               <Image
                 src="/images/flags/singapore.svg"
@@ -246,7 +226,6 @@ const Header = () => {
               />
               Study in Singapore
             </Link>
-
             <Link href="/destinations/study-in-uk" className="flex items-center p-2">
               <Image
                 src="/images/flags/UK.jpg"
@@ -257,7 +236,6 @@ const Header = () => {
               />
               Study in UK
             </Link>
-
             <Link href="/destinations/study-in-usa" className="flex items-center p-2">
               <Image
                 src="/images/flags/usa.jpg"
@@ -268,7 +246,6 @@ const Header = () => {
               />
               Study in USA
             </Link>
-
             <Link href="/destinations/study-in-ireland" className="flex items-center p-2">
               <Image
                 src="/images/flags/ireland.svg"
@@ -279,7 +256,6 @@ const Header = () => {
               />
               Study in Ireland
             </Link>
-
             <div className="">
               <button
                 onClick={() => toggleMenu("europe")}
@@ -293,7 +269,6 @@ const Header = () => {
                   }`}
                 />
               </button>
-
               <div
                 className={`grid overflow-hidden transition-all duration-300 ${
                   openMenus.europe
@@ -302,9 +277,7 @@ const Header = () => {
                 }`}
               >
                 <div className="overflow-hidden">
-
                   <div className="grid gap-2 pl-2">
-
                     <Link href="/destinations/study-in-germany" className="flex items-center p-2">
                       <Image
                         src="/images/flags/germany.svg"
@@ -315,7 +288,6 @@ const Header = () => {
                       />
                       Study in Germany
                     </Link>
-
                     <Link href="/destinations/study-in-denmark" className="flex items-center p-2">
                       <Image
                         src="/images/flags/denmark.svg"
@@ -326,7 +298,6 @@ const Header = () => {
                       />
                       Study in Denmark
                     </Link>
-
                     <Link href="/destinations/study-in-finland" className="flex items-center p-2">
                       <Image
                         src="/images/flags/finland.svg"
@@ -337,7 +308,6 @@ const Header = () => {
                       />
                       Study in Finland
                     </Link>
-
                     <Link href="/destinations/study-in-latvia" className="flex items-center p-2">
                       <Image
                         src="/images/flags/latvia.svg"
@@ -348,7 +318,6 @@ const Header = () => {
                       />
                       Study in Latvia
                     </Link>
-
                     <Link href="/destinations/study-in-lithuania" className="flex items-center p-2">
                       <Image
                         src="/images/flags/lithuania.jpg"
@@ -359,7 +328,6 @@ const Header = () => {
                       />
                       Study in Lithuania
                     </Link>
-
                     <Link href="/destinations/study-in-france" className="flex items-center p-2">
                       <Image
                         src="/images/flags/france.jpg"
@@ -370,7 +338,6 @@ const Header = () => {
                       />
                       Study in France
                     </Link>
-
                     <Link href="/destinations/study-in-sweden" className="flex items-center p-2">
                       <Image
                         src="/images/flags/sweden.svg"
@@ -381,14 +348,10 @@ const Header = () => {
                       />
                       Study in Sweden
                     </Link>
-
                   </div>
-
                 </div>
               </div>
-
             </div>
-
           </div>
         </div>
       </div>

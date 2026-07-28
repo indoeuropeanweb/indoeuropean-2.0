@@ -33,7 +33,10 @@ import {
   FaCarSide,
   FaBolt,
   FaTree,
-  FaUserDoctor
+  FaUserDoctor,
+  FaUserTie,
+  FaShirt,
+  FaUtensils
 } from "react-icons/fa6";
 
 
@@ -5732,6 +5735,561 @@ export const destinations = [
     {
         type: "p",
         content: "Whether you're planning to pursue a Bachelor's or Master's degree, Indo European is committed to making your Study in Latvia journey smooth, transparent, and successful. Let our experienced team help you take the first step toward earning a globally recognised European degree and building a rewarding international career."
+    }
+    ]
+    },
+    {
+    id: 14,
+    heading: "Study in France",
+    title: "Unlock World-Class Education, Cultural Excellence, and Global Career Opportunities",
+    slug: "study-in-france",
+    metaTitle:
+        "Study in France | Indo European Study Abroad Consultancy",
+    metaDescription:
+        "Study in France is a Study abroad destination for students in india, with many benefits explore all here",
+    image:
+        "/images/destinations/france/france-1.webp",
+    cover: "/images/destinations/france/cover/france.webp",
+    keywords: [
+        "study in France",
+        "study abroad France",
+        "France universities",
+        "France for international students",
+        "study in France 2026",
+        "affordable education in France",
+        "English taught programs France",
+        "best countries to study in France",
+        "France scholarships",
+        "student life in France",
+        "higher education France",
+        "France education",
+        "career opportunities in France",
+        "study abroad consultants",
+        "international students France"
+    ],
+    category: "country",
+    sections: [
+    {
+        type: "p",
+        content:
+        "France is one of the world's most popular destinations for international students, offering an exceptional blend of academic excellence, cultural heritage, and career opportunities. Home to globally ranked universities, prestigious business schools, and leading research institutions, France attracts students from across the globe who aspire to receive a high-quality education in a dynamic and innovative environment."
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "Choosing to "
+            },
+            {
+                type: "link",
+                text: "Study in France",
+                href: "/destinations/study-in-france"
+            },
+            {
+                type: "text",
+                text: " allows students to earn internationally recognised degrees while experiencing one of Europe's most vibrant and culturally rich countries. With affordable public universities, English-taught programmes, strong industry connections, and excellent post-study opportunities, France has become an ideal destination for students seeking a successful global career."
+            }
+        ]
+    },
+    {
+        type: "p",
+        content: [
+        {
+         type: "p",
+         text: "At "
+        },    
+        {
+            type: "link",
+            text: "Indo European",
+            href: "/"
+        },
+        {
+            type: "text",
+            text: ", we help students choose the right university, select the best programme, and provide complete guidance throughout the admission and France student visa process."
+        }
+        ]
+    },
+
+    {
+        type: "h2",
+        content: "Top Reasons to Study in France"
+    },
+    {
+        type: "p",
+        content: "France has long been recognised as a global leader in higher education, innovation, business, fashion, engineering, and research. The country&#39;s universities combine academic excellence with practical learning, helping students develop the knowledge and skills required in today's competitive job market."
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "bold",
+                text: "Some of the major advantages of studying in France include:"
+            }
+        ]
+    },
+    {
+        type: "list",
+        items: [
+        "Internationally recognised degrees",
+        "Affordable tuition fees at public universities",
+        "Wide range of English-taught Bachelor's and Master's programmes",
+        "Globally ranked universities and business schools",
+        "Strong focus on research, innovation, and entrepreneurship",
+        "Opportunities to work while studying",
+        "Excellent internship and industry exposure",
+        "Multicultural and welcoming student environment",
+        "High quality of life",
+        "Gateway to career opportunities across Europe"
+        ],
+        imgUrl: "/images/destinations/france/france-1.webp",
+        alt: "Top Reasons to Study in France"
+    },
+    {
+        type: "p",
+        content:
+        "For students looking to build an international career, Study in France offers the perfect combination of quality education and global exposure."
+    },
+
+    {
+        type: "h2",
+        content: "Explore Programmes That Match Your Career Goals"
+    },
+    {
+        type: "p",
+        content:
+        "French universities offer a diverse range of programmes designed to meet the demands of rapidly evolving global industries. Whether you're interested in business, engineering, technology, healthcare, or the arts, you'll find courses that combine academic knowledge with practical experience."
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "bold",
+                text: "Popular study options include:"
+            }
+        ]
+    },
+    {
+        type: "course-list",
+        items: [
+            {
+                id: 1,
+                type: "course",
+                icon: FaBriefcase,
+                text: "Business & Management"
+            },
+            {
+                id: 2,
+                type: "course",
+                icon: FaUserTie,
+                text: "MBA"
+            },
+            {
+                id: 3,
+                type: "course",
+                icon: FaLaptopCode,
+                text: "Computer Science"
+            },
+            {
+                id: 4,
+                type: "course",
+                icon: FaBrain,
+                text: "Artificial Intelligence"
+            },
+            {
+                id: 5,
+                type: "course",
+                icon: FaChartLine,
+                text: "Data Science"
+            },
+            {
+                id: 6,
+                type: "course",
+                icon: FaGear,
+                text: "Engineering"
+            },
+            {
+                id: 7,
+                type: "course",
+                icon: FaShirt,
+                text: "Fashion Design"
+            },
+            {
+                id: 8,
+                type: "course",
+                icon: FaHotel,
+                text: "Hospitality & Tourism"
+            },
+            {
+                id: 9,
+                type: "course",
+                icon: FaCalculator,
+                text: "Finance & Accounting"
+            },
+            {
+                id: 10,
+                type: "course",
+                icon: FaBullhorn,
+                text: "Marketing"
+            },
+            {
+                id: 11,
+                type: "course",
+                icon: FaGlobe,
+                text: "International Business"
+            },
+            {
+                id: 12,
+                type: "course",
+                icon: FaCompassDrafting,
+                text: "Architecture"
+            },
+            {
+                id: 13,
+                type: "course",
+                icon: FaUtensils,
+                text: "Culinary Arts"
+            },
+            {
+                id: 14,
+                type: "course",
+                icon: FaDna,
+                text: "Biotechnology"
+            },
+            {
+                id: 15,
+                type: "course",
+                icon: FaHospital,
+                text: "Public Health"
+            }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Many universities also offer internships, research opportunities, and industry collaborations that allow students to gain practical experience before graduation."
+    },
+    {
+        type: "h2",
+        content: "Study at France's Leading Universities"
+    },
+    {
+        type: "p",
+        content:
+        "Latvia is home to several internationally recognised universities known for their academic excellence, modern infrastructure, and research-driven education. These institutions collaborate with universities and industries across Europe, giving students access to global learning opportunities."
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "bold",
+                text: "Some of the leading universities include:"
+            }
+        ]
+    },
+    {
+        type: "university-list",
+        items: [
+        {
+            id: 1,
+            src: "/images/destinations/france/universities/cdp.png",
+            alt: "College De Paris",
+            title: "College De Paris"
+        },
+        {
+            id: 2,
+            src: "/images/destinations/france/universities/cy-tech.png",
+            alt: "CY Tech",
+            title: "CY Tech"
+        },
+        {
+            id: 3,
+            src: "/images/destinations/france/universities/essca.png",
+            alt: "ESSCA School of Management",
+            title: "ESSCA School of Management"
+        },
+        {
+            id: 4,
+            src: "/images/destinations/france/universities/imt.png",
+            alt: "IMT Atlantique",
+            title: "IMT Atlantique"
+        },
+        {
+            id: 5,
+            src: "/images/destinations/france/universities/kbs.png",
+            alt: "KEDGE Business School",
+            title: "KEDGE Business School"
+        },
+        {
+            id: 6,
+            src: "/images/destinations/france/universities/ldv.png",
+            alt: "Leonardo De Vince",
+            title: "Leonardo De Vince"
+        },
+        {
+            id: 7,
+            src: "/images/destinations/france/universities/psb.png",
+            alt: "Paris School of Business",
+            title: "Paris School of Business"
+        },
+        {
+            id: 8,
+            src: "/images/destinations/france/universities/siu.png",
+            alt: "SCHILLER International University",
+            title: "SCHILLER International University"
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "These institutions provide modern campuses, experienced faculty, international exchange opportunities, and industry-focused education that prepares students for successful careers worldwide."
+    },
+
+    {
+        type: "h2",
+        content: "Tuition Fees, Living Costs & Scholarships"
+    },
+    {
+        type: "p",
+        content: [
+        {
+            type: "text",
+            text: "One of the major benefits of choosing to "
+        },
+        {
+            type: "link",
+            text: "Study in France",
+            href: "/destinations/study-in-france"
+        },
+        {
+            type: "text",
+            text: " is the availability of quality education at affordable prices. "
+        },
+        ]
+    },
+    {
+        type: "p",
+        content: "How much you pay depends on the university and the programme you choose. Fees at public universities are usually lower, but private universities and business schools may charge higher fees depending on the course."   
+    },
+    {
+       type: 'p',
+       content: [
+        {
+            type: "text",
+            text: "Students should also plan for accommodation, food, transportation, health insurance and personal expenses. Cost of living: On average between "
+        },
+        {
+            type: "bold",
+            text: "€800 and €1,400 per month, "
+        },
+        {
+            type: "text",
+            text: "depending on the city and your lifestyle. Larger cities such as Paris tend to be more expensive, whereas smaller cities are more affordable. French Government, universities and international organisations offer a variety of scholarship opportunities for international students to help with the education expenses."
+        }
+       ]
+    },
+    {
+       type: "h2",
+       content: "Admission Intakes & Application Timeline"
+    },
+    {
+        type: "p",
+        content:
+        "French universities primarily offer two admission intakes each year."
+    },
+    {
+        type: "intake-list",
+        items: [
+        {
+            id: 1,
+            title: "September Intake",
+            description: "The September intake is the major admission cycle and offers the largest selection of Bachelor's and Master's programmes. Most international students prefer this intake because of greater course availability and scholarship opportunities.",
+            icon: FaCalendarDays
+        },
+        {
+            id: 2,
+            title: "January Intake",
+            description: "Several universities also offer a January intake for selected programmes, providing flexibility for students who are unable to apply during the main admission cycle.",
+            icon: FaGraduationCap
+        },
+        // {
+        //     id: 3, 
+        //     title: "Summer Intake (May)",
+        //     description: "Offered by selected universities for specific courses.",
+        //     icon: FaSchool
+        // }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Students are encouraged to begin their application process several months in advance to allow sufficient time for admissions, document preparation, accommodation arrangements, and visa processing."
+    },
+    {
+        type: "h2",
+        content: "France Student Visa Process"
+    },
+    {
+        type: "p",
+        content: [
+            {
+              type: "text",
+              text: "International students planning to "          
+            },
+            {
+                type: "link",
+                text: "Study in France",
+                href: "/destinations/study-in-france"
+            },
+            {
+                type:"text",
+                text: " are required to obtain a France Student Visa after receiving an official admission offer from a recognised institution."
+            }
+        ]
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "bold",
+                text: "The visa application generally requires:"
+            }
+        ]
+    },
+    {
+        type: "list",
+        items: [
+            "Valid passport",
+            "University admission letter",
+            "Academic transcripts and certificates",
+            "Proof of financial support",
+            "Health insurance",
+            "Accommodation details",
+            "Passport-size photographs",
+            "Visa application documents",
+        ],
+        imgUrl: "/images/destinations/france/france-3.webp",
+        alt: "France Student Visa Process"
+    },
+    {
+     type: "p",
+     content: "Submitting complete and accurate documentation helps ensure a smooth visa application process and reduces unnecessary delays."
+    },
+    {
+        type: "p",
+        content: "Our experienced counselors provide complete guidance throughout the France student visa process to help students prepare with confidence."
+    },
+    {
+        type: "h2",
+        content: "Career Opportunities After Graduation"
+    },
+    {
+        type: "p",
+        content:
+        "France is home to many globally recognised companies across industries such as technology, engineering, luxury goods, healthcare, finance, aviation, and hospitality. Its strong economy and innovation-driven business environment create excellent career opportunities for international graduates."
+    },
+    {
+       type: "p",
+       content: [
+        {
+            type:"bold",
+            text: "Graduates can build careers in:"
+        }
+       ]
+    },
+    {
+        type: "list",
+        items: [
+        "Information Technology",
+        "Artificial Intelligence",
+        "Engineering",
+        "Finance & Banking",
+        "Luxury Brand Management",
+        "Fashion Industry",
+        "Hospitality & Tourism",
+        "Marketing",
+        "Healthcare",
+        "Data Analytics",
+        "International Business"
+        ],
+        imgUrl: "/images/destinations/france/france-2.webp",
+        alt: "Career Opportunities After Graduation"
+    },
+    {
+        type: "p",
+        content:
+        "The combination of academic excellence, practical learning, and international exposure helps students develop skills that are highly valued by employers around the world."
+    },
+    {
+        type:"h2",
+        content: "Student Life in France"
+    },
+    {
+        type: "p",
+        content: "France offers an enriching student experience that goes beyond academics. Students enjoy a multicultural environment, world-famous cuisine, historic landmarks, art, fashion, and an active social life. Modern public transport, vibrant student communities, cultural festivals, and opportunities to travel across Europe make studying in France a truly memorable experience."
+    },
+    {
+         type: "p",
+         content: "Whether studying in Paris, Lyon, Toulouse, Lille, or Bordeaux, international students benefit from a welcoming atmosphere and an exceptional quality of life."
+    },
+    {
+        type: "h2",
+        content: "Why Choose Indo European for Your France Journey?"
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "Studying abroad is a life-changing decision that requires careful planning and expert guidance. At "
+            },
+            {
+                type: "link",
+                text: "Indo European",
+                href: "/"
+            },
+            {
+                type: "text",
+                text: ", we simplify your study abroad journey by providing personalised support at every age of the admission process."
+            }
+        ]
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "With over "
+            },
+            {
+                type: "bold",
+                text: "20+ years of experience"
+            }, 
+            {
+                type: "text",
+                text: " in overseas education consultancy, we have successfully guided thousands of students toward achieving their dream of studying in Europe. Our experienced counselors help students identify the right universities, prepare strong applications, and complete the France student visa process with confidence."
+            }
+        ]
+    },
+    {
+        type: "list",
+        items: [
+            "Pre-departure counseling",
+            "Accommodation guidance",
+            "Education loan assistance",
+            "Free career counselling",
+            "Universities and course selection",
+            "Documentation and SOP support",
+            "France student visa guidance",
+            "Application guidance assistance"
+        ],
+        imgUrl: "/images/destinations/france/france-4.webp",
+        alt: "Services"
+    },
+    {
+        type: "p",
+        content: "Whether you are planning to study for a Bachelor’s, Master’s, MBA or any other specialised professional program, Indo European is committed to making your Study in France experience smooth, transparent and successful. Let our expert team guide you through the next step to earning a globally recognised degree in France and building a rewarding international career."
     }
     ]
     },
