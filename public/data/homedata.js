@@ -1,9 +1,8 @@
     import { IoBusiness, IoPerson } from "react-icons/io5";
     import { GrUserExpert } from "react-icons/gr";
-    import { FaPeopleArrows, FaLightbulb  } from "react-icons/fa";
     import { GiEuropeanFlag } from "react-icons/gi";
     import { FaGlobe, FaBookOpen, FaGraduationCap, FaClipboardCheck, FaRobot, FaBolt, FaLaptopFile, FaUserCheck, FaBookAtlas, FaChartLine, FaHouseLaptop, FaEarthAmericas, FaArrowTrendUp, FaUsers, FaUserGraduate, FaBullseye} from "react-icons/fa6";
-
+    import { FaUserTie, FaUniversity, FaFileSignature, FaLanguage, FaPassport, FaHandHoldingUsd, FaPlaneDeparture, FaPeopleArrows, FaLightbulb } from "react-icons/fa";
     export const services = [
       {
         "id": 1,
@@ -516,4 +515,64 @@ export const coachingPoints = [
   //   description:
   //     "Master effective techniques for time management, question analysis, and score improvement with expert mentoring.",
   // },
+];
+
+
+export const servicesPage = [
+  {
+    id: 1,
+    title: "Career Counselling",
+    icon: FaUserTie,
+    img: "/images/services/service/1.webp",
+    description:
+      "Every successful study abroad journey begins with the right guidance. Our expert counsellors understand your academic background, career goals, interests, and budget before recommending the most suitable study options. We help you make confident decisions that support your long-term career aspirations.",
+  },
+  {
+    id: 2,
+    title: "University & Programme Selection",
+    icon: FaUniversity,
+    img: "/images/services/service/2.webp",
+    description:
+      "Choosing the right university is one of the most important decisions you'll make. We help you shortlist universities and programmes that match your qualifications, preferences, and future goals. Our team ensures you explore the best academic opportunities based on your profile.",
+  },
+  {
+    id: 3,
+    title: "Admission Application Assistance",
+    icon: FaFileSignature,
+    img: "/images/services/service/3.webp",
+    description:
+      "Applying to international universities requires accuracy and proper documentation. Our admission experts assist you with application preparation, document verification, university submissions, and follow-ups, ensuring your application is completed correctly and submitted on time.",
+  },
+  {
+    id: 4,
+    title: "English Language Test Preparation",
+    icon: FaLanguage,
+    img: "/images/services/service/4.webp",
+    description:
+      "A good language test score strengthens your university application. We provide expert coaching and preparation support for IELTS, PTE Academic, and Duolingo English Test, helping students improve their confidence and achieve their target scores.",
+  },
+  {
+    id: 5,
+    title: "Student Visa Assistance",
+    icon: FaPassport,
+    img: "/images/services/service/5.webp",
+    description:
+      "Our visa specialists guide you through every step of the student visa process. From preparing documents and completing application forms to interview guidance and submission support, we ensure your visa application is organised, accurate, and stress-free.",
+  },
+  {
+    id: 6,
+    title: "Education Loan Assistance",
+    icon: FaHandHoldingUsd,
+    img: "/images/services/service/6.webp",
+    description:
+      "Financial planning is an important part of studying abroad. We assist students in understanding available education loan options and guide them through the documentation process, helping them secure funding for tuition fees and living expenses.",
+  },
+  {
+    id: 7,
+    title: "Pre-Departure Guidance",
+    icon: FaPlaneDeparture,
+    img: "/images/services/service/7.webp",
+    description:
+      "Before you leave for your destination, we prepare you for your international journey through our pre-departure sessions. We provide useful information on accommodation, travel, student life, local culture, essential documents, and other important aspects to help you settle comfortably.",
+  },
 ];

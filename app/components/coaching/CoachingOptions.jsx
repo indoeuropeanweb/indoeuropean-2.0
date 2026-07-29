@@ -1,8 +1,9 @@
 import React from 'react'
+import ScrollAnimate from '../ScrollAnimate';
 
 const CoachingOptions = ({title, data}) => {
   return (
-      <section className='max-w-6xl mx-auto'>
+      <ScrollAnimate className='max-w-6xl mx-auto' direction='left'>
          <div className='py-12 px-10'>
              <h2 className='text-2xl lg:text-3xl text-primary font-bold font-Jakarta'>{title} <span className='text-secondary'>Peparation</span></h2>
              <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10'>
@@ -16,7 +17,7 @@ const CoachingOptions = ({title, data}) => {
                  })}
              </div>
          </div>
-      </section>
+      </ScrollAnimate>
   )
 }
 

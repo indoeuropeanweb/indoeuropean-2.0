@@ -36,9 +36,9 @@ Indo European has been helping students achieve their international education go
               </h4>
               <ul className="mt-4 space-y-3">
                 <li><Link href="/" className="font-semibold text-sm lg:text-base text-primary hover:underline">Home</Link></li>
-                <li><Link href="/services" className="font-semibold text-sm lg:text-base text-primary hover:underline">Our Services</Link></li>
+                <li><Link href="/services" className="font-semibold text-sm lg:text-base text-primary hover:underline">Services</Link></li>
                 <li><Link href="/collaborate" className="font-semibold text-sm lg:text-base text-primary hover:underline">Collaborate</Link></li>
-                {/* <li><Link href="/coaching" className="font-semibold text-sm lg:text-base text-primary hover:underline">Coaching</Link></li> */}
+                <li><Link href="/coaching" className="font-semibold text-sm lg:text-base text-primary hover:underline">Coaching</Link></li>
                 <li><Link href="/about" className="font-semibold text-sm lg:text-base text-primary hover:underline">About Us</Link></li>
                 <li><Link href="/contact" className="font-semibold text-sm lg:text-base text-primary hover:underline">Contact Us</Link></li>
                 <li><Link href="/terms-and-conditions" className="font-semibold text-sm lg:text-base text-primary hover:underline">Terms & Conditions</Link></li>
