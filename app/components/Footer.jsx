@@ -51,8 +51,9 @@ Indo European has been helping students achieve their international education go
               <ul className="mt-4 space-y-3">
                 <li><Link href="/destinations/study-in-germany" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in Germany</Link></li>
                 <li><Link href="/destinations/study-in-australia" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in Australia</Link></li>
-                <li><Link href="/destinations/study-in-canada" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in Canada</Link></li>
                 <li><Link href="/destinations/study-in-new-zealand" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in New Zealand</Link></li>
+                <li><Link href="/destinations/study-in-lithuania" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in Lithuania</Link></li>
+                <li><Link href="/destinations/study-in-latvia" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in Latvia</Link></li>
                 <li><Link href="/destinations/study-in-uk" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in UK</Link></li>
                 <li><Link href="/destinations/study-in-usa" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in USA</Link></li>
               </ul>

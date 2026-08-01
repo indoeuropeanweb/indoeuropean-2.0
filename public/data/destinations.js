@@ -1348,7 +1348,7 @@ export const destinations = [
     {
         type: "p",
         content:
-        "Studying a master&#39;s degree in Denmark allows students to gain world-class education while developing practical skills that employers highly value."
+        "Studying a master's degree in Denmark allows students to gain world-class education while developing practical skills that employers highly value."
     },
 
     {
@@ -1447,7 +1447,7 @@ export const destinations = [
     {
         type: "p",
         content:
-        "Denmark is home to some of Europe&#39;s most respected universities, recognised for academic excellence, innovation, and research."
+        "Denmark is home to some of Europe's most respected universities, recognised for academic excellence, innovation, and research."
     },
     {
         type: "p",
@@ -1571,13 +1571,13 @@ export const destinations = [
         {
             id: 1,
             title: "September Intake",
-            description: "The primary intake with the largest number of master&#39;s programmes and scholarship opportunities.",
+            description: "The primary intake with the largest number of master's programmes and scholarship opportunities.",
             icon: FaCalendarDays
         },
         {
             id: 2,
             title: "January Intake",
-            description: "Available at selected universities for specific master&#39;s courses.",
+            description: "Available at selected universities for specific master's courses.",
             icon: FaGraduationCap
         },
         ]
@@ -1865,7 +1865,7 @@ export const destinations = [
     {
         type: "p",
         content:
-        "Denmark is home to some of Europe&#39;s most respected universities, recognised for academic excellence, innovation, and research."
+        "Denmark is home to some of Europe's most respected universities, recognised for academic excellence, innovation, and research."
     },
     {
         type: "p",
@@ -2103,14 +2103,10 @@ export const destinations = [
     },
     {
         type: "p",
-        content: "Choosing to "
-    },
-    {
-        type: "p",
         content: [
         {
             type: "text",
-            text: "Study in Singapore "
+            text: "Choosing to "
         },
         {
             type: "link",
@@ -2507,18 +2503,14 @@ export const destinations = [
     {
         type: "p",
         content:
-        "The United States has remained one of the world&#39;s most preferred study destinations, offering unmatched academic excellence, cutting-edge research, and endless career opportunities. Home to globally ranked universities, diverse study programmes, and an innovation-driven education system, the USA empowers students to achieve their academic and professional ambitions. For Indian students, choosing to study in the USA means gaining access to internationally recognised degrees, world-class faculty, and a multicultural learning environment that prepares them for success anywhere in the world."
-    },
-    {
-        type: "p",
-        content: "Pursuing "
+        "The United States has remained one of the world's most preferred study destinations, offering unmatched academic excellence, cutting-edge research, and endless career opportunities. Home to globally ranked universities, diverse study programmes, and an innovation-driven education system, the USA empowers students to achieve their academic and professional ambitions. For Indian students, choosing to study in the USA means gaining access to internationally recognised degrees, world-class faculty, and a multicultural learning environment that prepares them for success anywhere in the world."
     },
     {
         type: "p",
         content: [
         {
             type: "text",
-            text: "Study in USA "
+            text: "Pursuing "
         },
         {
             type: "link",
@@ -2527,7 +2519,7 @@ export const destinations = [
         },
         {
             type: "text",
-            text: " is more than earning a degree—it&#39;s an opportunity to build practical skills, expand your global network, and experience a dynamic education system that values creativity, leadership, and critical thinking. Whether you&#39;re planning to study engineering, business, healthcare, computer science, or emerging technologies, American universities offer flexible learning pathways designed to match your career goals."
+            text: " is more than earning a degree, it's an opportunity to build practical skills, expand your global network, and experience a dynamic education system that values creativity, leadership, and critical thinking. Whether you're planning to study engineering, business, healthcare, computer science, or emerging technologies, American universities offer flexible learning pathways designed to match your career goals."
         },
         ]
     },
@@ -2593,7 +2585,7 @@ export const destinations = [
     {
         type: "p",
         content:
-        "Whether your goal is to become a business leader, software engineer, healthcare professional, scientist, or entrepreneur, American universities offer thousands of programmes tailored to meet the demands of today&#39;s rapidly evolving industries."
+        "Whether your goal is to become a business leader, software engineer, healthcare professional, scientist, or entrepreneur, American universities offer thousands of programmes tailored to meet the demands of today's rapidly evolving industries."
     },
     {
         type: "p",
@@ -2688,7 +2680,7 @@ export const destinations = [
     {
         type: "p",
         content:
-        "The USA is home to many of the world&#39;s highest-ranked universities, recognised for academic excellence, groundbreaking research, and innovation. These institutions have produced Nobel laureates, entrepreneurs, scientists, and global business leaders."
+        "The USA is home to many of the world's highest-ranked universities, recognised for academic excellence, groundbreaking research, and innovation. These institutions have produced Nobel laureates, entrepreneurs, scientists, and global business leaders."
     },
     {
         type: "p",
@@ -2883,7 +2875,7 @@ export const destinations = [
     {
         type: "p",
         content:
-        "From your first counselling session to your departure for the USA, we&#39;re committed to providing personalised support that helps you begin your international education journey with confidence."
+        "From your first counselling session to your departure for the USA, we're committed to providing personalised support that helps you begin your international education journey with confidence."
     },
     ]
     },
@@ -3427,7 +3419,7 @@ export const destinations = [
     {
         type: "p",
         content:
-        "Finnish universities offer a wide variety of programmes designed to prepare students for the future. Whether you're interested in technology, business, healthcare, sustainability, or creative industries, you&#39;ll find courses that combine academic excellence with practical experience."
+        "Finnish universities offer a wide variety of programmes designed to prepare students for the future. Whether you're interested in technology, business, healthcare, sustainability, or creative industries, you'll find courses that combine academic excellence with practical experience."
     },
     {
         type: "p",
@@ -3608,7 +3600,7 @@ export const destinations = [
     {
         type: "p",
         content:
-        "These universities offer globally recognised qualifications and provide students with the knowledge, practical skills, and international exposure needed to excel in today&#39;s competitive job market."
+        "These universities offer globally recognised qualifications and provide students with the knowledge, practical skills, and international exposure needed to excel in today's competitive job market."
     },
 
     {
@@ -3846,7 +3838,7 @@ export const destinations = [
     {
         type: "p",
         content:
-        "Lithuania has rapidly emerged as one of Europe&#39;s most attractive study destinations for international students seeking quality education at an affordable cost. With globally recognised universities, English-taught programmes, modern learning facilities, and a welcoming multicultural environment, Lithuania offers students the perfect opportunity to earn a European degree while preparing for a successful international career. For Indian students, it combines quality education, reasonable tuition fees, and an excellent standard of living, making it a smart choice for higher studies in Europe."
+        "Lithuania has rapidly emerged as one of Europe's most attractive study destinations for international students seeking quality education at an affordable cost. With globally recognised universities, English-taught programmes, modern learning facilities, and a welcoming multicultural environment, Lithuania offers students the perfect opportunity to earn a European degree while preparing for a successful international career. For Indian students, it combines quality education, reasonable tuition fees, and an excellent standard of living, making it a smart choice for higher studies in Europe."
     },
     {
         type: "p",
@@ -3866,7 +3858,7 @@ export const destinations = [
         },
         {
             type: "text",
-            text: " means becoming part of an education system that values innovation, practical learning, and academic excellence. Universities focus on developing industry-relevant skills through research, internships, and project-based learning, ensuring graduates are well-equipped to meet the demands of today&#39;s global job market."
+            text: " means becoming part of an education system that values innovation, practical learning, and academic excellence. Universities focus on developing industry-relevant skills through research, internships, and project-based learning, ensuring graduates are well-equipped to meet the demands of today's global job market."
         },
         ]
     },
@@ -3907,7 +3899,7 @@ export const destinations = [
         items: [
         "Globally recognised European degrees",
         "Affordable tuition fees",
-        "English-taught bachelor's and master&#39;s programmes",
+        "English-taught bachelor's and master's programmes",
         "Modern universities with advanced learning facilities",
         "Practical and research-based education",
         "Safe and welcoming student environment",
@@ -4332,7 +4324,7 @@ export const destinations = [
         },
         {
             type: "text",
-            text: " means becoming part of an education system that values innovation, research, and hands-on learning. Universities focus on developing practical skills alongside theoretical knowledge, preparing graduates to succeed in today&#39;s competitive global job market. With internationally recognised degrees and close collaborations between universities and industries, Germany continues to be one of the best destinations for building a successful international career."
+            text: " means becoming part of an education system that values innovation, research, and hands-on learning. Universities focus on developing practical skills alongside theoretical knowledge, preparing graduates to succeed in today's competitive global job market. With internationally recognised degrees and close collaborations between universities and industries, Germany continues to be one of the best destinations for building a successful international career."
         },
         ]
     },
@@ -4361,7 +4353,7 @@ export const destinations = [
     },
     {
         type: "p",
-        content: "Germany's education system is respected worldwide for its academic excellence, research-driven approach, and industry-focused curriculum. Students benefit from modern teaching methods, practical learning experiences, and opportunities to work on real-world projects throughout their studies. Whether you&#39;re pursuing engineering, business, healthcare, or technology, Germany provides an environment where students can grow academically and professionally."
+        content: "Germany's education system is respected worldwide for its academic excellence, research-driven approach, and industry-focused curriculum. Students benefit from modern teaching methods, practical learning experiences, and opportunities to work on real-world projects throughout their studies. Whether you're pursuing engineering, business, healthcare, or technology, Germany provides an environment where students can grow academically and professionally."
     },
     {
         type: "p",
@@ -4397,7 +4389,7 @@ export const destinations = [
     {
         type: "p",
         content:
-        "German universities offer thousands of programmes designed to prepare students for the evolving demands of global industries. Whether your goal is to become an engineer, business professional, IT expert, healthcare specialist, or researcher, you&#39;ll find courses that combine academic excellence with practical application."
+        "German universities offer thousands of programmes designed to prepare students for the evolving demands of global industries. Whether your goal is to become an engineer, business professional, IT expert, healthcare specialist, or researcher, you'll find courses that combine academic excellence with practical application."
     },
     {
         type: "p",
@@ -4744,7 +4736,7 @@ export const destinations = [
     },
     {
         type: "p",
-        content: "At Indo European, we&#39;re committed to helping you achieve your study abroad goals with expert counselling, personalised university selection, complete admission assistance, and reliable visa guidance. If you&#39;re ready to take the next step towards studying in Germany, our team is here to support you throughout every stage of your journey."
+        content: "At Indo European, we're committed to helping you achieve your study abroad goals with expert counselling, personalised university selection, complete admission assistance, and reliable visa guidance. If you're ready to take the next step towards studying in Germany, our team is here to support you throughout every stage of your journey."
     },
     {
         type: "p",
@@ -5275,7 +5267,7 @@ export const destinations = [
     },
     {
         type: "p",
-        content: "Whether you&#39;re planning to pursue a Bachelor's, Master's, or Doctoral degree, Latvia offers a wide range of English-taught programmes designed to prepare students for successful global careers. With affordable tuition fees, low living expenses, and excellent post-study opportunities, Latvia is becoming a preferred destination for Indian students looking to study in Europe."
+        content: "Whether you're planning to pursue a Bachelor's, Master's, or Doctoral degree, Latvia offers a wide range of English-taught programmes designed to prepare students for successful global careers. With affordable tuition fees, low living expenses, and excellent post-study opportunities, Latvia is becoming a preferred destination for Indian students looking to study in Europe."
     },
     {
         type: "p",
@@ -5691,7 +5683,7 @@ export const destinations = [
     {
         type: "p",
         content:
-        "The practical learning approach adopted by Latvian universities equips students with the knowledge and skills required to succeed in today&#39;s competitive international job market."
+        "The practical learning approach adopted by Latvian universities equips students with the knowledge and skills required to succeed in today's competitive international job market."
     },
     {
         type:"h2",
@@ -5817,7 +5809,7 @@ export const destinations = [
     },
     {
         type: "p",
-        content: "France has long been recognised as a global leader in higher education, innovation, business, fashion, engineering, and research. The country&#39;s universities combine academic excellence with practical learning, helping students develop the knowledge and skills required in today's competitive job market."
+        content: "France has long been recognised as a global leader in higher education, innovation, business, fashion, engineering, and research. The country's universities combine academic excellence with practical learning, helping students develop the knowledge and skills required in today's competitive job market."
     },
     {
         type: "p",

@@ -23,7 +23,7 @@ const page = () => {
             <div className='mt-5 relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 space-y-5 justify-center items-center'>
             {servicesPage.map((service, index) => {
                 const Icon = service.icon;
-                return  <div key={service.id} className="group max-w-md overflow-hidden rounded-2xl border border-zinc-200 bg-white p-5 transition-all duration-500 hover:-translate-y-2 hover:border-secondary hover:shadow-2xl">
+                return  <div key={service.id} className="group max-w-md overflow-hidden rounded-2xl border border-zinc-200 bg-white p-5 transition-all duration-500 hover:-translate-y-2 hover:border-secondary hover:shadow-xl">
             <div className="relative rounded-2xl">
                 <Image
                     className="rounded-2xl transition-transform duration-700 group-hover:scale-105"

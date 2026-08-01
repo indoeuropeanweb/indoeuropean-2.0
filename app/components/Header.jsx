@@ -56,7 +56,7 @@ const Header = () => {
                   className="relative cursor-pointer zoom-icon w-full inline-flex items-center justify-center overflow-hidden rounded-sm px-3 py-1 text-sm font-semibold font-Jakarta text-white transition-colors duration-500 before:absolute before:inset-0 before:bg-primary before:origin-right before:scale-x-0 before:transition-transform before:duration-500 before:ease-in-out hover:before:scale-x-100"
                 >
               <span className="relative z-1">
-               <Image className="" height='36' width='180' src={'/images/aboutus/icons/Upcoming-Events.png'} alt="Upcoming Events" />
+               <Image className="" height={36} width={180} src={'/images/aboutus/icons/Upcoming-Events.png'} alt="Upcoming Events" />
               </span>
             </Link>
         </div>

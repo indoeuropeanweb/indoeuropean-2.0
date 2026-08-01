@@ -3,6 +3,7 @@
     import { GiEuropeanFlag } from "react-icons/gi";
     import { FaGlobe, FaBookOpen, FaGraduationCap, FaClipboardCheck, FaRobot, FaBolt, FaLaptopFile, FaUserCheck, FaBookAtlas, FaChartLine, FaHouseLaptop, FaEarthAmericas, FaArrowTrendUp, FaUsers, FaUserGraduate, FaBullseye} from "react-icons/fa6";
     import { FaUserTie, FaUniversity, FaFileSignature, FaLanguage, FaPassport, FaHandHoldingUsd, FaPlaneDeparture, FaPeopleArrows, FaLightbulb } from "react-icons/fa";
+   
     export const services = [
       {
         "id": 1,

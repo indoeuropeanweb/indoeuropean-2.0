@@ -109,8 +109,8 @@ const page = () => {
               <div className='space-y-5'>
                   <h2 className='text-2xl lg:text-3xl text-primary font-bold font-Jakarta'>Start Your Preparation <span className='text-secondary'>Today</span></h2>
                   <p className='text-md lg:text-base font-manrope'>Take the first step towards achieving your dream of studying abroad with confidence. Join Indo European's English Language Test Preparation programmes and receive expert guidance for IELTS, PTE Academic, TOEFL, and the Duolingo English Test through structured lessons, personalised mentoring, and proven learning strategies.<br /><br />
-  Our experienced trainers focus on improving your language skills, exam techniques, and confidence through regular practice sessions, mock tests, and individual feedback. Whether you choose classroom coaching or online learning, we help you build the skills needed to achieve your target score and strengthen your university application.<br /><br />
-  Begin your preparation today with Indo European and move one step closer to securing admission to your preferred international university.</p>
+                    Our experienced trainers focus on improving your language skills, exam techniques, and confidence through regular practice sessions, mock tests, and individual feedback. Whether you choose classroom coaching or online learning, we help you build the skills needed to achieve your target score and strengthen your university application.<br /><br />
+                    Begin your preparation today with Indo European and move one step closer to securing admission to your preferred international university.</p>
               </div>
               <div className=''>
                 <div className='mx-auto lg:ms-auto relative z-1 w-full max-w-md rounded-xl border border-white/10 bg-black/10 p-8 backdrop-blur-4xl'>

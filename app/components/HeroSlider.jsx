@@ -7,27 +7,27 @@ const slides = [
   {
     id: 1,
     country: "Germany",
-    image: "/images/universities/germany.webp",
+    image: "/images/universities/germany-2.webp",
   },
   {
     id: 2,
     country: "Denmark",
-    image: "/images/universities/denmark.webp",
+    image: "/images/universities/denmark-2.webp",
   },
   {
     id: 3,
     country: "Latvia",
-    image: "/images/universities/latvia.webp",
+    image: "/images/universities/latvia-2.webp",
   },
   {
     id: 4,
     country: "Lithuania",
-    image: "/images/universities/lithuania.webp",
+    image: "/images/universities/lithuania-2.webp",
   },
   {
     id: 5,
     country: "Netherlands",
-    image: "/images/universities/netherlands.webp",
+    image: "/images/universities/netherlands-2.webp",
   }
 ];
 
@@ -62,7 +62,7 @@ export default function HeroSection() {
         />
       ))}
 
-      <div className="absolute inset-0 bg-black/10 w-full" />
+      <div className="absolute inset-0 bg-black/15 w-full" />
       <div className="relative z-1 flex h-full w-full items-center md:px-8 py-12 md:py-0">
         <div className="mx-auto max-w-6xl">
         <div className="grid w-full gap-5 lg:grid-cols-2 md:px-10">
