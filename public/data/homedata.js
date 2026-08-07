@@ -1,9 +1,9 @@
     import { IoBusiness, IoPerson } from "react-icons/io5";
     import { GrUserExpert } from "react-icons/gr";
     import { GiEuropeanFlag } from "react-icons/gi";
-    import { FaGlobe, FaBookOpen, FaGraduationCap, FaClipboardCheck, FaRobot, FaBolt, FaLaptopFile, FaUserCheck, FaBookAtlas, FaChartLine, FaHouseLaptop, FaEarthAmericas, FaArrowTrendUp, FaUsers, FaUserGraduate, FaBullseye} from "react-icons/fa6";
-    import { FaUserTie, FaUniversity, FaFileSignature, FaLanguage, FaPassport, FaHandHoldingUsd, FaPlaneDeparture, FaPeopleArrows, FaLightbulb } from "react-icons/fa";
-   
+    import { FaGlobe, FaBookOpen, FaGraduationCap, FaAward, FaBuilding, FaBullhorn, FaHeadset, FaClipboardCheck, FaRobot, FaBolt, FaLaptopFile, FaUserCheck, FaBookAtlas, FaChartLine, FaHouseLaptop, FaEarthAmericas, FaArrowTrendUp, FaUsers, FaUserGraduate, FaBullseye, FaBriefcase, FaLaptopCode, FaGear, FaUserDoctor, FaPalette, FaScaleBalanced, FaHotel, FaLeaf, FaNewspaper, FaBrain} from "react-icons/fa6";
+    import { FaSlidersH, FaUserTie, FaUniversity, FaFileSignature, FaLanguage, FaPassport, FaHandHoldingUsd, FaPlaneDeparture, FaPeopleArrows, FaLightbulb, FaWallet, FaShieldAlt, FaPlaneArrival, FaChalkboardTeacher, FaHandshake } from "react-icons/fa";
+    
     export const services = [
       {
         "id": 1,
@@ -99,74 +99,74 @@
         alt: "Study in Latvia",
         url: "/destinations/study-in-latvia"
       },
+      // {
+      //   id: 6,
+      //   image: "/images/flags/netherlands-flag.webp",
+      //   text:"Netherlands",
+      //   alt: "Study in Netherlands",
+      //   url: "/destinations/study-in-netherlands"
+      // },
       {
         id: 6,
-        image: "/images/flags/netherlands-flag.webp",
-        text:"Netherlands",
-        alt: "Study in Netherlands",
-        url: "/destinations/study-in-netherlands"
-      },
-      {
-        id: 7,
         image: "/images/flags/canada.webp",
         text:"Canada",
         alt: "Study in Canada",
         url: "/destinations/study-in-canada"
       },
       {
-        id: 8,
+        id: 7,
         image: "/images/flags/new-zealand.webp",
         text:"New Zealand",
         alt: "Study in New Zealand",
         url: "/destinations/study-in-new-zealand"
       },
       {
-        id: 9,
+        id: 8,
         image: "/images/flags/singapore.webp",
         text:"Singapore",
         alt: "Study in Singapore",
         url: "/destinations/study-in-singapore"
       },
       {
-        id: 10,
+        id: 9,
         image: "/images/flags/uk.webp",
         text:"United Kingdom",
         alt: "Study in United Kindom",
         url: "/destinations/study-in-united-kingdom"
       },
       {
-        id: 11,
+        id: 10,
         image: "/images/flags/usa.webp",
         text:"United States of America",
         alt: "Study in USA",
         url: "/destinations/study-in-usa"
       },
       {
-        id: 12,
+        id: 11,
         image: "/images/flags/ireland.webp",
         text:"Ireland",
         alt: "Study in Ireland",
         url: "/destinations/study-in-ireland"
       },
       {
-        id: 13,
+        id: 12,
         image: "/images/flags/finland.webp",
         text:"Finland",
         alt: "Study in Finland",
         url: "/destinations/study-in-finland"
       },
       {
-        id: 14,
+        id: 13,
         image: "/images/flags/france.webp",
         text:"France",
         alt: "Study in France",
         url: "/destinations/study-in-france"
       },
       {
-        id: 15,
+        id: 14,
         image: "/images/flags/sweden.webp",
         text:"Sweden",
-        alt: "Study in Sweden",
+        alt: "Study in Sweden", 
         url: "/destinations/study-in-sweden"
       },
     ]
@@ -504,18 +504,6 @@ export const coachingPoints = [
     description:
       "We understand that every student learns differently, which is why we provide personalised feedback and one-to-one guidance whenever needed.",
   },
-  // {
-  //   icon: FaChartLine,
-  //   title: "Flexible Learning Options",
-  //   description:
-  //     "Choose from weekday or weekend batches designed to suit your academic schedule and preparation timeline.",
-  // },
-  // {
-  //   icon: FaBullseye,
-  //   title: "Focused Exam Strategies",
-  //   description:
-  //     "Master effective techniques for time management, question analysis, and score improvement with expert mentoring.",
-  // },
 ];
 
 
@@ -577,3 +565,381 @@ export const servicesPage = [
       "Before you leave for your destination, we prepare you for your international journey through our pre-departure sessions. We provide useful information on accommodation, travel, student life, local culture, essential documents, and other important aspects to help you settle comfortably.",
   },
 ];
+
+ export const franchiseBenefits = [
+  {
+    id: 1,
+    title: "A Trusted Brand with Industry Experience",
+    img: "/images/partner-franchise/content/1.webp",
+    description:
+      "Build your business under a recognised name in overseas education. Backed by years of industry expertise, international university partnerships, and a student-first approach, Indo European helps you establish credibility from the very beginning.",
+    icon: FaAward,
+  },
+  {
+    id: 2,
+    title: "Complete Business Setup Assistance",
+    img: "/images/partner-franchise/content/2.webp",
+    description:
+      "From office setup guidance to operational planning, we help you build a strong foundation for your franchise. Our experts provide practical support so you can focus on delivering quality counselling and growing your business.",
+    icon: FaBuilding,
+  },
+  {
+    id: 3,
+    title: "University Partnerships & Admission Support",
+    img: "/images/partner-franchise/content/3.webp",
+    description:
+      "Gain access to a wide network of leading universities across Europe and other popular study destinations. Our dedicated admissions team assists with university applications, documentation, and student processing, making it easier to provide professional services to your clients.",
+    icon: FaUniversity,
+  },
+  {
+    id: 4,
+    title: "Training That Builds Confidence",
+    img: "/images/partner-franchise/content/4.webp",
+    description:
+      "Knowledge is the key to success in overseas education. We provide regular training sessions covering university updates, admission procedures, visa requirements, counselling techniques, and industry trends, ensuring your team stays ahead in a competitive market.",
+    icon: FaGraduationCap,
+  },
+  {
+    id: 5,
+    title: "Marketing & Brand Development",
+    img: "/images/partner-franchise/content/5.webp",
+    description:
+      "Growing a business requires visibility. As our franchise partner, you'll receive marketing support, promotional resources, branding guidance, and campaign assistance to help you attract more students and strengthen your presence in your local market.",
+    icon: FaBullhorn,
+  },
+  {
+    id: 6,
+    title: "Operational Support at Every Stage",
+    img: "/images/partner-franchise/content/6.webp",
+    description:
+      "Running a consultancy involves more than admissions. Our dedicated support team assists you with student applications, documentation, process management, and operational queries, allowing you to deliver a smooth and professional experience.",
+    icon: FaHeadset,
+  },
+];
+
+export const courseCategories = [
+  {
+    id: 1,
+    title: "Business & Management",
+    icon: FaBriefcase,
+    description:
+      "Develop leadership, strategic thinking, and management skills through globally recognised business programmes designed for future entrepreneurs and professionals.",
+  },
+  {
+    id: 2,
+    title: "Computer Science & Information Technology",
+    icon: FaLaptopCode,
+    description:
+      "Build expertise in software development, cybersecurity, artificial intelligence, cloud computing, and emerging technologies with industry-focused programmes.",
+  },
+  {
+    id: 3,
+    title: "Engineering & Technology",
+    icon: FaGear,
+    description:
+      "Choose from Mechanical, Civil, Electrical, Electronics, Automotive, and other specialised engineering programmes offered by top international universities.",
+  },
+  {
+    id: 4,
+    title: "Medicine & Healthcare",
+    icon: FaUserDoctor,
+    description:
+      "Explore rewarding careers in healthcare through programmes in Nursing, Public Health, Pharmacy, Biomedical Sciences, Healthcare Management, and more.",
+  },
+  {
+    id: 5,
+    title: "Arts, Design & Humanities",
+    icon: FaPalette,
+    description:
+      "Turn creativity into a profession with programmes in Fine Arts, Graphic Design, Literature, History, Fashion, Interior Design, and related disciplines.",
+  },
+  {
+    id: 6,
+    title: "Law & Legal Studies",
+    icon: FaScaleBalanced,
+    description:
+      "Gain a strong understanding of international law, corporate law, human rights, and legal systems while preparing for a global legal career.",
+  },
+  {
+    id: 7,
+    title: "Hospitality & Tourism Management",
+    icon: FaHotel,
+    description:
+      "Learn the skills required for careers in hotel management, tourism, event management, and the global hospitality industry.",
+  },
+  {
+    id: 8,
+    title: "Environmental Science & Sustainability",
+    icon: FaLeaf,
+    description:
+      "Study climate change, environmental management, renewable energy, and sustainable development through future-focused academic programmes.",
+  },
+  {
+    id: 9,
+    title: "Data Science & Artificial Intelligence",
+    icon: FaChartLine,
+    description:
+      "Prepare for high-demand careers by gaining knowledge in data analytics, machine learning, artificial intelligence, and business intelligence.",
+  },
+  {
+    id: 10,
+    title: "Media, Communication & Journalism",
+    icon: FaNewspaper,
+    description:
+      "Develop practical communication, digital media, content creation, public relations, and journalism skills for today's fast-changing media landscape.",
+  },
+  {
+    id: 11,
+    title: "Education & Teaching",
+    icon: FaGraduationCap,
+    description:
+      "Prepare for careers in education with internationally recognised programmes focused on teaching methodologies, educational leadership, and child development.",
+  },
+  {
+    id: 12,
+    title: "Psychology & Social Sciences",
+    icon: FaBrain,
+    description:
+      "Understand human behaviour, mental health, counselling, sociology, and social research through comprehensive academic programmes.",
+  },
+];
+
+
+export const courseSelectionPoints = [
+  {
+    id: 1,
+    title: "Understand Your Career Goals",
+    icon: FaBullseye,
+    description:
+      "Our counselors begin by understanding your interests, academic achievements, strengths, and future career plans to recommend the most suitable study options.",
+  },
+  {
+    id: 2,
+    title: "Compare Universities & Programmes",
+    icon: FaUniversity,
+    description:
+      "We help you evaluate universities based on curriculum, global rankings, tuition fees, internship opportunities, career prospects, and overall student experience.",
+  },
+  {
+    id: 3,
+    title: "Explore Future Career Opportunities",
+    icon: FaBriefcase,
+    description:
+      "Choosing a course isn't just about studying—it’s about building a successful future. We help you select programmes with strong industry demand and excellent employment opportunities.",
+  },
+  {
+    id: 4,
+    title: "Review Eligibility Requirements",
+    icon: FaClipboardCheck,
+    description:
+      "Every university has different admission criteria. We guide you through academic requirements, language proficiency, documentation, and application deadlines to ensure you're fully prepared.",
+  },
+  {
+    id: 5,
+    title: "Receive Personalised Expert Guidance",
+    icon: FaUserTie,
+    description:
+      "With years of experience in overseas education, our counsellors provide one-to-one support, helping you make confident decisions throughout your admission journey.",
+  },
+];
+
+export const accommodationCards = [
+        {
+            id: 1,
+            title: "University Accommodation",
+            icon: FaUniversity,
+            image: "/images/accommodation/content/university-accommodation.webp",
+            description:
+            "Many international universities offer on-campus or university-managed housing that provides a secure and student-friendly environment. We help you explore available accommodation options, understand the application process, and complete bookings within the required timelines. Living on campus also gives students easy access to university facilities and a vibrant student community.",
+        },
+        {
+            id: 2,
+            title: "Private Student Accommodation",
+            icon: FaBuilding,
+            image: "/images/accommodation/content/private-student-accommodation.webp",
+            description:
+            "For students looking for greater independence, private accommodation offers flexibility and a wider range of living options. We assist you in finding reliable student apartments, shared housing, studio rooms, and private residences located near your university. Our goal is to help you choose accommodation that matches both your lifestyle and budget.",
+        },
+        {
+            id: 3,
+            title: "Accommodation Booking Guidance",
+            icon: FaClipboardCheck,
+            image: "/images/accommodation/content/accommodation-booking-guidance.webp",
+            description:
+            "Booking accommodation in another country can be confusing, especially if you're unfamiliar with local rental procedures. Our team provides step-by-step assistance with accommodation booking, helping you understand rental agreements, payment terms, booking requirements, and other important formalities before you confirm your stay.",
+        },
+        {
+            id: 4,
+            title: "Budget-Friendly Housing Solutions",
+            icon: FaWallet,
+            image: "/images/accommodation/content/budget-friendly-housing-solutions.webp",
+            description:
+            "Every student has different financial priorities. We help you compare accommodation options based on rent, facilities, travel convenience, and overall living expenses. Our personalized recommendations ensure you find quality accommodation that offers both comfort and value.",
+        },
+        {
+            id: 5,
+            title: "Safe & Convenient Locations",
+            icon: FaShieldAlt,
+            image: "/images/accommodation/content/safe-and-convenient-locations.webp",
+            description:
+            "Safety is one of the most important factors when choosing student accommodation. We guide you towards trusted housing options located close to universities or well-connected through public transportation. Easy access to supermarkets, healthcare services, restaurants, and daily essentials ensures a comfortable student experience abroad.",
+        },
+        {
+            id: 6,
+            title: "Pre-Arrival Support",
+            icon: FaPlaneArrival,
+            image: "/images/accommodation/content/pre-arrival-support.webp",
+            description:
+            "Our support doesn't stop once your accommodation is booked. Before your departure, we provide useful guidance on what to expect after arrival, essential documents to carry, accommodation rules, local regulations, and practical tips that help you settle into your new home quickly and confidently.",
+        },
+    ];
+
+  export const accommodationFeatures = [
+  {
+    id: 1,
+    title: "Personalised Recommendations",
+    icon: FaUserCheck,
+    image: "/images/accommodation/personalised-recommendations.webp",
+    description:
+      "We understand that every student has unique preferences. Our team recommends accommodation based on your budget, location preferences, and lifestyle requirements.",
+  },
+  {
+    id: 2,
+    title: "Trusted Housing Options",
+    icon: FaShieldAlt,
+    image: "/images/accommodation/trusted-housing.webp",
+    description:
+      "We guide students towards reliable accommodation choices that offer a safe, comfortable, and welcoming environment.",
+  },
+  {
+    id: 3,
+    title: "Complete Booking Support",
+    icon: FaClipboardCheck,
+    image: "/images/accommodation/booking-support.webp",
+    description:
+      "From selecting accommodation to understanding rental procedures and documentation, we provide assistance throughout the booking process.",
+  },
+  {
+    id: 4,
+    title: "Student-Focused Guidance",
+    icon: FaUserGraduate,
+    image: "/images/accommodation/student-guidance.webp",
+    description:
+      "Our experienced counsellors help you make informed decisions, ensuring your accommodation complements your overall study abroad experience.",
+  },
+];
+
+
+export const coachingPartnerBenefits = [
+  {
+    id: 1,
+    title: "Strengthen Your Test Preparation Programs",
+    description:
+      "Offer students comprehensive preparation for internationally recognised English language tests, including IELTS, PTE, TOEFL, and Duolingo English Test. With updated learning resources and expert support, your coaching centre can provide quality training that builds student confidence and improves results.",
+    image: "/images/coaching-centres/content/1.webp",
+    icon: FaGraduationCap,
+  },
+  {
+    id: 2,
+    title: "Curriculum & Academic Support",
+    description:
+      "Deliver structured learning with professionally designed study materials and updated curriculum support. We help you maintain high academic standards by providing guidance that aligns with current exam patterns and international education requirements.",
+    image: "/images/coaching-centres/content/2.webp",
+    icon: FaBookOpen,
+  },
+  {
+    id: 3,
+    title: "Faculty Training & Skill Development",
+    description:
+      "Great educators create successful students. Our training sessions help your teaching staff stay updated with modern teaching methods, exam trends, and classroom strategies, enabling them to deliver a more engaging and effective learning experience.",
+    image: "/images/coaching-centres/content/3.webp",
+    icon: FaChalkboardTeacher,
+  },
+  {
+    id: 4,
+    title: "Expand Your Student Reach",
+    description:
+      "Adding study abroad services to your coaching centre creates new opportunities for student engagement. From language preparation to overseas admissions and visa guidance, you can offer complete solutions under one roof, attracting more students and increasing long-term enrolments.",
+    image: "/images/coaching-centres/content/4.webp",
+    icon: FaUsers,
+  },
+  {
+    id: 5,
+    title: "Marketing & Brand Support",
+    description:
+      "As our coaching partner, you'll benefit from promotional support, marketing resources, and co-branding opportunities that help strengthen your local presence. Our team works with you to build awareness, generate quality enquiries, and support your business growth.",
+    image: "/images/coaching-centres/content/5.webp",
+    icon: FaBullhorn,
+  },
+];
+
+export const corporatePartnerBenefits = [
+  {
+    id: 1,
+    title: "Unlock New Business Opportunities",
+    description:
+      "Partnering with Indo European gives your business access to a growing market of students and families seeking trusted overseas education solutions. Together, we can introduce value-added services that strengthen customer relationships while creating new revenue opportunities.",
+    image: "/images/other-businesses/content/1.webp",
+    icon: FaChartLine,
+  },
+  {
+    id: 2,
+    title: "Expand Your Service Portfolio",
+    description:
+      "Different businesses serve different customer needs, but many clients also seek guidance for international education. Through our partnership, you can offer services such as overseas education counselling, university admissions, student visa guidance, scholarship support, and pre-departure assistance without developing these services from scratch.",
+    image: "/images/other-businesses/content/2.webp",
+    icon: FaBriefcase,
+  },
+  {
+    id: 3,
+    title: "Co-Marketing & Brand Visibility",
+    description:
+      "Increase your brand presence through collaborative campaigns, educational events, seminars, workshops, and digital promotions. Our marketing initiatives help partners reach a wider audience while building credibility through association with a trusted study abroad consultancy.",
+    image: "/images/other-businesses/content/3.webp",
+    icon: FaBullhorn,
+  },
+  {
+    id: 4,
+    title: "Business Support That Drives Growth",
+    description:
+      "Every partnership is backed by our experienced team. From onboarding and operational guidance to promotional support and ongoing coordination, we work closely with our partners to ensure a smooth and productive collaboration.",
+    image: "/images/other-businesses/content/4.webp",
+    icon: FaHandshake,
+  },
+];
+
+export const partnershipBenefits = [
+  {
+    id: 1,
+    title: "Trusted Industry Experience",
+    description:
+      "With years of expertise in overseas education and a strong international university network, we help businesses build credibility while delivering quality services to their customers.",
+    image: "/images/other-businesses/content/5.webp",
+    icon: FaAward,
+  },
+  {
+    id: 2,
+    title: "Flexible Partnership Model",
+    description:
+      "Every business has different objectives. Our partnership approach is flexible and designed to align with your business model, target audience, and long-term goals.",
+    image: "/images/other-businesses/content/6.webp",
+    icon: FaSlidersH,
+  },
+  {
+    id: 3,
+    title: "Dedicated Relationship Support",
+    description:
+      "Our team remains connected throughout the partnership, ensuring timely communication, operational assistance, and continuous support whenever required.",
+    image: "/images/other-businesses/content/7.webp",
+    icon: FaHeadset,
+  },
+  {
+    id: 4,
+    title: "Long-Term Growth Focus",
+    description:
+      "We don't believe in short-term collaborations. Our objective is to build lasting business relationships that generate mutual success and deliver consistent value over time.",
+    image: "/images/other-businesses/content/8.webp",
+    icon: FaChartLine,
+  },
+];
+

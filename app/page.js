@@ -34,12 +34,12 @@ export default function Home() {
       <section className="py-12 bg-linear-to-r from-primary/10 to-secondary/10 w-full">
           <Heading heading={'Our Partner '} colorHeading={'Universities'}/>
           <div className="mt-10 space-y-5 max-w-4xl mx-auto overflow-hidden">
-             <Marquee speed={50} pauseOnHover gradient={true}>
+             <Marquee speed={50} pauseOnHover>
                  {universitiesLogos.map((universities, index) => {
                   return <Image className="mx-5 h-20 w-auto shrink-0 rounded-md" height={80} width={125} src={universities.img_url} alt="University" key={index}/>
                  })}
              </Marquee>
-             <Marquee speed={50} direction="right" pauseOnHover gradient={true}>
+             <Marquee speed={50} direction="right" pauseOnHover>
                  {universitiesLogos.reverse().map((universities, index) => {
                   return <Image className="mx-5 h-20 w-auto shrink-0 rounded-md" height={80} width={125} src={universities.img_url} alt="University" key={index}/>
                  })}

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Link from 'next/link'
 import Image from 'next/image'
 import { FaInstagram, FaTwitter, FaFacebook, FaYoutube, FaLinkedin } from 'react-icons/fa6'
@@ -9,8 +9,8 @@ const Footer = () => {
   return (
     <footer className=''>
      <div className='max-w-6xl mx-auto'>
-        <div className='flex justify-between flex-col sm:flex-row space-y-5 items-center px-5 border-b-2 border-[#ccc] mt-5 rounded-md'>
-              <Image className="rounded-sm" height={60} width={180} src="/images/logos/logo-dark.webp" alt="Indo European Study Abroad Consultants"/>
+        <div className='flex justify-between flex-col sm:flex-row space-y-5 items-center px-5 border-b border-[#ccc] mt-5 rounded-md'>
+              <Link className='' href={'/'}><Image className="rounded-sm" height={60} width={180} src="/images/logos/logo-dark.webp" alt="Indo European Study Abroad Consultants"/></Link>
               <ul className="flex justify-center items-center gap-5 mb-8 md:mb-0">
                <li><Link className="" href={''}><FaInstagram className="text-primary size-5 inline-block" /></Link></li>
                <li><Link className="" href={''}><FaTwitter className="text-primary size-5 inline-block" /></Link></li>
@@ -25,8 +25,9 @@ const Footer = () => {
               About Us
             </h2>
             <p className="font-monrope text-sm lg:text-base text-primary mt-3">
-Indo European has been helping students achieve their international education goals for over 20 years with trusted guidance, top university admissions, visa assistance and personalized support every step of the way.
+              With 20+ years of experience, <Link className='font-semibold hover:underline' href={'/'}>Indo European</Link> helps students achieve their global education goals with trusted guidance, top university admissions, visa support, and personalised assistance.
             </p>
+            <Image className='' height={200} width={125} src={'/images/logos/icef-agency.png'} alt="ICEF Agency"/>
           </div>
 
           <div className="lg:col-span-9 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -46,16 +47,16 @@ Indo European has been helping students achieve their international education go
             </div>
             <div>
               <h4 className="relative text-sm lg:text-base font-bold uppercase text-primary after:absolute after:left-0 after:-bottom-1.5 after:h-1 after:w-20 after:rounded-full after:bg-linear-to-r after:from-secondary after:to-primary after:content-['']">
-                Destinations
+                Assistance
               </h4>
               <ul className="mt-4 space-y-3">
-                <li><Link href="/destinations/study-in-germany" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in Germany</Link></li>
-                <li><Link href="/destinations/study-in-australia" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in Australia</Link></li>
-                <li><Link href="/destinations/study-in-new-zealand" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in New Zealand</Link></li>
-                <li><Link href="/destinations/study-in-lithuania" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in Lithuania</Link></li>
-                <li><Link href="/destinations/study-in-latvia" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in Latvia</Link></li>
-                <li><Link href="/destinations/study-in-uk" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in UK</Link></li>
-                <li><Link href="/destinations/study-in-usa" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in USA</Link></li>
+                <li><Link href="/accommodation" className="font-semibold text-sm lg:text-base text-primary hover:underline">Accommodation</Link></li>
+                <li><Link href="/course-selection" className="font-semibold text-sm lg:text-base text-primary hover:underline">Course Selection</Link></li>
+                <li><Link href="/university-selection" className="font-semibold text-sm lg:text-base text-primary hover:underline">University Selection</Link></li>
+                <li><Link href="/country-selection" className="font-semibold text-sm lg:text-base text-primary hover:underline">Country Selection</Link></li>
+                <li><Link href="/scholarships" className="font-semibold text-sm lg:text-base text-primary hover:underline">Scholarships</Link></li>
+                <li><Link href="/coaching-centres" className="font-semibold text-sm lg:text-base text-primary hover:underline">Coaching Centres</Link></li>
+                <li><Link href="/loan-advice" className="font-semibold text-sm lg:text-base text-primary hover:underline">Student Loan Advice</Link></li>
               </ul>
             </div>
             <div>
@@ -66,7 +67,6 @@ Indo European has been helping students achieve their international education go
                 <li><Link href="/associate-agents" className="font-semibold text-sm lg:text-base text-primary hover:underline">Associate Agents</Link></li>
                 <li><Link href="/partner-franchise" className="font-semibold text-sm lg:text-base text-primary hover:underline">Partner Franchise</Link></li>
                 <li><Link href="/indian-universities" className="font-semibold text-sm lg:text-base text-primary hover:underline">Indian Universities</Link></li>
-                <li><Link href="/coaching-centres" className="font-semibold text-sm lg:text-base text-primary hover:underline">Coaching Centres</Link></li>
                 <li><Link href="/other-businesses" className="font-semibold text-sm lg:text-base text-primary hover:underline">Other Businesses</Link></li>
                 <li><Link href="/overseas-institutes" className="font-semibold text-sm lg:text-base text-primary hover:underline">Overseas Institutes</Link></li>
               </ul>
@@ -77,11 +77,12 @@ Indo European has been helping students achieve their international education go
               </h4>
               <ul className="mt-4 space-y-3">
                 <li><Link href="https://crm.indoeuropean.in" target="_blank" className="font-semibold text-sm lg:text-base text-primary hover:underline">CRM Login</Link></li>
+                <li><Link href="https://payment.indoeuropean.in/payment-link.aspx" className="font-semibold text-sm lg:text-base text-primary hover:underline">Pay Online</Link></li>
                 <li><Link href="/courses-finder" className="font-semibold text-sm lg:text-base text-primary hover:underline">Course Finder</Link></li>
                 <li><Link href="/ielts-coaching" className="font-semibold text-sm lg:text-base text-primary hover:underline">IELTS Classes</Link></li>
                 {/* <li><Link href="/coaching" className="font-semibold text-sm lg:text-base text-primary hover:underline">Coaching</Link></li> */}
-                <li><Link href="/pay-online" className="font-semibold text-sm lg:text-base text-primary hover:underline">Pay Online</Link></li>
                 <li><Link href="/contact" className="font-semibold text-sm lg:text-base text-primary hover:underline">Free Counselling</Link></li>
+                <li><Link href="/events" className="font-semibold text-sm lg:text-base text-primary hover:underline">Events</Link></li>
                 <li><Link href="/blogs" className="font-semibold text-sm lg:text-base text-primary hover:underline">Blogs</Link></li>
               </ul>
             </div>

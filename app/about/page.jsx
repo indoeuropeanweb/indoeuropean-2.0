@@ -75,7 +75,7 @@ const page = () => {
                   <h4 className="text-md lg:text-base font-semibold font-Jakarta">{service.title}</h4>
                   <p className="text-sm lg:text-md font-manrope mt-3">{service.description}</p>
                 </div>
-                <button className="text-primary cursor-pointer text-end hover:text-secondary transition-all ease-in-out duration-500 inline-block rounded-2xl px-4 pb-4 mt-auto" href={`/services/${service.slug}`}>Read More &nbsp;<FaArrowRightLong className="size-4 inline-block" /></button>
+                {/* <button className="text-primary cursor-pointer text-end hover:text-secondary transition-all ease-in-out duration-500 inline-block rounded-2xl px-4 pb-4 mt-auto" href={`/services/${service.slug}`}>Read More &nbsp;<FaArrowRightLong className="size-4 inline-block" /></button> */}
             </div>)
             })}
           </div>

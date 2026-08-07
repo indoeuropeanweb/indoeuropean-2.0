@@ -1,10 +1,9 @@
-import React from 'react'
 import Breadcrumb from '../components/Breadcrumb'
 import Heading from '../components/Heading';
 import Link from 'next/link';
-import Image from 'next/image';
 import { servicesPage } from '@/public/data/homedata';
 import GlobalForm from '../components/GlobalForm';
+import Card from '../components/Card';
 
 const page = () => {
   return (
@@ -23,30 +22,9 @@ const page = () => {
             <div className='mt-5 relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 space-y-5 justify-center items-center'>
             {servicesPage.map((service, index) => {
                 const Icon = service.icon;
-                return  <div key={service.id} className="group max-w-md overflow-hidden rounded-2xl border border-zinc-200 bg-white p-5 transition-all duration-500 hover:-translate-y-2 hover:border-secondary hover:shadow-xl">
-            <div className="relative rounded-2xl">
-                <Image
-                    className="rounded-2xl transition-transform duration-700 group-hover:scale-105"
-                    height={250}
-                    width={480}
-                    src={service.img}
-                    alt={service.title}
-                />
-                <div className="absolute -bottom-5 right-8 z-10 rounded-full bg-white p-2 shadow-lg transition-all duration-500 group-hover:-translate-y-2">
-                <Icon className="inline-block size-14 rounded-full bg-secondary p-2 text-white transition-transform duration-500 group-hover:scale-110" />
-                </div>
-            </div>
-            <div className="mt-8">
-                <h4 className="font-Jakarta text-lg font-bold text-primary transition-colors duration-300 group-hover:text-secondary lg:text-xl">
-                {service.title}
-                </h4>
-                <p className="mt-3 text-justify font-manropee text-sm font-semibold text-zinc-600 lg:text-md">
-                 {service.description}
-                </p>
-            </div>
-            </div>
+                return <Card key={service.id} id={service.id} title={service.title} description={service.description} image={service.img} Icon={Icon} />
             })}
-            <div className='bg-primary/10 w-55 h-55 rounded-full absolute bottom-0 right-0 z-10' />
+            <div className='bg-primary/10 w-60 h-60 rounded-full absolute bottom-0 right-0 z-10' />
             <div className='bg-secondary/10 w-35 h-35 rounded-full absolute bottom-0 right-55 z-10' />
             </div>
          </div>
