@@ -2,7 +2,7 @@
     import { GrUserExpert } from "react-icons/gr";
     import { GiEuropeanFlag } from "react-icons/gi";
     import { FaGlobe, FaBookOpen, FaGraduationCap, FaAward, FaBuilding, FaBullhorn, FaHeadset, FaClipboardCheck, FaRobot, FaBolt, FaLaptopFile, FaUserCheck, FaBookAtlas, FaChartLine, FaHouseLaptop, FaEarthAmericas, FaArrowTrendUp, FaUsers, FaUserGraduate, FaBullseye, FaBriefcase, FaLaptopCode, FaGear, FaUserDoctor, FaPalette, FaScaleBalanced, FaHotel, FaLeaf, FaNewspaper, FaBrain} from "react-icons/fa6";
-    import { FaSlidersH, FaUserTie, FaUniversity, FaFileSignature, FaLanguage, FaPassport, FaHandHoldingUsd, FaPlaneDeparture, FaPeopleArrows, FaLightbulb, FaWallet, FaShieldAlt, FaPlaneArrival, FaChalkboardTeacher, FaHandshake } from "react-icons/fa";
+    import { FaSlidersH, FaUserTie, FaUniversity, FaFileSignature, FaLanguage, FaPassport, FaHandHoldingUsd, FaPlaneDeparture, FaPeopleArrows, FaLightbulb, FaWallet, FaShieldAlt, FaPlaneArrival, FaChalkboardTeacher, FaHandshake, FaMapMarkedAlt, FaHandsHelping } from "react-icons/fa";
     
     export const services = [
       {
@@ -940,6 +940,49 @@ export const partnershipBenefits = [
       "We don't believe in short-term collaborations. Our objective is to build lasting business relationships that generate mutual success and deliver consistent value over time.",
     image: "/images/other-businesses/content/8.webp",
     icon: FaChartLine,
+  },
+];
+
+export const institutionalPartnerBenefits = [
+  {
+    id: 1,
+    title: "Reach the Right Students",
+    description:
+      "Our extensive network allows your institution to connect with students from different academic backgrounds who are actively exploring international education opportunities. We promote your programmes through counselling sessions, educational events, digital campaigns, and student engagement activities, helping you reach the right audience at the right time.",
+    image: "/images/overseas-institutes/content/1.webp",
+    icon: FaUsers,
+  },
+  {
+    id: 2,
+    title: "Professional Student Recruitment",
+    description:
+      "We believe successful recruitment starts with quality counselling. Every student receives personalized guidance based on their academic qualifications, career goals, financial planning, and preferred destination. This helps institutions receive genuine and well-informed applications, improving overall admission outcomes.",
+    image: "/images/overseas-institutes/content/2.webp",
+    icon: FaUserGraduate,
+  },
+  {
+    id: 3,
+    title: "End-to-End Admission Coordination",
+    description:
+      "Our dedicated admissions team manages every stage of the application process with accuracy and efficiency. From document verification and application submission to offer letters and visa guidance, we ensure a seamless experience for both students and partner institutions.",
+    image: "/images/overseas-institutes/content/3.webp",
+    icon: FaClipboardCheck,
+  },
+  {
+    id: 4,
+    title: "Strengthen Your Presence in the Indian Market",
+    description:
+      "Building visibility in a competitive education market takes time and local knowledge. Through seminars, webinars, education fairs, school outreach programmes, and targeted marketing initiatives, we help overseas institutes increase brand awareness and strengthen their presence across India.",
+    image: "/images/overseas-institutes/content/4.webp",
+    icon: FaMapMarkedAlt,
+  },
+  {
+    id: 5,
+    title: "Dedicated Institutional Support",
+    description:
+      "Every collaboration should receive individualized care, in our opinion. Throughout the admissions cycle, our staff keeps in constant contact with partner universities, discusses student feedback, offers market insights, and assists with recruiting plans. This cooperative strategy fosters enduring connections based on openness and trust.",
+    image: "/images/overseas-institutes/content/5.webp",
+    icon: FaHandsHelping,
   },
 ];
 
