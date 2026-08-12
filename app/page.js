@@ -128,17 +128,17 @@ export default function Home() {
         {blogs[0].date}
       </span>
 
-      <h3 className="font-Jakarta text-2xl font-bold text-primary">
+      <h3 className="font-Jakarta text-lg md:text-xl lg:text-2xl font-bold text-primary">
         {blogs[0].title}
       </h3>
 
-      <p className="mt-4 flex-1 font-manrope leading-7 text-gray-600">
+      <p className="mt-4 flex-1 text-sm md:text-md lg:text-lg font-manrope leading-7 text-gray-600">
         {blogs[0].description.slice(0, 310)}{"..."}
       </p>
 
       <Link
         href={`/blogs/${blogs[0].slug}`}
-        className="mt-4 inline-flex w-fit items-center rounded-md bg-primary px-5 py-3 text-white transition hover:bg-primary/90"
+        className="mt-4 inline-flex w-fit text-sm md:text-md lg:text-lg items-center rounded-md bg-primary px-4 py-2 text-white transition hover:bg-primary/90"
       >
         Read More
         <FaArrowRightLong className="ml-2" />
@@ -165,11 +165,11 @@ export default function Home() {
               {blog.date}
             </span>
 
-            <h4 className="mt-2 font-Jakarta text-xl font-semibold text-primary">
+            <h4 className="mt-2 font-Jakarta text-sm md:text-lg lg:text-xl font-bold text-primary">
               {blog.title}
             </h4>
 
-            <p className="mt-3 text-sm leading-6 text-gray-600 line-clamp-3">
+            <p className="mt-3 text-xs md:text-sm leading-6 text-gray-600 line-clamp-3">
               {blog.description.slice(0, 150)}{"..."}
             </p>
           </div>

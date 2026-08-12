@@ -16,8 +16,6 @@ const page = () => {
            <div className='relative'>
            <Heading heading={'Helping You Find the Right Place to Call '} colorHeading={'Home'}/>
            <p className='text-md lg:text-base font-manrope mt-6 text-center'>Moving to a new country is an exciting experience, and having the right accommodation makes the transition much easier. At <Link className="font-semibold hover:underline" href="/">Indo European</Link>, we understand that students need a safe, comfortable, and affordable place to live while pursuing their education abroad. Our accommodation assistance service is designed to help you find suitable housing options before you arrive, allowing you to focus on your studies with complete peace of mind.</p>
-           <p className='text-md lg:text-base font-manrope mt-2 text-center'>Whether you prefer university-managed residences or private accommodation, our experienced team provides the guidance and support you need to make the right choice.</p>
-           <div className='w-60 h-60 rounded-full bg-primary/10 absolute bottom-0 left-10'/>
            <div className='w-20 h-20 rounded-full bg-secondary/10 absolute bottom-0 left-0'/>
            </div>
            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-8'>

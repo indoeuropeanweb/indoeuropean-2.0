@@ -12,12 +12,10 @@ const page = () => {
        <section className='max-w-6xl mx-auto'>
          <div className='py-12 px-10'>
             <Heading heading={'Comprehensive Study Abroad Services for Every Step of Your '} colorHeading={'Journey'}/>
-            <p className='mt-10 font-manrope text-md lg:text-base'>At <Link className="font-semibold hover:underline" href="/">Indo European</Link>, we believe that studying abroad should be an exciting experience, not a
+            <p className='mt-5 mb-10 font-manrope text-md lg:text-base text-center'>At <Link className="font-semibold hover:underline" href="/">Indo European</Link>, we believe that studying abroad should be an exciting experience, not a
             stressful one. That's why we offer complete guidance to students who dream of pursuing higher
             education in top international destinations. From selecting the right university to settling into
-            your new country, our experienced counsellors are with you at every stage.<br />
-            Whether you're planning to study in Europe or other leading destinations, our personalized
-            services are designed to make your admission process simple, transparent, and successful.
+            your new country, our experienced counsellors are with you at every stage.
             </p>
             <div className='mt-5 relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 space-y-5 justify-center items-center'>
             {servicesPage.map((service, index) => {

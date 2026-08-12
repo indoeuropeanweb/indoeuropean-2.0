@@ -106,10 +106,7 @@ const page = () => {
          <p className="text-md lg:text-base font-manrope text-center mt-5">Welcome to <Link className="font-semibold hover:underline" href="/">Indo European</Link>. These Terms &amp; Conditions govern your access to and use of our
           website, counselling services, and other related offerings. By accessing our website or using
           any of our services, you agree to comply with these terms. If you do not agree with any part of
-          these Terms & Conditions, we recommend that you discontinue using our website and services.<br /><br />
-          We may revise these Terms & Conditions from time to time to reflect changes in our services or
-          legal requirements. Continued use of our website after any updates means you accept the
-          revised terms.
+          these Terms & Conditions, we recommend that you discontinue using our website and services.
           </p>
       </div>
     </section>

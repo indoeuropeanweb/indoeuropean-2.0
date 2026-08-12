@@ -21,8 +21,6 @@ const page = () => {
                 background, career ambitions, interests, and future job opportunities. Our experienced
                 counsellors provide personalised guidance to ensure you choose a course that supports both
                 your educational goals and long-term career success.</p>
-                <p className='text-md lg:text-base font-manrope text-center mt-2'>With access to leading universities across Europe and other popular study destinations, we help
-                you make informed decisions with confidence</p>
               <div className='w-60 h-60 rounded-full bg-primary/10 absolute -bottom-20 left-10'/>
               <div className='w-20 h-20 rounded-full bg-secondary/10 absolute -bottom-20 left-0'/>
           </div>
@@ -71,7 +69,7 @@ const page = () => {
                               <p className="text-xs text-primary font-manrope mt-1">{point.description}</p>
                           </div>
                       </div>
-                      </ScrollAnimate>
+                  </ScrollAnimate>
               })}
           </div>
         </div>

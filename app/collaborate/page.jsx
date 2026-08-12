@@ -14,12 +14,10 @@ const page = () => {
        <section className='max-w-6xl mx-auto'>
          <div className='py-12 px-10'>
             <Heading heading={"Let's Create Global Education Opportunities "} colorHeading={'Together'}/>
-            <p className='text-md lg:text-base font-manrope mt-5'>At <Link className="font-semibold hover:underline" href="/">Indo European</Link>, we believe that successful partnerships open doors to greater opportunities
+            <p className='text-md lg:text-base font-manrope mt-5 text-center'>At <Link className="font-semibold hover:underline" href="/">Indo European</Link>, we believe that successful partnerships open doors to greater opportunities
             for students and organisations alike. We welcome collaborations with educational institutions,
             consultants, universities, training centres, and business partners who share our vision of making
-            international education more accessible. <br />
-            Whether you're looking to expand your services or build new educational connections, we're
-            here to grow with you.
+            international education more accessible.
             </p>
          </div>
        </section>
