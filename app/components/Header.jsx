@@ -73,11 +73,11 @@ const Header = () => {
                 <Link className="text-white text-sm flex justify-center items-center gap-2 font-Jakarta" href="tel:+919650133355"><MdOutlinePhoneIphone className="size-5 inline-block"/>&nbsp;+91 9650133355</Link>
              </div>
              <ul className="flex justify-center items-center gap-3 px-3 py-3">
-               <li><Link className="" href={''}><FaInstagram className="text-white size-5 inline-block" /></Link></li>
-               <li><Link className="" href={''}><FaTwitter className="text-white size-5 inline-block" /></Link></li>
-               <li><Link className="" href={''}><FaFacebook className="text-white size-5 inline-block" /></Link></li>
-               <li><Link className="" href={''}><FaYoutube className="text-white size-5 inline-block" /></Link></li>
-               <li><Link className="" href={''}><FaLinkedin className="text-white size-5 inline-block" /></Link></li>
+               <li><Link className="" href={'https://www.instagram.com/indo_european'}><FaInstagram className="text-white size-5 inline-block" /></Link></li>
+               <li><Link className="" href={'https://twitter.com/indo_european'}><FaTwitter className="text-white size-5 inline-block" /></Link></li>
+               <li><Link className="" href={'https://www.facebook.com/Indoeuropean.in'}><FaFacebook className="text-white size-5 inline-block" /></Link></li>
+               <li><Link className="" href={'https://www.youtube.com/IEESIndoEuropean'}><FaYoutube className="text-white size-5 inline-block" /></Link></li>
+               <li><Link className="" href={'https://www.linkedin.com/company/indo-european-study-abroad-consultants/'}><FaLinkedin className="text-white size-5 inline-block" /></Link></li>
              </ul>
         </div>
     </div>

@@ -12,11 +12,11 @@ const Footer = () => {
         <div className='flex justify-between flex-col sm:flex-row space-y-5 items-center px-5 border-b border-[#ccc] mt-5 rounded-md'>
               <Link className='' href={'/'}><Image className="rounded-sm" height={60} width={180} src="/images/logos/logo-dark.webp" alt="Indo European Study Abroad Consultants"/></Link>
               <ul className="flex justify-center items-center gap-5 mb-8 md:mb-0">
-               <li><Link className="" href={''}><FaInstagram className="text-primary size-5 inline-block" /></Link></li>
-               <li><Link className="" href={''}><FaTwitter className="text-primary size-5 inline-block" /></Link></li>
-               <li><Link className="" href={''}><FaFacebook className="text-primary size-5 inline-block" /></Link></li>
-               <li><Link className="" href={''}><FaYoutube className="text-primary size-5 inline-block" /></Link></li>
-               <li><Link className="" href={''}><FaLinkedin className="text-primary size-5 inline-block" /></Link></li>
+               <li><Link className="" href={'https://www.instagram.com/indo_european'}><FaInstagram className="text-primary size-5 inline-block" /></Link></li>
+               <li><Link className="" href={'https://twitter.com/indo_european'}><FaTwitter className="text-primary size-5 inline-block" /></Link></li>
+               <li><Link className="" href={'https://www.facebook.com/Indoeuropean.in'}><FaFacebook className="text-primary size-5 inline-block" /></Link></li>
+               <li><Link className="" href={'https://www.youtube.com/IEESIndoEuropean'}><FaYoutube className="text-primary size-5 inline-block" /></Link></li>
+               <li><Link className="" href={'https://www.linkedin.com/company/indo-european-study-abroad-consultants/'}><FaLinkedin className="text-primary size-5 inline-block" /></Link></li>
              </ul>
            </div>
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 py-15 px-5 border-t-2 border-zinc-300">
@@ -79,7 +79,7 @@ const Footer = () => {
                 <li><Link href="https://crm.indoeuropean.in" target="_blank" className="font-semibold text-sm lg:text-base text-primary hover:underline">CRM Login</Link></li>
                 <li><Link href="https://payment.indoeuropean.in/payment-link.aspx" className="font-semibold text-sm lg:text-base text-primary hover:underline">Pay Online</Link></li>
                 <li><Link href="/courses-finder" className="font-semibold text-sm lg:text-base text-primary hover:underline">Course Finder</Link></li>
-                <li><Link href="/ielts-coaching" className="font-semibold text-sm lg:text-base text-primary hover:underline">IELTS Classes</Link></li>
+                <li><Link href="/ielts-coaching" className="font-semibold text-sm lg:text-base text-primary hover:underline">IELTS Coaching</Link></li>
                 {/* <li><Link href="/coaching" className="font-semibold text-sm lg:text-base text-primary hover:underline">Coaching</Link></li> */}
                 <li><Link href="/contact" className="font-semibold text-sm lg:text-base text-primary hover:underline">Free Counselling</Link></li>
                 <li><Link href="/events" className="font-semibold text-sm lg:text-base text-primary hover:underline">Events</Link></li>

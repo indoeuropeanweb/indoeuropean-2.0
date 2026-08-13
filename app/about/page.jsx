@@ -69,14 +69,14 @@ const page = () => {
           <p className="text-center text-sm lg:text-md font-manrope mt-5">We offer complete end-to-end assistance so students can focus on achieving their academic goals while we manage the complexities of the admission process.</p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mt-5">
             {servicesData.map((service, index) => {
-              return (<div key={service.id} className="my-5 flex flex-col hover:scale-105 duration-500 transition-all ease-in-out gap-4 rounded-2xl border border-primary">
+              return (<ScrollAnimate direction="down" key={service.id} className="my-5 flex flex-col hover:scale-105 duration-500 transition-all ease-in-out gap-4 rounded-2xl border border-primary">
                 <Image className="rounded-t-2xl aspect-video" height={360} width={420} src={service.image} alt={service.alt} />
                 <div className="px-4">
                   <h4 className="text-md lg:text-base font-semibold font-Jakarta">{service.title}</h4>
                   <p className="text-sm lg:text-md font-manrope mt-3">{service.description}</p>
                 </div>
                 {/* <button className="text-primary cursor-pointer text-end hover:text-secondary transition-all ease-in-out duration-500 inline-block rounded-2xl px-4 pb-4 mt-auto" href={`/services/${service.slug}`}>Read More &nbsp;<FaArrowRightLong className="size-4 inline-block" /></button> */}
-            </div>)
+            </ScrollAnimate>)
             })}
           </div>
          </div>
@@ -92,7 +92,7 @@ const page = () => {
               const Icon = item.icon;
 
               return <ScrollAnimate key={item.id}>
-               <div className="relative border border-secondary shadow-lg shadow-secondary py-4 px-4 rounded-full hover:-translate-y-3 duration-500 ease-in-out">
+               <div className="relative border border-secondary shadow-lg shadow-orange-100 py-4 px-4 rounded-full hover:-translate-y-3 duration-500 ease-in-out">
                <div className="bg-secondary absolute -left-4 -top-4 flex justify-center items-center rounded-full p-5">
                  <Icon className="inline-block size-8 text-white" />
                </div>

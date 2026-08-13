@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Link from 'next/link'
 import Breadcrumb from '../components/Breadcrumb'
 import Heading from '../components/Heading'
@@ -6,6 +6,7 @@ import ScrollAnimate from '../components/ScrollAnimate'
 import GlobalForm from '../components/GlobalForm';
 import { FaArrowRightLong } from "react-icons/fa6";
 import { courseCategories, courseSelectionPoints } from '@/public/data/homedata'
+import Card from '../components/Card'
 
 const page = () => {
 
@@ -60,7 +61,7 @@ const page = () => {
               {courseSelectionPoints.map((point, index) => {
                 const Icon = point.icon
                 return <ScrollAnimate direction='down' key={point.id}>
-                          <div className="relative border border-secondary shadow-lg shadow-secondary py-4 px-4 rounded-full hover:-translate-y-3 duration-500 ease-in-out">
+                          <div className="relative border border-secondary shadow-lg shadow-orange-100 py-4 px-4 rounded-full hover:-translate-y-3 duration-500 ease-in-out">
                           <div className="bg-secondary absolute -left-4 -top-4 flex justify-center items-center rounded-full p-5">
                           <Icon className="inline-block size-8 text-white" />
                           </div>
