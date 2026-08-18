@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Breadcrumb from '../components/Breadcrumb'
 import Heading from '../components/Heading'
 import ScrollAnimate from '../components/ScrollAnimate'
+import Card from '../components/Card'
 import { FaVideo } from 'react-icons/fa6'
 import {
   FaHeadphones,
@@ -17,8 +18,17 @@ import {
   FaClock,
   FaBook,
   FaQuestionCircle,
+  FaGraduationCap,
+  FaUniversity,
+  FaClipboardCheck,
+  FaPassport,
+  FaHome,
+  FaChevronRight,
+  FaGlobe,
+  FaUserCheck,
+  FaPencilAlt,
 } from "react-icons/fa";
-
+import GlobalForm from '../components/GlobalForm'
 
 const page = () => {
 
@@ -157,6 +167,82 @@ const ieltsWhoShouldPrepare = [
   },
 ];
 
+const ieltsProcessSteps = [
+  {
+    id: 1,
+    title: "IELTS Preparation",
+    icon: FaBookOpen
+  },
+  {
+    id: 2,
+    title: "Course Selection",
+    icon: FaGraduationCap
+  },
+  {
+    id: 3,
+    title: "University Selection",
+    icon: FaUniversity
+  },
+  {
+    id: 4,
+    title: "Admission Guidance",
+    icon: FaClipboardCheck
+  },
+  {
+    id: 5,
+    title: "Visa Assistance",
+    icon: FaPassport
+  },
+  {
+    id: 6,
+    title: "Accommodation & Pre-Departure Support",
+    icon: FaHome
+  }
+];
+
+const ieltsWhyChooseUs = [
+  {
+    id: 1,
+    title: "Overseas Education Experience",
+    description:
+      "Indo European brings extensive experience in the international education sector, allowing students to connect their English-language preparation with their broader study abroad plans.",
+    image: "/images/ielts-coaching/content-2/overseas-education-experience.webp",
+    icon: FaGlobe,
+  },
+  {
+    id: 2,
+    title: "Personalised Guidance",
+    description:
+      "Your preparation should reflect your starting level and target. We focus on understanding individual requirements rather than following exactly the same approach for every learner.",
+    image: "/images/ielts-coaching/content-2/personal-guidance.webp",
+    icon: FaUserCheck,
+  },
+  {
+    id: 3,
+    title: "Focus on All Four Skills",
+    description:
+      "Listening, Reading, Writing, and Speaking all contribute to your IELTS performance. Our preparation covers the complete test rather than focusing only on one section.",
+    image: "/images/ielts-coaching/content-2/focus-on-skills.webp",
+    icon: FaGraduationCap,
+  },
+  {
+    id: 4,
+    title: "Regular Practice",
+    description:
+      "Consistent practice is an important part of preparation. Practice exercises and mock tests help students become more comfortable with the exam format.",
+    image: "/images/ielts-coaching/content-2/regular-practice.webp",
+    icon: FaPencilAlt,
+  },
+  {
+    id: 5,
+    title: "Study Abroad Support",
+    description:
+      "Once your language preparation is aligned with your goals, our wider overseas education services can help you explore suitable courses, universities, destinations, and admission pathways.",
+    image: "/images/ielts-coaching/content-2/study-abroad-support.webp",
+    icon: FaUniversity,
+  },
+];
+
   return (
     <>
      <Breadcrumb title={'IELTS Coaching in Delhi'} imgUrl={'/images/ielts-coaching/ielts-coaching-cover.webp'}/>
@@ -194,15 +280,15 @@ const ieltsWhoShouldPrepare = [
          {ieltsTrainingModules.map((point, index) => {
             const Icon = point.icon;
             return  <ScrollAnimate direction='down' key={point.id}>
-                                <div className="relative border border-secondary shadow-lg shadow-orange-100 py-4 px-4 rounded-full hover:-translate-y-3 duration-500 ease-in-out">
-                                <div className="bg-secondary absolute -left-4 -top-4 flex justify-center items-center rounded-full w-15 h-15">
-                                <Icon className='inline-block size-6 text-white'/>
-                                </div>
-                                <div className="ms-16">
-                                    <h6 className="text-md lg:text-base font-Jakarta font-bold text-primary">{point.title}</h6>
-                                    <p className="text-xs text-primary font-manrope mt-1">{point.description}</p>
-                                </div>
-                            </div>
+                    <div className="relative border border-secondary shadow-lg shadow-orange-100 py-4 px-4 rounded-full hover:-translate-y-3 duration-500 ease-in-out">
+                    <div className="bg-secondary absolute -left-4 -top-4 flex justify-center items-center rounded-full w-15 h-15">
+                    <Icon className='inline-block size-6 text-white'/>
+                    </div>
+                    <div className="ms-16">
+                        <h6 className="text-md lg:text-base font-Jakarta font-bold text-primary">{point.title}</h6>
+                        <p className="text-xs text-primary font-manrope mt-1">{point.description}</p>
+                    </div>
+                </div>
         </ScrollAnimate>
          })}
         </div>
@@ -238,8 +324,8 @@ const ieltsWhoShouldPrepare = [
            <p className='text-md lg:text-base font-manrope mt-2'>Depending on the section, feedback can help you work on:</p>
            <ul className='space-y-2 mt-4'>
             {ieltsSkills.map((item, index) => {
-                const Icon = item.icon;
-                return <li className='text-md lg:text-base font-manrope font-semibold text-primary'><Icon className='inline-block size-5 text-secondary me-3'/>&nbsp;{item.title}</li>
+              const Icon = item.icon;
+              return <li className='text-md lg:text-base font-manrope font-semibold text-primary' key={index}><Icon className='inline-block size-5 text-secondary me-3'/>&nbsp;{item.title}</li>
             })}
            </ul>
            <p className='text-md lg:text-base font-Jakarta mt-4'>The objective is not simply to complete more tests, but to use practice to improve your
@@ -258,22 +344,190 @@ preparation.</p>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center mt-10'>
            {ieltsWhoShouldPrepare.map((service, index) => {
             return (<ScrollAnimate direction="down" key={service.id} className="my-5 flex flex-col hover:scale-105 duration-500 transition-all ease-in-out gap-4 rounded-2xl border border-primary">
-                <Image className="rounded-t-2xl aspect-video" height={360} width={420} src={service.image} alt={service.alt} />
+                <Image className="rounded-t-2xl aspect-video" height={360} width={420} src={service.image} alt={service.title} />
                 <div className="px-4 py-4">
                     <h4 className="text-md lg:text-base font-semibold font-Jakarta">{service.title}</h4>
                     <p className="text-sm lg:text-md font-manrope mt-3">{service.description}</p>
                 </div>
-                {/* <button className="text-primary cursor-pointer text-end hover:text-secondary transition-all ease-in-out duration-500 inline-block rounded-2xl px-4 pb-4 mt-auto" href={`/services/${service.slug}`}>Read More &nbsp;<FaArrowRightLong className="size-4 inline-block" /></button> */}
+                {/*<button className="text-primary cursor-pointer text-end hover:text-secondary transition-all ease-in-out duration-500 inline-block rounded-2xl px-4 pb-4 mt-auto" href={`/services/${service.slug}`}>Read More &nbsp;<FaArrowRightLong className="size-4 inline-block" /></button> */}
             </ScrollAnimate>)
            })}
         </div>
        </div>
      </section>
-     <section className=''>
-       <div className=''>
-
+     <section className='bg-linear-to-r from-secondary/10 to-primary/10 rounded-4xl'>
+       <div className='max-w-6xl mx-auto'>
+        <div className='py-12 px-10'>
+              <Heading heading={'Academic IELTS or General '} colorHeading={'Training?'} />
+              <p className='text-md lg:text-base font-manrope mt-4'>Choosing the right IELTS test depends on your purpose.</p>
+              <div className='grid grid-cols-1 lg:grid-cols-2 justify-center items-center gap-10 mt-10'>
+               <div className='bg-secondary/5 backdrop-blur-4xl p-4 rounded-lg border border-secondary hover:-translate-y-2 transition-all duration-500 ease-in-out'>
+                  <h4 className='text-lg lg:text-xl font-Jakarta font-bold text-primary'>IELTS Academic</h4>
+                  <p className='text-sm lg:text-md font-manrope mt-4'>IELTS Academic is generally associated with higher education and professional registration in
+many contexts.</p>
+               </div>
+               <div className='bg-secondary/5 backdrop-blur-4xl p-4 rounded-lg border border-secondary hover:-translate-y-2 transition-all duration-500 ease-in-out'>
+                  <h4 className='text-lg lg:text-xl font-Jakarta font-bold text-primary'>IELTS General Training</h4>
+                  <p className='text-sm lg:text-md font-manrope mt-4'>IELTS General Training is commonly used for migration, work-related purposes, and certain
+training or education pathways.</p>
+               </div>
+              </div>
+              <p className='text-md lg:text-base font-manrope mt-4'>The appropriate test depends on the requirements of your university, organisation, visa route, or
+other relevant authority. Always check the latest official requirements before booking your test.</p>
+        </div>
        </div>
      </section>
+     <section className='max-w-6xl mx-auto'>
+      <div className='py-12 px-10'>
+          <div className=''>
+            <Heading heading={'Your IELTS Preparation Can Be Part of a Bigger '} colorHeading={'Plan'} />
+            <p className='text-md lg:text-base font-manrope mt-4'>For students planning to study abroad, IELTS is often just one part of the overall process.</p>
+            <p className='text-md lg:text-base font-manrope mt-2'>At <Link className='font-semibold hover:underline' href={'/'}>Indo European</Link>, students can receive guidance across different stages of their international
+              education journey, including:</p>
+          <div className="relative w-full py-8 lg:py-12">
+            <div
+              className="absolute
+                top-16.75
+                left-[8.33%]
+                right-[8.33%]
+                hidden
+                h-0.5
+                bg-secondary
+                md:block
+                lg:top-20.75"
+            />
+            <ul
+              className="relative
+                z-10
+                flex
+                flex-col
+                gap-8
+                md:flex-row
+                md:items-start
+                md:justify-between
+                md:gap-2
+                lg:gap-4
+                xl:gap-8"
+            >
+              {ieltsProcessSteps.map((step, index) => {
+                const Icon = step.icon;
+
+                return (
+                  <li
+                    key={step.id}
+                    className="relative
+                      flex
+                      items-center
+                      gap-4
+                      md:flex-1
+                      md:flex-col
+                      md:items-center
+                      md:gap-4"
+                  >
+                  <div
+                      className="relative
+                        z-10
+                        flex
+                        h-14
+                        w-14
+                        min-h-14
+                        min-w-14
+                        shrink-0
+                        items-center
+                        justify-center
+                        rounded-full
+                        border-4
+                        border-white
+                        bg-secondary
+                        shadow-lg
+                        transition-all
+                        duration-300
+                        hover:scale-110
+                        sm:h-16
+                        sm:w-16
+                        sm:min-h-16
+                        sm:min-w-16
+                        lg:h-18
+                        lg:w-18
+                        lg:min-h-18
+                        lg:min-w-18"
+                    >
+                      <Icon className="h-5 w-5 shrink-0 text-white sm:h-6 sm:w-6 lg:h-7 lg:w-7" />
+                    </div>
+
+                    <h5
+                      className="
+                        max-w-55
+                        text-left
+                        text-sm
+                        font-semibold
+                        leading-snug
+                        font-Jakarta
+                        sm:text-base
+                        md:text-center
+                        lg:text-[15px]
+                        xl:text-base
+                      "
+                    >
+                    {step.title}
+                    </h5>
+
+                    {index < ieltsProcessSteps.length - 1 && (
+                      <FaChevronRight
+                        className="
+                          absolute
+                          -right-3.5
+                          top-7
+                          z-20
+                          hidden
+                          h-4
+                          w-4
+                          text-secondary
+                          md:block
+                          lg:-right-3
+                        "
+                      />
+                    )}
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+            <p className='text-md lg:text-base font-manrope'>This allows students to approach their overseas education plans more systematically instead of
+treating language preparation and university applications as completely separate processes.</p>
+          </div>
+      </div>
+      </section>
+      <section className='max-w-6xl mx-auto'>
+         <div className='py-12 px-10'>
+          <Heading heading={'Why Choose Indo European for IELTS '} colorHeading={'Preparation?'} />
+           <div className='relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-5 mt-10'>
+             {ieltsWhyChooseUs.map((item, index) => {
+              const Icon = item.icon;
+              return <Card id={item.id} key={item.id} title={item.title} description={item.description} image={item.image} Icon={Icon}/>
+             })}
+            <div className="rounded-full w-60 h-60 bg-primary/10 absolute bottom-10 -right-10 z-1"/>
+            <div className="rounded-full w-25 h-25 bg-secondary/10 absolute bottom-10 right-47 z-1"/>
+           </div>
+         </div>
+      </section>
+      <section className='bg-linear-to-r from-secondary/10 to-primary/10 rounded-b-4xl'>
+         <div className='max-w-6xl max-auto'>
+           <div className='py-12 px-10 grid grid-cols-1 lg:grid-cols-2 justify-center items-center gap-10'>
+            <div className=''>
+              <h2 className='text-primary text-2xl lg:text-3xl font-bold font-Jakarta'>More Than Just IELTS <span className='text-secondary'>Classes</span></h2>
+              <p className='text-md lg:text-base font-manrope mt-4'>Choosing an <Link className='font-semibold hover:underline' href={"/contact"}>IELTS coaching centre in Delhi</Link> is not only about finding a place to practise
+                English. It's about finding guidance that understands why you're taking the test in the first place.</p>
+                <p className='text-md lg:text-base font-manrope mt-2'>If your goal is international education, your IELTS preparation should fit into your larger
+                academic and career plan. That's where our experience in overseas education can add value to
+                your preparation journey.</p>
+            </div>
+            <div className='mx-auto lg:ms-auto relative z-1 w-full max-w-md rounded-xl border border-white/10 bg-black/10 p-8 backdrop-blur-4xls'>
+               <GlobalForm />
+            </div>
+           </div>
+         </div>
+      </section>
     </>
   )
 }
