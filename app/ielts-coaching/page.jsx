@@ -249,7 +249,7 @@ const ieltsWhyChooseUs = [
      <section className='max-w-6xl mx-auto'>
        <div className='py-12 px-10'>
         <div className='grid grid-cols-1 lg:grid-cols-2 justify-center items-center gap-10'>
-         <div className='relative'>
+         <ScrollAnimate direction='left' className='relative'>
            <div className='mb-6'>
            <h2 className='text-primary text-2xl lg:text-3xl font-Jakarta font-bold'>Prepare with the Right Guidance. Aim for Your Target <span className='text-secondary'>Band</span></h2>
            <p className='text-md lg:text-base font-manrope mt-4'>Nowadays, most students are willing to study abroad, and an IELTS score plays an important
@@ -265,10 +265,10 @@ const ieltsWhyChooseUs = [
            <Link className="text-sm lg:text-md rounded-full px-10 py-3 border border-blue-400 space-x-5 z-2 relative cursor-pointer text-white bg-blue-400 font-Jakarta font-semibold" href="https://zoom.us/j/91022278457#success" target='_blank'><span className='px-2.5 py-2.5 rounded-full bg-blue-400 inline-block absolute -left-3 bottom-0 border border-white shadow-4xl shadow-blue-400 zoom-icon'><FaVideo className='text-white size-6 inline-block'/></span>Book a Free Counselling Session</Link>
             <div className="rounded-full w-60 h-60 bg-primary/10 absolute -bottom-30 -left-10 z-1"/>
             <div className="rounded-full w-25 h-25 bg-secondary/10 absolute -bottom-20 left-47 z-1"/>
-         </div>
-         <div className=''>
-            <Image className="mx-auto" height={380} width={380} src={'/images/ielts-coaching/ielts-coaching-1.png'} alt="ELTS Coaching"/>
-         </div>
+         </ScrollAnimate>
+         <ScrollAnimate direction='right' className=''>
+            <Image className="mx-auto ielts-rotate" height={380} width={380} src={'/images/ielts-coaching/ielts-coaching-1.png'} alt="ELTS Coaching"/>
+         </ScrollAnimate>
         </div>
        </div>
      </section>
@@ -316,7 +316,7 @@ const ieltsWhyChooseUs = [
      <section className='bg-linear-to-r from-secondary/10 to-primary/10 rounded-4xl'>
         <div className='max-w-6xl mx-auto'>
        <div className='py-12 px-10 grid grid-cols-1 lg:grid-cols-2 justify-center items-center gap-5'>
-        <div className=''>
+        <ScrollAnimate direction='left' className=''>
            <h2 className='text-primary text-2xl lg:text-3xl font-Jakarta font-bold'>IELTS Mock Tests & Performance <span className='text-secondary'>Feedback</span></h2>
            <p className='text-md lg:text-base font-manrope mt-4'>Knowing the test format is important, but understanding your performance is equally valuable.
             Our preparation approach can include IELTS mock tests and practice sessions that help you
@@ -330,10 +330,10 @@ const ieltsWhyChooseUs = [
            </ul>
            <p className='text-md lg:text-base font-Jakarta mt-4'>The objective is not simply to complete more tests, but to use practice to improve your
 preparation.</p>
-        </div>
-        <div className=''>
+        </ScrollAnimate>
+        <ScrollAnimate direction='right' className=''>
            <Image className='mx-auto' height={480} width={360} src={'/images/ielts-coaching/ielts-coaching-2.png'} alt="IELTS Classes for Study Abroad" />
-        </div>
+        </ScrollAnimate>
         </div>
        </div>
      </section>

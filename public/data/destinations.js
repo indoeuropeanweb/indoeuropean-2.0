@@ -1276,18 +1276,14 @@ export const destinations = [
     },
     {
         type: "p",
-        content: "Choosing to "
-    },
-    {
-        type: "p",
         content: [
         {
             type: "text",
-            text: "Study Masters in Denmark "
+            text: "Choosing to "
         },
         {
             type: "link",
-            text: "Study in the UK",
+            text: "Study Masters in Denmark ",
             href: "/destinations/study-in-denmark"
         },
         {
@@ -1694,14 +1690,10 @@ export const destinations = [
     },
     {
         type: "p",
-        content: "Choosing to "
-    },
-    {
-        type: "p",
         content: [
         {
             type: "text",
-            text: "Study in New Zealand "
+            text: "Choosing to "
         },
         {
             type: "link",
@@ -2917,14 +2909,10 @@ export const destinations = [
     },
     {
         type: "p",
-        content: "Choosing to "
-    },
-    {
-        type: "p",
         content: [
         {
             type: "text",
-            text: "Study in Ireland "
+            text: "Choosing to "
         },
         {
             type: "link",
@@ -3337,18 +3325,14 @@ export const destinations = [
     },
     {
         type: "p",
-        content: "Choosing to "
-    },
-    {
-        type: "p",
         content: [
         {
             type: "text",
-            text: "Study in Finland "
+            text: "Choosing to "
         },
         {
             type: "link",
-            text: "Study in Ireland",
+            text: "Study in Finland",
             href: "/destinations/study-in-finland"
         },
         {
@@ -3842,14 +3826,10 @@ export const destinations = [
     },
     {
         type: "p",
-        content: "Choosing to "
-    },
-    {
-        type: "p",
         content: [
         {
             type: "text",
-            text: "Study in Lithuania "
+            text: "Choosing to "
         },
         {
             type: "link",
@@ -4308,14 +4288,10 @@ export const destinations = [
     },
     {
         type: "p",
-        content: "Choosing to "
-    },
-    {
-        type: "p",
         content: [
         {
-            type: "text",
-            text: "Study in Germany "
+         type: "text",
+         text: "Choosing to "
         },
         {
             type: "link",
@@ -4784,12 +4760,8 @@ export const destinations = [
         type: "p",
         content: [
         {
-            type: "p",
-            content: "Choosing to "
-        },
-        {
             type: "text",
-            text: "Study in Sweden "
+            text: "Choosing to "
         },
         {
             type: "link",

@@ -91,7 +91,7 @@ const page = () => {
             {whyChooseUsData.map((item, index) => {
               const Icon = item.icon;
 
-              return <ScrollAnimate key={item.id}>
+              return <ScrollAnimate direction="down" key={item.id}>
                <div className="relative border border-secondary shadow-lg shadow-orange-100 py-4 px-4 rounded-full hover:-translate-y-3 duration-500 ease-in-out">
                <div className="bg-secondary absolute -left-4 -top-4 flex justify-center items-center rounded-full p-5">
                  <Icon className="inline-block size-8 text-white" />

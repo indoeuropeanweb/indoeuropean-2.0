@@ -27,7 +27,6 @@ const Footer = () => {
             <p className="font-monrope text-sm lg:text-base text-primary mt-3">
               With 20+ years of experience, <Link className='font-semibold hover:underline' href={'/'}>Indo European</Link> helps students achieve their global education goals with trusted guidance, top university admissions, visa support, and personalised assistance.
             </p>
-            <Image className='' height={200} width={125} src={'/images/logos/icef-agency.png'} alt="ICEF Agency"/>
           </div>
 
           <div className="lg:col-span-9 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -37,10 +36,10 @@ const Footer = () => {
               </h4>
               <ul className="mt-4 space-y-3">
                 <li><Link href="/" className="font-semibold text-sm lg:text-base text-primary hover:underline">Home</Link></li>
+                <li><Link href="/about" className="font-semibold text-sm lg:text-base text-primary hover:underline">About Us</Link></li>
                 <li><Link href="/services" className="font-semibold text-sm lg:text-base text-primary hover:underline">Services</Link></li>
                 <li><Link href="/collaborate" className="font-semibold text-sm lg:text-base text-primary hover:underline">Collaborate</Link></li>
                 <li><Link href="/coaching" className="font-semibold text-sm lg:text-base text-primary hover:underline">Coaching</Link></li>
-                <li><Link href="/about" className="font-semibold text-sm lg:text-base text-primary hover:underline">About Us</Link></li>
                 <li><Link href="/contact" className="font-semibold text-sm lg:text-base text-primary hover:underline">Contact Us</Link></li>
                 <li><Link href="/terms-and-conditions" className="font-semibold text-sm lg:text-base text-primary hover:underline">Terms & Conditions</Link></li>
               </ul>
@@ -89,7 +88,17 @@ const Footer = () => {
           </div>
         </div>
      </div>
-       <div className='text-center py-4 border-t border-white bg-primary'>
+       <div className='text-center py-4 border-t border-white bg-primary relative'>
+         <Image className='absolute left-10 top-2' height={180} width={110} src={'/images/logos/icef-agency.png'} alt="ICEF Agency"/>
+         <h4 className="text-lg text-white lg:text-xl font-Jakarta relative font-semibold after:absolute after:-bottom-2 after:left-1/2 after:-translate-x-1/2 after:bg-secondary after:w-15 after:h-1">Our Branches</h4>
+          <ul className='flex justify-center items-center gap-2 py-5 text-white'>
+             <li className='text-white'>New Delhi</li> |
+             <li className='text-white'>Chandigarh</li> | 
+             <li className='text-white'>Jalandhar</li> |
+             <li className='text-white'>Ludhiana</li> |
+             <li className='text-white'>Amritsar</li> |
+             <li className='text-white'>Patiala</li> 
+          </ul>
          <p className='text-white text-sm lg:text-md'>Copyright {year} <Link className='text-secondary' href={'/'}>Indo European Study Abroad Consultant</Link>. All Rights Reserved</p>
        </div>
     </footer>
