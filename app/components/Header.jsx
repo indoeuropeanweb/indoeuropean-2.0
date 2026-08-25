@@ -1,13 +1,13 @@
 "use client";
-
 import Image from "next/image";
 import Link from "next/link";
 import { FaMoneyCheck, FaInstagram, FaTwitter, FaFacebook, FaYoutube, FaLinkedin } from "react-icons/fa";
 import { MdOutlinePhoneIphone } from "react-icons/md";
 import { MdKeyboardArrowDown } from "react-icons/md";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef, useMemo } from "react";
 import { IoClose } from "react-icons/io5";
 import { RiMenu3Fill } from "react-icons/ri";
+import useFetchCourses from "@/utils/useFetchCourses";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,35 +17,59 @@ const Header = () => {
   services: false,
   });
   const [query, setQuery] = useState("");
-  // const [open, setOpen] = useState(false);
+  const [courses, setCourses] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
 
-    const toggleMenu = (menu) => {
-      setOpenMenus((prev) => ({
+
+  //fetch courses for search input
+
+  const debounceFnc = (cb, delay) => {
+    let timer;
+
+    return (...args) => {
+      clearTimeout(timer);
+
+      timer = setTimeout(() => {
+        cb(...args);
+      }, delay);
+    };
+  };
+
+const handleApiSearch = async (value) => {
+  const url = `https://crm.indoeuropean.in/WebService/CourseFinder/Programs_api.asmx/ProgramsAPI?countryid=&univid=&levelid=&intakeid=&searchtext=${encodeURIComponent(value)}`;
+
+  try {
+    const response = await fetch(url);
+    const data = await response.json();
+
+    setCourses(data);
+    setLoading(false);
+  } catch (error) {
+    console.error("Something went wrong!", error);
+    setError(error);
+  }
+};
+
+const handleBounce = useMemo(
+  () => debounceFnc(handleApiSearch, 1000),
+  []
+);
+
+const handleSearch = (e) => {
+  const value = e.target.value;
+
+  setQuery(value);
+  handleBounce(value);
+};
+
+//menu handler
+  const toggleMenu = (menu) => {
+    setOpenMenus((prev) => ({
         ...prev,
         [menu]: !prev[menu],
-      }));
-    };
-
-  const courses = [
-  {
-    id: 1,
-    title: "Bachelor of Computer Science",
-    university: "University of Europe",
-    slug: "/courses/bachelor-computer-science",
-  },
-  {
-    id: 2,
-    title: "MBA",
-    university: "Berlin Business School",
-    slug: "/courses/mba",
-  },
-  {
-    id: 3,
-    title: "Mechanical Engineering",
-    university: "Riga Technical University",
-    slug: "/courses/mechanical-engineering",
-  },
-];
+    }));
+  };
 
   return (
     <header className="relative z-2 max-h-34">
@@ -60,13 +84,49 @@ const Header = () => {
               </span>
             </Link>
         </div>
-        <div className="w-90">
+        <div className="w-90 relative">
           <input 
             value={query}
-            onChange={e => setQuery(e.target.value)}
+            onChange={handleSearch}
             name="query"
-            className="outline text-sm w-full bg-white rounded-full px-4 py-1 outline-zinc-400 border-0" 
-            placeholder="Search Courses" />
+            className="outline text-sm w-full rounded-md bg-white px-4 py-1 outline-zinc-400 border-0" 
+            placeholder="Search Courses, Universities, Country and etc" />
+             {query.trim() && (
+          <div className="absolute top-6 w-90 left-1/2 rounded-sm -translate-x-1/2 mt-2 bg-white shadow-xl border border-zinc-200 overflow-hidden z-50"> 
+            {loading && (
+              <div className="px-4 py-3 text-sm text-zinc-500">
+                Searching...
+              </div>
+            )}
+
+            {!loading && courses?.length > 0 && (
+              <div className="max-h-80 overflow-y-auto">
+                {courses.map((course, index) => (
+                  <Link
+                    href={"/courses-finder/"}
+                    key={course.id ?? index}
+                  >
+                    <div className="px-4 py-3 border-b border-zinc-100 last:border-b-0 hover:bg-primary/8 cursor-pointer transition-colors">
+                    <p className="text-sm font-semibold text-zinc-800">
+                      {course.Program}
+                    </p>
+                    {course.UnivName && (
+                      <p className="text-xs text-zinc-500 mt-1">
+                        {course.UnivName}
+                      </p>
+                    )}
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            )}
+              {!loading && query.trim() && courses?.length === 0 && (
+                <div className="px-4 py-3 text-sm text-zinc-500">
+                  No courses found
+                </div>
+              )}
+            </div>
+            )}
         </div>
         <div className="grid grid-cols-2 gap-2 justify-center items-center">
              <div className="">
@@ -153,7 +213,6 @@ const Header = () => {
               onClick={() => setIsOpen(!isOpen)}
           />
       </div>
-
   <nav className="p-5 text-white bg-primary h-full">
     <Link
       href="/about"
@@ -358,19 +417,20 @@ const Header = () => {
     </div>
 
     <div className="">
-      <button
-        onClick={() => toggleMenu("services")}
+      <Link
+        // onClick={() => toggleMenu("services")}
         className="w-full flex justify-between items-center py-4"
+        href={"/services"}
       >
         <span className="font-Jakarta text-lg font-semibold">Services</span>
-        <MdKeyboardArrowDown
+        {/* <MdKeyboardArrowDown
           className={`transition-transform duration-300 ${
             openMenus.services ? "rotate-180" : ""
           }`}
-        />
-      </button>
+        /> */}
+      </Link>
 
-      <div
+      {/* <div
         className={`grid transition-all duration-300 overflow-hidden ${
           openMenus.services
             ? "grid-rows-[1fr] pb-4"
@@ -383,7 +443,7 @@ const Header = () => {
           <li className="hover:bg-primary/5 border-s-2 border-white hover:border-primary p-2 transition-colors duration-300 ease-in-out rounded-md font-Jakarta"><Link className="" href="/services/accommodation">Accommodation<span className="text-xs block">Step-by-step guidance from application to admission.</span></Link></li>
           <li className="hover:bg-primary/5 border-s-2 border-white hover:border-primary p-2 transition-colors duration-300 ease-in-out rounded-md font-Jakarta"><Link className="" href="/services/education-loan">Education Loan<span className="text-xs block">Affordable loan solutions for your study abroad plans.</span></Link></li>
         </div>
-      </div>
+      </div> */}
     </div>
 
     <div className="">

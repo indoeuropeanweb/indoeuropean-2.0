@@ -2,6 +2,7 @@ import { Outfit, Manrope, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import ReduxProvider from "@/Redux/ReduxProvider";
 
 const PlusJakartaSans = Plus_Jakarta_Sans({
   variable: "--font-Plus-Jakarta-sans",
@@ -30,7 +31,9 @@ export default function RootLayout({ children }) {
     >
       <body className="min-h-full flex flex-col">
         <Header />
+        <ReduxProvider>
         {children}
+        </ReduxProvider>
         <Footer />
         </body>
     </html>

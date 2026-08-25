@@ -36,9 +36,19 @@ import {
   FaUserDoctor,
   FaUserTie,
   FaShirt,
-  FaUtensils
+  FaUtensils,
+  FaUsers,
+  FaPassport,
+  FaBookOpen,
+  FaFileLines,
+  FaPaperPlane,
+  FaCircleCheck,
+  FaHandHoldingDollar,
+  FaPlaneDeparture,
+  FaHouse,
 } from "react-icons/fa6";
 
+import { FaShieldAlt, FaClipboardCheck, FaFileAlt, FaUniversity, FaMoneyBillWave, FaHouseUser } from "react-icons/fa";
 
 export const destinations = [
     {
@@ -3219,12 +3229,6 @@ export const destinations = [
             description: "Offered by many universities for selected undergraduate and postgraduate programmes.",
             icon: FaGraduationCap
         },
-        // {
-        //     id: 3, 
-        //     title: "Summer Intake (May)",
-        //     description: "Offered by selected universities for specific courses.",
-        //     icon: FaSchool
-        // }
         ]
     },
     {
@@ -6254,6 +6258,1109 @@ export const destinations = [
     {
         type: "p",
         content: "Whether you are planning to study for a Bachelor’s, Master’s, MBA or any other specialised professional program, Indo European is committed to making your Study in France experience smooth, transparent and successful. Let our expert team guide you through the next step to earning a globally recognised degree in France and building a rewarding international career."
+    }
+    ]
+    },
+    {
+    id: 15,
+    heading: "Study in Estonia",
+    title: "Best courses to study in Estonia for Indian students",
+    slug: "study-in-estonia",
+    metaTitle:
+        "Study in Estonia | Indo European Study Abroad Consultancy",
+    metaDescription:
+        "Study in Estonia is a Study abroad destination for students in india, with many benefits explore all here",
+    image:
+        "/images/destinations/estonia/estonia-1.webp",
+    cover: "/images/destinations/estonia/cover/estonia.webp",
+    keywords: [
+        "study in Estonia",
+        "study abroad Estonia",
+        "Estonia universities",
+        "Estonia for international students",
+        "study in Estonia 2026",
+        "affordable education in Estonia",
+        "English taught programs Estonia",
+        "best countries to study in Estonia",
+        "Estonia scholarships",
+        "student life in Estonia",
+        "higher education Estonia",
+        "Estonia education",
+        "career opportunities in Estonia",
+        "study abroad consultants",
+        "international students Estonia"
+    ],
+    category: "country",
+    sections: [
+    {
+        type: "p",
+        content:
+        "Estonia is an emerging study destination in Europe, known for its digital innovation, modern education system and international learning environment. For Indian students, studying in Estonia offers opportunities to choose from English-taught programmes, gain international exposure and develop skills for a global career."
+    },
+    {
+        type: "p",
+        content: "With a range of bachelor's and master's programmes, Estonia can be a suitable option for students looking for quality education and a technology-driven environment in Europe."
+    },
+    {
+        type: "h2",
+        content: "Why Study in Estonia?"
+    },
+    {
+        type: "p",
+        content: "There are many advantages for international students in Estonia:"
+    },
+    {
+        type: "list",
+        items: [
+        "Creative & modern educational system",
+        "International learning setting.",
+        "High focus on technology and digital innovation",
+        "Think about studying in places that are cheaper than some European countries.",
+        "Safe and student friendly",
+        "International work experience opportunities",
+        "Great exposure to European culture and business",
+        ],
+        imgUrl: "/images/destinations/estonia/estonia-2.webp",
+        alt: "Study in Estonia"
+    },
+    {
+        type: "h2",
+        content: "Popular Courses to Study in Estonia"
+    },
+    {
+        type: "p",
+        content:
+        "Indian students can choose from a variety of programmes depending on their academic background and career goals. Popular fields include:"
+    },
+    {
+        type: "course-list",
+        items:  [
+        {
+            id: 1,
+            type: "course",
+            icon: FaLaptopCode,
+            text: "Computer Science & IT"
+        },
+        {
+            id: 2,
+            type: "course",
+            icon: FaBrain,
+            text: "Artificial Intelligence & Data Science"
+        },
+        {
+            id: 3,
+            type: "course",
+            icon: FaBriefcase,
+            text: "Business & Management"
+        },
+        {
+            id: 4,
+            type: "course",
+            icon: FaGear,
+            text: "Engineering"
+        },
+        {
+            id: 5,
+            type: "course",
+            icon: FaShieldAlt,
+            text: "Cybersecurity"
+        },
+        {
+            id: 6,
+            type: "course",
+            icon: FaChartLine,
+            text: "Economics & Finance"
+        },
+        {
+            id: 7,
+            type: "course",
+            icon: FaLaptopCode,
+            text: "Digital Technologies"
+        },
+        {
+            id: 8,
+            type: "course",
+            icon: FaDna,
+            text: "Biotechnology"
+        },
+        {
+            id: 9,
+            type: "course",
+            icon: FaUsers,
+            text: "Social Sciences"
+        },
+        {
+            id: 10,
+            type: "course",
+            icon: FaLeaf,
+            text: "Environmental Studies"
+        }
+    ]
+    },
+    {
+        type: "p",
+        content:
+        "Estonia is particularly recognised for its technology-focused education and digital ecosystem."
+    },
+    {
+        type: "h2",
+        content: "Top Universities in Estonia"
+    },
+    {
+        type: "p",
+        content:
+        "Some well-known higher education institutions in Estonia include:"
+    },
+    {
+        type: "university-list",
+        items: [
+        {
+            id: 1,
+            src: "/images/destinations/estonia/universities/eaa.svg",
+            alt: "Estonian Academy of Arts",
+            title: "Estonian Academy of Arts"
+        },
+        {
+            id: 2,
+            src: "/images/destinations/estonia/universities/ut.svg",
+            alt: "University of Tartu",
+            title: "University of Tartu"
+        },
+        {
+            id: 3,
+            src: "/images/destinations/estonia/universities/tut.svg",
+            alt: "Tallinn University of Technology",
+            title: "Tallinn University of Technology"
+        },
+        {
+            id: 4,
+            src: "/images/destinations/estonia/universities/tu.svg",
+            alt: "Tallinn University",
+            title: "Tallinn University"
+        },
+        {
+            id: 5,
+            src: "/images/destinations/estonia/universities/euls.svg",
+            alt: "Estonian University of Life Sciences",
+            title: "Estonian University of Life Sciences"
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Students should compare universities based on programme content, tuition fees, admission requirements, location, and career opportunities before making their decision."
+    },
+
+    {
+        type: "h2",
+        content: "Eligibility to Study in Estonia"
+    },
+    {
+        type: "p",
+        content: "Admission requirements vary depending on the university and programme. Indian students may generally need: "
+    },
+    {
+      type: "list",
+      items: [
+        "Relevant academic qualifications",
+        "Academic transcripts and certificates",
+        "Proof of English language proficiency, where required",
+        "Valid passport",
+        "CV or Resume",
+        "Motivation letter or SOP",
+        "Portfolio, entrance test or interview for selected programmes"
+      ],
+        imgUrl: "/images/destinations/estonia/estonia-4.webp",
+        alt: "Study in Estonia"
+    },
+    {
+      type: "p",
+      content: "Students should always check the specific requirements of their chosen university and course before applying."
+    },
+    {
+       type: "h2",
+       content: "Admission Process for Indian Students"
+    },
+    {
+        type: "p",
+        content:
+        "The procedure to study in Estonia normally includes:"
+    },
+    {
+        type: "intake-list",
+        items: [
+            {
+                id: 1,
+                title: "Choose a Course",
+                description:
+                    "Choose a program based on your academic background and career objectives.",
+                icon: FaBookOpen
+            },
+            {
+                id: 2,
+                title: "Choose a University",
+                description:
+                    "Search for universities, courses, tuition fees and admission requirements.",
+                icon: FaUniversity
+            },
+            {
+                id: 3,
+                title: "Verify Eligibility",
+                description:
+                    "Ensure you fulfill the academic and language criteria.",
+                icon: FaCircleCheck
+            },
+            {
+                id: 4,
+                title: "Document Preparation",
+                description:
+                    "Collect all the required documents like certificates, transcripts, passport, CV, SOP and others.",
+                icon: FaFileLines
+            },
+            {
+                id: 5,
+                title: "Apply",
+                description:
+                    "Submit your application using the university’s application system.",
+                icon: FaPaperPlane
+            },
+            {
+                id: 6,
+                title: "Receive Admission",
+                description:
+                    "You will be notified of the university’s decision after review.",
+                icon: FaGraduationCap
+            },
+            {
+                id: 7,
+                title: "Complete Visa Formalities",
+                description:
+                    "Upon admission, complete the required visa and residence formalities.",
+                icon: FaPassport
+            }
+        ]
+    },
+    {
+        type: "h2",
+        content: "Tuition Fees and Cost of Studying in Estonia"
+    },
+    {
+        type: "p",
+        content: "Tuition fees in Estonia vary depending on the university, programme and degree level. Students should check the exact tuition fee for their selected course before applying."
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "bold",
+                text: "Apart from tuition fees, students should budget for:"
+            }
+        ]
+    },
+    {
+        type: "list",
+        items: [
+            "Accommodation",
+            "Food and groceries",
+            "Transportation",
+            "Health insurance",
+            "Study materials",
+            "Personal expenses",
+        ],
+        imgUrl: "/images/destinations/estonia/estonia-3.webp",
+        alt: "Estonia Student Visa Process"
+    },
+    {
+     type: "p",
+     content: "Creating a financial plan in advance can help students manage their study and living costs effectively."
+    },
+    {
+        type: "h2",
+        content: "Scholarships in Estonia"
+    },
+    {
+        type: "p",
+        content:
+        "Universities and other organizations may provide scholarships and other financial support options to international students."
+    },
+    {
+        type: "p",
+        content: "Scholarships may differ depending on academic performance, program, nationality and other eligibility conditions. Students should check the various opportunities and deadlines before applying."
+    },
+    {
+        type:"h2",
+        content: "Estonia Student Visa for Indian Students"
+    },
+    {
+       type: "p",
+       content: [
+        {
+            type: "text",
+            text: "Indian students need to complete the appropriate immigration and residence formalities to "
+        },
+        {
+            type: "link",
+            text: "Study in Estonia.",
+            href: "/study-in-estonia"
+        },
+        {
+            type: "text",
+            text: " The requirements depend on the duration of the programme and the student's circumstances."
+        }
+       ]
+    },
+    {
+        type: "p",
+        text: "The process may involve:"
+    },
+    {
+        type: "list",
+        items: [
+            "University admission",
+            "Valid passport",
+            "Proof of sufficient financial resources",
+            "Health insurance",
+            "Required visa or residence documentation",
+            "Biometric requirements, where applicable"
+        ],
+        imgUrl: "/images/destinations/estonia/estonia-5.webp",
+        alt: "Study in Estonia"
+    },
+    {
+         type: "p",
+         content: "Students should check the latest official requirements before submitting their application."
+    },
+    {
+      type: "h2",
+      content: "Work Opportunities for International Students"
+    },
+    {
+      type: "p",
+      content: "International students in Estonia may be allowed to work while studying, under certain rules and conditions. Part time work can give students a taste of the work environment, develop professional skills and provide hands-on experience."
+    },
+    {
+      type: "p",
+      content: "Estonia’s tech-driven economy can also provide opportunities for graduates with skills in fields like IT, engineering, business and digital technologies."
+    },
+    {
+        type: "h2",
+        content: "Post-Study Career Opportunities in Estonia"
+    },
+    {
+        type: "p",
+        content: "After completing their studies, eligible international graduates can explore employment opportunities based on their qualifications and residence status."
+    },
+    {
+       type: "p",
+       content: [
+        {
+            type: "bold",
+            text: "Popular career areas include:"
+        }
+       ]
+    },
+    {
+       type: "list",
+       items: [
+        "Information Technology",
+        "Software Development",
+        "Cybersecurity",
+        "Data Science",
+        "Engineering",
+        "Business & Finance",
+        "Digital Services",
+        "Biotechnology",
+        "Research & Development"
+       ],
+       imgUrl: "/images/destinations/estonia/estonia-6.webp",
+       alt: "Post-Study Career Opportunities in Estonia"
+    },
+    {
+        type: "p",
+        content: "Students should check the latest immigration and employment rules when planning their post-study career."
+    },
+    {
+        type: "h2",
+        content: "Why Choose Indo-European to Study in Estonia?"
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "Choosing the right course, university and study plan can make your international education journey easier. "
+            },
+            {
+                type: "link",
+                text: "Indo-European Study Abroad Consultancy",
+                href: "/"
+            },
+            {
+                type: "text",
+                text: " provides personalised assistance to Indian students planning to study in Estonia"
+            }
+        ]
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "bold",
+                text: "Our Services Include:"
+            }
+        ]
+    },
+    {
+    type: "intake-list",
+    items: [
+    {
+        id: 1,
+        title: "Course & University Selection",
+        description:
+            "Get guidance in selecting suitable courses and universities based on your academic profile and career goals.",
+        icon: FaGraduationCap
+    },
+    {
+        id: 2,
+        title: "Career Counselling",
+        description:
+            "Receive expert advice to make informed decisions about your education and future career.",
+        icon: FaUserTie
+    },
+    {
+        id: 3,
+        title: "Application Assistance",
+        description:
+            "Get support with applications, documentation and SOP preparation.",
+        icon: FaFileLines
+    },
+    {
+        id: 4,
+        title: "Visa Guidance",
+        description:
+            "Receive assistance with visa documentation, application procedures and interview preparation.",
+        icon: FaPassport
+    },
+    {
+        id: 5,
+        title: "Test Preparation",
+        description:
+            "Get preparation support for IELTS, PTE Academic and other required English-language tests.",
+        icon: FaBookOpen
+    },
+    {
+        id: 6,
+        title: "Financial Planning & Scholarships",
+        description:
+            "Explore suitable scholarships and financial planning options.",
+        icon: FaHandHoldingDollar
+    },
+    {
+        id: 7,
+        title: "Pre-Departure Support",
+        description:
+            "Get guidance on travel, accommodation and preparing for life in Estonia.",
+        icon: FaPlaneDeparture
+    },
+    {
+        id: 8,
+        title: "Post-Arrival Assistance",
+        description:
+            "Receive support with settling into your new environment after reaching Estonia.",
+        icon: FaHouse
+    }
+]
+    },
+    {
+        type: "h2",
+        content: "Start Your Study in Estonia Journey"
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "From "
+            },
+            {
+                type: "link",
+                text: "Course Selection, ",
+                href: "/course-selection"
+            },
+            {
+                type: "link",
+                text: "university applications to visa and pre-departure guidance,",
+                href: "/university-selection"
+            },
+            {
+                type: "link",
+                text: "Indo European",
+                href: "/"
+            },
+            {
+                type: "text",
+                text: " helps Indian students plan their journey to study in Estonia with personalised support."
+            }
+        ]
+    },
+    {
+        type: "p",
+        content: "Connect with Indo-European Study Abroad Consultancy to explore your study options in Estonia."
+    }
+    ]
+    },
+    {
+    id: 16,
+    heading: "Study in Netherlands",
+    title: "Study in Netherlands: Shape Your Future in Europe",
+    slug: "study-in-netherlands",
+    metaTitle:
+        "Study in Netherlands | Indo European Study Abroad Consultancy",
+    metaDescription:
+        "Study in Netherlands is a Study abroad destination for students in india, with many benefits explore all here",
+    image:
+        "/images/destinations/france/netherlands-1.webp",
+    cover: "/images/destinations/netherlands/cover/netherlands-cover.webp",
+    keywords: [
+        "study in Netherlands",
+        "study abroad Netherlands",
+        "Netherlands universities",
+        "Netherlands for international students",
+        "study in Netherlands 2026",
+        "affordable education in Netherlands",
+        "English taught programs Netherlands",
+        "best countries to study in Netherlands",
+        "Netherlands scholarships",
+        "student life in France Netherlands",
+        "higher education Netherlands",
+        "Netherlands education",
+        "career opportunities in Netherlands",
+        "study abroad consultants",
+        "international students Netherlands"
+    ],
+    category: "country",
+    sections: [
+    {
+        type: "p",
+        content:
+        "The Netherlands is a popular study destination for international students, offering globally recognised universities, innovative teaching methods and a wide range of English-taught programmes. For Indian students, studying in the Netherlands provides quality education, international exposure and opportunities to build a career in Europe."
+    },
+    {
+        type: "p",
+        content: "With the right course and university, students can plan their higher education according to their academic background, interests and career goals."
+    },
+    {
+        type: "h2",
+        content: "Why Study in the Netherlands?"
+    },
+    {
+        type: "p",
+        content: "The Netherlands offers a combination of quality education, practical learning and an international environment. Key benefits include:"
+    },
+    {
+        type: "list",
+        items: [
+        "Globally recognised universities and degrees",
+        "Wide range of English-taught programmes",
+        "Practical and innovative teaching methods",
+        "Multicultural student environment",
+        "Research and career opportunities",
+        "Modern infrastructure and student facilities",
+        "Opportunities to gain international experience",
+        ],
+        imgUrl: "/images/destinations/netherlands/netherlands-1.webp",
+        alt: "Why Study in the Netherlands?"
+    },
+    {
+        type: "h2",
+        content: "Popular Courses to Study in the Netherlands"
+    },
+    {
+        type: "p",
+        content:
+        "Indian students can choose from a wide range of bachelor's and master's programmes. Popular study areas include:"
+    },
+    {
+        type: "course-list",
+        items: [
+            {
+                id: 1,
+                type: "course",
+                icon: FaBriefcase,
+                text: "Business & Management"
+            },
+            {
+                id: 2,
+                type: "course",
+                icon: FaLaptopCode,
+                text: "Computer Science & IT"
+            },
+            {
+                id: 3,
+                type: "course",
+                icon: FaBrain,
+                text: "Data Science & Artificial Intelligence"
+            },
+            {
+                id: 4,
+                type: "course",
+                icon: FaGear,
+                text: "Engineering"
+            },
+            {
+                id: 5,
+                type: "course",
+                icon: FaCalculator,
+                text: "Finance & Economics"
+            },
+            {
+                id: 6,
+                type: "course",
+                icon: FaDna,
+                text: "Life Sciences"
+            },
+            {
+                id: 7,
+                type: "course",
+                icon: FaLeaf,
+                text: "Environmental Studies"
+            },
+            {
+                id: 8,
+                type: "course",
+                icon: FaCompassDrafting,
+                text: "Architecture"
+            },
+            {
+                id: 9,
+                type: "course",
+                icon: FaUsers,
+                text: "Social Sciences"
+            },
+            {
+                id: 10,
+                type: "course",
+                icon: FaTruck,
+                text: "Logistics & Supply Chain Management"
+            },
+            {
+                id: 11,
+                type: "course",
+                icon: FaHotel,
+                text: "Hospitality & Tourism"
+            }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "The right course depends on your academic background, interests, career goals and eligibility."
+    },
+    {
+        type: "h2",
+        content: "Top Universities in the Netherlands"
+    },
+    {
+        type: "p",
+        content:
+        "Some well-known universities that attract international students include:"
+    },
+    {
+        type: "university-list",
+        items: [
+        {
+            id: 1,
+            src: "/images/destinations/netherlands/universities/university-of-amsterdam.svg",
+            alt: "University of Amsterdam",
+            title: "University of Amsterdam"
+        },
+        {
+            id: 2,
+            src: "/images/destinations/netherlands/universities/delft-university-of-technology.svg",
+            alt: "Delft University of Technology",
+            title: "Delft University of Technology"
+        },
+        {
+            id: 3,
+            src: "/images/destinations/netherlands/universities/erasmus-university-rotterdam.svg",
+            alt: "Erasmus University Rotterdam",
+            title: "Erasmus University Rotterdam"
+        },
+        {
+            id: 4,
+            src: "/images/destinations/netherlands/universities/leiden-university.svg",
+            alt: "Leiden University",
+            title: "Leiden University"
+        },
+        {
+            id: 5,
+            src: "/images/destinations/netherlands/universities/rg.svg",
+            alt: "University of Groningen",
+            title: "University of Groningen"
+        },
+        {
+            id: 6,
+            src: "/images/destinations/netherlands/universities/utrecht-university.svg",
+            alt: "Utrecht University",
+            title: "Utrecht University"
+        },
+        {
+            id: 7,
+            src: "/images/destinations/netherlands/universities/maastritch-university.svg",
+            alt: "Maastricht University",
+            title: "Maastricht University"
+        },
+        {
+            id: 8,
+            src: "/images/destinations/netherlands/universities/eindhoven-university-of-technology.svg",
+            alt: "Eindhoven University of Technology",
+            title: "Eindhoven University of Technology"
+        },
+        {
+            id: 9,
+            src: "/images/destinations/netherlands/universities/university-of-twente.svg",
+            alt: "University of Twente",
+            title: "University of Twente"
+        },
+        {
+            id: 10,
+            src: "/images/destinations/netherlands/universities/wageningen-university-and-research.svg",
+            alt: "Wageningen University & Research",
+            title: "Wageningen University & Research"
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Students should compare universities based on course structure, tuition fees, location, admission requirements and career opportunities."
+    },
+
+    {
+        type: "h2",
+        content: "Eligibility & Admission Process"
+    },
+    {
+        type: "p",
+        content: "Admission requirements vary depending on the university and programme. Indian students may generally need relevant academic qualifications, transcripts, a valid passport, proof of English proficiency where required, CV, SOP or motivation letter and other programme-specific documents."
+    },
+    {
+       type: 'p',
+       content: [
+        {
+            type: "bold",
+            text: "How to Apply"
+        },
+       ]
+    },
+    {
+       type: "intake-list",
+       items: [
+         {
+        id: 1,
+        title: "Choose a Course",
+        description:
+            "Select a programme that matches your academic profile and career plans.",
+        icon: FaBookOpen
+        },
+        {
+            id: 2,
+            title: "Shortlist Universities",
+            description:
+                "Compare courses, fees, locations, and admission requirements.",
+            icon: FaUniversity
+        },
+        {
+            id: 3,
+            title: "Check Eligibility",
+            description:
+                "Review the academic and language requirements.",
+            icon: FaClipboardCheck
+        },
+        {
+            id: 4,
+            title: "Prepare Documents",
+            description:
+                "Arrange your academic records, passport, CV, SOP, and other required documents.",
+            icon: FaFileAlt
+        },
+        {
+            id: 5,
+            title: "Submit Application",
+            description:
+                "Apply through the university's required system or Studielink, depending on the programme.",
+            icon: FaPaperPlane
+        },
+        {
+            id: 6,
+            title: "Receive Admission",
+            description:
+                "Wait for the university's decision and complete the required formalities.",
+            icon: FaGraduationCap
+        },
+        {
+            id: 7,
+            title: "Complete Visa Formalities",
+            description:
+                "After admission, proceed with the required immigration and residence procedures.",
+            icon: FaPassport
+        }
+       ]
+    },
+    {
+       type: "h2",
+       content: "Cost of Studying in the Netherlands"
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "The "
+            },
+            {
+                type: "bold",
+                text: "cost of studying in the Netherlands"
+            },
+            {
+                type: "text",
+                text: "depends on the university, programme, degree level and nationality. Tuition fees for non-EU/EEA students are generally higher than those for EU/EEA students."
+            }
+        ]
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "Students should also plan approximately ",
+            },
+            {
+                type: "bold",
+                text: "€1,000–€1,500 per month for living expenses,"
+            },
+            {
+                type: "text",
+                text: "depending on their city and lifestyle. This may include:"
+            }
+        ]
+    },
+    {
+        type: "list",
+        items: [
+            "Accommodation", 
+            "Food and groceries",
+            "Transportation",
+            "Health insurance",
+            "Study materials",
+            "Personal expenses"
+        ],
+        imgUrl: "/images/destinations/netherlands/netherlands-2.webp",
+        alt: ""
+    },
+    {
+       type: "p",
+       content: "Planning your budget in advance can help manage the overall cost of studying in the Netherlands."
+    },
+    {
+        type: "h2",
+        content: "Scholarships in the Netherlands"
+    },
+    {
+        type: "p",
+        content: "Indian students can explore scholarships and funding opportunities to help manage their education expenses. Options may include:"
+    },
+    {
+        type: "list",
+        items: [
+            "NL Scholarship",
+            "University-specific scholarships",
+            "Merit-based scholarships",
+            "Programme-specific funding",
+            "Other grants and financial aid",
+        ],
+        imgUrl: "/images/destinations/netherlands/netherlands-3.webp",
+        alt: "Scholarships in the Netherlands"
+    },
+    {
+     type: "p",
+     content: "Eligibility, funding and deadlines vary, so students should check the requirements of each scholarship before applying."
+    },
+    {
+        type: "h2",
+        content: "Netherlands Student Visa for Indian Students"
+    },
+    {
+        type: "p",
+        content:
+        "International students may need to complete specific visa and residence procedures to study in the Netherlands. Depending on the student&#39;s circumstances and programme duration, an MVV and/or residence permit may be required."
+    },
+    {
+       type: "p",
+       content: "The process can involve university admission, proof of financial resources, required documentation, immigration formalities and biometric requirements."
+    },
+    {
+        type: "p",
+        content:
+        "Students should always follow the latest official immigration requirements when preparing their applications."
+    },
+    {
+        type:"h2",
+        content: "Work & Post-Study Opportunities"
+    },
+    {
+        type: "p",
+        content: "International students may be able to work in the Netherlands during their studies, subject to applicable immigration and employment rules. Part-time work can help students gain practical experience, develop professional skills and build a network."
+    },
+    {
+         type: "p",
+         content: [
+            {
+                type: "text",
+                text: "Eligible international graduates may also apply for an "
+            },
+            {
+                type: "bold",
+                text: "orientation year residence permit, "
+            },
+            {
+                type: "text",
+                text: "which can allow them to stay in the Netherlands for a specified period to look for employment or explore business opportunities after graduation."
+            }
+         ]
+    },
+    {
+      type: "h2",
+      content: "Why Choose Indo-European to Study in the Netherlands?"
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "link",
+                text: "Indo-European Study Abroad Consultancy",
+                href: "/"
+            },
+            {
+                type: "text",
+                text: " provides personalised support to help Indian students plan their journey to study in the Netherlands."
+            }
+        ]
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type:"bold",
+                text: "Our Services Include:"
+            }
+        ]
+    },
+    {
+      type: "intake-list",
+      items: [
+        {
+            id: 1,
+            title: "Course & University Selection",
+            description:
+                "Find suitable courses and universities based on your academic profile and career goals.",
+            icon: FaUniversity
+        },
+        {
+            id: 2,
+            title: "Career Counselling",
+            description:
+                "Get expert guidance for informed education and career decisions.",
+            icon: FaUserTie
+        },
+        {
+            id: 3,
+            title: "Application Assistance",
+            description:
+                "Receive support with applications, documentation, and SOP preparation.",
+            icon: FaFileAlt
+        },
+        {
+            id: 4,
+            title: "Visa Guidance",
+            description:
+                "Get assistance with visa documentation and application procedures.",
+            icon: FaPassport
+        },
+        {
+            id: 5,
+            title: "Test Preparation",
+            description:
+                "Get preparation support for IELTS, PTE Academic, and other required English-language tests.",
+            icon: FaBookOpen
+        },
+        {
+            id: 6,
+            title: "Financial Planning & Scholarships",
+            description:
+                "Explore suitable scholarships and funding options.",
+            icon: FaMoneyBillWave
+        },
+        {
+            id: 7,
+            title: "Pre-Departure Support",
+            description:
+                "Get guidance on travel, accommodation, and preparation for life in the Netherlands.",
+            icon: FaPlaneDeparture
+        },
+        {
+            id: 8,
+            title: "Post-Arrival Assistance",
+            description:
+                "Receive support with settling into your new environment.",
+            icon: FaHouseUser
+        }
+    ]
+    },
+    {
+      type: "h2",
+      content: "Your Journey to Study in the Netherlands Starts Here"
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "From "
+            },
+            {
+                type: "link",
+                text: "courses",
+                href: "/courses-finder"
+            },
+            {
+                type: "text",
+                text: " and "
+            },
+            {
+                type: "link",
+                text: "university selection",
+                href: "/university-selection"
+            },
+            {
+                type: "text",
+                text: " to application and "
+            },
+            {
+                type: "link",
+                text: "Visa Guidance",
+                href: "/services"
+            },
+            {
+                type: "text",
+                text: "Indo-European helps Indian students plan their study journey in the Netherlands with personalised support."
+            }
+        ]
+    },
+    {
+        type: "p",
+        content: "Get in touch with Indo-European Study Abroad Consultancy to explore your study options in the Netherlands."
     }
     ]
     },

@@ -1,5 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { togglePopup } from "@/Redux/slices/formPopup";
 import useFetch from "@/utils/useFetch";
 import ErrorTooltip from "./minors/ErrorTooltips";
 import SendData from "@/utils/sendData";
@@ -23,6 +25,7 @@ const [errors, setErrors] = useState({});
 const [isSubmitted, setIsSubmitted] = useState(false)
 const [resData, setResData] = useState({});
 const [showSuccess, setShowSuccess] = useState(false);
+const dispatch = useDispatch();
 
 const validate = () => {
   let newErrors = {};
@@ -151,6 +154,7 @@ const handleSubmit = async (e) => {
 
         setTimeout(() => {
             setShowSuccess(false);
+            dispatch(togglePopup());
         }, 5000);
     }
 

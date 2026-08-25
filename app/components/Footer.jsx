@@ -91,7 +91,7 @@ const Footer = () => {
        <div className='text-center py-4 border-t border-white bg-primary relative'>
          <Image className='absolute left-10 top-2' height={180} width={110} src={'/images/logos/icef-agency.png'} alt="ICEF Agency"/>
          <h4 className="text-lg text-white lg:text-xl font-Jakarta relative font-semibold after:absolute after:-bottom-2 after:left-1/2 after:-translate-x-1/2 after:bg-secondary after:w-15 after:h-1">Our Branches</h4>
-          <ul className='flex justify-center items-center gap-2 py-5 text-white'>
+          <ul className='flex justify-center items-center gap-2 py-5 text-white flex-wrap'>
              <li className='text-white'>New Delhi</li> |
              <li className='text-white'>Chandigarh</li> | 
              <li className='text-white'>Jalandhar</li> |

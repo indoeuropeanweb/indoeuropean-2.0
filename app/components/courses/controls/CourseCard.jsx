@@ -5,19 +5,27 @@ import Stack from '@mui/material/Stack';
 import { FaArrowAltCircleRight, FaRegHeart, FaUniversity, FaCoins, FaCalendarAlt  } from "react-icons/fa";
 import { FaGraduationCap, FaLocationDot  } from 'react-icons/fa6';
 import { IoIosTime } from "react-icons/io";
+import { useDispatch } from 'react-redux';
+import { togglePopup } from '@/Redux/slices/formPopup';
 
 const CourseSkeleton = () => {
-  return <Stack className='' spacing={1}>
-        <Skeleton variant="text" sx={{ fontSize: '1rem' }} />
-      <Skeleton variant="circular" width={40} height={40} />
-      <Skeleton variant="rectangular" width={210} height={60} />
+  return <Stack className='border-2 border-dotted border-secondary p-5 rounded-2xl h-full' spacing={1}>
+        <div className='flex justify-between items-center'>
+        <Skeleton variant="rectangular" width={210} height={60} />
+        <Skeleton variant="circular" width={40} height={40} />
+      </div>
       <Skeleton variant="rounded" width={210} height={60} />
+      <Skeleton variant="text" sx={{ fontSize: '1rem' }} />
+      <Skeleton variant="rounded" width={210} height={60} />
+      <Skeleton variant="rounded" width={120} height={40} />
   </Stack>
 }
 
-const CourseCard = () => {
+const CourseCard = ({countryName, universityName, program, duration, tuitionFee, scholarship, intakePeriod}) => {
+  const dispatch = useDispatch();
+ 
   return (
-<Suspense fallback={<CourseSkeleton />}>
+  <Suspense fallback={<CourseSkeleton />}>
   <div
     className="
       group relative isolate overflow-hidden
@@ -60,8 +68,8 @@ const CourseCard = () => {
             backdrop-blur-md
           "
         >
-          <h4 className="font-Jakarta text-md font-semibold text-primary lg:text-lg">
-            Course Name
+          <h4 className="font-Jakarta text-md font-semibold text-primary lg:text-base">
+            {program}
           </h4>
           <Link
             href="/contact"
@@ -83,29 +91,26 @@ const CourseCard = () => {
         <div className="mt-4 space-y-3">
           <div className="flex items-center gap-2 text-primary">
             <FaUniversity className="size-5 shrink-0 text-secondary" />
-            <span className="font-manrope text-md lg:text-lg font-semibold">
-              University Name
+            <span className="font-manrope text-sm lg:text-md font-semibold">
+              {universityName}
             </span>
           </div>
 
           <div className="flex items-center gap-2 text-primary">
             <FaLocationDot className="size-5 shrink-0 text-secondary" />
-            <span className="font-manrope text-md lg:text-lg font-semibold">
-              Location
+            <span className="font-manrope text-sm lg:text-md font-semibold">
+              {countryName}
             </span>
           </div>
         </div>
       </div>
 
-      {/* Course Information */}
-      <div className="mb-5 grid grid-cols-2 gap-3">
-
+      <div className="mb-5 grid grid-cols-2 gap-2">
         <div
           className="
             rounded-xl
             border border-secondary/10
             bg-white/50
-            p-3
             backdrop-blur-sm
           "
         >
@@ -114,11 +119,11 @@ const CourseCard = () => {
 
             <div>
               <h6 className="font-manrope text-sm font-medium text-primary/70 lg:text-md">
-                Annual Fee
+                Tuition Fee
               </h6>
 
               <span className="font-manrope text-sm font-semibold text-primary lg:text-md">
-                $6453
+                {tuitionFee}
               </span>
             </div>
           </div>
@@ -129,7 +134,6 @@ const CourseCard = () => {
             rounded-xl
             border border-secondary/10
             bg-white/50
-            p-3
             backdrop-blur-sm
           "
         >
@@ -142,7 +146,7 @@ const CourseCard = () => {
               </h6>
 
               <span className="font-manrope text-sm font-semibold text-primary lg:text-md">
-                24 Months
+                {duration}
               </span>
             </div>
           </div>
@@ -153,7 +157,6 @@ const CourseCard = () => {
             rounded-xl
             border border-secondary/10
             bg-white/50
-            p-3
             backdrop-blur-sm
           "
         >
@@ -166,7 +169,7 @@ const CourseCard = () => {
               </h6>
 
               <span className="font-manrope text-sm font-semibold text-primary lg:text-md">
-                No/Yes
+                {scholarship == "Not Available" ? "No": "Yes"}
               </span>
             </div>
           </div>
@@ -177,7 +180,6 @@ const CourseCard = () => {
             rounded-xl
             border border-secondary/10
             bg-white/50
-            p-3
             backdrop-blur-sm
           "
         >
@@ -190,7 +192,7 @@ const CourseCard = () => {
               </h6>
 
               <span className="font-manrope text-sm font-semibold text-primary lg:text-md">
-                Feb/Sep
+                {intakePeriod}
               </span>
             </div>
           </div>
@@ -202,22 +204,22 @@ const CourseCard = () => {
       <button
         type="button"
         className="
+          w-full
           group/btn
           inline-flex cursor-pointer items-center justify-center gap-2
-          rounded-xl
-          bg-primary
+          rounded-md
+          border border-primary
           px-5 py-2.5
-          font-manrope text-sm font-semibold text-white
+          font-manrope text-sm font-semibold text-primary
           shadow-md shadow-primary/20
           transition-all duration-300 ease-out
           hover:-translate-y-0.5
           hover:bg-primary/85
           hover:shadow-lg hover:shadow-primary/30
+        hover:text-white
           active:translate-y-0
-          focus:outline-none
-          focus:ring-2 focus:ring-primary/40
-          focus:ring-offset-2
         "
+        onClick={() => dispatch(togglePopup())}
       >
         Apply Now
 
