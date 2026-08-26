@@ -8,6 +8,7 @@ import { useEffect, useState, useRef, useMemo } from "react";
 import { IoClose } from "react-icons/io5";
 import { RiMenu3Fill } from "react-icons/ri";
 import useFetchCourses from "@/utils/useFetchCourses";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -159,6 +160,7 @@ const handleSearch = (e) => {
                       <li className="font-Jakarta"><Link className="flex items-center hover:bg-primary/5 border-s-2 border-white hover:border-primary transition-colors duration-300 ease-in-out rounded-md px-2 py-2 text-sm lg:text-md" href="/destinations/study-in-finland"><Image className="rounded-full w-5 h-5" src={'/images/flags/finland.svg'} width={5} height={5} alt="study in finland"/>&nbsp;&nbsp;Study in Finland</Link></li>
                       <li className="font-Jakarta"><Link className="flex items-center hover:bg-primary/5 border-s-2 border-white hover:border-primary transition-colors duration-300 ease-in-out rounded-md px-2 py-2 text-sm lg:text-md" href="/destinations/study-in-france"><Image className="rounded-full w-5 h-5" src={'/images/flags/france.jpg'} width={5} height={5} alt="study in france"/>&nbsp;&nbsp;Study in France</Link></li>
                       <li className="font-Jakarta"><Link className="flex items-center hover:bg-primary/5 border-s-2 border-white hover:border-primary transition-colors duration-300 ease-in-out rounded-md px-2 py-2 text-sm lg:text-md" href="/destinations/study-in-sweden"><Image className="rounded-full w-5 h-5" src={'/images/flags/sweden.svg'} width={5} height={5} alt="study in sweden"/>&nbsp;&nbsp;Study in Sweden</Link></li>
+                      <li className="font-Jakarta"><Link className="flex items-center text-blue-500 font-semibold transition-all duration-300 ease-in-out rounded-md px-2 py-2 text-sm lg:text-md group/destination" href="/destinations">More Destinations&nbsp;&nbsp;<FaArrowRightLong className="inline-block size-5 group-hover/destination:translate-x-1 transition-transform duration-500 ease-in-out"/></Link></li>
                     </ul>
                     </li>
                     <li className="font-Jakarta"><Link className="flex items-center hover:bg-primary/5 border-s-2 border-white hover:border-primary transition-colors duration-300 ease-in-out rounded-md px-2 py-2 text-sm lg:text-md" href="/destinations/study-in-australia"><Image className="rounded-full w-5 h-5" src={'/images/flags/australia.svg'} width={5} height={5} alt="study in australia"/>&nbsp;&nbsp;Study in Australia</Link></li>
