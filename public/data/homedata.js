@@ -66,28 +66,28 @@
     export const flags = [
       {
         id: 1, 
-        image: "/images/flags/australia-flag.webp",
+        image: "/images/flags/australia.webp",
         text: "Australia",
         alt:"Study in Australia",
         url: "/destinations/study-in-australia"
       },
       {
         id: 2,
-        image: "/images/flags/denmark-flag.webp",
+        image: "/images/flags/denmark.webp",
         text: "Denmark",
         alt: "Study in Denmark",
         url: "/destinations/study-in-denmark"
       },
       {
         id: 3,
-        image: "/images/flags/germany-flag.webp",
+        image: "/images/flags/germany.webp",
         text:"Germany",
         alt: "Study in Germany",
         url: "/destinations/study-in-germany"
       },
       {
         id: 4,
-        image: "/images/flags/lithuania-flag.webp",
+        image: "/images/flags/lithuania.webp",
         text:"Lithuania",
         alt: "Study in Lithuania",
         url: "/destinations/study-in-lithuania"

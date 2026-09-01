@@ -46,9 +46,10 @@ import {
   FaHandHoldingDollar,
   FaPlaneDeparture,
   FaHouse,
+  FaFlask,
 } from "react-icons/fa6";
 
-import { FaShieldAlt, FaClipboardCheck, FaFileAlt, FaUniversity, FaMoneyBillWave, FaHouseUser } from "react-icons/fa";
+import { FaShieldAlt, FaClipboardCheck, FaHandsHelping, FaHeartbeat, FaFileAlt, FaUniversity, FaMoneyBillWave, FaHouseUser } from "react-icons/fa";
 
 export const destinations = [
     {
@@ -6820,7 +6821,7 @@ export const destinations = [
     metaDescription:
         "Study in Netherlands is a Study abroad destination for students in india, with many benefits explore all here",
     image:
-        "/images/destinations/france/netherlands-1.webp",
+        "/images/destinations/netherlands/netherlands-1.webp",
     cover: "/images/destinations/netherlands/cover/netherlands-cover.webp",
     keywords: [
         "study in Netherlands",
@@ -6832,7 +6833,7 @@ export const destinations = [
         "English taught programs Netherlands",
         "best countries to study in Netherlands",
         "Netherlands scholarships",
-        "student life in France Netherlands",
+        "student life in Netherlands",
         "higher education Netherlands",
         "Netherlands education",
         "career opportunities in Netherlands",
@@ -7362,6 +7363,1090 @@ export const destinations = [
         type: "p",
         content: "Get in touch with Indo-European Study Abroad Consultancy to explore your study options in the Netherlands."
     }
+    ]
+    },
+    {
+    id: 17,
+    heading: "Study in Austria",
+    title: "Your Journey to Study in Austria Starts Here",
+    slug: "study-in-austria",
+    metaTitle:
+        "Your Journey to Study in Austria Starts Here",
+    metaDescription:
+        "Austria is an attractive destination for Indian students seeking quality education, internationally recognised qualifications and valuable European exposure.",
+    image:
+        "/images/destinations/austria/austria-1.webp",
+    cover: "/images/destinations/austria/cover/austria-cover.webp",
+    keywords: [
+        "study in Austria",
+        "study abroad Austria",
+        "Austria universities",
+        "Austria for international students",
+        "study in Austria 2026",
+        "affordable education in Austria",
+        "English taught programs Austria",
+        "best countries to study in Austria",
+        "Austria scholarships",
+        "student life in Austria",
+        "higher education Austria",
+        "Austria education",
+        "career opportunities in Austria",
+        "study abroad consultants",
+        "international students Austria"
+    ],
+    category: "country",
+    sections: [
+    {
+        type: "p",
+        content:
+        "Austria is an attractive destination for Indian students seeking quality education, internationally recognised qualifications and valuable European exposure. With a wide range of bachelor's, master's and other higher education programmes, students can find study options across different academic fields."
+    },
+    {
+        type: "p",
+        content: "Austria’s safe and friendly environment, modern infrastructure and the chance to gain international experience. With the right course and university, students can build a strong foundation for their academic and career goals."
+    },
+    {
+        type: "h2",
+        content: "Why Study in Austria?"
+    },
+    {
+        type: "p",
+        content: "Austria combines quality education with an excellent student lifestyle and a central location in Europe. Key benefits include:"
+    },
+    {
+        type: "list",
+        items: [
+        "Internationally recognised education",
+        "English-taught study options",
+        "Research and practical learning opportunities",
+        "Diverse and multicultural environment",
+        "Wide range of study programmes",
+        "Excellent infrastructure and student facilities",
+        "Opportunities for international career exposure",
+        ],
+        imgUrl: "/images/destinations/austria/austria-1.webp",
+        alt: "Why Study in the Austria?"
+    },
+    {
+      type: "p",
+      content: "Students can choose between different types of higher education institutions depending on their academic interests and career plans."
+    },
+    {
+        type: "h2",
+        content: "Top Courses to Study in Austria"
+    },
+    {
+        type: "p",
+        content:
+        "Indian students can explore a variety of programmes at bachelor's and master's levels. Popular study areas include:"
+    },
+    {
+        type: "course-list",
+        items: [
+            {
+                id: 1,
+                type: "course",
+                icon: FaBriefcase,
+                text: "Business & Management"
+            },
+            {
+                id: 2,
+                type: "course",
+                icon: FaLaptopCode,
+                text: "Computer Science & IT"
+            },
+            {
+                id: 3,
+                type: "course",
+                icon: FaGear,
+                text: "Engineering"
+            },
+            {
+                id: 4,
+                type: "course",
+                icon: FaBrain,
+                text: "Data Science & Artificial Intelligence"
+            },
+            {
+                id: 5,
+                type: "course",
+                icon: FaCalculator,
+                text: "Finance & Economics"
+            },
+            {
+                id: 6,
+                type: "course",
+                icon: FaHotel,
+                text: "Tourism & Hospitality"
+            },
+            {
+                id: 7,
+                type: "course",
+                icon: FaCompassDrafting,
+                text: "Architecture"
+            },
+            {
+                id: 8,
+                type: "course",
+                icon: FaDna,
+                text: "Life Sciences"
+            },
+            {
+                id: 9,
+                type: "course",
+                icon: FaLeaf,
+                text: "Environmental Studies"
+            },
+            {
+                id: 10,
+                type: "course",
+                icon: FaUsers,
+                text: "Social Sciences"
+            }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Students looking for English-taught courses in Austria can find suitable options, particularly at the master's level. However, language requirements vary by programme, so it is important to check the requirements of the selected university."
+    },
+    {
+        type: "h2",
+        content: "Best Universities in Austria"
+    },
+    {
+        type: "p",
+        content:
+        "Austria is home to several well-known universities and higher education institutions. Some popular choices for international students include:"
+    },
+    {
+        type: "university-list",
+        items: [
+        {
+            id: 1,
+            src: "/images/destinations/austria/universities/university-of-vienna.svg",
+            alt: "University of Vienna",
+            title: "University of Vienna"
+        },
+        {
+            id: 2,
+            src: "/images/destinations/austria/universities/tu-weina.svg",
+            alt: "TU Wien",
+            title: "TU Wien"
+        },
+        {
+            id: 3,
+            src: "/images/destinations/austria/universities/wu-vienna.svg",
+            alt: "WU Vienna",
+            title: "WU Vienna"
+        },
+        {
+            id: 4,
+            src: "/images/destinations/austria/universities/graz.svg",
+            alt: "University of Graz",
+            title: "University of Graz"
+        },
+        {
+            id: 5,
+            src: "/images/destinations/austria/universities/innsbruck.svg",
+            alt: "University of Innsbruck",
+            title: "University of Innsbruck"
+        },
+        {
+            id: 6,
+            src: "/images/destinations/austria/universities/salzburg.svg",
+            alt: "University of Salzburg",
+            title: "University of Salzburg"
+        },
+        {
+            id: 7,
+            src: "/images/destinations/austria/universities/johannes-kepler-university-linz.svg",
+            alt: "Johannes Kepler University Linz",
+            title: "Johannes Kepler University Linz"
+        },
+        {
+            id: 8,
+            src: "/images/destinations/austria/universities/klagenfurt.svg",
+            alt: "University of Klagenfurt",
+            title: "University of Klagenfurt"
+        },
+        {
+            id: 9,
+            src: "/images/destinations/austria/universities/boku.svg",
+            alt: "BOKU University",
+            title: "BOKU University"
+        },
+        {
+            id: 10,
+            src: "/images/destinations/netherlands/universities/graz-university-of-technology.svg",
+            alt: "Graz University of Technology",
+            title: "Graz University of Technology"
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Students should compare universities based on programme content, tuition fees, admission requirements, location and career opportunities before making a decision."
+    },
+
+    {
+        type: "h2",
+        content: "Eligibility & Admission Process to Study in Austria"
+    },
+    {
+        type: "p",
+        content: "Admission requirements depend on the university, programme and level of study. Indian students may generally need:"
+    },
+    {
+       type: "intake-list",
+       items: [
+         {
+        id: 1,
+        title: "Choose a Course",
+        description:
+            "Select a programme that matches your academic profile and career plans.",
+        icon: FaBookOpen
+        },
+        {
+            id: 2,
+            title: "Academic and Language Requirements",
+            description:
+                "Check the academic and language requirements.",
+            icon: FaUniversity
+        },
+        {
+            id: 3,
+            title: "Prepare Documents",
+            description:
+                "Prepare the required documents",
+            icon: FaClipboardCheck
+        },
+        {
+            id: 4,
+            title: "Institute Application",
+            description:
+                "Submit your application to the selected institution.",
+            icon: FaFileAlt
+        },
+        {
+            id: 5,
+            title: "Admission",
+            description:
+                "Receive your admission decision",
+            icon: FaPaperPlane
+        },
+        {
+            id: 6,
+            title: "Complete Visa Formalities",
+            description:
+                "Complete the required visa and residence formalities.",
+            icon: FaPassport
+        }
+       ]
+    },
+    {
+       type: "p",
+       content: "Some programmes may have additional selection procedures or entrance examinations."
+    },
+    {
+       type: "h2",
+       content: "Tuition Fees & Cost of Living in Austria"
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "The "
+            },
+            {
+                type: "bold",
+                text: "cost of studying in Austria "
+            },
+            {
+                type: "text",
+                text: "depends on the university, programme and student's nationality. For international students, tuition fees can vary by institution and course, so students should check the latest fee structure before applying."
+            }
+        ]
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "On average, students should plan around ",
+            },
+            {
+                type: "bold",
+                text: "€1,000–€1,300 per month for living expenses "
+            },
+            {
+                type: "text",
+                text: "Austria. This may include:"
+            }
+        ]
+    },
+    {
+        type: "list",
+        items: [
+            "Accommodation: €400–€700 per month", 
+            "Food & groceries: €250–€350 per month",
+            "Transportation: €30–€70 per month",
+            "Health insurance & other expenses: €100–€200 per month",
+            "Personal & study expenses: €100–€200 per month",
+        ],
+        imgUrl: "/images/destinations/austria/austria-2.webp",
+        alt: "Cost of Study in Austria"
+    },
+    {
+       type: "p",
+       content: "The actual cost of living in Austria can be higher or lower depending on the city, accommodation and lifestyle. Students should prepare a realistic budget before starting their studies."
+    },
+    {
+        type: "h2",
+        content: "Scholarships to Study in Austria"
+    },
+    {
+        type: "p",
+        content: "Austrian institutions and organizations offer scholarships and other funding opportunities for Indian students."
+    },
+    {
+     type: "p",
+     content: "Eligibility may depend on academic performance, program, research area, nationality or other criteria depending on the scholarship. Students should check eligibility requirements and application deadlines before applying."
+    },
+    {
+        type: "h2",
+        content: "Austria Student Visa for Indian Students"
+    },
+    {
+        type: "p",
+        content:
+        "Students from India planning to study in Austria need to follow the applicable visa and residence requirements."
+    },
+    {
+       type: "p",
+       content: "For longer study programmes, students may need a Residence Permit – Student. Depending on individual circumstances, the process may require documents such as."
+    },
+{
+    type: "intake-list",
+    items: [
+        {
+            id: 1,
+            title: "Valid Passport",
+            icon: FaPassport
+        },
+        {
+            id: 2,
+            title: "Admission Letter",
+            icon: FaFileAlt
+        },
+        {
+            id: 3,
+            title: "Proof of Sufficient Funds",
+            icon: FaMoneyBillWave
+        },
+        {
+            id: 4,
+            title: "Health Insurance",
+            icon: FaHeartbeat
+        },
+        {
+            id: 5,
+            title: "Accommodation Details",
+            icon: FaHouse
+        },
+        {
+            id: 6,
+            title: "Academic Documents",
+            icon: FaGraduationCap
+        },
+        {
+            id: 7,
+            title: "Other Required Supporting Documents",
+            icon: FaClipboardCheck
+        }
+    ]
+},
+    {
+        type: "p",
+        content:
+        "Visa and residence requirements can change, so students should always check the latest official requirements and start the process well in advance."
+    },
+    {
+        type:"h2",
+        content: "Work & Post-Study Opportunities"
+    },
+    {
+        type: "p",
+        content: "International students may be able to work in the Netherlands during their studies, subject to applicable immigration and employment rules. Part-time work can help students gain practical experience, develop professional skills and build a network."
+    },
+    {
+         type: "p",
+         content: [
+            {
+                type: "text",
+                text: "Eligible international graduates may also apply for an "
+            },
+            {
+                type: "bold",
+                text: "orientation year residence permit, "
+            },
+            {
+                type: "text",
+                text: "which can allow them to stay in the Netherlands for a specified period to look for employment or explore business opportunities after graduation."
+            }
+         ]
+    },
+    {
+      type: "h2",
+      content: "Why Choose Indo-European to Study in the Netherlands?"
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "link",
+                text: "Indo-European Study Abroad Consultancy",
+                href: "/"
+            },
+            {
+                type: "text",
+                text: " provides personalised support to help Indian students plan their journey to study in the Netherlands."
+            }
+        ]
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type:"bold",
+                text: "Our Services Include:"
+            }
+        ]
+    },
+    {
+      type: "intake-list",
+      items: [
+        {
+            id: 1,
+            title: "Course & University Selection",
+            description:
+                "Find suitable courses and universities based on your academic profile and career goals.",
+            icon: FaUniversity
+        },
+        {
+            id: 2,
+            title: "Career Counselling",
+            description:
+                "Get expert guidance for informed education and career decisions.",
+            icon: FaUserTie
+        },
+        {
+            id: 3,
+            title: "Application Assistance",
+            description:
+                "Receive support with applications, documentation, and SOP preparation.",
+            icon: FaFileAlt
+        },
+        {
+            id: 4,
+            title: "Visa Guidance",
+            description:
+                "Get assistance with visa documentation and application procedures.",
+            icon: FaPassport
+        },
+        {
+            id: 5,
+            title: "Test Preparation",
+            description:
+                "Get preparation support for IELTS, PTE Academic, and other required English-language tests.",
+            icon: FaBookOpen
+        },
+        {
+            id: 6,
+            title: "Financial Planning & Scholarships",
+            description:
+                "Explore suitable scholarships and funding options.",
+            icon: FaMoneyBillWave
+        },
+        {
+            id: 7,
+            title: "Pre-Departure Support",
+            description:
+                "Get guidance on travel, accommodation, and preparation for life in the Netherlands.",
+            icon: FaPlaneDeparture
+        },
+        {
+            id: 8,
+            title: "Post-Arrival Assistance",
+            description:
+                "Receive support with settling into your new environment.",
+            icon: FaHouseUser
+        }
+    ]
+    },
+    {
+      type: "h2",
+      content: "Work & Career Opportunities in Austria"
+    },
+    {
+      type: "p",
+      content: "International students may be able to work in Austria, subject to the conditions of your residence status and the employment regulations that apply. Working while studying can provide eligible students with practical experience, professional skills and networking opportunities. "
+    },
+    {
+        type: "p",
+        content: "After graduation, students can explore career opportunities in fields such as:"
+    },
+{
+    type: "course-list",
+    items: [
+        {
+            id: 1,
+            type: "course",
+            icon: FaLaptopCode,
+            text: "IT & Software"
+        },
+        {
+            id: 2,
+            type: "course",
+            icon: FaGear,
+            text: "Engineering"
+        },
+        {
+            id: 3,
+            type: "course",
+            icon: FaBriefcase,
+            text: "Business & Finance"
+        },
+        {
+            id: 4,
+            type: "course",
+            icon: FaBrain,
+            text: "Data Science & AI"
+        },
+        {
+            id: 5,
+            type: "course",
+            icon: FaHotel,
+            text: "Tourism & Hospitality"
+        },
+        {
+            id: 6,
+            type: "course",
+            icon: FaDna,
+            text: "Life Sciences"
+        },
+        {
+            id: 7,
+            type: "course",
+            icon: FaLeaf,
+            text: "Renewable Energy"
+        },
+        {
+            id: 8,
+            type: "course",
+            icon: FaFlask,
+            text: "Research & Development"
+        },
+        {
+            id: 9,
+            type: "course",
+            icon: FaTruck,
+            text: "Logistics & Supply Chain"
+        }
+    ]
+},
+    {
+        type: "p",
+        content: "For students planning a long-term career in Austria, learning German can also be beneficial, as many employers require or prefer local-language skills."
+    },
+    {
+        type: "h2",
+        content: "Why Choose Indo-European to Study in Austria?"
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "Studying abroad comes with many important decisions. "
+            },
+            {
+                type: "link",
+                text: "Indo European Study Abroad Consultants",
+                href: "/"
+            },
+            {
+                type: "text",
+                text: " offers dedicated support during your study experience in Austria. "
+            }
+        ]
+    },
+    {
+       type: "p",
+       content: [
+        {
+            type: "bold",
+            text: "Our Services Include:"
+        }
+       ]
+    },
+    {
+    type: "intake-list",
+    items: [
+        {
+            id: 1,
+            icon: FaUniversity,
+            title: "Course & University Selection",
+            description:
+                "Find suitable courses and universities based on your academic profile and career goals."
+        },
+        {
+            id: 2,
+            icon: FaUserTie,
+            title: "Career Counselling",
+            description:
+                "Get expert guidance to make informed education and career decisions."
+        },
+        {
+            id: 3,
+            icon: FaFileAlt,
+            title: "Application Assistance",
+            description:
+                "Receive support with applications, documentation, and SOP preparation."
+        },
+        {
+            id: 4,
+            icon: FaPassport,
+            title: "Visa Guidance",
+            description:
+                "Get assistance with visa documentation, application procedures, and interview preparation."
+        },
+        {
+            id: 5,
+            icon: FaBookOpen,
+            title: "Test Preparation",
+            description:
+                "Prepare for IELTS, PTE Academic, and other English-language tests where required."
+        },
+        {
+            id: 6,
+            icon: FaMoneyBillWave,
+            title: "Financial Planning & Scholarships",
+            description:
+                "Explore suitable scholarships and financial planning options."
+        },
+        {
+            id: 7,
+            icon: FaPlaneDeparture,
+            title: "Pre-Departure Support",
+            description:
+                "Get guidance on travel, accommodation, and preparing for life in Austria."
+        },
+        {
+            id: 8,
+            icon: FaHandsHelping,
+            title: "Post-Arrival Assistance",
+            description:
+                "Receive support with settling into your new study destination."
+        }
+        ]
+    }
+    ]
+    },
+    {
+    id: 18,
+    heading: "Study in Spain",
+    title: "Study in Spain for a Successful Future",
+    slug: "study-in-spain",
+    metaTitle:
+        "Study in Spain for a Successful Future",
+    metaDescription:
+        "Spain is an attractive study destination for Indian students looking for quality education, diverse courses and an international student experience.",
+    image:
+        "/images/destinations/spain/spain-1.webp",
+    cover: "/images/destinations/spain/cover/spain-cover.webp",
+    keywords: [
+        "study in Spain",
+        "study abroad Spain",
+        "Spain universities",
+        "Spain for international students",
+        "study in Spain 2026",
+        "affordable education in Spain",
+        "English taught programs Spain",
+        "best countries to study in Spain",
+        "Spain scholarships",
+        "student life in Spain",
+        "higher education Spain",
+        "Spain education",
+        "career opportunities in Spain",
+        "study abroad consultants",
+        "international students Spain"
+    ],
+    category: "country",
+    sections: [
+    {
+        type: "p",
+        content:
+        "Spain is an attractive study destination for Indian students looking for quality education, diverse courses and an international student experience. The country offers recognised universities and institutions, a welcoming culture and a lifestyle that combines academic opportunities with rich history and modern living."
+    },
+    {
+        type: "p",
+        content: "Students can choose from a range of bachelor's and master's programmes and build their academic journey based on their interests, qualifications and career goals."
+    },
+    {
+        type: "h2",
+        content: "Why Study in Spain?"
+    },
+    {
+        type: "p",
+        content: "Spain offers a balanced combination of education, culture and international exposure. Some key reasons students consider Spain for higher education include:"
+    },
+    {
+        type: "list",
+        items: [
+        "Recognised universities and academic institutions",
+        "Wide range of bachelor's and master&#39;s programmes",
+        "Growing options for English-taught courses",
+        "Practical and career-focused learning opportunities",
+        "International and multicultural student communities",
+        "Opportunities to experience European culture",
+        "Student-friendly lifestyle and vibrant cities",
+        "Opportunities to explore career options after graduation"
+        ],
+        imgUrl: "/images/destinations/spain/spain-1.webp",
+        alt: "Why Study in the Spain?"
+    },
+    {
+        type: "h2",
+        content: "Popular Courses to Study in Spain"
+    },
+    {
+        type: "p",
+        content:
+        "Indian students can choose programmes across a variety of academic fields. Popular areas include:"
+    },
+    {
+        type: "course-list",
+        items: [
+            {
+                id: 1,
+                type: "course",
+                icon: FaBriefcase,
+                text: "Business & Management"
+            },
+            {
+                id: 2,
+                type: "course",
+                icon: FaLaptopCode,
+                text: "Computer Science & IT"
+            },
+            {
+                id: 3,
+                type: "course",
+                icon: FaGear,
+                text: "Engineering"
+            },
+            {
+                id: 4,
+                type: "course",
+                icon: FaBrain,
+                text: "Data Science & Artificial Intelligence"
+            },
+            {
+                id: 5,
+                type: "course",
+                icon: FaCalculator,
+                text: "Finance & Economics"
+            },
+            {
+                id: 6,
+                type: "course",
+                icon: FaHotel,
+                text: "Tourism & Hospitality"
+            },
+            {
+                id: 7,
+                type: "course",
+                icon: FaCompassDrafting,
+                text: "Architecture & Design"
+            },
+            {
+                id: 8,
+                type: "course",
+                icon: FaDna,
+                text: "Healthcare & Life Sciences"
+            },
+            {
+                id: 9,
+                type: "course",
+                icon: FaBullhorn,
+                text: "Marketing & International Business"
+            },
+            {
+                id: 10,
+                type: "course",
+                icon: FaLeaf,
+                text: "Renewable Energy & Sustainability"
+            }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "The right course depends on your academic background, interests, eligibility and future career plans."
+    },
+    {
+        type: "h2",
+        content: "Top Universities in Spain"
+    },
+    {
+        type: "p",
+        content:
+        "Spain has several universities and higher education institutions that attract students from around the world. Some well-known names include:"
+    },
+    {
+        type: "university-list",
+        items: [
+        {
+            id: 1,
+            src: "/images/destinations/spain/universities/university-of-barcelona.svg",
+            alt: "University of Barcelona",
+            title: "University of Barcelona"
+        },
+        {
+            id: 2,
+            src: "/images/destinations/spain/universities/autonomous-university-of-barcelona.svg",
+            alt: "Autonomous University of Barcelona",
+            title: "Autonomous University of Barcelona"
+        },
+        {
+            id: 3,
+            src: "/images/destinations/spain/universities/Autonomous-University-of-Madrid.svg",
+            alt: "Autonomous University of Madrid",
+            title: "Autonomous University of Madrid"
+        },
+        {
+            id: 4,
+            src: "/images/destinations/spain/universities/Complutense-University-of-Madrid.svg",
+            alt: "Complutense University of Madrid",
+            title: "Complutense University of Madrid"
+        },
+        {
+            id: 5,
+            src: "/images/destinations/spain/universities/innsbruck.svg",
+            alt: "University of Valencia",
+            title: "University of Valencia"
+        },
+        {
+            id: 6,
+            src: "/images/destinations/spain/universities/Pompeu-Fabra-University.svg",
+            alt: "Pompeu Fabra University",
+            title: "Pompeu Fabra University"
+        },
+        {
+            id: 7,
+            src: "/images/destinations/spain/universities/University-of-Granada.svg",
+            alt: "University of Granada",
+            title: "University of Granada"
+        },
+        {
+            id: 8,
+            src: "/images/destinations/spain/universities/Carlos-III-University-of-Madrid.svg",
+            alt: "Carlos III University of Madrid",
+            title: "Carlos III University of Madrid"
+        },
+        {
+            id: 9,
+            src: "/images/destinations/spain/universities/Polytechnic-University-of-Madrid.svg",
+            alt: "Polytechnic University of Madrid",
+            title: "Polytechnic University of Madrid"
+        },
+        {
+            id: 10,
+            src: "/images/destinations/spain/universities/University-of-Seville.svg",
+            alt: "University of Seville",
+            title: "University of Seville"
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Students should compare universities based on programme content, tuition fees, location, admission requirements and career opportunities."
+    },
+    {
+        type: "h2",
+        content: "Cost of Studying in Spain"
+    },
+    {
+        type: "p",
+        content: "The cost of studying in Spain depends on the university, programme, degree level and location. Tuition fees can vary considerably between public and private institutions."
+    },
+    {
+        type: "p",
+        content: "Students should also budget for living expenses such as:"
+    },
+    {
+       type: "list",
+       items: [
+        "Accommodation",
+        "Food and groceries",
+        "Transportation",
+        "Health insurance",
+        "Study materials",
+        "Personal expenses"
+       ],
+       imgUrl: "/images/destinations/spain/spain-2.webp",
+       alt: "Cost of Studying in Spain"
+    },
+    {
+       type: "p",
+       content: [
+        {
+            type: "text",
+            text: "On average, students may need around "
+        },
+        {
+            type: "bold",
+            text: "€800–€1,200 per month for living expenses, "
+        },
+        {
+            type: "text",
+            text: "depending on their city, accommodation and lifestyle. Cities such as Madrid and Barcelona may have higher living costs than smaller cities."
+        }
+       ]
+    },
+    {
+       type: "p",
+       content: "Planning your budget in advance can help you manage the overall cost of studying and living in Spain."
+    },
+    {
+       type: "h2",
+       content: "Scholarships to Study in Spain"
+    },
+    {
+       type:"p",
+       content: "Indian students can explore different scholarship and funding opportunities to help manage their education expenses. Depending on eligibility, options may include:"
+    },
+    {
+        type: "list",
+        items: [
+            "University-specific scholarships",
+            "Merit-based scholarships",
+            "Government or institutional funding",
+            "Programme-specific scholarships",
+            "Other grants and financial aid",
+        ],
+        imgUrl: "/images/destinations/spain/spain-3.webp",
+        alt: "Scholarships to Study in Spain"
+    },
+    {
+        type: "p",
+        content: "Scholarship availability, eligibility and deadlines vary, so students should check the requirements before applying."
+    },
+    {
+        type: "h2",
+        content: "Spain Student Visa for Indian Students"
+    },
+    {
+        type: "p",
+        content: "Indian students planning to study in Spain generally need to apply for the appropriate student visa for long-term study programmes."
+    },
+    {
+     type: "p",
+     content: "The process may involve:"
+    },
+    {
+      type: "list",
+      items: [
+        "University admission letter",
+        "Proof of financial resources",
+        "Valid passport", 
+        "Health insurance",
+        "Accommodation details, where required",
+        "Academic documents",
+        "Visa application and appointment",
+        "Other supporting documents as applicable",
+      ],
+      imgUrl: "/images/destinations/spain/spain-4.webp",
+      alt: "Spain Student Visa for Indian Students"
+    },
+    {
+      type: "p",
+      content: "Visa requirements can change, so students should follow the latest requirements while preparing their application."
+    },
+    {
+        type: "h2",
+        content: "Student Life, Culture & Weather in Spain"
+    },
+    {
+        type: "p",
+        content:
+        "Spain offers an enjoyable student lifestyle with a mix of historic cities, modern infrastructure, cultural events and international communities. Students can experience Spanish traditions, local cuisine, festivals, music and art while studying."
+    },
+    {
+       type: "p",
+       content: "The country generally has warm summers and relatively mild winters, although the climate varies between regions. Coastal areas, northern Spain and inland cities can have noticeably different weather conditions"
+    },
+    {
+        type: "p",
+        content:
+        "Spain's social and multicultural environment also gives international students opportunities to meet people from different backgrounds and explore European culture."
+    },
+    {
+        type:"h2",
+        content: "Why Choose Indo-European for Study in Spain?"
+    },
+    {
+        type: "p",
+        content: "Planning to study abroad involves several important decisions, from selecting a course to completing visa formalities. Indo-European Study Abroad Consultancy helps Indian students explore suitable study options in Spain based on their academic profile and career goals."
+    },
+    {
+     type: "p",
+     content: "Our Services Include:"
+    },
+    {
+      type: "intake-list",
+      items: [
+        {
+            id: 1,
+            title: "Course & University Selection",
+            description:
+                "Find suitable programmes and institutions based on your profile and goals",
+            icon: FaUniversity
+        },
+        {
+            id: 2,
+            title: "Career Counselling",
+            description:
+                "Get personalised guidance to make informed education and career decisions.",
+            icon: FaUserTie
+        },
+        {
+            id: 3,
+            title: "Application Assistance",
+            description:
+                "Receive support with applications, documentation and SOP preparation.",
+            icon: FaFileAlt
+        },
+        {
+            id: 4,
+            title: "Visa Guidance",
+            description:
+                "Get assistance with visa documentation and application procedures.",
+            icon: FaPassport
+        },
+        {
+            id: 5,
+            title: "Test Preparation",
+            description:
+                "Get guidance for IELTS, PTE Academic and other required language tests.",
+            icon: FaBookOpen
+        },
+    ]
+    },
     ]
     },
 ]

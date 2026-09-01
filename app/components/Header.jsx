@@ -7,7 +7,6 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 import { useEffect, useState, useRef, useMemo } from "react";
 import { IoClose } from "react-icons/io5";
 import { RiMenu3Fill } from "react-icons/ri";
-import useFetchCourses from "@/utils/useFetchCourses";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const Header = () => {
@@ -21,7 +20,6 @@ const Header = () => {
   const [courses, setCourses] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
-
 
   //fetch courses for search input
 
@@ -43,7 +41,7 @@ const handleApiSearch = async (value) => {
   try {
     const response = await fetch(url);
     const data = await response.json();
-
+  
     setCourses(data);
     setLoading(false);
   } catch (error) {
@@ -106,6 +104,7 @@ const handleSearch = (e) => {
                   <Link
                     href={"/courses-finder/"}
                     key={course.id ?? index}
+                    onClick={() => setQuery("")}
                   >
                     <div className="px-4 py-3 border-b border-zinc-100 last:border-b-0 hover:bg-primary/8 cursor-pointer transition-colors">
                     <p className="text-sm font-semibold text-zinc-800">
