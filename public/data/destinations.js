@@ -8732,7 +8732,7 @@ export const destinations = [
     },
     {
         type: "h2",
-        content: "Life in Malta: Culture, Climate &amp; Student Experience"
+        content: "Life in Malta: Culture, Climate & Student Experience"
     },
     {
         type: "p",
@@ -8744,7 +8744,7 @@ export const destinations = [
        content: [
         {
             type: "text",
-            text: "Malta generally has"
+            text: "Malta generally has "
         },
         {
             type:"bold",
@@ -8752,7 +8752,7 @@ export const destinations = [
         },
         {
             type: "text",
-            text: "making its climate quite different from many northern European countries. The island&#39;s compact size also makes it easier for students to explore different areas during their free time."
+            text: " making its climate quite different from many northern European countries. The island&#39;s compact size also makes it easier for students to explore different areas during their free time."
         }
        ]
     },
