@@ -8449,4 +8449,959 @@ export const destinations = [
     },
     ]
     },
+    {
+    id: 19,
+    heading: "Study in Malta",
+    title: "Study in Malta, Learn Beyond Borders",
+    slug: "study-in-malta",
+    metaTitle:
+        "Study in Malta, Learn Beyond Borders",
+    metaDescription:
+        "Malta is an appealing destination for Indian students looking for an international education experience in an English-speaking environment.",
+    image:
+        "/images/destinations/malta/malta-1.webp",
+    cover: "/images/destinations/malta/cover/malta-cover.webp",
+    keywords: [
+        "study in Malta",
+        "study abroad Malta",
+        "Malta universities",
+        "Malta for international students",
+        "study in Malta 2026",
+        "affordable education in Malta",
+        "English taught programs Malta",
+        "best countries to study in Malta",
+        "Malta scholarships",
+        "student life in Malta",
+        "higher education Malta",
+        "Malta education",
+        "career opportunities in Malta",
+        "study abroad consultants",
+        "international students Malta"
+    ],
+    category: "country",
+    sections: [
+    {
+        type: "p",
+        content:
+        "Malta is an appealing destination for Indian students looking for an international education experience in an English-speaking environment. With a growing international student community, modern institutions and a Mediterranean lifestyle, the country offers a different experience from larger European destinations."
+    },
+    {
+        type: "p",
+        content: "Undergraduate and postgraduate programs are available in subjects such as business, management, IT, hospitality and other career-related areas. The best choice will depend on your academic background, budget and future plans."
+    },
+    {
+        type: "h2",
+        content: "Why Malta Is Worth Considering for Your Education"
+    },
+    {
+        type: "p",
+        content: "Malta combines education, international exposure and a relaxed island lifestyle. Some reasons students consider Malta include:"
+    },
+    {
+        type: "list",
+        items: [
+        "English-speaking academic and social environment",
+        "Internationally recognised qualifications",
+        "Diverse programmes and specialisations",
+        "Multicultural student community",
+        "Practical and career-oriented learning",
+        "Opportunities to experience European culture",
+        "Modern student facilities",
+        "Convenient access to other European destinations"
+            ],
+        imgUrl: "/images/destinations/malta/malta-1.webp",
+        alt: "Malta Is Worth Considering for Your Education"
+    },
+    {
+        type: "h2",
+        content: "Courses That Can Shape Your Career"
+    },
+    {
+        type: "p",
+        content:
+        "Students looking to study in Malta can find programmes across several popular fields. Depending on the institution and level of study, options may include:"
+    },
+    {
+        type: "course-list",
+        items: [
+            {
+                id: 1,
+                type: "course",
+                icon: FaBriefcase,
+                text: "Business & Management"
+            },
+            {
+                id: 2,
+                type: "course",
+                icon: FaLaptopCode,
+                text: "Accounting & Finance"
+            },
+            {
+                id: 3,
+                type: "course",
+                icon: FaGear,
+                text: "Computer Science & IT"
+            },
+            {
+                id: 4,
+                type: "course",
+                icon: FaBrain,
+                text: "Data & Digital Technologies"
+            },
+            {
+                id: 5,
+                type: "course",
+                icon: FaCalculator,
+                text: "Hospitality & Tourism"
+            },
+            {
+                id: 6,
+                type: "course",
+                icon: FaHotel,
+                text: "Marketing"
+            },
+            {
+                id: 7,
+                type: "course",
+                icon: FaCompassDrafting,
+                text: "Healthcare"
+            },
+            {
+                id: 8,
+                type: "course",
+                icon: FaDna,
+                text: "Engineering"
+            },
+            {
+                id: 9,
+                type: "course",
+                icon: FaBullhorn,
+                text: "Logistics & Supply Chain"
+            },
+            {
+                id: 10,
+                type: "course",
+                icon: FaLeaf,
+                text: "Creative Arts & Design"
+            }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Before selecting a programme, students should consider its curriculum, entry requirements, duration, career relevance and future opportunities."
+    },
+    {
+        type: "h2",
+        content: "Choosing the Right University & Institution"
+    },
+    {
+        type: "p",
+        content:
+        "Malta has universities, colleges and other higher education institutions offering programmes for local and international students. Some recognised names include:"
+    },
+    {
+        type: "university-list",
+        items: [
+        {
+            id: 1,
+            src: "/images/destinations/malta/universities/university-of-malta.svg",
+            alt: "University of Malta",
+            title: "University of Malta"
+        },
+        {
+            id: 2,
+            src: "/images/destinations/malta/universities/mcast.svg",
+            alt: "Malta College of Arts, Science and Technology (MCAST)",
+            title: "Malta College of Arts, Science and Technology (MCAST)"
+        },
+        {
+            id: 3,
+            src: "/images/destinations/malta/universities/american-university-of-malta.svg",
+            alt: "American University of Malta",
+            title: "American University of Malta"
+        },
+        {
+            id: 4,
+            src: "/images/destinations/malta/universities/global-college-malta.svg",
+            alt: "Global College Malta",
+            title: "Global College Malta"
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Students should compare institutions based on programme structure, accreditation, tuition fees, location, facilities and admission requirements before applying."
+    },
+    {
+        type:"h2",
+        content: "Your Application Journey from India"
+    },
+    {
+        type: "p",
+        content: "The admission process generally starts with identifying a suitable programme and institution. Students then need to review eligibility criteria, prepare their documents and submit the application through the required channel."
+    },
+    {
+        type: "p",
+        content: "After receiving an offer, students can complete the necessary admission formalities and prepare for the visa process. Starting early gives students more time to arrange documentation, finances and travel plans."
+    },
+    {
+        type: "h2",
+        content: "Understanding the Cost of Studying in Malta"
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "The "
+            },
+            {
+                type: "bold",
+                text: "cost of studying in Malta "
+            },
+            {
+                type: "text",
+                text: "varies depending on the institution, programme and level of study. Students should consider tuition fees as well as their day-to-day living expenses."
+            }
+        ]
+    },
+    {
+        type: "p",
+        content: "A study abroad budget should include:"
+    },
+    {
+       type: "list",
+       items: [
+        "Accommodation",
+        "Food and groceries",
+        "Transportation",
+        "Health insurance",
+        "Study materials",
+        "Personal expenses"
+       ],
+       imgUrl: "/images/destinations/malta/malta-2.webp",
+       alt: "Cost of Studying in Malta"
+    },
+    {
+       type: "p",
+       content: "The cost of living can vary according to accommodation, location and lifestyle. Planning your expenses in advance can help you manage your overall budget more effectively."
+    },
+    {
+       type: "h2",
+       content: "Malta Student Visa for Indian Students"
+    },
+    {
+       type:"p",
+       content: "Indian students planning to pursue a long-term programme in Malta generally need to complete the appropriate student visa or residence procedures."
+    },
+    {
+      type: "p",
+      content: "The application may require documents such as:"
+    },
+    {
+        type: "list",
+        items: [
+            "Admission or offer letter",
+            "Valid passport",
+            "Proof of financial resources",
+            "Accommodation details",
+            "Health insurance",
+            "Academic documents",
+            "Visa application and supporting paperwork"
+        ],
+        imgUrl: "/images/destinations/malta/malta-3.webp",
+        alt: "Malta Student Visa for Indian Students"
+    },
+    {
+        type: "p",
+        content: "Visa requirements may change, so students should follow the latest official requirements while preparing their application."
+    },
+    {
+        type: "h2",
+        content: "Gain Experience While You Study"
+    },
+    {
+        type: "p",
+        content: "International students may have opportunities to work during their studies, subject to the applicable immigration and employment conditions. Part-time employment can help students gain practical experience, develop workplace skills and understand the local professional environment."
+    },
+    {
+     type: "p",
+     content: "Students should always check the current rules attached to their visa or residence status before starting work."
+    },
+    {
+        type: "h2",
+        content: "Life in Malta: Culture, Climate &amp; Student Experience"
+    },
+    {
+        type: "p",
+        content:
+        "One of Malta's biggest attractions is its Mediterranean lifestyle. Students can experience historic towns, coastal areas, local festivals, traditional food and a diverse international community."
+    },
+    {
+       type: "p",
+       content: [
+        {
+            type: "text",
+            text: "Malta generally has"
+        },
+        {
+            type:"bold",
+            text: "hot, dry summers and mild winters,"
+        },
+        {
+            type: "text",
+            text: "making its climate quite different from many northern European countries. The island&#39;s compact size also makes it easier for students to explore different areas during their free time."
+        }
+       ]
+    },
+    {
+        type: "p",
+        content:
+        "Living in a new cultural environment can help students become more independent, confident and comfortable in an international setting."
+    },
+    {
+        type:"h2",
+        content: "Make Your Malta Study Plans Simpler with Indo-European"
+    },
+    {
+       type:"p",
+       content: [
+        {
+            type: "text",
+            text: "Choosing a course and institution abroad involves several decisions. "
+        },
+        {
+            type: "bold",
+            text: "Indo-European Study Abroad Consultancy"
+        },
+        {
+            type: "text",
+            text: "helps Indian students understand their options and receive personalised guidance throughout the application journey."
+        }
+       ]
+    },
+    {
+     type: "p",
+     content: "Our support includes:"
+    },
+    {
+        type: "intake-list",
+        items: [
+            {
+                id: 1,
+                title: "Course & University Selection",
+                description:
+                    "Find suitable programmes and institutions based on your academic profile and career goals.",
+                icon: FaUniversity
+            },
+            {
+                id: 2,
+                title: "Career Counselling",
+                description:
+                    "Get personalised guidance to make informed education and career decisions.",
+                icon: FaUserTie
+            },
+            {
+                id: 3,
+                title: "Application & Documentation Assistance",
+                description:
+                    "Receive support with applications, document preparation and submission requirements.",
+                icon: FaFileAlt
+            },
+            {
+                id: 4,
+                title: "SOP Guidance",
+                description:
+                    "Get expert guidance to create a clear and compelling Statement of Purpose.",
+                icon: FaPassport
+            },
+            {
+                id: 5,
+                title: "Visa Guidance",
+                description:
+                    "Get assistance with visa documentation, application procedures and requirements.",
+                icon: FaBookOpen
+            },
+            {
+                id: 6,
+                title: "Scholarship & Financial Planning",
+                description:
+                    "Explore scholarship opportunities and get guidance on planning your education finances.",
+                icon: FaUniversity
+            },
+            {
+                id: 7,
+                title: "Test Preparation",
+                description:
+                    "Get preparation support for IELTS, PTE Academic and other required language tests.",
+                icon: FaBookOpen
+            },
+            {
+                id: 8,
+                title: "Pre-Departure Support",
+                description:
+                    "Prepare for your journey with guidance on travel, accommodation and essential arrangements.",
+                icon: FaPassport
+            },
+            {
+                id: 9,
+                title: "Post-Arrival Assistance",
+                description:
+                    "Receive continued support with settling in, local guidance and essential post-arrival needs.",
+                icon: FaUserTie
+            }
+        ]
+    },
+    {
+        type: "p",
+        content: "From finding suitable study options to preparing your application and visa documents, our experts can support you through the key stages of your journey."
+    }
+    ]
+    },
+    {
+    id: 20,
+    heading: "Study in Italy",
+    title: "Study in Italy and Experience Education Differently",
+    slug: "study-in-italy",
+    metaTitle:
+        "Study in Italy and Experience Education Differently",
+    metaDescription:
+        "Italy is an attractive destination for Indian students looking for quality higher education, internationally recognised qualifications and a culturally rich student experience. ",
+    image:
+        "/images/destinations/italy/italy-1.webp",
+    cover: "/images/destinations/italy/cover/italy-cover.webp",
+    keywords: [
+        "study in Italy",
+        "study abroad Italy",
+        "Italy universities",
+        "Italy for international students",
+        "study in Italy 2026",
+        "affordable education in Italy",
+        "English taught programs Italy",
+        "best countries to study in Italy",
+        "Italy scholarships",
+        "student life in Italy",
+        "higher education Italy",
+        "Italy education",
+        "career opportunities in Italy",
+        "study abroad consultants",
+        "international students Italy"
+    ],
+    category: "country",
+    sections: [
+    {
+        type: "p",
+        content:
+        "Italy is an attractive destination for Indian students looking for quality higher education, internationally recognised qualifications and a culturally rich student experience. With a strong academic tradition and modern institutions, the country offers programmes across technology, engineering, business, architecture, fashion, design and other fields."
+    },
+    {
+        type: "p",
+        content: "For students planning their education abroad, Italy can provide a combination of academic learning, international exposure and opportunities to experience European culture."
+    },
+    {
+        type: "h2",
+        content: "Italy at a Glance for International Students"
+    },
+    {
+        type: "p",
+        content: "Italy offers a diverse higher education system with universities and specialised institutions across different fields. Many institutions provide programmes in English, particularly at postgraduate level, making them accessible to international students."
+    },
+    {
+        type: "p",
+        content: "Students can choose between different cities and study environments depending on their course, budget and lifestyle preferences. From historic university cities to modern business centres, each location offers a different experience."
+    },
+    {
+        type: "h2",
+        content: "What Makes Italian Education Stand Out?"
+    },
+    {
+        type: "p",
+        content: "Italian universities combine academic knowledge with research, innovation and practical learning. Some advantages of studying in Italy include:"
+    },
+    {
+        type: "list",
+        items: [
+        "Internationally recognised degrees",
+        "Wide range of academic programmes",
+        "English-taught courses at many institutions",
+        "Strong research and academic traditions",
+        "Opportunities in technical and creative fields",
+        "International student communities",
+        "Rich cultural and historical environment",
+        "Access to a diverse European experience"
+            ],
+        imgUrl: "/images/destinations/italy/italy-1.webp",
+        alt: "What Makes Italian Education Stand Out?"
+    },
+    {
+        type: "h2",
+        content: "Find Your Ideal Programme in Italy"
+    },
+    {
+        type: "p",
+        content:
+        "Students can explore courses in Italy across a wide range of disciplines. Popular study areas include:"
+    },
+    {
+        type: "course-list",
+        items: [
+            {
+                id: 1,
+                type: "course",
+                icon: FaBriefcase,
+                text: "Business & Management"
+            },
+            {
+                id: 2,
+                type: "course",
+                icon: FaLaptopCode,
+                text: "Engineering"
+            },
+            {
+                id: 3,
+                type: "course",
+                icon: FaGear,
+                text: "Computer Science & IT"
+            },
+            {
+                id: 4,
+                type: "course",
+                icon: FaBrain,
+                text: "Data Science & Artificial Intelligence"
+            },
+            {
+                id: 5,
+                type: "course",
+                icon: FaCalculator,
+                text: "Architecture"
+            },
+            {
+                id: 6,
+                type: "course",
+                icon: FaHotel,
+                text: "Fashion & Design"
+            },
+            {
+                id: 7,
+                type: "course",
+                icon: FaCompassDrafting,
+                text: "Finance & Economics"
+            },
+            {
+                id: 8,
+                type: "course",
+                icon: FaDna,
+                text: "Hospitality & Tourism"
+            },
+            {
+                id: 9,
+                type: "course",
+                icon: FaBullhorn,
+                text: "Life Sciences"
+            },
+            {
+                id: 10,
+                type: "course",
+                icon: FaLeaf,
+                text: "Renewable Energy & Sustainability"
+            }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "The best programme depends on your academic qualifications, interests, career goals and eligibility. Students should also consider course duration, curriculum and future employment opportunities before making a decision."
+    },
+    {
+        type: "h2",
+        content: "Italian Universities & Institutions to Explore"
+    },
+    {
+        type: "p",
+        content:
+        "Italy has several well-known universities that attract students from around the world. Some institutions to consider include:"
+    },
+    {
+        type: "university-list",
+        items: [
+        {
+            id: 1,
+            src: "/images/destinations/italy/universities/university-of-bologna.svg",
+            alt: "University of Bologna",
+            title: "University of Bologna"
+        },
+        {
+            id: 2,
+            src: "/images/destinations/italy/universities/sapienza-university-of-rome.svg",
+            alt: "Sapienza University of Rome",
+            title: "Sapienza University of Rome"
+        },
+        {
+            id: 3,
+            src: "/images/destinations/italy/universities/university-of-milano.svg",
+            alt: "University of Milan",
+            title: "University of Milan"
+        },
+        {
+            id: 4,
+            src: "/images/destinations/italy/universities/university-of-padua.svg",
+            alt: "University of Padua",
+            title: "University of Padua"
+        },
+        {
+            id: 5,
+            src: "/images/destinations/italy/universities/university-of-pisa.svg",
+            alt: "University of Pisa",
+            title: "University of Pisa"
+        },
+        {
+            id: 6,
+            src: "/images/destinations/italy/universities/politecnico-di-milano.svg",
+            alt: "Politecnico di Milano",
+            title: "Politecnico di Milano"
+        },
+        {
+            id: 7,
+            src: "/images/destinations/italy/universities/politecnico-di-torino.svg",
+            alt: "Politecnico di Torino",
+            title: "Politecnico di Torino"
+        },
+        {
+            id: 8,
+            src: "/images/destinations/italy/universities/university-of-florence.svg",
+            alt: "University of Florence",
+            title: "University of Florence"
+        },
+        {
+            id: 9,
+            src: "/images/destinations/italy/universities/university-of-turin.svg",
+            alt: "University of Turin",
+            title: "University of Turin"
+        },
+        {
+            id: 10,
+            src: "/images/destinations/italy/universities/university-of-naples-federico-ii.svg",
+            alt: "University of Naples Federico II",
+            title: "University of Naples Federico II"
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Students should compare universities based on programme content, tuition fees, admission requirements, location and available career opportunities."
+    },
+    {
+        type:"h2",
+        content: "Entry Requirements for Indian Students"
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "Requirements for "
+            },
+            {
+                type: "bold",
+                text: "study in Italy for Indian students "
+            },
+            {
+                type: "text",
+                text: "vary according to the university, course and level of study. Students may generally need relevant academic qualifications, academic transcripts, certificates, a valid passport and proof of language proficiency"
+            }
+        ]
+    },
+    {
+      type: "p",
+      content: "Depending on the programme, additional documents such as a CV, motivation letter, SOP, portfolio or entrance test may be required. Checking the specific requirements of the chosen institution before applying can help students prepare their applications correctly."
+    },
+    {
+        type: "h2",
+        content: "From Application to Arrival: Your Next Steps"
+    },
+    {
+        type: "p",
+        content: "The admission journey generally begins with selecting a suitable course and university. Students then need to check eligibility, prepare academic documents and submit their application through the required university platform."
+    },
+    {
+        type: "p",
+        content: "After receiving an admission decision, students can complete the necessary enrolment formalities and begin preparing for their student visa and travel arrangements."
+    },
+    {
+        type: "p",
+        content: "Starting the process early allows enough time to organise documents, finances, accommodation and other important arrangements."
+    },
+    {
+       type: "h2",
+       content: "Tuition Fees, Living Costs & Budget Planning"
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "The "
+            },
+            {
+                type: "bold",
+                text: "cost of studying in Italy "
+            },
+            {
+                type: "text",
+                text: "depends on the university, programme, location and type of institution. Students should plan for both tuition fees and everyday living expenses."
+            }
+        ]
+    },
+    {
+       type: "p",
+       content: "Major expenses may include:"
+    },
+    {
+       type: "list",
+       items: [
+        "Accommodation",
+        "Food and groceries",
+        "Transportation",
+        "Health insurance",
+        "Study materials",
+        "Personal expenses"
+       ],
+       imgUrl: "/images/destinations/italy/italy-2.webp",
+       alt: "Cost of Studying in Italy"
+    },
+    {
+       type: "p",
+       content: [
+        {
+        type: "text",
+        text: "Students may need approximately "
+        },
+        {
+         type: "bold",
+         text: "€700–€1,200 per month for living expenses, "
+        },
+        {
+            type: "text",
+            text: "depending on their city, accommodation and lifestyle. Larger cities can be more expensive, while smaller university towns may offer comparatively affordable options."
+        }
+       ]
+    },
+    {
+       type: "h2",
+       content: "Scholarships That Can Make Italy More Affordable"
+    },
+    {
+       type:"p",
+       content: "Indian students can explore various financial support opportunities while planning their education in Italy. Depending on eligibility, options may include:"
+    },
+    {
+        type: "list",
+        items: [
+            "Regional scholarships",
+            "University-specific scholarships",
+            "Merit-based awards",
+            "Tuition fee reductions",
+            "Other grants and financial assistance",
+        ],
+        imgUrl: "/images/destinations/italy/italy-3.webp",
+        alt: "Scholarships That Can Make Italy More Affordable"
+    },
+    {
+        type: "p",
+        content: "Scholarship benefits and eligibility vary, so students should check the latest requirements and deadlines before applying."
+    },
+    {
+        type: "h2",
+        content: "Italy Student Visa: Preparing for Your Journey"
+    },
+    {
+        type: "p",
+        content: "Indian students pursuing long-term programmes generally need the appropriate student visa for Italy. The process may require an admission document, valid passport, proof of financial resources, accommodation details, health insurance and other supporting documents."
+    },
+    {
+     type: "p",
+     content: "Students should carefully review the latest visa requirements and prepare their application according to the applicable guidelines."
+    },
+    {
+        type: "h2",
+        content: "Part-Time Work & Future Career Prospects"
+    },
+    {
+        type: "p",
+        content:
+        "International students may be able to work during their studies, subject to applicable visa and employment regulations. Part-time work can provide practical experience and help students develop professional skills."
+    },
+    {
+        type: "p",
+        content:
+        "After graduation, opportunities may be available across sectors such as:"
+    },
+    {
+        type: "course-list",
+        items: [
+            {
+                id: 1,
+                type: "course",
+                icon: FaLaptopCode,
+                text: "IT & Technology"
+            },
+            {
+                id: 2,
+                type: "course",
+                icon: FaGear,
+                text: "Engineering"
+            },
+            {
+                id: 3,
+                type: "course",
+                icon: FaBriefcase,
+                text: "Business & Finance"
+            },
+            {
+                id: 4,
+                type: "course",
+                icon: FaCompassDrafting,
+                text: "Architecture & Design"
+            },
+            {
+                id: 5,
+                type: "course",
+                icon: FaHotel,
+                text: "Fashion"
+            },
+            {
+                id: 6,
+                type: "course",
+                icon: FaDna,
+                text: "Tourism & Hospitality"
+            },
+            {
+                id: 7,
+                type: "course",
+                icon: FaCalculator,
+                text: "Manufacturing"
+            },
+            {
+                id: 8,
+                type: "course",
+                icon: FaLeaf,
+                text: "Renewable Energy"
+            },
+            {
+                id: 9,
+                type: "course",
+                icon: FaBrain,
+                text: "Research & Innovation"
+            }
+        ]
+    },
+    {
+       type: "p",
+       content: "Career opportunities depend on qualifications, skills, experience, language abilities and the current job market."
+    },
+    {
+        type:"h2",
+        content: "Discover the Italian Way of Student Life"
+    },
+    {
+       type:"p",
+       content: "Italy offers an engaging lifestyle alongside academic opportunities. Students can experience historic cities, art, architecture, local cuisine, festivals and cultural traditions while interacting with people from different backgrounds."
+    },
+    {
+     type: "p",
+     content: "The climate varies across the country, with generally warm summers and cooler winters. Northern and southern regions can experience noticeable differences in temperature and weather."
+    },
+    {
+      type: "p",
+      content: "Living in Italy can help students gain independence, cultural awareness and valuable international exposure."
+    },
+    {
+      type: "h2",
+      content: "Make Italy Your Next Academic Destination"
+    },
+    {
+      type: "p",
+      content: "Choosing the right course and university is an important part of planning your international education. Indo-European Study Abroad Consultancy helps Indian students explore suitable options based on their academic profile, budget and career goals"
+    },
+    {
+      type: "p",
+      content: "Our support includes:"
+    },
+    {
+        type: "intake-list",
+        items: [
+            {
+                id: 1,
+                title: "Course & University Selection",
+                description:
+                    "Find suitable programmes and institutions based on your academic profile and career goals.",
+                icon: FaUniversity
+            },
+            {
+                id: 2,
+                title: "Career Counselling",
+                description:
+                    "Get personalised guidance to make informed education and career decisions.",
+                icon: FaUserTie
+            },
+            {
+                id: 3,
+                title: "Application & Documentation Assistance",
+                description:
+                    "Receive support with applications, document preparation and submission requirements.",
+                icon: FaFileAlt
+            },
+            {
+                id: 4,
+                title: "SOP Guidance",
+                description:
+                    "Get expert guidance to create a clear and compelling Statement of Purpose.",
+                icon: FaPassport
+            },
+            {
+                id: 5,
+                title: "Visa Guidance",
+                description:
+                    "Get assistance with visa documentation, application procedures and requirements.",
+                icon: FaBookOpen
+            },
+            {
+                id: 6,
+                title: "Scholarship & Financial Planning",
+                description:
+                    "Explore scholarship opportunities and get guidance on planning your education finances.",
+                icon: FaUniversity
+            },
+            {
+                id: 7,
+                title: "Test Preparation",
+                description:
+                    "Get preparation support for IELTS, PTE Academic and other required language tests.",
+                icon: FaBookOpen
+            },
+            {
+                id: 8,
+                title: "Pre-Departure Support",
+                description:
+                    "Prepare for your journey with guidance on travel, accommodation and essential arrangements.",
+                icon: FaPassport
+            },
+            {
+                id: 9,
+                title: "Post-Arrival Assistance",
+                description:
+                    "Receive continued support with settling in, local guidance and essential post-arrival needs.",
+                icon: FaUserTie
+            }
+        ]
+    },
+    {
+        type: "p",
+        content: "With the right planning and guidance, students can make informed decisions about their education and prepare confidently for life abroad."
+    }
+    ]
+    },
 ]

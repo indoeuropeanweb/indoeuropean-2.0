@@ -168,9 +168,9 @@ const Page = async ({ params }) => {
                     <Image
                       src={section.imgUrl}
                       alt={section.alt}
-                      width={700}
-                      height={500}
-                      className="w-full h-112.5 object-cover rounded-2xl"
+                      width={480}
+                      height={360}
+                      className="w-140 h-120 object-cover rounded-2xl"
                     />
                   </div>
                 );
