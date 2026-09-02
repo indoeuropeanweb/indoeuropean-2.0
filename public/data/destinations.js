@@ -47,6 +47,13 @@ import {
   FaPlaneDeparture,
   FaHouse,
   FaFlask,
+  FaStethoscope,
+  FaIndustry,
+  FaShip,
+  FaFileCircleCheck,
+  FaPenNib,
+  FaMoneyBillTrendUp,
+  FaCapsules
 } from "react-icons/fa6";
 
 import { FaShieldAlt, FaClipboardCheck, FaHandsHelping, FaHeartbeat, FaFileAlt, FaUniversity, FaMoneyBillWave, FaHouseUser } from "react-icons/fa";
@@ -9401,6 +9408,1389 @@ export const destinations = [
     {
         type: "p",
         content: "With the right planning and guidance, students can make informed decisions about their education and prepare confidently for life abroad."
+    }
+    ]
+    },
+    {
+    id: 21,
+    heading: "Study in Hungary",
+    title: "Discover the Best Reasons to Study in Hungary",
+    slug: "study-in-hungary",
+    metaTitle:
+        "Discover the Best Reasons to Study in Hungary",
+    metaDescription:
+        "Hungary is an increasingly popular choice for Indian students looking for quality education, affordable study options and an international learning environment.",
+    image:
+        "/images/destinations/hungary/hungary-1.webp",
+    cover: "/images/destinations/hungary/cover/hungary-cover.webp",
+    keywords: [
+        "study in Hungary",
+        "study abroad Hungary",
+        "Hungary universities",
+        "Hungary for international students",
+        "study in Hungary 2026",
+        "affordable education in Hungary",
+        "English taught programs Hungary",
+        "best countries to study in Hungary",
+        "Hungary scholarships",
+        "student life in Hungary",
+        "higher education Hungary",
+        "Hungary education",
+        "career opportunities in Hungary",
+        "study abroad consultants",
+        "international students Hungary"
+    ],
+    category: "country",
+    sections: [
+    {
+        type: "p",
+        content:
+        "Hungary is an increasingly popular choice for Indian students looking for quality education, affordable study options and an international learning environment. With a long academic tradition and a growing number of programmes taught in English, Hungary offers students opportunities across fields such as medicine, engineering, business, IT and social sciences."
+    },
+    {
+        type: "p",
+        content: "Studying in Hungary also allows students to experience European culture, historic cities and a diverse international student community while working towards their academic and career goals."
+    },
+    {
+        type: "h2",
+        content: "Hungary as a Study Destination"
+    },
+    {
+        type: "p",
+        content: "Hungary offers a combination of academic opportunities, practical learning and student-friendly living. Some reasons students consider the country for higher education include:"
+    },
+    {
+        type: "list",
+        items: [
+        "Recognised universities and qualifications",
+        "Wide range of English-taught programmes",
+        "Diverse academic disciplines",
+        "International student communitie",
+        "Research and practical learning opportunities",
+        "Comparatively affordable study options",
+        "Rich European history and culture",
+        "Opportunities to gain international exposure"
+            ],
+        imgUrl: "/images/destinations/hungary/hungary-1.webp",
+        alt: "Hungary as a Study Destination"
+    },
+    {
+        type: "h2",
+        content: "Courses That Open New Possibilities"
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "Students planning to "
+            },
+            {
+                type: "link",
+                text: "study in Hungary",
+                href: "/destinations/study-in-hungary"
+            },
+            {
+                type: "text",
+                text: " can choose from a wide range of programmes. Popular fields include:"
+            }
+        ]
+    },
+    {
+        type: "course-list",
+        items: [
+            {
+                id: 1,
+                type: "course",
+                icon: FaStethoscope,
+                text: "Medicine & Healthcare"
+            },
+            {
+                id: 2,
+                type: "course",
+                icon: FaGear,
+                text: "Engineering & Technology"
+            },
+            {
+                id: 3,
+                type: "course",
+                icon: FaLaptopCode,
+                text: "Computer Science & IT"
+            },
+            {
+                id: 4,
+                type: "course",
+                icon: FaBriefcase,
+                text: "Business & Management"
+            },
+            {
+                id: 5,
+                type: "course",
+                icon: FaCalculator,
+                text: "Finance & Economics"
+            },
+            {
+                id: 6,
+                type: "course",
+                icon: FaBrain,
+                text: "Data Science & Artificial Intelligence"
+            },
+            {
+                id: 7,
+                type: "course",
+                icon: FaCompassDrafting,
+                text: "Architecture"
+            },
+            {
+                id: 8,
+                type: "course",
+                icon: FaDna,
+                text: "Biotechnology & Life Sciences"
+            },
+            {
+                id: 9,
+                type: "course",
+                icon: FaGlobe,
+                text: "International Relations"
+            },
+            {
+                id: 10,
+                type: "course",
+                icon: FaHotel,
+                text: "Hospitality & Tourism"
+            }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "The right course should be selected according to your academic background, interests, eligibility and long-term career plans."
+    },
+    {
+        type: "h2",
+        content: "Universities to Put on Your List"
+    },
+    {
+        type: "p",
+        content:
+        "Hungary has several established universities offering programmes for international students. Some well-known institutions include:"
+    },
+    {
+        type: "university-list",
+        items: [
+        {
+            id: 1,
+            src: "/images/destinations/hungary/universities/el-university.svg",
+            alt: "Eötvös Loránd University",
+            title: "Eötvös Loránd University"
+        },
+        {
+            id: 2,
+            src: "/images/destinations/hungary/universities/university-of-debrecen.svg",
+            alt: "University of Debrecen",
+            title: "University of Debrecen"
+        },
+        {
+            id: 3,
+            src: "/images/destinations/hungary/universities/university-of-szeged.svg",
+            alt: "University of Szeged",
+            title: "University of Szeged"
+        },
+        {
+            id: 4,
+            src: "/images/destinations/hungary/universities/university-of-pecs.svg",
+            alt: "University of Pécs",
+            title: "University of Pécs"
+        },
+        {
+            id: 5,
+            src: "/images/destinations/hungary/universities/budapest-university-of-technology-and-economics.svg",
+            alt: "Budapest University of Technology and Economics",
+            title: "Budapest University of Technology and Economics"
+        },
+        {
+            id: 6,
+            src: "/images/destinations/hungary/universities/corvinus-university-of-budapest.svg",
+            alt: "Corvinus University of Budapest",
+            title: "Corvinus University of Budapest"
+        },
+        {
+            id: 7,
+            src: "/images/destinations/hungary/universities/semmelweis-university.svg",
+            alt: "Semmelweis University",
+            title: "Semmelweis University"
+        },
+        {
+            id: 8,
+            src: "/images/destinations/hungary/universities/szechenyi-istvan-university.svg",
+            alt: "Széchenyi István University",
+            title: "Széchenyi István University"
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Before applying, students should compare universities based on course structure, tuition fees, admission requirements, location and career opportunities."
+    },
+    {
+        type:"h2",
+        content: "What Do You Need to Apply?"
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "Eligibility for "
+            },
+            {
+                type: "bold",
+                text: "study in Hungary for Indian students "
+            },
+            {
+                type: "text",
+                text: "depends on the university and programme. Students may generally need relevant academic qualifications, transcripts, certificates, a valid passport and proof of English-language proficiency where required."
+            }
+        ]
+    },
+    {
+      type: "p",
+      content: "Certain programmes may have additional requirements such as entrance examinations, interviews, motivation letters, CVs, SOPs or subject-specific documents. Students should always check the exact requirements of their chosen institution."
+    },
+    {
+        type: "h2",
+        content: "Your Route from Application to Admission"
+    },
+    {
+        type: "p",
+        content: "The admission process generally starts with selecting a suitable course and university. Students then need to check eligibility, prepare the required documents and submit their application through the university's specified process."
+    },
+    {
+        type: "p",
+        content: "Once an offer is received, students can complete the required enrolment formalities and begin preparing for their visa and travel arrangements. Starting early can make it easier to manage documentation, finances and accommodation."
+    },
+    {
+       type: "h2",
+       content: "Tuition Fees & Cost of Living"
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "The "
+            },
+            {
+                type: "bold",
+                text: "cost of studying in Hungary "
+            },
+            {
+                type: "text",
+                text: "varies according to the university, programme and level of study. Students should consider tuition fees along with their everyday living expenses when preparing a budget."
+            }
+        ]
+    },
+    {
+       type: "p",
+       content: "Common expenses include:"
+    },
+    {
+       type: "list",
+       items: [
+        "Accommodation",
+        "Food and groceries",
+        "Transportation",
+        "Health insurance",
+        "Study materials",
+        "Personal expenses"
+       ],
+       imgUrl: "/images/destinations/hungary/hungary-2.webp",
+       alt: "Cost of Studying in Hungary"
+    },
+    {
+       type: "p",
+       content: [
+        {
+        type: "text",
+        text: "On average, students may need around "
+        },
+        {
+         type: "bold",
+         text: "€500–€900 per month for living expenses, "
+        },
+        {
+            type: "text",
+            text: "depending on the city, accommodation and lifestyle. Budapest can generally be more expensive than smaller student cities."
+        }
+       ]
+    },
+    {
+       type: "h2",
+       content: "Scholarships to Explore"
+    },
+    {
+       type:"p",
+       content: [
+        {
+            type: "text",
+            text: "Students can explore scholarships and funding opportunities that may help reduce the cost of education. One of the well-known options is the "
+        },
+        {
+            type: "bold",
+            text: "Stipendium Hungaricum Scholarship Programme, "
+        },
+        {
+            type: "text",
+            text: "subject to eligibility and current scholarship conditions"
+        }
+       ]
+    },
+    {
+        type: "p",
+        content: "Other opportunities may include university-specific scholarships, merit-based awards and other forms of financial support. Students should check the latest eligibility criteria, benefits and deadlines before applying."
+    },
+    {
+        type: "h2",
+        content: "Hungary Student Visa Requirements"
+    },
+    {
+        type: "p",
+        content: "Indian students planning to pursue long-term higher education in Hungary generally need to apply for the appropriate student residence permit or visa process."
+    },
+    {
+        type: "p",
+        content: "The application may involve documents such as:"
+    },
+    {
+        type: "p",
+        content:
+        "International students may be able to work during their studies, subject to applicable visa and employment regulations. Part-time work can provide practical experience and help students develop professional skills."
+    },
+    {
+        type: "list",
+        items: [
+            "Admission or enrolment confirmation",
+            "Valid passport",
+            "Proof of financial resources",
+            "Accommodation details",
+            "Health insurance",
+            "Academic documents",
+            "Completed application forms and supporting documents"
+        ],
+        imgUrl: "/images/destinations/hungary/hungary-3.webp",
+        alt: "Hungary Student Visa Requirements"
+    },
+    {
+        type: "p",
+        content:
+        "Visa requirements can change, so students should follow the latest official requirements while preparing their applications."
+    },
+    {
+        type: "h2",
+        content: "Work Experience Alongside Your Studies"
+    },
+    {
+        type: "p",
+        content: "International students may have opportunities to work during their studies, subject to applicable immigration and employment regulations. Part-time employment can help students gain practical experience, improve workplace skills and become familiar with the local professional environment."
+    },
+    {
+        type: "p",
+        content: "Students should confirm the current conditions attached to their residence status before accepting employment."
+    },
+    {
+       type: "h2",
+       content: "Career Directions After Graduation"
+    },
+    {
+       type: "p",
+       content: "Hungary can provide students with academic knowledge and international exposure that may support their future career plans. Graduates can explore opportunities in areas such as:"
+    },
+    {
+        type: "course-list",
+        items: [
+            {
+                id: 1,
+                type: "course",
+                icon: FaLaptopCode,
+                text: "Information Technology"
+            },
+            {
+                id: 2,
+                type: "course",
+                icon: FaGear,
+                text: "Engineering"
+            },
+            {
+                id: 3,
+                type: "course",
+                icon: FaStethoscope,
+                text: "Healthcare & Pharmaceuticals"
+            },
+            {
+                id: 4,
+                type: "course",
+                icon: FaBriefcase,
+                text: "Business & Finance"
+            },
+            {
+                id: 5,
+                type: "course",
+                icon: FaIndustry,
+                text: "Manufacturing"
+            },
+            {
+                id: 6,
+                type: "course",
+                icon: FaFlask,
+                text: "Research & Development"
+            },
+            {
+                id: 7,
+                type: "course",
+                icon: FaBrain,
+                text: "Data & Technology"
+            },
+            {
+                id: 8,
+                type: "course",
+                icon: FaHotel,
+                text: "Hospitality & Tourism"
+            }
+        ]
+    },
+    {
+       type: "p",
+       content: "Career prospects depend on the student's qualifications, skills, experience, language abilities and employment conditions."
+    },
+    {
+        type:"h2",
+        content: "Experience Hungary Beyond the Campus"
+    },
+    {
+       type:"p",
+       content: "Student life in Hungary offers a mix of academic, cultural and social experiences. Students can explore historic architecture, museums, festivals, local cuisine and vibrant student communities."
+    },
+    {
+     type: "p",
+     content: [
+        {
+            type: "text",
+            text: "Hungary has a continental climate, with "
+        },
+        {
+            type: "bold",
+            text: "warm summers and cold winters"
+        },
+        {
+            type: "text",
+            text: " Students may experience noticeable seasonal changes throughout the year."
+        }
+     ]
+    },
+    {
+      type: "p",
+      content: "Living in Italy can help students gain independence, cultural awareness and valuable international exposure."
+    },
+    {
+      type: "h2",
+      content: "Make Your Hungary Study Plans Easier"
+    },
+    {
+      type: "p",
+      content: "Choosing a course, university and destination requires careful planning. Indo-European Study Abroad Consultancy helps Indian students explore suitable options according to their academic profile, budget and career goals."
+    },
+    {
+      type: "p",
+      content: "Our support includes:"
+    },
+    {
+        type: "intake-list",
+        items: [
+            {
+                id: 1,
+                title: "Course & University Selection",
+                description:
+                    "Find suitable programmes and institutions based on your academic profile and career goals.",
+                icon: FaUniversity
+            },
+            {
+                id: 2,
+                title: "Career Counselling",
+                description:
+                    "Get personalised guidance to make informed education and career decisions.",
+                icon: FaUserTie
+            },
+            {
+                id: 3,
+                title: "Application & Documentation Assistance",
+                description:
+                    "Receive support with applications, document preparation and submission requirements.",
+                icon: FaFileAlt
+            },
+            {
+                id: 4,
+                title: "SOP Guidance",
+                description:
+                    "Get expert guidance to create a clear and compelling Statement of Purpose.",
+                icon: FaPassport
+            },
+            {
+                id: 5,
+                title: "Visa Guidance",
+                description:
+                    "Get assistance with visa documentation, application procedures and requirements.",
+                icon: FaBookOpen
+            },
+            {
+                id: 6,
+                title: "Scholarship & Financial Planning",
+                description:
+                    "Explore scholarship opportunities and get guidance on planning your education finances.",
+                icon: FaUniversity
+            },
+            {
+                id: 7,
+                title: "Test Preparation",
+                description:
+                    "Get preparation support for IELTS, PTE Academic and other required language tests.",
+                icon: FaBookOpen
+            },
+            {
+                id: 8,
+                title: "Pre-Departure Support",
+                description:
+                    "Prepare for your journey with guidance on travel, accommodation and essential arrangements.",
+                icon: FaPassport
+            },
+            {
+                id: 9,
+                title: "Post-Arrival Assistance",
+                description:
+                    "Receive continued support with settling in, local guidance and essential post-arrival needs.",
+                icon: FaUserTie
+            }
+        ]
+    },
+    {
+        type: "p",
+        content: "From selecting suitable programmes to preparing applications and visa documents, our experts can guide students through the key stages of their journey."
+    }
+    ]
+    },
+    {
+    id: 22,
+    heading: "Study in Greece",
+    title: "Study in Greece and Discover a New Academic Experience",
+    slug: "study-in-greece",
+    metaTitle:
+        "Study in Greece and Discover a New Academic Experience",
+    metaDescription:
+        "Greece is an interesting destination for Indian students looking for an international education experience surrounded by history, culture and a Mediterranean lifestyle.",
+    image:
+        "/images/destinations/greece/greece-1.webp",
+    cover: "/images/destinations/greece/cover/greece-cover.webp",
+    keywords: [
+        "study in Greece",
+        "study abroad Greece",
+        "Greece universities",
+        "Greece for international students",
+        "study in Greece 2026",
+        "affordable education in Greece",
+        "English taught programs Greece",
+        "best countries to study in Greece",
+        "Greece scholarships",
+        "student life in Greece",
+        "higher education Greece",
+        "Greece education",
+        "career opportunities in Greece",
+        "study abroad consultants",
+        "international students Greece"
+    ],
+    category: "country",
+    sections: [
+    {
+        type: "p",
+        content:
+        "Greece is an interesting destination for Indian students looking for an international education experience surrounded by history, culture and a Mediterranean lifestyle. The country offers higher education opportunities across several academic fields, along with an international environment where students can experience a different European way of life."
+    },
+    {
+        type: "p",
+        content: "For students planning to pursue higher education abroad, Greece can be considered based on factors such as programme availability, tuition fees, location, lifestyle and future career plans."
+    },
+    {
+        type: "h2",
+        content: "Why Put Greece on Your Study Abroad List?"
+    },
+    {
+        type: "p",
+        content: "Greece combines academic opportunities with a distinctive cultural and lifestyle experience. Students can benefit from:"
+    },
+    {
+        type: "list",
+        items: [
+        "Recognised universities and higher education institutions",
+        "A range of academic programmes",
+        "English-taught programmes at selected institutions",
+        "International student communities",
+        "Research and practical learning opportunities",
+        "Rich history, art and cultural heritage",
+        "Mediterranean lifestyle and climate",
+        "Opportunities for international exposure"
+            ],
+        imgUrl: "/images/destinations/greece/greece-1.webp",
+        alt: "Put Greece on Your Study Abroad List"
+    },
+    {
+       type: "p",
+       content: "The choice of destination should ultimately depend on the student&#39;s academic profile, preferred course, budget and career objectives."
+    },
+    {
+        type: "h2",
+        content: "Courses to Explore for Your Career Goals"
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "Students interested in "
+            },
+            {
+                type: "link",
+                text: "study in Greece",
+                href: "/destinations/study-in-greece"
+            },
+            {
+                type: "text",
+                text: " can explore programmes across different disciplines. Popular areas include:"
+            }
+        ]
+    },
+    {
+        type: "course-list",
+        items: [
+            {
+                id: 1,
+                type: "course",
+                icon: FaBriefcase,
+                text: "Business & Management"
+            },
+            {
+                id: 2,
+                type: "course",
+                icon: FaLaptopCode,
+                text: "Computer Science & IT"
+            },
+            {
+                id: 3,
+                type: "course",
+                icon: FaGear,
+                text: "Engineering"
+            },
+            {
+                id: 4,
+                type: "course",
+                icon: FaCalculator,
+                text: "Finance & Economics"
+            },
+            {
+                id: 5,
+                type: "course",
+                icon: FaHotel,
+                text: "Hospitality & Tourism"
+            },
+            {
+                id: 6,
+                type: "course",
+                icon: FaShip,
+                text: "Shipping & Maritime Studies"
+            },
+            {
+                id: 7,
+                type: "course",
+                icon: FaCompassDrafting,
+                text: "Architecture & Design"
+            },
+            {
+                id: 8,
+                type: "course",
+                icon: FaLeaf,
+                text: "Environmental Studies"
+            },
+            {
+                id: 9,
+                type: "course",
+                icon: FaDna,
+                text: "Life Sciences"
+            },
+            {
+                id: 10,
+                type: "course",
+                icon: FaUsers,
+                text: "Social Sciences"
+            }
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Students should review the course curriculum, duration, entry requirements and career relevance before selecting a programme."
+    },
+    {
+        type: "h2",
+        content: "Universities & Institutions to Consider"
+    },
+    {
+        type: "p",
+        content:
+        "Greece has several universities and higher education institutions offering programmes across a variety of fields. Some recognised institutions include:"
+    },
+    {
+        type: "university-list",
+        items: [
+        {
+            id: 1,
+            src: "/images/destinations/greece/universities/national-and-kapodistrian-university-of-athens.svg",
+            alt: "National and Kapodistrian University of Athens",
+            title: "National and Kapodistrian University of Athens"
+        },
+        {
+            id: 2,
+            src: "/images/destinations/greece/universities/aristotle-university-of-thessaloniki.svg",
+            alt: "Aristotle University of Thessaloniki",
+            title: "Aristotle University of Thessaloniki"
+        },
+        {
+            id: 3,
+            src: "/images/destinations/greece/universities/national-technical-university-of-athens.svg",
+            alt: "National Technical University of Athens",
+            title: "National Technical University of Athens"
+        },
+        {
+            id: 4,
+            src: "/images/destinations/greece/universities/university-of-crete.svg",
+            alt: "University of Crete",
+            title: "University of Crete"
+        },
+        {
+            id: 5,
+            src: "/images/destinations/greece/universities/university-of-patras.svg",
+            alt: "University of Patras",
+            title: "University of Patras"
+        },
+        {
+            id: 6,
+            src: "/images/destinations/greece/universities/athens-university-of-economics-and-business.svg",
+            alt: "Athens University of Economics and Business",
+            title: "Athens University of Economics and Business"
+        },
+        {
+            id: 7,
+            src: "/images/destinations/greece/universities/university-of-piraeus.svg",
+            alt: "University of Piraeus",
+            title: "University of Piraeus"
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Students should compare institutions based on their chosen programme, tuition fees, location, admission criteria and available facilities."
+    },
+    {
+        type:"h2",
+        content: "What Indian Students Need to Know About Eligibility"
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "Eligibility for "
+            },
+            {
+                type: "bold",
+                text: "study in Greece for Indian students "
+            },
+            {
+                type: "text",
+                text: "depends on the institution and programme. Students may generally need relevant academic qualifications, academic transcripts, certificates, a valid passport and proof of language proficiency where required."
+            }
+        ]
+    },
+    {
+      type: "p",
+      content: "Some programmes may also ask for a CV, motivation letter, SOP, portfolio, entrance examination or additional academic documents. It is important to check the specific requirements before submitting an application."
+    },
+    {
+       type: "h2",
+       content: "Tuition Fees & Everyday Expenses"
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "The "
+            },
+            {
+                type: "bold",
+                text: "cost of studying in Greece "
+            },
+            {
+                type: "text",
+                text: "varies depending on the university, programme and level of study. Students should consider tuition fees along with accommodation and everyday expenses while planning their budget."
+            }
+        ]
+    },
+    {
+       type: "p",
+       content: "Common expenses include:"
+    },
+    {
+       type: "list",
+       items: [
+        "Accommodation",
+        "Food and groceries",
+        "Transportation",
+        "Health insurance",
+        "Study materials",
+        "Personal expenses"
+       ],
+       imgUrl: "/images/destinations/greece/greece-2.webp",
+       alt: "cost of studying in Greece"
+    },
+    {
+       type: "p",
+       content: "Living costs can vary considerably between cities and according to individual lifestyle. Creating a monthly budget before travelling can help students manage their expenses more effectively."
+    },
+    {
+       type: "h2",
+       content: "Greece Student Visa for Indian Students"
+    },
+    {
+       type:"p",
+       content: "Students planning long-term education in Greece generally need to complete the appropriate student visa and residence procedures."
+    },
+    {
+        type: "p",
+        content: "The application may require documents such as:"
+    },
+    {
+       type: "list",
+       items: [
+        "Admission or acceptance letter",
+        "Valid passport",
+        "Proof of financial resources",
+        "Accommodation details",
+        "Health insurance",
+        "Academic documents",
+        "Completed visa application and supporting paperwork"
+       ],
+       imgUrl: "/images/destinations/greece/greece-3.webp",
+       alt: "Greece Student Visa for Indian Students"
+    },
+    {
+       type: "p",
+       content: "Students should follow the latest official requirements and prepare their documents carefully before applying."
+    },
+    {
+        type: "h2",
+        content: "Career Opportunities After Your Degree"
+    },
+    {
+        type: "p",
+        content: "Graduates can explore opportunities across sectors depending on their qualifications, skills and experience. Potential areas include:"
+    },
+    {
+        type: "course-list",
+        items: [
+            {
+                id: 1,
+                type: "course",
+                icon: FaLaptopCode,
+                text: "IT & Technology"
+            },
+            {
+                id: 2,
+                type: "course",
+                icon: FaGear,
+                text: "Engineering"
+            },
+            {
+                id: 3,
+                type: "course",
+                icon: FaBriefcase,
+                text: "Business & Finance"
+            },
+            {
+                id: 4,
+                type: "course",
+                icon: FaHotel,
+                text: "Tourism & Hospitality"
+            },
+            {
+                id: 5,
+                type: "course",
+                icon: FaShip,
+                text: "Shipping & Maritime"
+            },
+            {
+                id: 6,
+                type: "course",
+                icon: FaSolarPanel,
+                text: "Renewable Energy"
+            },
+            {
+                id: 7,
+                type: "course",
+                icon: FaFlask,
+                text: "Research & Innovation"
+            },
+            {
+                id: 8,
+                type: "course",
+                icon: FaLeaf,
+                text: "Environmental Studies"
+            }
+        ]
+    },
+    {
+        type: "p",
+        content: "Career opportunities can vary according to the job market, industry demand, professional experience and language skills."
+    },
+    {
+      type: "h2",
+      content: "Experience the Greek Lifestyle"
+    },
+    {
+        type: "p",
+        content:
+        "One of the distinctive aspects of student life in Greece is the opportunity to experience its history, architecture, cuisine and Mediterranean culture. Students can explore historic landmarks, coastal destinations, local festivals and a diverse social environment."
+    },
+    {
+       type: "p",
+       content: [
+        {
+            type: "text",
+            text: "Greece generally has "
+        },
+        {
+            type: "bold",
+            text: "hot, dry summers and mild winters,"
+        },
+        {
+            type: "text",
+            text: "although weather conditions differ between regions. Its climate and outdoor lifestyle can make everyday life an enjoyable part of the international study experience."
+        }
+       ]
+    },
+    {
+        type: "h2",
+        content: "Let Indo-European Guide Your Greece Journey"
+    },
+    {
+        type: "p",
+        content: "Choosing a suitable course and university abroad involves several important decisions. Indo-European Study Abroad Consultancy provides personalised guidance to Indian students looking to explore education opportunities in Greece."
+    },
+    {
+        type: "p",
+        text: "Our services include:"
+    },
+    {
+        type: "service-list",
+        items: [
+            {
+                id: 1,
+                type: "service",
+                icon: FaGraduationCap,
+                text: "Course & University Selection"
+            },
+            {
+                id: 2,
+                type: "service",
+                icon: FaUserTie,
+                text: "Career Counselling"
+            },
+            {
+                id: 3,
+                type: "service",
+                icon: FaFileCircleCheck,
+                text: "Application & Documentation Assistance"
+            },
+            {
+                id: 4,
+                type: "service",
+                icon: FaPenNib,
+                text: "SOP Guidance"
+            },
+            {
+                id: 5,
+                type: "service",
+                icon: FaPassport,
+                text: "Visa Guidance"
+            },
+            {
+                id: 6,
+                type: "service",
+                icon: FaMoneyBillTrendUp,
+                text: "Scholarship & Financial Planning"
+            },
+            {
+                id: 7,
+                type: "service",
+                icon: FaBookOpen,
+                text: "Test Preparation"
+            },
+            {
+                id: 8,
+                type: "service",
+                icon: FaPlaneDeparture,
+                text: "Pre-Departure Support"
+            },
+            {
+                id: 9,
+                type: "service",
+                icon: FaHandsHelping,
+                text: "Post-Arrival Assistance"
+            }
+        ]
+    },
+    {
+      type: "p",
+      content: "From shortlisting suitable programmes to preparing applications and visa documentation, our experts can support students through the key stages of their journey."
+    },
+    {
+       type: "h2",
+       content: "Turn Your Greece Study Plans into a New Experience"
+    },
+    {
+       type: "p",
+       content: "Greece can offer students an opportunity to combine higher education with international exposure, cultural discovery and a different European lifestyle."
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "Connect with "
+            },
+            {
+                type: "link",
+                text: "Indo-European Study Abroad Consultancy",
+                href: "/"
+            },
+            {
+                type: "text",
+                text: " to explore your options and take the next step towards studying in Greece."
+            }
+        ]
+    }
+    ]
+    },
+    {
+    id: 23,
+    heading: "Study in Bulgaria",
+    title: "Study in Bulgaria: Where Your European Future Begins",
+    slug: "study-in-bulgaria",
+    metaTitle:
+        "Study in Bulgaria: Where Your European Future Begins",
+    metaDescription:
+        "Bulgaria is becoming an attractive destination for international students looking for quality education, affordable study options and a culturally rich European experience.",
+    image:
+        "/images/destinations/bulgaria/bulgaria-1.webp",
+    cover: "/images/destinations/bulgaria/cover/bulgaria-cover.webp",
+    keywords: [
+        "study in Bulgaria",
+        "study abroad Bulgaria",
+        "Bulgaria universities",
+        "Bulgaria for international students",
+        "study in Bulgaria 2026",
+        "affordable education in Bulgaria",
+        "English taught programs Bulgaria",
+        "best countries to study in Bulgaria",
+        "Bulgaria scholarships",
+        "student life in Bulgaria",
+        "higher education Bulgaria",
+        "Bulgaria education",
+        "career opportunities in Bulgaria",
+        "study abroad consultants",
+        "international students Bulgaria"
+    ],
+    category: "country",
+    sections: [
+    {
+        type: "p",
+        content:
+        "Bulgaria is becoming an attractive destination for international students looking for quality education, affordable study options and a culturally rich European experience. With recognised universities, a variety of academic programmes and a welcoming student environment, the country offers opportunities for students from India who want to pursue higher education in Europe."
+    },
+    {
+        type: "p",
+        content: "From medicine and engineering to business, IT and tourism, students can choose programmes that match their academic interests and career plans. Studying in Bulgaria also gives international students the opportunity to experience European culture while developing valuable academic and professional skills."
+    },
+    {
+        type: "h2",
+        content: "Explore Courses That Match Your Career Plans"
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "Students can find a wide range of "
+            },
+            {
+                type: "bold",
+                text: "courses in Bulgaria"
+            },
+            {
+                type: "text",
+                text: " at undergraduate and postgraduate levels. Popular study areas include:"
+            }
+        ]
+    },
+    {
+        type: "course-list",
+        items: [
+            {
+                id: 1,
+                type: "course",
+                icon: FaStethoscope,
+                text: "Medicine and Dentistry"
+            },
+            {
+                id: 2,
+                type: "course",
+                icon: FaGear,
+                text: "Engineering and Technology"
+            },
+            {
+                id: 3,
+                type: "course",
+                icon: FaLaptopCode,
+                text: "Computer Science and IT"
+            },
+            {
+                id: 4,
+                type: "course",
+                icon: FaBriefcase,
+                text: "Business and Management"
+            },
+            {
+                id: 5,
+                type: "course",
+                icon: FaCalculator,
+                text: "Economics and Finance"
+            },
+            {
+                id: 6,
+                type: "course",
+                icon: FaHotel,
+                text: "Tourism and Hospitality"
+            },
+            {
+                id: 7,
+                type: "course",
+                icon: FaCompassDrafting,
+                text: "Architecture"
+            },
+            {
+                id: 8,
+                type: "course",
+                icon: FaCapsules,
+                text: "Pharmacy"
+            },
+            {
+                id: 9,
+                type: "course",
+                icon: FaFlask,
+                text: "Natural Sciences"
+            }
+        ]
+    },
+    {
+       type: "p",
+       content: "Medical education is particularly popular among international students, while IT, engineering and business programmes are also worth considering for students looking towards growing career sectors."
+    },
+    {
+        type: "h2",
+        content: "Universities & Academic Options in Bulgaria"
+    },
+    {
+        type: "p",
+        content:
+        "Bulgaria has several established universities and specialised higher education institutions offering bachelor&#39;s, master&#39;s and doctoral programmes. Some well-known names include:"
+    },
+    {
+        type: "university-list",
+        items: [
+        {
+            id: 1,
+            src: "/images/destinations/bulgaria/universities/sofia-university-st-kliment-ohridski.svg",
+            alt: "Sofia University St. Kliment Ohridski",
+            title: "Sofia University St. Kliment Ohridski"
+        },
+        {
+            id: 2,
+            src: "/images/destinations/bulgaria/universities/technical-university-of-sofia.svg",
+            alt: "Technical University of Sofia",
+            title: "Technical University of Sofia"
+        },
+        {
+            id: 3,
+            src: "/images/destinations/bulgaria/universities/medical-university-of-sofia.svg",
+            alt: "Medical University-Sofia",
+            title: "Medical University-Sofia"
+        },
+        {
+            id: 4,
+            src: "/images/destinations/bulgaria/universities/medical-university-plovdiv.svg",
+            alt: "Medical University-Plovdiv",
+            title: "Medical University-Plovdiv"
+        },
+        {
+            id: 5,
+            src: "/images/destinations/bulgaria/universities/varna-university-of-management.svg",
+            alt: "Varna University of Management",
+            title: "Varna University of Management"
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "When selecting a university, students should compare programme structure, tuition fees, language of instruction, entry requirements, location and future career opportunities."
+    },
+    {
+        type:"h2",
+        content: "What Indian Students Need for Admission"
+    },
+    {
+        type: "p",
+        content: "Eligibility requirements vary depending on university and program selected. For bachelor’s programs, students usually need to have completed their Class 12 education with the required subjects and academic background. Applicants for the Master&#39;s study usually require a recognized Bachelor degree in a relevant field."
+    },
+    {
+      type: "p",
+      content: "Universities might also require academic transcripts, passport copies, photographs, proof of language proficiency and other supporting documents. Different universities have different requirements, so it’s important to check the criteria before you apply."
+    },
+    {
+       type: "h2",
+       content: "Your Application Journey: From India to Bulgaria"
+    },
+    {
+       type: "p",
+       content: "The admission process usually starts with selecting a suitable course and university. Students then prepare their academic and personal documents, submit the application and wait for the admission decision."
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "Once admitted, students can proceed with tuition-related formalities and prepare their "
+            },
+            {
+                type: "bold",
+                text: "Bulgaria student visa"
+            },
+            {
+                type: "text",
+                text: " application. Proper documentation and timely submission can make the overall process smoother."
+            }
+        ]
+    },
+    {
+       type: "h2",
+       content: "Scholarships & Financial Planning"
+    },
+    {
+       type:"p",
+       content: "Students should explore university-specific scholarships, tuition support and other funding opportunities before finalising their study plans. Scholarship availability and eligibility can vary by institution and programme."
+    },
+    {
+        type: "p",
+        content: "Even when a scholarship is not available, careful financial planning can help students manage tuition and everyday expenses more effectively."
+    },
+    {
+        type: "h2",
+        content: "Bulgaria Student Visa: Preparing for the Next Step"
+    },
+    {
+        type: "p",
+        content: "After receiving admission, international students need to complete the relevant visa and residence formalities. Students should prepare documents such as their admission confirmation, passport, financial evidence, accommodation details and other documents required by the authorities."
+    },
+    {
+        type: "p",
+        content: "Starting the visa process early and ensuring that all information is accurate can help avoid unnecessary delays."
+    },
+    {
+      type: "h2",
+      content: "Work, Skills & Career Opportunities"
+    },
+    {
+        type: "p",
+        content:
+        "International students may be able to do practical experience alongside their studies, depending on the relevant rules. Part-time jobs can help students gain communication, teamwork and professional skills while getting familiar with the local environment."
+    },
+    {
+        type: "p",
+        content: "After graduation career opportunities may vary depending on the student’s qualification, experience, language skills and the requirements of the local job market. Graduates in IT, engineering, healthcare, business and tourism can explore different career options in Bulgaria and abroad."
+    },
+    {
+        type: "h2",
+        content: "Experience Bulgarian Student Life Beyond the Classroom"
+    },
+    {
+        type: "p",
+        content: "Bulgaria offers a mix of historic cities, European traditions and beautiful natural surroundings. Students can explore landmarks, local cuisine and cultural festivals while experiencing life in cities such as Sofia, Plovdiv and Varna."
+    },
+    {
+        type: "p",
+        text: "The country experiences four distinct seasons. Summers are generally warm, while winters can be cold and snowy, particularly in mountainous areas. This gives students the opportunity to enjoy both city life and outdoor activities during their stay."
+    },
+    {
+       type: "h2",
+       content: "Plan Your Bulgaria Education Journey with Indo-European"
+    },
+    {
+       type: "p",
+       content: "Choosing the right university, understanding eligibility, preparing documents and navigating the visa process can feel complicated when planning from India. Indo-European can support students with course selection, university applications, documentation, visa guidance and other essential steps."
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "With the right planning and guidance, "
+            },
+            {
+                type: "link",
+                text: "studying in Bulgaria for Indian students",
+                href: "/destinations/study-in-bulgaria"
+            },
+            {
+                type: "text",
+                text: " can become a practical route towards quality European education and international exposure."
+            }
+        ]
+    },
+    {
+        type: "h2",
+        content: "Take the Next Step Towards Studying in Bulgaria"
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "Ready to explore your options? Connect with Indo-European to discuss suitable courses, universities, admission requirements and your next steps for "
+            },
+            {
+                type: "link",
+                text: "study abroad in Bulgaria.",
+                href: "/destinations/study-in-bulgaria"
+            }
+        ]
     }
     ]
     },
