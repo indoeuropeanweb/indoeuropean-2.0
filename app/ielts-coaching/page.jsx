@@ -361,16 +361,16 @@ preparation.</p>
               <Heading heading={'Academic IELTS or General '} colorHeading={'Training?'} />
               <p className='text-md lg:text-base font-manrope mt-4'>Choosing the right IELTS test depends on your purpose.</p>
               <div className='grid grid-cols-1 lg:grid-cols-2 justify-center items-center gap-10 mt-10'>
-               <div className='bg-secondary/5 backdrop-blur-4xl p-4 rounded-lg border border-secondary hover:-translate-y-2 transition-all duration-500 ease-in-out'>
+               <ScrollAnimate direction='left' className='bg-secondary/5 backdrop-blur-4xl p-4 rounded-lg border border-secondary hover:-translate-y-2 transition-all duration-500 ease-in-out'>
                   <h4 className='text-lg lg:text-xl font-Jakarta font-bold text-primary'>IELTS Academic</h4>
                   <p className='text-sm lg:text-md font-manrope mt-4'>IELTS Academic is generally associated with higher education and professional registration in
 many contexts.</p>
-               </div>
-               <div className='bg-secondary/5 backdrop-blur-4xl p-4 rounded-lg border border-secondary hover:-translate-y-2 transition-all duration-500 ease-in-out'>
+               </ScrollAnimate>
+               <ScrollAnimate direction='right' className='bg-secondary/5 backdrop-blur-4xl p-4 rounded-lg border border-secondary hover:-translate-y-2 transition-all duration-500 ease-in-out'>
                   <h4 className='text-lg lg:text-xl font-Jakarta font-bold text-primary'>IELTS General Training</h4>
                   <p className='text-sm lg:text-md font-manrope mt-4'>IELTS General Training is commonly used for migration, work-related purposes, and certain
 training or education pathways.</p>
-               </div>
+               </ScrollAnimate>
               </div>
               <p className='text-md lg:text-base font-manrope mt-4'>The appropriate test depends on the requirements of your university, organisation, visa route, or
 other relevant authority. Always check the latest official requirements before booking your test.</p>

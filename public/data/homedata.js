@@ -10,7 +10,7 @@
         "title": "Career Counseling",
         "subtitle": "Get expert career guidance tailored to your academic background, interests, and future goals to make informed study abroad decisions with confidence.",
         "image": "/images/icons/1.svg",
-        "link": "/career-counselling"
+        "link": "services"
       },
       {
         "id": 2,
@@ -38,28 +38,28 @@
         "title": "Student Visa Assistance",
         "subtitle": "Our visa experts will assist you with documentation, filing your application, preparing for the interview and all the way to maximizing your chances of visa approval.",
         "image": "/images/icons/5.svg",
-        "link": "student-visa-assistance"
+        "link": "services"
       },
       {
         "id": 6,
         "title": "Accommodation Support",
         "subtitle": "Find safe, comfortable, and budget-friendly student accommodation near your university before you arrive in your destination country.",
         "image": "/images/icons/6.svg",
-        "link": "accommodation-support"
+        "link": "accommodation"
       },
       {
         "id": 7,
         "title": "Scholarships & Education Loans",
         "subtitle": "Explore scholarships and education loan options with expert support to make your international education more affordable and stress-free.",
         "image": "/images/icons/7.svg",
-        "link": "scholarships-and-education-loan"
+        "link": "scholarships"
       },
       {
         "id": 8,
         "title": "Application & Documentation",
         "subtitle": "Receive complete assistance with university applications, document preparation, SOPs, LORs, and every requirement for a smooth admission process.",
         "image": "/images/icons/8.svg",
-        "link": "application-documentation"
+        "link": "contact"
       }
     ]
 

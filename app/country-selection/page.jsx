@@ -15,6 +15,7 @@ import {
 import Card from '../components/Card';
 import { CiPaperplane } from "react-icons/ci";
 import GlobalForm from '../components/GlobalForm'
+import ScrollAnimate from '../components/ScrollAnimate'
 
 const page = () => {
 const countryOptions = [
@@ -206,7 +207,7 @@ const countryOptions = [
       <section className='bg-linear-to-r from-primary/10 to-secondary/10 rounded-4xl'>
        <div className='max-w-6xl mx-auto'>
          <div className='grid grid-cols-1 lg:grid-cols-2 justify-center items-center gap-5 py-12 px-10'>
-           <div className=''>
+           <ScrollAnimate direction='left' className=''>
               <h2 className='text-2xl lg:text-3xl font-Jakarta font-bold text-primary'>How Indo European Helps You <span className='text-secondary'>Decide?</span></h2>
               <p className='text-md lg:text-base font-manrope mt-4'>Choosing between several countries can be confusing, especially when every destination
                 seems to offer something different. Our counsellors take the time to understand your profile and
@@ -223,10 +224,10 @@ const countryOptions = [
                 <li className='text-md lg:text-base font-manrope font-semibold'><CiPaperplane className='size-6 inline-block text-secondary'/>&nbsp;Student visa guidance</li>
                 <li className='text-md lg:text-base font-manrope font-semibold'><CiPaperplane className='size-6 inline-block text-secondary'/>&nbsp;Pre-departure and accommodation support</li>
               </ul>
-           </div>
-           <div className=''>
+           </ScrollAnimate>
+           <ScrollAnimate direction='right' className=''>
                  <Image className='' width={500} height={500} src={'/images/country-selection/indo-hep.svg'} alt="Indo European Study Abroad Consultants - Help" />
-           </div>
+           </ScrollAnimate>
          </div>
        </div>
       </section>

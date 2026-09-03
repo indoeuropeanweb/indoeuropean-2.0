@@ -3394,7 +3394,7 @@ export const destinations = [
         "Globally recognised degrees",
         "Innovative education system",
         "English-taught programmes",
-        "Strong focus on research and practical learningons",
+        "Strong focus on research and practical learnings",
         "Safe and student-friendly environment",
         "High quality of life",
         "Opportunities to work while studying",

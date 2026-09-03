@@ -6,6 +6,7 @@ import { corporatePartnerBenefits, partnershipBenefits } from '@/public/data/hom
 import Card from '../components/Card'
 import { CiPaperplane } from 'react-icons/ci'
 import GlobalForm from '../components/GlobalForm'
+import ScrollAnimate from '../components/ScrollAnimate'
 
 const page = () => {
   return (
@@ -31,7 +32,7 @@ const page = () => {
      <section className='max-w-6xl mx-auto'>
        <div className='py-12 px-10'>
           <div className='grid grid-cols-1 lg:grid-cols-2 justify-center items-center gap-10 mt-10'>
-             <div className=''>
+             <ScrollAnimate direction='left' className=''>
               <h2 className='text-primary text-2xl lg:text-3xl font-Jakarta font-bold'>Who Can Partner With <span className='text-secondary'>Us?</span></h2>
               <p className='text-md lg:text-base font-manrope mt-2'>Our partnership program is suitable for a wide range of businesses, including:</p>
               <ul className='my-4'>
@@ -46,10 +47,10 @@ const page = () => {
                 <li className='text-md lg:text-base font-semibold font-manrope text-primary'><CiPaperplane className='size-6 inline-block text-secondary'/>&nbsp; Entrepreneurs Looking to Expand Their Services</li>
               </ul>
               <p className='text-md lg:text-base font-manrope'>If your business complements the overseas education industry, we'd be happy to explore collaboration opportunities with you.</p>
-             </div>
-             <div className=''>
+             </ScrollAnimate>
+             <ScrollAnimate direction='right' className=''>
                 <Image className="" height={540} width={480} src={'/images/other-businesses/other-businesses-5.png'} alt="Who Can Partner With Us"/>
-             </div>
+             </ScrollAnimate>
           </div>
        </div>
      </section>
