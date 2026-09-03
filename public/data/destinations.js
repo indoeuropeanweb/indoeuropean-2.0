@@ -53,7 +53,10 @@ import {
   FaFileCircleCheck,
   FaPenNib,
   FaMoneyBillTrendUp,
-  FaCapsules
+  FaCapsules,
+  FaPalette,
+  FaWater,
+  FaHeartPulse
 } from "react-icons/fa6";
 
 import { FaShieldAlt, FaClipboardCheck, FaHandsHelping, FaHeartbeat, FaFileAlt, FaUniversity, FaMoneyBillWave, FaHouseUser } from "react-icons/fa";
@@ -10043,7 +10046,7 @@ export const destinations = [
     },
     {
        type: "p",
-       content: "The choice of destination should ultimately depend on the student&#39;s academic profile, preferred course, budget and career objectives."
+       content: "The choice of destination should ultimately depend on the student's academic profile, preferred course, budget and career objectives."
     },
     {
         type: "h2",
@@ -10620,7 +10623,7 @@ export const destinations = [
     {
         type: "p",
         content:
-        "Bulgaria has several established universities and specialised higher education institutions offering bachelor&#39;s, master&#39;s and doctoral programmes. Some well-known names include:"
+        "Bulgaria has several established universities and specialised higher education institutions offering bachelor's, master's and doctoral programmes. Some well-known names include:"
     },
     {
         type: "university-list",
@@ -10792,6 +10795,598 @@ export const destinations = [
             }
         ]
     }
+    ]
+    },
+    {
+    id: 24,
+    heading: "Study in Czech Republic",
+    title: "Study in Czech Republic: Your Next Chapter Starts Here",
+    slug: "study-in-czech-republic",
+    metaTitle:
+        "Study in Czech Republic: Your Next Chapter Starts Here",
+    metaDescription:
+        "The Czech Republic is an increasingly popular choice for international students who want to experience quality European education in a country known for its rich history, modern cities and student-friendly environment.",
+    image:
+        "/images/destinations/czech-republic/czech-republic-1.webp",
+    cover: "/images/destinations/czech-republic/cover/czech-republic-cover.webp",
+    keywords: [
+        "study in Czech Republic",
+        "study abroad Czech Republic",
+        "Czech Republic universities",
+        "Czech Republic for international students",
+        "study in Czech Republic 2026",
+        "affordable education in Czech Republic",
+        "English taught programs Czech Republic",
+        "best countries to study in Czech Republic",
+        "Czech Republic scholarships",
+        "student life in Czech Republic",
+        "higher education Czech Republic",
+        "Czech Republic education",
+        "career opportunities in Czech Republic",
+        "study abroad consultants",
+        "international students Czech Republic"
+    ],
+    category: "country",
+    sections: [
+    {
+        type: "p",
+        content:
+        "The Czech Republic is an increasingly popular choice for international students who want to experience quality European education in a country known for its rich history, modern cities and student-friendly environment. With a variety of universities and programmes, students can find options across technology, business, engineering, medicine, arts and other fields."
+    },
+    {
+        type: "p",
+        content: "For Indian students, the country can offer an opportunity to gain international academic exposure while living in the heart of Europe. Its central location also makes it convenient to explore other European destinations during academic breaks."
+    },
+    {
+        type: "h2",
+        content: "What Makes the Czech Republic a Smart Study Choice?"
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "The "
+            },
+            {
+                type: "bold",
+                text: "Czech Republic"
+            },
+            {
+                type: "text",
+                text: " combines established academic institutions with a diverse international student community. Universities offer programmes at bachelor's, master's and doctoral levels, with a growing selection of courses available in English."
+            }
+        ]
+    },
+    {
+       type: "p",
+       content: "Students can also benefit from a multicultural classroom environment where they can interact with learners from different countries. Beyond academics, studying here can help develop independence, communication skills and international experience."
+    },
+    {
+       type: "h2",
+       content: "Courses That Can Shape Your Career"
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "Students looking for "
+            },
+            {
+                type: "bold",
+                text: "courses in the Czech Republic"
+            },
+            {
+                type: "text",
+                text: " can explore programmes across a wide range of disciplines. Popular areas include:"
+            }
+        ]
+    },
+    {
+        type: "course-list",
+        items: [
+            {
+                id: 1,
+                type: "course",
+                icon: FaLaptopCode,
+                text: "Computer Science and Information Technology"
+            },
+            {
+                id: 2,
+                type: "course",
+                icon: FaGear,
+                text: "Engineering and Technology"
+            },
+            {
+                id: 3,
+                type: "course",
+                icon: FaBriefcase,
+                text: "Business and Management"
+            },
+            {
+                id: 4,
+                type: "course",
+                icon: FaCalculator,
+                text: "Economics and Finance"
+            },
+            {
+                id: 5,
+                type: "course",
+                icon: FaStethoscope,
+                text: "Medicine and Healthcare"
+            },
+            {
+                id: 6,
+                type: "course",
+                icon: FaCompassDrafting,
+                text: "Architecture and Design"
+            },
+            {
+                id: 7,
+                type: "course",
+                icon: FaFlask,
+                text: "Natural Sciences"
+            },
+            {
+                id: 8,
+                type: "course",
+                icon: FaPalette,
+                text: "Arts and Humanities"
+            },
+            {
+                id: 9,
+                type: "course",
+                icon: FaHotel,
+                text: "Tourism and Hospitality"
+            }
+        ]
+    },
+    {
+       type: "p",
+       content: "The right programme depends on your academic background, career plans and preferred language of instruction. Students should compare course modules, university reputation, fees and career prospects before making a decision."
+    },
+    {
+        type: "h2",
+        content: "Universities Worth Exploring"
+    },
+    {
+        type: "p",
+        content:
+        "The country has a strong network of public and private higher education institutions. Some recognised names include"
+    },
+    {
+        type: "university-list",
+        items: [
+        {
+            id: 1,
+            src: "/images/destinations/czech-republic/universities/charles-university.svg",
+            alt: "Charles University",
+            title: "Charles University"
+        },
+        {
+            id: 2,
+            src: "/images/destinations/czech-republic/universities/czech-technical-university-in-prague.svg",
+            alt: "Czech Technical University in Prague",
+            title: "Czech Technical University in Prague"
+        },
+        {
+            id: 3,
+            src: "/images/destinations/czech-republic/universities/masaryk-university.svg",
+            alt: "Masaryk University",
+            title: "Masaryk University"
+        },
+        {
+            id: 4,
+            src: "/images/destinations/czech-republic/universities/brno-university-of-technology.svg",
+            alt: "Brno University of Technology",
+            title: "Brno University of Technology"
+        },
+        {
+            id: 5,
+            src: "/images/destinations/czech-republic/universities/prague-university-of-economics-and-business.svg",
+            alt: "Prague University of Economics and Business",
+            title: "Prague University of Economics and Business"
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "Each institution has its own admission criteria and programme structure. Students should check whether their preferred course is taught in English and understand the specific entry requirements before applying."
+    },
+    {
+        type:"h2",
+        content: "From Application to Acceptance"
+    },
+    {
+        type: "p",
+        content: "The admission process for Czech Republic universities generally involves choosing a programme, checking eligibility, preparing documents and submitting an application before the university's deadline."
+    },
+    {
+      type: "p",
+      content: "After receiving an admission decision, students can complete the required university formalities and begin preparing for their visa or residence application. Starting early is important because document preparation, university processing and visa formalities can take time."
+    },
+    {
+       type: "h2",
+       content: "Plan Your Budget Before You Fly"
+    },
+    {
+       type: "p",
+       content: [
+        {
+            type: "text",
+            text: "The "
+        },
+        {
+            type: "bold",
+            text: "cost of studying in the Czech Republic"
+        },
+        {
+            type: "text",
+            text: " varies according to the university, programme and language of instruction. Programmes taught in Czech at public institutions can have different fee structures from programmes delivered in English, while private institutions set their own tuition fees."
+        }
+       ]
+    },
+    {
+        type: "p",
+        content: "Students should also plan for accommodation, food, transportation, study materials and personal expenses. Prague is generally more expensive than many other Czech cities, so comparing locations can help students manage their overall budget."
+    },
+    {
+       type: "h2",
+       content: "Gain Experience While You Study"
+    },
+    {
+       type:"p",
+       content: "International students may have opportunities to work alongside their studies, subject to the rules applicable to their residence status and employment situation. Part-time work can provide valuable exposure to the local workplace while helping students develop practical and communication skills."
+    },
+    {
+        type: "p",
+        content: "After graduation, career possibilities depend on the qualification, professional experience, language skills and applicable employment and residence rules. Fields such as IT, engineering, business and technology can offer a range of career directions."
+    },
+    {
+        type: "h2",
+        content: "Experience Life Beyond the University Campus"
+    },
+    {
+        type: "p",
+        content: "Studying in the Czech Republic is not only about academics. Students can experience historic architecture, museums, festivals, local cuisine and vibrant city life. Prague, Brno and Ostrava are among the cities known for their universities and student communities."
+    },
+    {
+        type: "p",
+        content: "The country has a temperate climate with warm summers and cold winters. Students can enjoy cultural events and city activities throughout the year, while the surrounding countryside offers opportunities for hiking and exploring during suitable seasons."
+    },
+    {
+      type: "h2",
+      content: "Make Your Czech Education Plans Easier with Indo-European"
+    },
+    {
+        type: "p",
+        content:
+        "Planning your education abroad involves more than selecting a university. From finding the right course to preparing documents and understanding visa requirements, each stage needs careful attention."
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "link",
+                text: "Indo European",
+                href: "/"
+            },
+            {
+                type: "text",
+                text: " can assist students with course and university selection, application support, documentation, visa guidance and other important steps involved in planning their education in the Czech Republic."
+            }
+        ]
+    },
+    {
+        type: "h2",
+        content: "Your Czech Republic Journey Starts Here"
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "If you are considering "
+            },
+            {
+                type: "bold",
+                text: "studying in the Czech Republic for Indian students, "
+            },
+            {
+                type: "text",
+                text: "the right guidance can help you make informed decisions about your course, university, budget and future plans. Explore your options with Indo-European and take the next step towards an international education experience."
+            }
+        ]
+    },
+    ]
+    },
+    {
+    id: 25,
+    heading: "Study in Norway",
+    title: "Study in Norway: Learn in the Land of Ideas",
+    slug: "study-in-norway",
+    metaTitle:
+        "Study in Norway: Learn in the Land of Ideas",
+    metaDescription:
+        "Norway offers an education experience that goes beyond classrooms and textbooks. Known for its high quality of life, innovative learning environment and beautiful natural surroundings, the country attracts students looking for an international and future-focused education.",
+    image:
+        "/images/destinations/norway/norway-1.webp",
+    cover: "/images/destinations/norway/cover/norway-cover.webp",
+    keywords: [
+        "study in Norway",
+        "study abroad Norway",
+        "Norway universities",
+        "Norway for international students",
+        "study in Norway Republic 2026",
+        "affordable education in Norway",
+        "English taught programs Norway",
+        "best countries to study in Norway",
+        "Norway scholarships",
+        "student life in Norway",
+        "higher education Norway",
+        "Norway education",
+        "career opportunities in Norway",
+        "study abroad consultants",
+        "international students Norway"
+    ],
+    category: "country",
+    sections: [
+    {
+        type: "p",
+        content:
+        "Norway offers an education experience that goes beyond classrooms and textbooks. Known for its high quality of life, innovative learning environment and beautiful natural surroundings, the country attracts students looking for an international and future-focused education. With universities and specialised institutions offering programmes across multiple disciplines, Norway can be an excellent choice for students who want to combine academic learning with international exposure."
+    },
+    {
+        type: "p",
+        content: "For Indian students, studying in Norway can mean experiencing a different approach to education while becoming part of a multicultural student community. The country's focus on research, sustainability, technology and independent learning also makes it an interesting destination for ambitious students."
+    },
+    {
+        type: "h2",
+        content: "Education That Encourages You to Think Differently"
+    },
+    {
+        type: "p",
+        content: "Higher education in Norway places emphasis on independent thinking, practical understanding, collaboration and research. Students are encouraged to participate in discussions, work on projects and develop solutions rather than simply memorising information."
+    },
+    {
+       type: "p",
+       content: "Many institutions offer programmes taught in English, particularly at the master's level. This gives international students the opportunity to pursue higher education without necessarily needing to study in Norwegian."
+    },
+    {
+       type: "h2",
+       content: "Find a Programme That Fits Your Ambition"
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "Students can explore a broad range of "
+            },
+            {
+                type: "bold",
+                text: "courses in Norway,"
+            },
+            {
+                type: "text",
+                text: " depending on their academic background and career goals. Popular areas include:"
+            }
+        ]
+    },
+    {
+        type: "course-list",
+        items: [
+            {
+                id: 1,
+                type: "course",
+                icon: FaLaptopCode,
+                text: "Computer Science and Information Technology"
+            },
+            {
+                id: 2,
+                type: "course",
+                icon: FaGear,
+                text: "Engineering and Technology"
+            },
+            {
+                id: 3,
+                type: "course",
+                icon: FaBriefcase,
+                text: "Business and Economics"
+            },
+            {
+                id: 4,
+                type: "course",
+                icon: FaSolarPanel,
+                text: "Renewable Energy and Sustainability"
+            },
+            {
+                id: 5,
+                type: "course",
+                icon: FaBrain,
+                text: "Data Science and Artificial Intelligence"
+            },
+            {
+                id: 6,
+                type: "course",
+                icon: FaWater,
+                text: "Marine and Environmental Studies"
+            },
+            {
+                id: 7,
+                type: "course",
+                icon: FaUsers,
+                text: "Social Sciences"
+            },
+            {
+                id: 8,
+                type: "course",
+                icon: FaHeartPulse,
+                text: "Health and Life Sciences"
+            },
+            {
+                id: 9,
+                type: "course",
+                icon: FaCompassDrafting,
+                text: "Architecture and Design"
+            }
+        ]
+    },
+    {
+       type: "p",
+       content: "When selecting a programme, students should consider the curriculum, duration, language of instruction, admission criteria and career opportunities associated with the degree."
+    },
+    {
+        type: "h2",
+        content: "Universities Where Ideas Become Opportunities"
+    },
+    {
+        type: "p",
+        content:
+        "Norway has several established higher education institutions with strong academic and research profiles. Some recognised names include"
+    },
+    {
+        type: "university-list",
+        items: [
+        {
+            id: 1,
+            src: "/images/destinations/norway/universities/university-of-oslo.svg",
+            alt: "University of Oslo",
+            title: "University of Oslo"
+        },
+        {
+            id: 2,
+            src: "/images/destinations/norway/universities/ntnu.svg",
+            alt: "Norwegian University of Science and Technology (NTNU)",
+            title: "Norwegian University of Science and Technology (NTNU)"
+        },
+        {
+            id: 3,
+            src: "/images/destinations/norway/universities/university-of-bergen.svg",
+            alt: "University of Bergen",
+            title: "University of Bergen"
+        },
+        {
+            id: 4,
+            src: "/images/destinations/norway/universities/uit.svg",
+            alt: "UiT The Arctic University of Norway",
+            title: "UiT The Arctic University of Norway"
+        },
+        {
+            id: 5,
+            src: "/images/destinations/norway/universities/norwegian-university-of-life-sciences.svg",
+            alt: "Norwegian University of Life Sciences",
+            title: "Norwegian University of Life Sciences"
+        },
+        ]
+    },
+    {
+        type: "p",
+        content:
+        "The right university depends on the student's preferred subject, academic profile, location and programme requirements. Comparing different institutions before applying can help students make a more informed choice."
+    },
+    {
+        type:"h2",
+        content: "What Should Indian Students Prepare for Admission?"
+    },
+    {
+        type: "p",
+        content: "Admission requirements vary according to the university and programme. For undergraduate studies, students generally need to meet the required upper-secondary education criteria. For master's programmes, applicants usually need a relevant bachelor&#39;s degree from a recognised institution."
+    },
+    {
+      type: "p",
+      content: "Universities may also ask for academic transcripts, proof of English-language proficiency, passport details, motivation letters and other supporting documents. Some programmes can have additional subject-specific requirements, so students should carefully review the criteria for their chosen course."
+    },
+    {
+       type: "h2",
+       content: "Your Application Starts with the Right Planning"
+    },
+    {
+       type: "p",
+       content: [
+        {
+            type: "text",
+            text: "The "
+        },
+        {
+            type: "bold",
+            text: "admission process for Norway"
+        },
+        {
+            type: "text",
+            text: " begins with identifying suitable programmes and checking their eligibility requirements. Students then prepare the required documents and submit their applications within the relevant deadlines."
+        }
+       ]
+    },
+    {
+        type: "p",
+        content: "Once admission is confirmed, students can move forward with accommodation planning, financial arrangements and the required immigration formalities. Beginning the process early gives students enough time to handle each stage properly."
+    },
+    {
+       type: "h2",
+       content: "Turn Classroom Learning into Real Experience"
+    },
+    {
+       type:"p",
+       content: "Students may have opportunities to gain work experience alongside their education, subject to the conditions of their residence permit and applicable rules. This can help international students develop professional skills, gain workplace exposure and understand the local working environment."
+    },
+    {
+        type: "p",
+        content: "After completing their studies, career opportunities depend on the student&#39;s qualification, experience, field and applicable employment and residence regulations. Technology, engineering, renewable energy, business and research are among the areas students may explore."
+    },
+    {
+        type: "h2",
+        content: "A Student Life Surrounded by Nature"
+    },
+    {
+        type: "p",
+        content: [
+            {
+                type: "text",
+                text: "One of the unique aspects of "
+            },
+            {
+                type: "bold",
+                text: "student life in Norway"
+            },
+            {
+                type: "text",
+                text: "is the opportunity to experience both modern cities and spectacular natural landscapes. Students can explore fjords, mountains, forests and coastal areas while enjoying cultural activities in cities such as Oslo, Bergen and Trondheim."
+            }
+        ]
+    },
+    {
+        type: "p",
+        content: "Norway has cold winters, mild-to-cool summers and significant seasonal variation. Students should be prepared for shorter winter daylight hours in many parts of the country, while northern regions can offer the chance to experience the Northern Lights."
+    },
+    {
+      type: "h2",
+      content: "Plan Your Norway Experience with Indo-European"
+    },
+    {
+        type: "p",
+        content:
+        "Choosing a study destination involves several decisions, from selecting the right programme and university to understanding costs, documentation and visa requirements. Indo-European can assist students with course selection, university applications, documentation, visa guidance and other essential stages of the journey."
+    },
+    {
+        type: "p",
+        content: [
+            {
+              type: "text",
+              text: "With the right planning, "
+            },
+            {
+                type: "bold",
+                text: "study in Norway for Indian students"
+            },
+            {
+                type: "text",
+                text: " can become an opportunity to gain an international qualification, experience a new culture and develop skills for a global career."
+            }
+        ]
+    },
     ]
     },
 ]

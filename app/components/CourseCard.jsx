@@ -10,7 +10,7 @@ const CourseCard = async () => {
       image: "/images/courses/bachelors.webp",
       duration: "3 - 4 Years",
       description: "Start your academic journey with internationally recognized undergraduate degrees in engineering, business, IT, healthcare, design, and other high-demand fields.",
-      href: "/courses/bachelors",
+      href: "/courses-finder",
       color: "bg-blue-600",
     },
     {
@@ -18,7 +18,7 @@ const CourseCard = async () => {
       image: "/images/courses/masters.webp",
       duration: "1 - 2 Years",
       description: "Gain advanced knowledge, industry-focused skills, and global exposure through specialized postgraduate programs designed to accelerate your career growth.",
-      href: "/courses/masters",
+      href: "/courses-finder",
       color: "bg-emerald-600",
     },
     {
@@ -26,7 +26,7 @@ const CourseCard = async () => {
       image: "/images/courses/phd.webp",
       duration: "3 - 5 Years",
       description: "Conduct innovative research under experienced faculty and access doctoral opportunities that support academic, scientific, and professional advancement worldwide.",
-      href: "/courses/phd",
+      href: "/courses-finder",
       color: "bg-purple-600",
     },
   ]

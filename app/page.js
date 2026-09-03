@@ -53,7 +53,7 @@ export default function Home() {
             <CourseCard />
           </div>
           <div className="mt-10 text-end">
-              <Link className="font-semibold ms-auto text-sm lg:text-md text-white bg-primary py-3 px-4 rounded-md hover:bg-primary/90 transition-all ease-in-out duration-500" href={'/courses'}>Explore Courses&nbsp;<FiExternalLink className="inline-block" /></Link>
+              <Link className="font-semibold ms-auto text-sm lg:text-md text-white bg-primary py-3 px-4 rounded-md hover:bg-primary/90 transition-all ease-in-out duration-500" href={'/courses-finder'}>Explore Courses&nbsp;<FiExternalLink className="inline-block" /></Link>
           </div>
        </div>
       </section>
@@ -112,80 +112,79 @@ export default function Home() {
               <FiExternalLink className="ml-2 inline-block" />
             </Link>
           </div>
+        <div className="grid gap-6 lg:grid-cols-2 lg:h-150">
+          <div className="flex h-full flex-col overflow-hidden rounded-xl bg-white shadow-md">
+            <Image
+              src={blogs[0].image}
+              alt={blogs[0].title}
+              width={540}
+              height={360}
+              className="h-60 w-full object-cover"
+            />
 
-<div className="grid gap-6 lg:grid-cols-2 lg:h-150">
-  <div className="flex h-full flex-col overflow-hidden rounded-xl bg-white shadow-md">
-    <Image
-      src={blogs[0].image}
-      alt={blogs[0].title}
-      width={540}
-      height={360}
-      className="h-60 w-full object-cover"
-    />
+            <div className="flex flex-1 flex-col p-6">
+              <span className="mb-3 text-sm font-medium text-gray-500">
+                {blogs[0].date}
+              </span>
 
-    <div className="flex flex-1 flex-col p-6">
-      <span className="mb-3 text-sm font-medium text-gray-500">
-        {blogs[0].date}
-      </span>
+              <h3 className="font-Jakarta text-lg md:text-xl lg:text-2xl font-bold text-primary">
+                {blogs[0].title}
+              </h3>
 
-      <h3 className="font-Jakarta text-lg md:text-xl lg:text-2xl font-bold text-primary">
-        {blogs[0].title}
-      </h3>
+              <p className="mt-4 flex-1 text-sm md:text-md lg:text-lg font-manrope leading-7 text-gray-600">
+                {blogs[0].description.slice(0, 310)}{"..."}
+              </p>
 
-      <p className="mt-4 flex-1 text-sm md:text-md lg:text-lg font-manrope leading-7 text-gray-600">
-        {blogs[0].description.slice(0, 310)}{"..."}
-      </p>
-
-      <Link
-        href={`/blogs/${blogs[0].slug}`}
-        className="mt-4 inline-flex w-fit text-sm md:text-md lg:text-lg items-center rounded-md bg-primary px-4 py-2 text-white transition hover:bg-primary/90"
-      >
-        Read More
-        <FaArrowRightLong className="ml-2" />
-      </Link>
-    </div>
-  </div>
-  <div className="flex h-full flex-col gap-6">
-    {blogs.slice(1, 3).map((blog) => (
-      <div
-        key={blog.id}
-        className="flex flex-1 overflow-hidden rounded-xl bg-white shadow-md"
-      >
-        <Image
-          src={blog.image}
-          alt={blog.title}
-          width={280}
-          height={250}
-          className="w-[40%] object-cover"
-        />
-
-        <div className="flex flex-1 flex-col justify-between p-5">
-          <div>
-            <span className="text-sm font-medium text-gray-500">
-              {blog.date}
-            </span>
-
-            <h4 className="mt-2 font-Jakarta text-sm md:text-lg lg:text-xl font-bold text-primary">
-              {blog.title}
-            </h4>
-
-            <p className="mt-3 text-xs md:text-sm leading-6 text-gray-600 line-clamp-3">
-              {blog.description.slice(0, 150)}{"..."}
-            </p>
+              <Link
+                href={`/blogs/${blogs[0].slug}`}
+                className="mt-4 inline-flex w-fit text-sm md:text-md lg:text-lg items-center rounded-md bg-primary px-4 py-2 text-white transition hover:bg-primary/90"
+              >
+                Read More
+                <FaArrowRightLong className="ml-2" />
+              </Link>
+            </div>
           </div>
+          <div className="flex h-full flex-col gap-6">
+            {blogs.slice(1, 3).map((blog) => (
+              <div
+                key={blog.id}
+                className="flex flex-1 overflow-hidden rounded-xl bg-white shadow-md"
+              >
+                <Image
+                  src={blog.image}
+                  alt={blog.title}
+                  width={280}
+                  height={250}
+                  className="w-[40%] object-cover"
+                />
 
-          <Link
-            href={`/blogs/${blog.slug}`}
-            className="mt-4 inline-flex items-center font-semibold text-primary transition hover:text-secondary"
-          >
-            Read More
-            <FaArrowRightLong className="ml-2" />
-          </Link>
+                <div className="flex flex-1 flex-col justify-between p-5">
+                  <div>
+                    <span className="text-sm font-medium text-gray-500">
+                      {blog.date}
+                    </span>
+
+                    <h4 className="mt-2 font-Jakarta text-sm md:text-lg lg:text-xl font-bold text-primary">
+                      {blog.title}
+                    </h4>
+
+                    <p className="mt-3 text-xs md:text-sm leading-6 text-gray-600 line-clamp-3">
+                      {blog.description.slice(0, 150)}{"..."}
+                    </p>
+                  </div>
+
+                  <Link
+                    href={`/blogs/${blog.slug}`}
+                    className="mt-4 inline-flex items-center font-semibold text-primary transition hover:text-secondary"
+                  >
+                    Read More
+                    <FaArrowRightLong className="ml-2" />
+                  </Link>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
-    ))}
-  </div>
-</div>
         </div>
       </section>
        {/* <SwiperSlider heroSlides={heroSlides}/> */}
