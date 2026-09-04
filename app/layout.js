@@ -3,6 +3,10 @@ import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ReduxProvider from "@/Redux/ReduxProvider";
+import Link from "next/link";
+import { FaWhatsapp } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
+import ScrollAnimate from "./components/ScrollAnimate";
 
 const PlusJakartaSans = Plus_Jakarta_Sans({
   variable: "--font-Plus-Jakarta-sans",
@@ -35,6 +39,12 @@ export default function RootLayout({ children }) {
         {children}
         </ReduxProvider>
         <Footer />
+        <ScrollAnimate direction="up" className="bg-orange-700 rounded-full z-2 w-12 h-12 shadow-2xl shadow-zinc-600 flex justify-center items-center fixed bottom-26 right-6 hover:scale-110 transition-transform duration-500 ease-in-out">
+        <Link href="tel:+919650133355"><FaPhoneAlt className="size-6 inline-block text-white shadow-2xl shadow-zinc-500"/></Link>
+        </ScrollAnimate>
+        <ScrollAnimate direction="up" className="bg-green-700 rounded-full z-2 w-12 h-12 shadow-2xl shadow-zinc-600 flex justify-center items-center fixed bottom-10 right-6 hover:scale-110 transition-transform duration-500 ease-in-out">
+        <Link href="https://wa.link/67ng4e"><FaWhatsapp className="size-8 inline-block text-white shadow-2xl shadow-zinc-500"/></Link>
+        </ScrollAnimate>
         </body>
     </html>
   );

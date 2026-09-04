@@ -207,7 +207,7 @@ const destinations = [
                <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 justify-center items-center gap-10 mt-12'>
                 {countries.map((item, index) => {
                   return <Link className='flex justify-center items-center flex-col gap-5' key={item.id} href={item.link}>
-                         <Image className='rounded-md hover:scale-105 transition-all duration-500 ease-in-out cursor-pointer' height={80} width={120} src={item.image} alt={item.title}/>
+                         <Image className='shadow-2xl border border-primary shadow-zinc-400 rounded-md hover:scale-105 transition-all duration-500 ease-in-out cursor-pointer' height={80} width={120} src={item.image} alt={item.title}/>
                          <span className='text-sm lg:text-md font-Jakarta font-semibold'>{item.title}</span>
                   </Link>
                 })}
@@ -222,7 +222,7 @@ const destinations = [
                <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 justify-center items-center gap-10 mt-12'>
                 {destinations.map((item, index) => {
                   return <Link className='flex justify-center items-center flex-col gap-5' key={item.id} href={item.link}>
-                         <Image className='rounded-md hover:scale-105 transition-all duration-500 ease-in-out cursor-pointer' height={80} width={120} src={item.image} alt={item.title}/>
+                         <Image className='shadow-2xl shadow-zinc-400 border border-primary rounded-md hover:scale-105 transition-all duration-500 ease-in-out cursor-pointer' height={80} width={120} src={item.image} alt={item.title}/>
                          <span className='text-sm lg:text-md font-Jakarta font-semibold'>{item.title}</span>
                   </Link>
                 })}
