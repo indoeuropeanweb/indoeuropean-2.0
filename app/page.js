@@ -12,7 +12,7 @@ import { blogs } from "@/public/data/blogs";
 
 
 export default function Home() {
-
+  const blogsData = blogs.reverse();
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans">
        <HeroSlider />
@@ -115,8 +115,8 @@ export default function Home() {
         <div className="grid gap-6 lg:grid-cols-2 lg:h-150">
           <div className="flex h-full flex-col overflow-hidden rounded-xl bg-white shadow-md">
             <Image
-              src={blogs[0].image}
-              alt={blogs[0].title}
+              src={blogsData[0].image}
+              alt={blogsData[0].title}
               width={540}
               height={360}
               className="h-60 w-full object-cover"
@@ -124,19 +124,19 @@ export default function Home() {
 
             <div className="flex flex-1 flex-col p-6">
               <span className="mb-3 text-sm font-medium text-gray-500">
-                {blogs[0].date}
+                {blogsData[0].date}
               </span>
 
               <h3 className="font-Jakarta text-lg md:text-xl lg:text-2xl font-bold text-primary">
-                {blogs[0].title}
+                {blogsData[0].title}
               </h3>
 
               <p className="mt-4 flex-1 text-sm md:text-md lg:text-lg font-manrope leading-7 text-gray-600">
-                {blogs[0].description.slice(0, 310)}{"..."}
+                {blogsData[0].metaDescription.slice(0, 550)}{"..."}
               </p>
 
               <Link
-                href={`/blogs/${blogs[0].slug}`}
+                href={`/blogs/${blogsData[0].slug}`}
                 className="mt-4 inline-flex w-fit text-sm md:text-md lg:text-lg items-center rounded-md bg-primary px-4 py-2 text-white transition hover:bg-primary/90"
               >
                 Read More
@@ -145,7 +145,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex h-full flex-col gap-6">
-            {blogs.slice(1, 3).map((blog) => (
+            {blogsData.slice(1, 3).map((blog) => (
               <div
                 key={blog.id}
                 className="flex flex-1 overflow-hidden rounded-xl bg-white shadow-md"
@@ -169,7 +169,7 @@ export default function Home() {
                     </h4>
 
                     <p className="mt-3 text-xs md:text-sm leading-6 text-gray-600 line-clamp-3">
-                      {blog.description.slice(0, 150)}{"..."}
+                      {blog.metaDescription.slice(0, 150)}{"..."}
                     </p>
                   </div>
 
