@@ -18,8 +18,7 @@ const BlogList = ({ blogs }) => {
   } = usePagination(blogs, 6);
 
   return (
-    <>
-      <div className="grid md:grid-cols-3 gap-6">
+    <>{blogs ? <> <div className="grid md:grid-cols-3 gap-6">
         {currentPageItems.map((blog) => (
           <Link
             href={`/blogs/${blog.slug}`}
@@ -130,7 +129,9 @@ const BlogList = ({ blogs }) => {
           </button>
         </div>
       </div>
-      </div>
+      </div></>: <div className="py-12 px-10 flex justify-center items-center">
+        <h4 className='text-md lg:text-base text-secondary font-Jakarta text-center font-semibold'>Sorry, Blogs not found !</h4>
+      </div>}
       </>
   );
 };
