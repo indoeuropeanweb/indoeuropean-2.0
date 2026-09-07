@@ -15,7 +15,7 @@ const BlogList = ({ blogs }) => {
     setCurrentPage,
     moveForward,
     moveBackward,
-  } = usePagination(blogs, 6);
+  } = usePagination(blogs, 9);
 
   return (
     <>{blogs ? <> <div className="grid md:grid-cols-3 gap-6">
@@ -104,7 +104,11 @@ const BlogList = ({ blogs }) => {
                   {/* Page button */}
                   <button
                     type="button"
-                    onClick={() => setCurrentPage(page)}
+                    onClick={() => {setCurrentPage(page) 
+                    window.scrollTo({
+                      top: 500,
+                      behavior: "smooth",
+                    });}}
                     className={`w-10 h-10 rounded-lg font-medium transition
                       ${
                         currentPage === page

@@ -12,19 +12,29 @@ const usePagination = (items = [], itemsPerPage = 6) => {
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
 
-    return items.slice(startIndex, endIndex);
+    return items.reverse().slice(startIndex, endIndex);
   }, [items, currentPage, itemsPerPage]);
 
   const moveForward = () => {
     setCurrentPage((prevPage) =>
       prevPage < pages ? prevPage + 1 : prevPage
     );
+    
+    window.scrollTo({
+      top: 500,
+      behavior: "smooth",
+    });
   };
 
   const moveBackward = () => {
     setCurrentPage((prevPage) =>
       prevPage > 1 ? prevPage - 1 : prevPage
     );
+    
+    window.scrollTo({
+      top: 500,
+      behavior: "smooth",
+    });
   };
 
   return {
