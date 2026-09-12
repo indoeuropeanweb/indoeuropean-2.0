@@ -92,12 +92,12 @@ const Footer = () => {
          <Image className='absolute left-10 top-2' height={180} width={110} src={'/images/logos/icef-agency.png'} alt="ICEF Agency"/>
          <h4 className="text-lg text-white lg:text-xl font-Jakarta relative font-semibold after:absolute after:-bottom-2 after:left-1/2 after:-translate-x-1/2 after:bg-secondary after:w-15 after:h-1">Our Branches</h4>
           <ul className='flex justify-center items-center gap-2 py-5 text-white flex-wrap'>
-             <li className='text-white'>New Delhi</li> |
-             <li className='text-white'>Chandigarh</li> | 
-             <li className='text-white'>Jalandhar</li> |
-             <li className='text-white'>Ludhiana</li> |
-             <li className='text-white'>Amritsar</li> |
-             <li className='text-white'>Patiala</li> 
+             <li className='text-white'><Link className="hover:underline" href={'/branches/new-delhi'}>New Delhi</Link></li> |
+             <li className='text-white'><Link className='hover:underline' href={"/branches/chandigarh"}>Chandigarh</Link></li> | 
+             <li className='text-white'><Link className='hover:underline' href={"/branches/jalandhar"}>Jalandhar</Link></li> |
+             <li className='text-white'><Link className='hover:underline' href={"/branches/ludhiana"}>Ludhiana</Link></li> |
+             <li className='text-white'><Link className='hover:underline' href={"/branches/amritsar"}>Amritsar</Link></li> |
+             <li className='text-white'><Link className='hover:underline' href={"/branches/patiala"}>Patiala</Link></li> 
           </ul>
          <p className='text-white text-sm lg:text-md'>Copyright {year} <Link className='text-secondary' href={'/'}>Indo European Study Abroad Consultant</Link>. All Rights Reserved</p>
        </div>

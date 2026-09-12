@@ -12,7 +12,7 @@ const usePagination = (items = [], itemsPerPage = 6) => {
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
 
-    return items.reverse().slice(startIndex, endIndex);
+    return items.slice(startIndex, endIndex);
   }, [items, currentPage, itemsPerPage]);
 
   const moveForward = () => {
