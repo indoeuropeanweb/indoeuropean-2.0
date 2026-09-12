@@ -504,6 +504,256 @@ const branches = [
         "Students can contact the Chandigarh branch at +91 8591101919 or email info@indoeuropean.in to discuss their study abroad requirements and plan their visit."
     }
   ]
+},
+{
+  id: 4,
+  title: "Study Abroad Consultants in Ludhiana",
+  heading: "Ludhiana Branch",
+  slug: "ludhiana",
+  metaTitle:
+    "Study Abroad Consultants in Ludhiana | Indo European",
+  metaDescription:
+    "Planning to study abroad from Ludhiana? Indo European Study Abroad Consultants provides personalised guidance on courses, universities, admissions, visas, scholarships and international education opportunities.",
+  image: "/images/branches/ludhiana/indo-ludhiana.webp",
+  address:
+    "2nd Floor, SCO-27, Adjacent to Park Plaza Hotel, Near Biryani by Kilo, Feroz Gandhi Market, Jila Kacheri Area, Model Gram, Ludhiana, Punjab – 141001",
+  phone: "+91 8591101919",
+  email: "info@indoeuropean.in",
+  mapUrl:
+    "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13693.95328408687!2d75.832354!3d30.900972!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a83bc00000045%3A0xa121b869226db986!2sIndo%20European!5e0!3m2!1sen!2sin!4v1789217783937!5m2!1sen!2sin",
+  directionUrl:
+    "https://maps.app.goo.gl/Ge6baAwNuyPAYsYd9",
+  keywords: [
+    "study abroad consultants in ludhiana",
+    "best study abroad consultants in ludhiana",
+    "study abroad consultants ludhiana",
+    "overseas education consultants in ludhiana",
+    "study abroad consultancy in ludhiana",
+    "study visa consultants in ludhiana",
+    "study in europe consultants ludhiana",
+    "europe study visa consultants in ludhiana",
+    "study abroad consultants near me ludhiana",
+    "study abroad consultants feroz gandhi market ludhiana",
+    "study abroad consultants model gram ludhiana",
+    "IELTS coaching in ludhiana",
+    "IELTS classes in ludhiana",
+    "study in germany consultants ludhiana",
+    "study in france consultants ludhiana",
+    "study in finland consultants ludhiana",
+    "study in denmark consultants ludhiana",
+    "study in latvia consultants ludhiana",
+    "study in lithuania consultants ludhiana"
+  ],
+
+  category: "ludhiana",
+
+  publishDate: "2026-09-12",
+
+  readingTime: "8 min read",
+
+  date: "September 2026",
+
+  sections: [
+
+    {
+      type: "paragraph",
+
+      content: [
+        {
+          type: "text",
+          text:
+            "Ludhiana is a growing choice for students who aspire to pursue higher education at international universities. With a wide range of countries, courses and institutions available, finding an option that matches your academic background and career plans can require the right direction. "
+        },
+
+        {
+          type: "link",
+          text: "Indo European Study Abroad Consultancy",
+          href: "/"
+        },
+
+        {
+          type: "text",
+          text:
+            " helps students in Ludhiana understand these opportunities and make informed choices about their overseas education."
+        }
+      ]
+    },
+
+    {
+      type: "paragraph",
+
+      content:
+        "From exploring suitable study destinations and courses to shortlisting universities and understanding admission requirements, students can receive personalised assistance at different stages of their journey. Our focus is to keep the process clear and student-friendly, helping you move from your initial idea of studying abroad to a well-planned application."
+    },
+
+    {
+      type: "heading",
+
+      content: "Turn Your Study Abroad Plans into a Clear Roadmap"
+    },
+
+    {
+      type: "paragraph",
+
+      content:
+        "Every student has different academic strengths, interests, budgets and career ambitions. Our counselling process begins by understanding these factors and then helping students explore suitable study destinations and programmes."
+    },
+
+    {
+      type: "paragraph",
+
+      content:
+        "Whether you are planning a Bachelor's after Class 12 or a Master's after graduation, you can discuss your goals with experienced counselors and understand the options available for your profile."
+    },
+
+    {
+      type: "heading",
+
+      content: "Discover Courses and Universities Worldwide"
+    },
+
+    {
+      type: "paragraph",
+
+      content:
+        "Students in Ludhiana can explore a broad range of international education opportunities through Indo European. Our expertise has a strong focus on European education, with destinations including Germany, France, Finland, Denmark, Latvia and Lithuania."
+    },
+
+    {
+      type: "paragraph",
+
+      content:
+        "Students can also explore opportunities in the UK, Canada, USA, Australia and New Zealand, depending on their academic background and chosen programme."
+    },
+
+    {
+      type: "paragraph",
+
+      content:
+        "From Business Administration and Computer Science to Engineering, Healthcare, Hospitality and other fields, students can explore programmes according to their interests and future career plans."
+    },
+
+    {
+      type: "heading",
+
+      content: "Guidance at Every Important Step"
+    },
+
+    {
+      type: "paragraph",
+
+      content:
+        "Our study abroad support is designed to simplify the different stages of the application journey. Students can receive assistance with:"
+    },
+
+    {
+      type: "twoColumn",
+
+      image: "/images/branches/ludhiana/indo-ludhiana.webp",
+
+      imageAlt: "Study abroad consultancy services in Ludhiana",
+
+      heading: "Our Study Abroad Services",
+
+      items: [
+        "Career and study abroad counselling",
+        "Country, course and university selection",
+        "University application and admission support",
+        "SOP, LOR and resume guidance",
+        "Student visa assistance",
+        "IELTS, PTE, TOEFL and Duolingo test preparation",
+        "Scholarship and financial guidance",
+        "Education loan assistance",
+        "Pre-departure support"
+      ]
+    },
+
+    {
+      type: "paragraph",
+
+      content:
+        "Our team aims to keep students informed throughout the process rather than leaving them to manage complicated application requirements on their own."
+    },
+
+    {
+      type: "heading",
+
+      content: "Visit Our Ludhiana Office"
+    },
+
+    {
+      type: "map",
+
+      title: "Visit Our Ludhiana Branch",
+
+      address:
+        "2nd floor, SCO -27, adjacent to Park Plaza Hotel, near Biryani by Kilo, Feroz Gandhi Market, Jila Kacheri Area, Model Gram, Ludhiana, Punjab 141001",
+
+      phone: "+91 8591101919",
+
+      email: "info@indoeuropean.in",
+
+      mapUrl:
+        "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13693.95328408687!2d75.832354!3d30.900972!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a83bc00000045%3A0xa121b869226db986!2sIndo%20European!5e0!3m2!1sen!2sin!4v1789217783937!5m2!1sen!2sin",
+
+      directionUrl:
+        "https://maps.app.goo.gl/Ge6baAwNuyPAYsYd9"
+    },
+    {
+      type: "subheading",
+      content: "Ludhiana Branch – Feroz Gandhi Market"
+    },
+    {
+      type: "paragraph",
+      content:
+        "Students from Ludhiana and nearby areas can visit our local office to discuss their overseas education plans and get guidance on courses, universities, applications and other study abroad queries."
+    },
+    {
+      type: "paragraph",
+      content:
+        "Our office is located at 2nd Floor, SCO-27, Feroz Gandhi Market, Model Gram, adjacent to Park Plaza Hotel and near Biryani by Kilo."
+    },
+    {
+      type: "heading",
+      content: "How to Reach Our Ludhiana Branch"
+    },
+    {
+      type: "paragraph",
+      content:
+        "The office is situated in Feroz Gandhi Market, Model Gram, adjacent to Park Plaza Hotel and near Biryani by Kilo. Students can use the location details on the official website for directions or contact the student desk before visiting."
+    },
+    {
+      type: "paragraph",
+      content:
+        "The central location makes it convenient for students travelling from different parts of Ludhiana to attend counselling sessions and discuss their study abroad plans."
+    }
+  ],
+  faqs: [
+    {
+      question:
+        "What are the benefits of studying abroad after Class 12?",
+      answer:
+        "Studying abroad after Class 12 gives students the opportunity to explore international universities, diverse academic programmes and global learning environments. The right destination depends on the student's academic background, interests and future career plans."
+    },
+    {
+      question:
+        "Can I study abroad with average academic marks?",
+      answer:
+        "Yes, students with different academic profiles can explore overseas education options. However, eligibility varies by country, university and programme, so it is important to check the specific admission requirements before applying."
+    },
+    {
+      question:
+        "Which course should I choose for studying abroad?",
+      answer:
+        "The right course depends on your previous education, interests, skills and career goals. Popular fields include Business, Computer Science, Engineering, Healthcare, Hospitality and other specialised programmes."
+    },
+    {
+      question:
+        "How long does the study abroad admission process take?",
+      answer:
+        "The timeline varies depending on the destination, university and intake. Students generally need time for university selection, document preparation, application submission, admission decisions and visa formalities, so starting early is recommended."
+    }
+  ]
 }
 ]
 

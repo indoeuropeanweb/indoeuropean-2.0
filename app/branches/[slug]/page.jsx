@@ -176,7 +176,6 @@ export default async function BranchPage({ params }){
               <section key={index} className="my-14">
                 <div className="grid grid-cols-1 lg:grid-cols-2 overflow-hidden rounded-3xl border border-gray-200 shadow-sm">
                   
-                  {/* Map */}
                   <div className="">
                     <iframe
                       src={section.mapUrl}

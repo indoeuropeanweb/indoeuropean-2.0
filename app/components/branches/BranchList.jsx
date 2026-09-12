@@ -14,7 +14,7 @@ const BranchList = ({ branches }) => {
   } = usePagination(branches, 9);
 
   return (
-    <>{branches ? <> <div className="flex justify-center items-center gap-6">
+    <>{branches ? <> <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center gap-2">
         {currentPageItems.map((branch) => (
         <section className="py-6 px-4" key={branch.id}>
         <div className="max-w-md mx-auto">
