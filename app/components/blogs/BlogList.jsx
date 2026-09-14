@@ -8,6 +8,9 @@ import { FaArrowRight } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa";
 
 const BlogList = ({ blogs }) => {
+
+  const bloglist = blogs.reverse();
+
   const {
     pages,
     currentPageItems,
@@ -15,10 +18,10 @@ const BlogList = ({ blogs }) => {
     setCurrentPage,
     moveForward,
     moveBackward,
-  } = usePagination(blogs, 9);
+  } = usePagination(bloglist, 9);
 
   return (
-    <>{blogs ? <> <div className="grid md:grid-cols-3 gap-6">
+    <>{bloglist ? <> <div className="grid md:grid-cols-3 gap-6">
         {currentPageItems.map((blog) => (
           <Link
             href={`/blogs/${blog.slug}`}

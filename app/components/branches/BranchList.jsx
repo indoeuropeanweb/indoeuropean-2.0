@@ -2,6 +2,10 @@
 import usePagination from "@/utils/usePagination";
 import { FaArrowRight } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa";
+import Link from "next/link";
+import { MdArrowOutward } from "react-icons/md";
+import { useRouter } from "next/navigation";
+import Heading from "../Heading";
 
 const BranchList = ({ branches }) => {
   const {
@@ -12,51 +16,55 @@ const BranchList = ({ branches }) => {
     moveForward,
     moveBackward,
   } = usePagination(branches, 9);
+  const router = useRouter();
 
   return (
-    <>{branches ? <> <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center gap-2">
+    <>
+    <div className="pb-12 px-10">
+    <Heading heading={'Study Abroad Consultants Near You | Indo European '} colorHeading={'Branches'} />
+    <p className="text-md lg:text-base font-manrope mt-5 text-center">Locate your nearest Indo European Study Abroad Consultants India branch. Get tailored advice on studying abroad - university choice, admissions, student visas, scholarships, IELTS prep and more.</p>
+    {branches ? <> <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto mt-12">
         {currentPageItems.map((branch) => (
-        <section className="py-6 px-4" key={branch.id}>
-        <div className="max-w-md mx-auto">
-          <div className="grid grid-cols-1 bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm">
-            <div className="relative">
+        <section onClick={() => router.push(`/branches/${branch.slug}`)} className="relative cursor-pointer rounded-md border-2 border-dotted border-secondary hover:scale-102 transition-transform ease-in-out duration-500" key={branch.id}>
+        <div className="mx-auto h-full">
+          <div className="bg-white border h-full border-gray-200 rounded-xl overflow-hidden shadow-sm">
+            <div className="">
               <iframe
                 src={branch.mapUrl}
-                className=""
+                className="w-full aspect-video"
                 loading="lazy"
-                width={500}
-                height={200}
                 allowFullScreen
                 referrerPolicy="no-referrer-when-downgrade"
                 title={`${branch.title} location`}
               />
+              <Link href={`/branches/${branch.slug}`} className="h-10 w-10 rounded-full flex justify-center items-center bg-secondary absolute -top-4 -right-4 z-5"><MdArrowOutward className="inline-block size-5 text-white"/></Link>
             </div>
             <div className="p-4 flex flex-col">
               <div>
                 <div className="flex gap-2 mb-3">
                   <span className="text-sm">📍</span>
-                    <p className="text-gray-600 text-md leading-relaxed">
+                    <p className="text-gray-600 text-sm leading-relaxed">
                       {branch.address}
                     </p>
                 </div>
                 <div className="flex gap-2 mb-2">
                   <span className="text-sm">📞</span>
-                    <a
+                    <Link
                       href={`tel:${branch.phone}`}
-                      className="text-gray-600 text-md hover:text-[#048D4E]"
+                      className="text-gray-600 text-sm hover:text-[#048D4E]"
                     >
                       {branch.phone}
-                    </a>
+                    </Link>
                 </div>
                 <div className="flex gap-2">
                   <span className="text-sm">✉️</span>
-                    <a
+                    <Link
                       href={`mailto:${branch.email}`}
-                      className="text-gray-600 text-md break-all hover:text-[#048D4E]"
+                      className="text-gray-600 text-sm break-all hover:text-[#048D4E]"
                     >
                       {branch.email}
-                    </a>
-                  <a href={`/branches/${branch.slug}`} rel="noopener noreferrer" className="ms-auto pt-4" > <span className="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-primary text-white text-sm md:text-md font-semibold hover:bg-primary/85 transition"> Know More → </span> </a>
+                    </Link>
+                  {/* <a href={`/branches/${branch.slug}`} rel="noopener noreferrer" className="mt-5"> <span className="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-primary text-white text-sm md:text-md font-semibold hover:bg-primary/85 transition"> Know More → </span> </a> */}
                 </div>
               </div>
             </div>
@@ -65,7 +73,7 @@ const BranchList = ({ branches }) => {
       </section>
         ))}
       </div>
-      <div className='flex justify-center items-center gap-5 my-10'>
+      {/* <div className='flex justify-center items-center gap-5 my-10'>
          <div className="flex gap-4">
         <div className="flex items-center justify-center gap-2 mt-4">
           <button
@@ -77,7 +85,6 @@ const BranchList = ({ branches }) => {
            <FaArrowLeft className="size-4 group-hover:-translate-x-1 transition-transform duration-500 ease-in-out inline-block"/>&nbsp; Previous
           </button>
 
-          {/* Page Numbers */}
           {Array.from({ length: pages }, (_, index) => index + 1)
             .filter((page) => {
               if (pages <= 7) {
@@ -141,9 +148,11 @@ const BranchList = ({ branches }) => {
           </button>
         </div>
       </div>
-      </div></>: <div className="py-12 px-10 flex justify-center items-center">
+      </div> */}
+      </>: <div className="py-12 px-10 flex justify-center items-center">
         <h4 className='text-md lg:text-base text-secondary font-Jakarta text-center font-semibold'>Sorry, Blogs not found !</h4>
       </div>}
+          </div>
       </>
   );
 };
