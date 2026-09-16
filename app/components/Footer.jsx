@@ -84,8 +84,37 @@ const Footer = () => {
                 <li><Link href="/events" className="font-semibold text-sm lg:text-base text-primary hover:underline">Events</Link></li>
                 <li><Link href="/blogs" className="font-semibold text-sm lg:text-base text-primary hover:underline">Blogs</Link></li>
               </ul>
-            </div>
+            </div> 
           </div>
+        </div>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-15 pt-8 px-5'>
+            <div>
+              <h4 className="relative text-sm lg:text-base font-bold uppercase text-primary after:absolute after:left-0 after:-bottom-1.5 after:h-1 after:w-20 after:rounded-full after:bg-linear-to-r after:from-secondary after:to-primary after:content-['']">
+               Destinations
+              </h4>
+              <ul className="mt-4 space-y-3">
+                <li><Link href="/destinations" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in Europe</Link></li>
+                <li><Link href="/destinations/study-in-australia" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in Australia</Link></li>
+                <li><Link href="/destinations/study-in-canada" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in Canada</Link></li>
+                <li><Link href="/destinations/study-in-new-zealand" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in New Zealand</Link></li>
+                <li><Link href="/destinations/study-in-singapore" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in Singapore</Link></li>
+                <li><Link href="/destinations/study-in-uk" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in UK</Link></li>
+                <li><Link href="/destinations/study-in-usa" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in USA</Link></li>
+                <li><Link href="/destinations/study-in-ireland" className="font-semibold text-sm lg:text-base text-primary hover:underline">Study in Ireland</Link></li>
+              </ul>
+            </div> 
+            <div>
+              <h4 className="relative text-sm lg:text-base font-bold uppercase text-primary after:absolute after:left-0 after:-bottom-1.5 after:h-1 after:w-20 after:rounded-full after:bg-linear-to-r after:from-secondary after:to-primary after:content-['']">
+               IELTS
+              </h4>
+              <ul className="mt-4 space-y-3">
+                <li><Link href="/ielts-coaching/what-is-ielts" className="font-semibold text-sm lg:text-base text-primary hover:underline">What is IELTs?</Link></li>
+                <li><Link href="/ielts-coaching/why-take-ielts-with-indoeuropean" className="font-semibold text-sm lg:text-base text-primary hover:underline">Why take IELTs with Indo European</Link></li>
+                <li><Link href="/ielts-coaching/ielts-preparation" className="font-semibold text-sm lg:text-base text-primary hover:underline">IELTS Preparation</Link></li>
+                <li><Link href="/ielts-coaching/book-an-ielts-test" className="font-semibold text-sm lg:text-base text-primary hover:underline">Book an IELTS Test</Link></li>
+                <li><Link href="/ielts-coaching/ielts-in-west-delhi" className="font-semibold text-sm lg:text-base text-primary hover:underline">IELTS in West Delhi</Link></li>
+              </ul>
+            </div>
         </div>
      </div>
        <div className='text-center py-4 border-t border-white bg-primary relative'>
