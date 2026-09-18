@@ -10362,7 +10362,7 @@ sections: [
           {
             type: "link",
             text: "Study Abroad Consultants",
-            href: "https://indoeuropean.in/"
+            href: "/"
           },
           {
             type: "text",
@@ -10380,7 +10380,7 @@ sections: [
           {
             type: "link",
             text: "Study in Europe",
-            href: "https://indoeuropean.in/destinations/study-in-europe"
+            href: "/destinations"
           },
           {
             type: "text",
@@ -10805,26 +10805,26 @@ sections: [
     }
   ],
   faqs: [
-    {
-      question: "What are the requirements to study in Europe after 12th?",
-      answer: "To study in Europe after completing 12th, students generally need academic transcripts, proof of English proficiency (such as IELTS/TOEFL), a valid passport, a statement of purpose (SOP), and letters of recommendation. Some courses, like engineering or medicine, may have additional subject-specific requirements."
-    },
-    {
-      question: "Which are the best countries in Europe for Indian students after 12th?",
-      answer: "Popular European destinations include Germany, Latvia, France, and Lithuania. These countries offer high-quality education, affordable tuition fees, and a wide range of English-taught bachelor’s programmes."
-    },
-    {
-      question: "Is it possible to study in Europe for free after 12th?",
-      answer: "Yes, countries like Germany and Norway offer tuition-free or very low-cost education at public universities. Students usually only need to pay a semester fee and cover living expenses."
-    },
-    {
-      question: "What are the best courses to study in Europe after 12th?",
-      answer: "Some of the most popular courses include Engineering, Business and Management, Information Technology (IT), and Health Sciences. However, students can also explore fields like design, social sciences, and sustainability based on their interests."
-    },
-    {
-      question: "Are there scholarships available for undergraduate students in Europe?",
-      answer: "Yes, many European universities offer merit-based scholarships and tuition fee waivers for international students. These can significantly reduce the cost of studying and are usually awarded based on academic performance."
-    }
-  ]
+  {
+    question: "Why should Indian students choose to study in Lithuania?",
+    answer: "Lithuania offers internationally recognized education, affordable tuition fees and living costs, English-taught programs, a safe student-friendly environment, and growing opportunities in fields such as IT, engineering, business, and technology."
+  },
+  {
+    question: "What services do Study in Lithuania consultants in Delhi provide?",
+    answer: "Study abroad consultants can assist students with course and university selection, career counselling, admission applications, visa guidance, test preparation, scholarship and financial planning, accommodation, pre-departure preparation, and post-arrival support."
+  },
+  {
+    question: "What are the popular courses to study in Lithuania?",
+    answer: "Popular study areas in Lithuania include management, information technology, engineering, business, and other technology-related programs. Lithuanian universities also offer a wide range of English-taught Bachelor's, Master's, and PhD programs."
+  },
+  {
+    question: "How can Indo-European Study Abroad Consultants help with studying in Lithuania?",
+    answer: "Indo-European Study Abroad Consultants can provide end-to-end guidance, including selecting a suitable course and university, preparing and submitting applications, visa assistance, scholarship guidance, and support with accommodation and settling abroad."
+  },
+  {
+    question: "Is Lithuania an affordable study destination for Indian students?",
+    answer: "Lithuania is considered a relatively affordable European study destination, with lower tuition fees and living costs compared with many Western European countries. Students should compare the costs of their chosen university, program, city, accommodation, and other expenses before planning their budget."
+  }
+]
 },
 ]
