@@ -139,17 +139,6 @@ export default async function IELTSPage({ params }) {
         )}
       <section className="py-10 px-5">
         <div className="container mx-auto max-w-4xl">
-          {/* Hero Image */}
-          {/* {ielt.image && (
-            <Image
-              src={ielt.image}
-              alt={ielt.title}
-              className="w-full rounded-xl"
-              width={1200}
-              height={630}
-              priority
-            />
-          )} */}
 
           {/* Title */}
           <h1 className="text-2xl md:text-3xl font-bold font-aino text-primary mt-8">
@@ -158,7 +147,6 @@ export default async function IELTSPage({ params }) {
 
           {/* Content */}
           {ielt.sections?.map((section, index) => {
-
             if (section.type === "image") {
               return (
                 <Image
@@ -249,9 +237,6 @@ export default async function IELTSPage({ params }) {
               );
             }
 
-            /* --------------------------------
-               LIST
-            -------------------------------- */
             if (section.type === "list") {
               return (
                 <ul
@@ -274,9 +259,6 @@ export default async function IELTSPage({ params }) {
               );
             }
 
-            /* --------------------------------
-               TABLE
-            -------------------------------- */
             if (section.type === "table") {
               return (
                 <div
@@ -330,9 +312,6 @@ export default async function IELTSPage({ params }) {
             return null;
           })}
 
-          {/* --------------------------------
-              FAQ
-          -------------------------------- */}
           {ielt.faqs?.length > 0 && (
             <div className="mt-12">
               <h2 className="text-2xl md:text-3xl font-semibold font-aino text-primary mb-6">
