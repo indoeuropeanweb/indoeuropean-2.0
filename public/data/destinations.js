@@ -66,7 +66,7 @@ export const destinations = [
     id: 1,
     heading: "Study in Australia",
     title: "Study in Australia",
-    slug: "study-in-australia",
+    slug: "study-in-australia-consultant",
     metaTitle:
         "Study in Australia | Indo European Study Abroad Consultancy",
     metaDescription:
@@ -458,7 +458,7 @@ export const destinations = [
     id: 2,
     heading: "Study in Canada",
     title: "Turn Your Education into a Global Career",
-    slug: "study-in-canada",
+    slug: "study-in-canada-consultant",
     metaTitle:
         "Study in Canada | Indo European Study Abroad Consultancy",
     metaDescription:
@@ -873,7 +873,7 @@ export const destinations = [
     id: 3,
     heading: "Study in UK",
     title: "Earn a Globally Respected Degree in Less Time",
-    slug: "study-in-uk",
+    slug: "study-in-uk-consultant",
     metaTitle:
         "Study in United Kingdom | Indo European Study Abroad Consultancy",
     metaDescription:
@@ -1263,7 +1263,7 @@ export const destinations = [
     id: 4,
     heading: "Study in Denmark",
     title: "Study Masters in Denmark | Top Universities, Courses, Fees & Student Visa Guide",
-    slug: "study-in-denmark",
+    slug: "study-in-denmark-consultant",
     metaTitle:
         "Study in Denmark | Indo European Study Abroad Consultancy",
     metaDescription:
@@ -1677,7 +1677,7 @@ export const destinations = [
     id: 5,
     heading: "Study in New Zealand",
     title: "Build a Global Career with a World-Class Education in New Zealand",
-    slug: "study-in-new-zealand",
+    slug: "study-in-new-zealand-consultant",
     metaTitle:
         "Study in New Zealand | Indo European Study Abroad Consultancy",
     metaDescription:
@@ -2082,7 +2082,7 @@ export const destinations = [
     id: 6,
     heading: "Study in Singapore",
     title: "Study in Singapore – Where Global Education Meets Limitless Opportunities",
-    slug: "study-in-singapore",
+    slug: "study-in-singapore-consultant",
     metaTitle:
         "Study in Singapore | Indo European Study Abroad Consultancy",
     metaDescription:
@@ -2486,7 +2486,7 @@ export const destinations = [
     id: 7,
     heading: "Study in USA",
     title: "Your Journey to Global Excellence Starts with Study in USA",
-    slug: "study-in-usa",
+    slug: "study-in-usa-consultant",
     metaTitle:
         "Study in USA | Indo European Study Abroad Consultancy",
     metaDescription:
@@ -2896,7 +2896,7 @@ export const destinations = [
     id: 8,
     heading: "Study in Ireland",
     title: "Earn a Globally Recognised Degree in Europe's Fastest-Growing Education Hub",
-    slug: "study-in-ireland",
+    slug: "study-in-ireland-consultant",
     metaTitle:
         "Study in Ireland | Indo European Study Abroad Consultancy",
     metaDescription:
@@ -3306,7 +3306,7 @@ export const destinations = [
     id: 9,
     heading: "Study in Finland",
     title: "Discover a Future-Ready Education in the World's Happiest Country",
-    slug: "study-in-finland",
+    slug: "study-in-finland-consultant",
     metaTitle:
         "Study in Finland | Indo European Study Abroad Consultancy",
     metaDescription:
@@ -3807,7 +3807,7 @@ export const destinations = [
     id: 10,
     heading: "Study in Lithuania",
     title: "Experience Affordable European Education with Global Career Opportunities",
-    slug: "study-in-lithuania",
+    slug: "study-in-lithuania-consultant",
     metaTitle:
         "Study in Lithuania | Indo European Study Abroad Consultancy",
     metaDescription:
@@ -4269,7 +4269,7 @@ export const destinations = [
     id: 11,
     heading: "Study in Germany",
     title: "Where Innovation, Quality Education, and Global Careers Come Together",
-    slug: "study-in-germany",
+    slug: "study-in-germany-consultant",
     metaTitle:
         "Study in Germany | Indo European Study Abroad Consultancy",
     metaDescription:
@@ -4739,7 +4739,7 @@ export const destinations = [
     id: 12,
     heading: "Study in Sweden",
     title: "Shape Your Future Through Innovation, Research, and Global Learning",
-    slug: "study-in-sweden",
+    slug: "study-in-sweden-consultant",
     metaTitle:
         "Study in Sweden | Indo European Study Abroad Consultancy",
     metaDescription:
@@ -5220,7 +5220,7 @@ export const destinations = [
     id: 13,
     heading: "Study in Latvia",
     title: "Study in Latvia – Affordable European Education for Indian Students",
-    slug: "study-in-latvia",
+    slug: "study-in-latvia-consultant",
     metaTitle:
         "Study in Latvia | Indo European Study Abroad Consultancy",
     metaDescription:
@@ -5721,7 +5721,7 @@ export const destinations = [
     id: 14,
     heading: "Study in France",
     title: "Unlock World-Class Education, Cultural Excellence, and Global Career Opportunities",
-    slug: "study-in-france",
+    slug: "study-in-france-consultant",
     metaTitle:
         "Study in France | Indo European Study Abroad Consultancy",
     metaDescription:
@@ -6276,7 +6276,7 @@ export const destinations = [
     id: 15,
     heading: "Study in Estonia",
     title: "Best courses to study in Estonia for Indian students",
-    slug: "study-in-estonia",
+    slug: "study-in-estonia-consultant",
     metaTitle:
         "Study in Estonia | Indo European Study Abroad Consultancy",
     metaDescription:
@@ -6825,7 +6825,7 @@ export const destinations = [
     id: 16,
     heading: "Study in Netherlands",
     title: "Study in Netherlands: Shape Your Future in Europe",
-    slug: "study-in-netherlands",
+    slug: "study-in-netherlands-consultant",
     metaTitle:
         "Study in Netherlands | Indo European Study Abroad Consultancy",
     metaDescription:
@@ -7379,7 +7379,7 @@ export const destinations = [
     id: 17,
     heading: "Study in Austria",
     title: "Your Journey to Study in Austria Starts Here",
-    slug: "study-in-austria",
+    slug: "study-in-austria-consultant",
     metaTitle:
         "Your Journey to Study in Austria Starts Here",
     metaDescription:
@@ -8069,7 +8069,7 @@ export const destinations = [
     id: 18,
     heading: "Study in Spain",
     title: "Study in Spain for a Successful Future",
-    slug: "study-in-spain",
+    slug: "study-in-spain-consultant",
     metaTitle:
         "Study in Spain for a Successful Future",
     metaDescription:
@@ -8463,7 +8463,7 @@ export const destinations = [
     id: 19,
     heading: "Study in Malta",
     title: "Study in Malta, Learn Beyond Borders",
-    slug: "study-in-malta",
+    slug: "study-in-malta-consultant",
     metaTitle:
         "Study in Malta, Learn Beyond Borders",
     metaDescription:
@@ -8874,7 +8874,7 @@ export const destinations = [
     id: 20,
     heading: "Study in Italy",
     title: "Study in Italy and Experience Education Differently",
-    slug: "study-in-italy",
+    slug: "study-in-italy-consultant",
     metaTitle:
         "Study in Italy and Experience Education Differently",
     metaDescription:
@@ -9418,7 +9418,7 @@ export const destinations = [
     id: 21,
     heading: "Study in Hungary",
     title: "Discover the Best Reasons to Study in Hungary",
-    slug: "study-in-hungary",
+    slug: "study-in-hungary-consultant",
     metaTitle:
         "Discover the Best Reasons to Study in Hungary",
     metaDescription:
@@ -9985,7 +9985,7 @@ export const destinations = [
     id: 22,
     heading: "Study in Greece",
     title: "Study in Greece and Discover a New Academic Experience",
-    slug: "study-in-greece",
+    slug: "study-in-greece-consultant",
     metaTitle:
         "Study in Greece and Discover a New Academic Experience",
     metaDescription:
@@ -10496,7 +10496,7 @@ export const destinations = [
     id: 23,
     heading: "Study in Bulgaria",
     title: "Study in Bulgaria: Where Your European Future Begins",
-    slug: "study-in-bulgaria",
+    slug: "study-in-bulgaria-consultant",
     metaTitle:
         "Study in Bulgaria: Where Your European Future Begins",
     metaDescription:
@@ -10801,7 +10801,7 @@ export const destinations = [
     id: 24,
     heading: "Study in Czech Republic",
     title: "Study in Czech Republic: Your Next Chapter Starts Here",
-    slug: "study-in-czech-republic",
+    slug: "study-in-czech-republic-consultant",
     metaTitle:
         "Study in Czech Republic: Your Next Chapter Starts Here",
     metaDescription:
@@ -11106,7 +11106,7 @@ export const destinations = [
     id: 25,
     heading: "Study in Norway",
     title: "Study in Norway: Learn in the Land of Ideas",
-    slug: "study-in-norway",
+    slug: "study-in-norway-consultant",
     metaTitle:
         "Study in Norway: Learn in the Land of Ideas",
     metaDescription:

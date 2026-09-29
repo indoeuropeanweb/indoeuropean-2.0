@@ -7,6 +7,7 @@ import Link from "next/link";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
 import ScrollAnimate from "./components/ScrollAnimate";
+import Loader from "./components/loaders/Loader";
 
 const PlusJakartaSans = Plus_Jakarta_Sans({
   variable: "--font-Plus-Jakarta-sans",
@@ -34,6 +35,7 @@ export default function RootLayout({ children }) {
       className={`${PlusJakartaSans.variable} ${manropeMono.variable} h-full`}
     >
       <body className="min-h-full flex flex-col">
+        <Loader />
         <Header />
         <ReduxProvider>
         {children}

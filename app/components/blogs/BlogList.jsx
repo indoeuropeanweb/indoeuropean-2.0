@@ -9,7 +9,7 @@ import { FaArrowLeft } from "react-icons/fa";
 
 const BlogList = ({ blogs }) => {
 
-  const bloglist = blogs.reverse();
+  const bloglist = [...blogs].reverse();
 
   const {
     pages,
