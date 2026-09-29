@@ -5222,7 +5222,7 @@ export const destinations = [
     title: "Study in Latvia – Affordable European Education for Indian Students",
     slug: "study-in-latvia-consultant",
     metaTitle:
-        "Study in Latvia | Indo European Study Abroad Consultancy",
+        "Study in Latvia Consultant | Indo European Study Abroad Consultancy",
     metaDescription:
         "Study in Latvia is a Study abroad destination for students in india, with many benefits explore all here",
     image:

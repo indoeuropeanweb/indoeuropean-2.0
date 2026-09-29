@@ -162,12 +162,12 @@ const destinations = [
     image: "/images/flags/usa.webp",
     link: "/destinations/study-in-usa",
   },
-  {
-    id: 7,
-    title: "Mauritius",
-    image: "/images/flags/mauritius.webp",
-    link: "/destinations/study-in-mauritius",
-  },
+  // {
+  //   id: 7,
+  //   title: "Mauritius",
+  //   image: "/images/flags/mauritius.webp",
+  //   link: "/destinations/study-in-mauritius",
+  // },
 ];
 
   return (
